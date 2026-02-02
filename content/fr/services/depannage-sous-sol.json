@@ -1,0 +1,90 @@
+{
+  "service_id": 14,
+  "last_updated": "2026-02-01",
+  "hero": {
+    "h1": "Dépanneur Parking Souterrain Bruxelles -- Plateau Surbaissé",
+    "badges": [
+      "intervention_rapide",
+      "disponible_24_7",
+      "expertise_10_ans"
+    ],
+    "subtitle": "Helpcar dépannage descend au sous-sol avec un véhicule de moins de 1,90 m"
+  },
+  "sections": [
+    {
+      "h2": "Le problème : 95 % des dépanneurs ne passent pas sous la barrière",
+      "content": "<p>Les parkings souterrains bruxellois affichent une hauteur libre de <strong>1,90 m à 2,10 m</strong>. Un plateau classique mesure au minimum 2,80 m. Résultat : la plupart des sociétés de dépannage restent bloquées à l'entrée.</p><p><strong style=\"color: #CF5706;\">Helpcar dépannage</strong> possède un <strong>plateau surbaissé de 1,85 m</strong> qui franchit ces limites sans difficulté. Nous couvrons Bruxelles et sa périphérie depuis <strong>{{YEARS_EXPERIENCE_PLUS}} ans</strong>, avec une note de <strong>{{GOOGLE_RATING}}/5 sur Google ({{GOOGLE_REVIEWS}} avis)</strong>. Ce sont les gérants eux-mêmes qui pilotent chaque intervention.</p><p>Batterie morte au -3, pneu à plat au -2, moteur qui refuse de tourner au -4 : nous descendons, nous réglons le problème ou nous remontons le véhicule. <strong class=\"text-orange\">Délai moyen d'arrivée : 30 minutes.</strong></p>"
+    },
+    {
+      "h2": "Parkings souterrains bruxellois : ce que nous connaissons du terrain",
+      "content": "<p>Bruxelles compte plus de <strong>200 parkings souterrains</strong> répartis entre infrastructures publiques, copropriétés, hôpitaux et zones commerciales. Chaque ouvrage a ses particularités : rampes hélicoïdales étroites, virages à 180 degrés, colonnes rapprochées, sols glissants en hiver, capteurs de hauteur défaillants.</p><p>Notre équipe a cartographié les accès des principaux sites. Nous savons d'avance quelle rampe prendre, quel sens de circulation respecter et où positionner le plateau pour charger un véhicule sans bloquer la circulation interne. Cette connaissance locale fait gagner un temps précieux lors de chaque intervention.</p>"
+    },
+    {
+      "h2": "Types de pannes traitées en sous-sol",
+      "content": "<ul style=\"list-style: none; padding: 0;\">\n  <li style=\"margin-bottom: 0.75rem; padding-left: 1.5rem; position: relative;\">\n    <span style=\"position: absolute; left: 0; color: #CF5706; font-weight: bold;\">🔋</span>\n    <strong>Batterie déchargée</strong> -- Cause n°1 en parking couvert. Recharge via booster ou remplacement immédiat.\n  </li>\n  <li style=\"margin-bottom: 0.75rem; padding-left: 1.5rem; position: relative;\">\n    <span style=\"position: absolute; left: 0; color: #CF5706; font-weight: bold;\">🛞</span>\n    <strong>Crevaison</strong> -- Montage de la roue de secours ou colmatage par mèche.\n  </li>\n  <li style=\"margin-bottom: 0.75rem; padding-left: 1.5rem; position: relative;\">\n    <span style=\"position: absolute; left: 0; color: #CF5706; font-weight: bold;\">🔑</span>\n    <strong>Clé bloquée dans l'habitacle</strong> -- Ouverture non destructive, véhicule intact.\n  </li>\n  <li style=\"margin-bottom: 0.75rem; padding-left: 1.5rem; position: relative;\">\n    <span style=\"position: absolute; left: 0; color: #CF5706; font-weight: bold;\">🔧</span>\n    <strong>Défaillance moteur ou électronique</strong> -- Diagnostic embarqué, réparation si faisable ou remorquage.\n  </li>\n  <li style=\"margin-bottom: 0; padding-left: 1.5rem; position: relative;\">\n    <span style=\"position: absolute; left: 0; color: #CF5706; font-weight: bold;\">❌</span>\n    <strong>Embrayage, démarreur, alternateur</strong> -- Extraction du véhicule et transport vers le garage de votre choix.\n  </li>\n</ul>\n<p>Quel que soit le diagnostic, nous avons l'outillage adapté aux contraintes d'un espace confiné.</p>"
+    },
+    {
+      "h2": "Où nous intervenons : parkings publics, privés, résidentiels",
+      "content": "<ul style=\"list-style: none; padding: 0;\">\n  <li style=\"margin-bottom: 0.75rem; padding-left: 1.5rem; position: relative;\">\n    <span style=\"position: absolute; left: 0; font-size: 1.2rem;\">🅿️</span>\n    <strong>Centres commerciaux</strong> -- City2, Docks Bruxsel, Woluwe Shopping Center, Basilix, Westland Shopping...\n  </li>\n  <li style=\"margin-bottom: 0.75rem; padding-left: 1.5rem; position: relative;\">\n    <span style=\"position: absolute; left: 0; font-size: 1.2rem;\">🅿️</span>\n    <strong>Parkings publics Interparking / Q-Park</strong> -- Parking 58, Albertine, Grand Sablon, Porte de Namur, Gare du Midi, Rogier...\n  </li>\n  <li style=\"margin-bottom: 0.75rem; padding-left: 1.5rem; position: relative;\">\n    <span style=\"position: absolute; left: 0; font-size: 1.2rem;\">🅿️</span>\n    <strong>Immeubles de bureaux (quartier européen, Louise, Nord)</strong> -- Sous-sols sécurisés, badges d'accès, rampes étroites.\n  </li>\n  <li style=\"margin-bottom: 0.75rem; padding-left: 1.5rem; position: relative;\">\n    <span style=\"position: absolute; left: 0; font-size: 1.2rem;\">🅿️</span>\n    <strong>Résidences et copropriétés</strong> -- Du petit garage privatif à la copropriété de 300 emplacements.\n  </li>\n  <li style=\"margin-bottom: 0; padding-left: 1.5rem; position: relative;\">\n    <span style=\"position: absolute; left: 0; font-size: 1.2rem;\">🅿️</span>\n    <strong>Hôpitaux et cliniques</strong> -- Cliniques Saint-Luc, Erasme, Chirec Delta, Saint-Pierre, Brugmann, Europa...\n  </li>\n</ul>\n<p>Hauteur libre minimale requise : <strong>1,85 m</strong>. En dessous, contactez-nous pour évaluation au cas par cas.</p>"
+    },
+    {
+      "h2": "Déroulement concret d'une intervention en sous-sol",
+      "content": "<p>Notre dépanneur descend avec le plateau surbaissé jusqu'à votre niveau. Sur place, il pose un diagnostic en quelques minutes. Si la réparation est réalisable (batterie, roue, petit souci électrique), il la fait immédiatement et vous repartez par vos propres moyens.</p><p>Quand la panne exige un atelier, le véhicule est chargé sur le plateau directement dans le parking. Nous remontons par les rampes -- y compris en marche arrière si le tracé l'impose -- et nous transportons votre voiture vers la destination convenue : garage, domicile ou concessionnaire.</p><div class=\"conseil-callout\"><p>Astuce : communiquez-nous le nom exact du parking, le niveau (ex. -2, -3) et le numéro d'emplacement si possible. Cela nous permet de vous localiser sans perte de temps, surtout dans les grands parkings où le réseau GSM est faible.</p></div>"
+    },
+    {
+      "h2": "Grille tarifaire : transparence avant déplacement",
+      "content": "<div style=\"background: #F9FAFB; padding: 1.5rem; border-radius: 12px; border-left: 4px solid #10B981; margin: 1.5rem 0;\">\n<p style=\"margin-bottom: 1rem;\"><strong style=\"color: #10B981;\">Principe</strong> -- Vous connaissez le montant avant que nous démarrions. Aucun supplément non annoncé.</p>\n<p style=\"margin-bottom: 1rem;\"><strong style=\"color: #10B981;\">Assistance batterie (recharge / remplacement) :</strong> prix fixe communiqué par téléphone selon modèle de batterie.</p>\n<p style=\"margin-bottom: 1rem;\"><strong style=\"color: #10B981;\">Montage roue de secours :</strong> forfait annoncé à l'appel -- devis gratuit.</p>\n<p style=\"margin-bottom: 1rem;\"><strong style=\"color: #10B981;\">Réparation crevaison (mèche) :</strong> tarif fixe si le flanc du pneu est intact.</p>\n<p style=\"margin-bottom: 1rem;\"><strong style=\"color: #10B981;\">Extraction + transport du véhicule :</strong> devis basé sur la distance et la destination finale.</p>\n<p style=\"margin-bottom: 0;\"><strong style=\"color: #10B981;\">Supplément accès complexe (rampe hélicoïdale, -3 et au-delà) :</strong> communiqué à l'avance si applicable.</p>\n</div>\n<p><strong class=\"text-orange\">Contactez le <a href=\"tel:+3228445401\" style=\"color: #CF5706; font-weight: 700;\">02 844 54 01</a></strong> -- précisez le parking et le niveau. Tarif exact en moins de 2 minutes. <strong>Zéro mauvaise surprise.</strong></p>"
+    },
+    {
+      "h2": "Zone de couverture : les 19 communes et la périphérie",
+      "content": "<p><strong>Bruxelles-Capitale :</strong> Bruxelles-Ville, Ixelles, Etterbeek, Schaerbeek, Evere, Woluwe-Saint-Lambert, Woluwe-Saint-Pierre, Auderghem, Watermael-Boitsfort, Uccle, Forest, Saint-Gilles, Anderlecht, Molenbeek-Saint-Jean, Koekelberg, Jette, Ganshoren, Berchem-Sainte-Agathe, Saint-Josse-ten-Noode.</p><p><strong>Périphérie :</strong> Zaventem, Diegem, Machelen, Vilvoorde, Grimbergen, Meise, Asse, Dilbeek, Beersel, Drogenbos, Linkebeek, Rhode-Saint-Genèse, Kraainem, Wezembeek-Oppem, Tervuren, Overijse, Hoeilaart, La Hulpe, Waterloo, Braine-l'Alleud, Rixensart, Wavre, Ottignies-Louvain-la-Neuve, Lasne.</p><p><strong>Votre auto est bloquée au sous-sol ?</strong> Un appel suffit : <a href=\"tel:+3228445401\" style=\"color: #CF5706; font-weight: 700;\">02 844 54 01</a>.</p>"
+    },
+    {
+      "h2": "Trois étapes, c'est tout",
+      "content": "<div class=\"timeline-steps\">\n  <div class=\"timeline-step\"><svg class=\"step-timeline step-1\" xmlns=\"http://www.w3.org/2000/svg\" width=\"40\" height=\"100%\" viewBox=\"0 0 40 100\" preserveAspectRatio=\"xMinYMin meet\">\n  <defs>\n    <linearGradient id=\"greenGradient1\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"100%\">\n      <stop offset=\"0%\" style=\"stop-color:#CF5706;stop-opacity:1\" />\n      <stop offset=\"100%\" style=\"stop-color:#CF5706;stop-opacity:1\" />\n    </linearGradient>\n  </defs>\n  <circle cx=\"20\" cy=\"20\" r=\"18\" fill=\"url(#greenGradient1)\" stroke=\"#FFFFFF\" stroke-width=\"3\"/>\n  <text x=\"20\" y=\"27\" font-family=\"Outfit, sans-serif\" font-size=\"18\" font-weight=\"700\" fill=\"#FFFFFF\" text-anchor=\"middle\">1</text>\n  <line x1=\"20\" y1=\"38\" x2=\"20\" y2=\"100\" stroke=\"#CF5706\" stroke-width=\"3\"/>\n</svg><div class=\"timeline-content\"><strong>Appelez le <a href=\"tel:+3228445401\" class=\"phone-link\">02 844 54 01</a> --</strong> Indiquez le parking, le niveau et la panne constatée</div></div>\n  <div class=\"timeline-step\"><svg class=\"step-timeline step-2\" xmlns=\"http://www.w3.org/2000/svg\" width=\"40\" height=\"100%\" viewBox=\"0 0 40 100\" preserveAspectRatio=\"xMinYMin meet\">\n  <defs>\n    <linearGradient id=\"greenGradient2\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"100%\">\n      <stop offset=\"0%\" style=\"stop-color:#CF5706;stop-opacity:1\" />\n      <stop offset=\"100%\" style=\"stop-color:#CF5706;stop-opacity:1\" />\n    </linearGradient>\n  </defs>\n  <line x1=\"20\" y1=\"0\" x2=\"20\" y2=\"2\" stroke=\"#CF5706\" stroke-width=\"3\"/>\n  <circle cx=\"20\" cy=\"20\" r=\"18\" fill=\"url(#greenGradient2)\" stroke=\"#FFFFFF\" stroke-width=\"3\"/>\n  <text x=\"20\" y=\"27\" font-family=\"Outfit, sans-serif\" font-size=\"18\" font-weight=\"700\" fill=\"#FFFFFF\" text-anchor=\"middle\">2</text>\n  <line x1=\"20\" y1=\"38\" x2=\"20\" y2=\"100\" stroke=\"#CF5706\" stroke-width=\"3\"/>\n</svg><div class=\"timeline-content\"><strong>Tarif confirmé immédiatement --</strong> Montant exact selon la panne et la configuration du parking</div></div>\n  <div class=\"timeline-step\"><svg class=\"step-timeline step-3\" xmlns=\"http://www.w3.org/2000/svg\" width=\"40\" height=\"40\" viewBox=\"0 0 40 40\" preserveAspectRatio=\"xMinYMin meet\">\n  <defs>\n    <linearGradient id=\"greenGradient3\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"100%\">\n      <stop offset=\"0%\" style=\"stop-color:#CF5706;stop-opacity:1\" />\n      <stop offset=\"100%\" style=\"stop-color:#CF5706;stop-opacity:1\" />\n    </linearGradient>\n  </defs>\n  <line x1=\"20\" y1=\"0\" x2=\"20\" y2=\"2\" stroke=\"#CF5706\" stroke-width=\"3\"/>\n  <circle cx=\"20\" cy=\"20\" r=\"18\" fill=\"url(#greenGradient3)\" stroke=\"#FFFFFF\" stroke-width=\"3\"/>\n  <text x=\"20\" y=\"27\" font-family=\"Outfit, sans-serif\" font-size=\"18\" font-weight=\"700\" fill=\"#FFFFFF\" text-anchor=\"middle\">3</text>\n</svg><div class=\"timeline-content\"><strong>Intervention en sous-sol --</strong> Réparation directe ou extraction du véhicule vers la destination souhaitée</div></div>\n</div>"
+    },
+    {
+      "h2": "Services complémentaires",
+      "content": "<div class=\"related-services-grid\">\n  <a href=\"../{{URL_SERVICE_BATTERIE}}/\" class=\"related-service-card\">\n    <span class=\"related-service-icon\">🔌</span>\n    <h3>Remplacement Batterie</h3>\n    <p>Batterie HS ? Recharge rapide ou pose d'une batterie neuve</p>\n  </a>\n  <a href=\"../{{URL_SERVICE_ROUE_SECOURS}}/\" class=\"related-service-card\">\n    <span class=\"related-service-icon\">🛞</span>\n    <h3>Roue de Secours</h3>\n    <p>Crevaison ? Montage sur place en quelques minutes</p>\n  </a>\n  <a href=\"../remorquage-voiture-bruxelles/\" class=\"related-service-card\">\n    <span class=\"related-service-icon\">🚗</span>\n    <h3>Transport Véhicule</h3>\n    <p>Panne grave ? Acheminement vers le garage de votre choix</p>\n  </a>\n  <a href=\"../{{URL_SERVICE_OUVERTURE_PORTE}}/\" class=\"related-service-card\">\n    <span class=\"related-service-icon\">🔑</span>\n    <h3>Ouverture Portière</h3>\n    <p>Clé oubliée à l'intérieur ? Accès sans dégradation</p>\n  </a>\n</div>"
+    }
+  ],
+  "cta": {
+    "title": "Véhicule immobilisé dans un parking souterrain ?",
+    "subtitle": "Helpcar dépannage descend au sous-sol -- arrivée en 30 minutes maximum",
+    "button_text": "📞  Appeler le 02 844 54 01"
+  },
+  "faq": [
+    {
+      "question": "Quelle est la hauteur maximale de votre dépanneuse ?",
+      "answer": "Notre plateau surbaissé mesure <strong>1,85 m de haut</strong>. Il passe dans la grande majorité des parkings souterrains bruxellois, dont la hauteur libre se situe généralement entre 1,90 m et 2,10 m."
+    },
+    {
+      "question": "Intervenez-vous au-delà du niveau -2 ?",
+      "answer": "Oui. Nous descendons régulièrement au <strong>-3, -4 et même -5</strong>. La seule condition est que la hauteur libre et la largeur des rampes permettent le passage de notre véhicule. Précisez le niveau au téléphone, nous confirmons la faisabilité immédiatement."
+    },
+    {
+      "question": "Le tarif est-il majoré par rapport à un dépannage en voirie ?",
+      "answer": "Un léger supplément peut s'appliquer lorsque l'accès est particulièrement complexe (rampe en colimaçon, niveaux profonds). Ce supplément est <strong>toujours annoncé avant le déplacement</strong>. Appelez le <a href=\"tel:+3228445401\" style=\"color: #CF5706; font-weight: 600;\">02 844 54 01</a> pour obtenir un devis précis."
+    },
+    {
+      "question": "Pouvez-vous entrer dans un parking privé ou sécurisé par badge ?",
+      "answer": "Oui. Prévenez le gestionnaire ou le gardien de notre passage. Dans la plupart des cas, le concierge ou le poste de sécurité nous ouvre l'accès sans difficulté. Nous collaborons quotidiennement avec les sociétés de gestion de parkings à Bruxelles."
+    },
+    {
+      "question": "Mon véhicule bloque la rampe de sortie, pouvez-vous intervenir en urgence ?",
+      "answer": "Ce type de situation est prioritaire. Appelez le <a href=\"tel:+3228445401\" style=\"color: #CF5706; font-weight: 600;\">02 844 54 01</a> en précisant que la circulation est bloquée. Nous mobilisons l'équipe la plus proche pour <strong>dégager la rampe le plus vite possible</strong>."
+    },
+    {
+      "question": "Intervenez-vous dans les parkings des centres commerciaux le week-end ?",
+      "answer": "Oui, nous sommes disponibles <strong>7 jours sur 7, jours fériés inclus</strong>. Nous intervenons dans tous les parkings de centres commerciaux (City2, Docks Bruxsel, Woluwe Shopping, Basilix, etc.) quel que soit le jour."
+    },
+    {
+      "question": "Comment vous localisez-vous si le réseau GSM ne passe pas au sous-sol ?",
+      "answer": "Avant de descendre, envoyez-nous le <strong>nom du parking, le niveau et le numéro d'emplacement</strong> par SMS ou par téléphone. Si la communication coupe, remontez d'un niveau pour nous rappeler. Notre équipe connaît la majorité des parkings bruxellois et saura vous retrouver."
+    },
+    {
+      "question": "Peut-on faire sortir un véhicule en panne totale (direction bloquée, frein à main serré) ?",
+      "answer": "Oui. Nous disposons de <strong>roues de transport (go-jaks)</strong> qui permettent de déplacer un véhicule complètement immobilisé. Nous le positionnons ensuite sur le plateau pour l'extraction. Même un véhicule aux quatre roues bloquées peut être sorti du parking."
+    }
+  ]
+}

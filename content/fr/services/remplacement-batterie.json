@@ -1,0 +1,86 @@
+{
+  "service_id": 8,
+  "last_updated": "2026-02-01",
+  "hero": {
+    "h1": "Changement de Batterie Auto à Bruxelles – Pose à Domicile par Helpcar",
+    "badges": [
+      "intervention_rapide",
+      "disponible_24_7",
+      "expertise_10_ans"
+    ],
+    "subtitle": "Votre batterie lâche ? On arrive avec la bonne référence et on la monte chez vous."
+  },
+  "sections": [
+    {
+      "h2": "Nos engagements : pourquoi Bruxelles nous fait confiance",
+      "content": "<p><strong>Helpcar dépannage</strong> intervient sur les batteries depuis <strong>{{YEARS_EXPERIENCE_PLUS}} ans</strong> dans toute la région bruxelloise. Notre note de <strong>{{GOOGLE_RATING}}/5 sur Google</strong> avec <strong>{{GOOGLE_REVIEWS}}+ avis</strong> ne sort pas de nulle part : c'est le résultat d'un travail propre, à prix juste, intervention après intervention.</p>\n<ul style=\"list-style: none; padding: 0;\">\n  <li style=\"margin-bottom: 0.75rem; padding-left: 1.5rem; position: relative;\">\n    <span style=\"position: absolute; left: 0; color: #10B981; font-weight: bold;\">✓</span>\n    <strong>Marques de batterie fiables uniquement</strong> – Varta, Bosch, Exide. Pas de sous-marque qui lâche après 8 mois.\n  </li>\n  <li style=\"margin-bottom: 0.75rem; padding-left: 1.5rem; position: relative;\">\n    <span style=\"position: absolute; left: 0; color: #10B981; font-weight: bold;\">✓</span>\n    <strong>Garantie constructeur 2 à 4 ans</strong> selon le modèle installé, avec facture et ticket de garantie.\n  </li>\n  <li style=\"margin-bottom: 0.75rem; padding-left: 1.5rem; position: relative;\">\n    <span style=\"position: absolute; left: 0; color: #10B981; font-weight: bold;\">✓</span>\n    <strong>Test complet au multimètre</strong> : tension au repos, tension sous charge, vérification de l'alternateur.\n  </li>\n  <li style=\"margin-bottom: 0.75rem; padding-left: 1.5rem; position: relative;\">\n    <span style=\"position: absolute; left: 0; color: #10B981; font-weight: bold;\">✓</span>\n    <strong>Reprise et recyclage</strong> de l'ancienne batterie via filière agréée (plomb, acide sulfurique = déchets dangereux).\n  </li>\n  <li style=\"margin-bottom: 0; padding-left: 1.5rem; position: relative;\">\n    <span style=\"position: absolute; left: 0; color: #10B981; font-weight: bold;\">✓</span>\n    <svg class=\"star-icon\" xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"#FFC107\" style=\"vertical-align: middle; margin-right: 4px;\"><path d=\"M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z\"/></svg>\n    <a href=\"{{GOOGLE_MY_BUSINESS_URL}}\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"google-rating-link\"><strong>{{GOOGLE_RATING}}/5 sur Google, {{GOOGLE_REVIEWS}}+ avis vérifiés</strong></a>\n  </li>\n</ul>"
+    },
+    {
+      "h2": "Deux formules, un seul objectif : vous faire redémarrer",
+      "content": "<p><strong>Helpcar dépannage</strong> propose le <strong>changement de batterie à domicile</strong> partout à Bruxelles, <strong>24h/24, 7j/7</strong>. Voici comment ça fonctionne selon votre cas :</p><p>⚡ <strong>Formule pose seule</strong> – Vous avez déjà acheté votre batterie (en ligne, en magasin) ? On se déplace, on vérifie la compatibilité (dimensions, polarité, CCA), on monte, on teste. Vous payez uniquement la main-d'œuvre.</p><p>⚡ <strong>Formule tout compris</strong> – Vous n'avez rien ? On sélectionne la référence exacte pour votre véhicule (on travaille avec Varta Silver Dynamic, Bosch S4/S5, Exide Premium), on l'apporte, on l'installe. Un seul prix, pas de supplément caché.</p><p>Dans les deux cas, comptez <strong class=\"text-orange\">moins de 30 minutes</strong> entre votre appel et notre arrivée sur place.</p>"
+    },
+    {
+      "h2": "Zones d'intervention : les 19 communes et au-delà",
+      "content": "<p>Batterie à plat à <strong>Saint-Gilles</strong> un dimanche soir ? Voiture qui refuse de démarrer à <strong>Woluwe</strong> un matin de gel ? On couvre <strong>tout Bruxelles-Capitale</strong> en <strong class=\"text-orange\">moins de 30 minutes</strong>.</p><p><strong>19 communes de la Région :</strong> Anderlecht, Auderghem, Berchem-Sainte-Agathe, Bruxelles-Ville, Etterbeek, Evere, Forest, Ganshoren, Ixelles, Jette, Koekelberg, Molenbeek-Saint-Jean, Saint-Gilles, Saint-Josse-ten-Noode, Schaerbeek, Uccle, Watermael-Boitsfort, Woluwe-Saint-Lambert, Woluwe-Saint-Pierre.</p><p><strong>Périphérie :</strong> Zaventem, Vilvoorde, Grimbergen, Machelen, Diegem, Kraainem, Wezembeek-Oppem, Tervuren, Overijse, Hoeilaart, Waterloo, Rhode-Saint-Genèse, Linkebeek, Beersel, Dilbeek, Groot-Bijgaarden.</p><p>Parking souterrain, allée privée, parking d'entreprise – <strong>on vient là où se trouve votre véhicule</strong>.</p>"
+    },
+    {
+      "h2": "Le déroulement technique de l'intervention",
+      "content": "<p>Pas de mystère, voici exactement ce qu'on fait sur place :</p><p><strong>1. Diagnostic au multimètre</strong> – On mesure la tension de votre batterie actuelle (une batterie saine affiche entre 12,4 V et 12,7 V au repos). On contrôle aussi la tension de charge moteur tournant (entre 13,5 V et 14,5 V) pour s'assurer que l'alternateur fonctionne. Si l'alternateur est en cause, on vous le dit immédiatement – ça évite de payer une batterie neuve pour rien.</p><p><strong>2. Dépose de l'ancienne batterie</strong> – Déconnexion borne négative d'abord (impératif pour éviter un arc électrique), puis borne positive. Retrait de la fixation du bac. Extraction de la batterie.</p><p><strong>3. Nettoyage et préparation</strong> – On passe une brosse métallique sur les cosses si elles présentent de l'oxydation (dépôt vert-blanc typique). On applique de la graisse de contact pour prolonger la durée de vie des connexions.</p><p><strong>4. Pose de la batterie neuve</strong> – Mise en place, fixation du support, connexion borne positive d'abord, puis négative. Serrage au couple correct.</p><p><strong>5. Vérification finale</strong> – Démarrage du moteur, contrôle des consommateurs (phares, climatisation, écran de bord, radio). On s'assure que l'ordinateur de bord n'affiche aucun code défaut.</p><div class=\"conseil-callout\"><p><strong>Astuce de pro :</strong> Quand vous achetez une batterie vous-même, relevez trois choses sur l'étiquette de l'ancienne : les dimensions (L x l x H en mm), la capacité en Ah (ampères-heures) et surtout le CCA (Cold Cranking Amps). Le CCA indique la puissance de démarrage à froid – c'est le chiffre le plus important en Belgique avec nos hivers.</p></div>"
+    },
+    {
+      "h2": "Grille tarifaire – transparente et sans surprise",
+      "content": "<div style=\"background: #F9FAFB; padding: 1.5rem; border-radius: 12px; border-left: 4px solid #10B981; margin: 1.5rem 0;\">\n<p style=\"margin-bottom: 1rem;\"><strong style=\"color: #10B981;\">Pose seule (vous fournissez la batterie) :</strong> Déplacement + montage + test + recyclage de l'ancienne. Tarif exact communiqué par téléphone avant intervention.</p>\n<p style=\"margin-bottom: 1rem;\"><strong style=\"color: #10B981;\">Batterie + pose (on fournit tout) :</strong> On sélectionne la batterie adaptée (Varta, Bosch ou Exide), on l'apporte, on l'installe. Devis tout compris communiqué immédiatement.</p>\n<p style=\"margin-bottom: 1rem;\"><strong style=\"color: #10B981;\">Diagnostic batterie/alternateur :</strong> Gratuit – test au multimètre inclus dans chaque intervention. On ne remplace jamais une batterie si le problème vient d'ailleurs.</p>\n<p style=\"margin-bottom: 0;\"><strong style=\"color: #10B981;\">Reprise ancienne batterie :</strong> Gratuite – collecte et acheminement vers un centre de recyclage agréé.</p>\n</div>\n<p><strong class=\"text-orange\">Contactez-nous au <a href=\"tel:+3228445401\" style=\"color: #CF5706; font-weight: 700;\">02 844 54 01</a></strong> pour un devis en 2 minutes. Le prix annoncé est le prix facturé, point final.</p>"
+    },
+    {
+      "h2": "Les étapes de votre intervention en 3 points",
+      "content": "<div class=\"timeline-steps\">\n  <div class=\"timeline-step\"><svg class=\"step-timeline step-1\" xmlns=\"http://www.w3.org/2000/svg\" width=\"40\" height=\"100%\" viewBox=\"0 0 40 100\" preserveAspectRatio=\"xMinYMin meet\">\n  <defs>\n    <linearGradient id=\"greenGradient1\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"100%\">\n      <stop offset=\"0%\" style=\"stop-color:#CF5706;stop-opacity:1\" />\n      <stop offset=\"100%\" style=\"stop-color:#CF5706;stop-opacity:1\" />\n    </linearGradient>\n  </defs>\n  <circle cx=\"20\" cy=\"20\" r=\"18\" fill=\"url(#greenGradient1)\" stroke=\"#FFFFFF\" stroke-width=\"3\"/>\n  <text x=\"20\" y=\"27\" font-family=\"Outfit, sans-serif\" font-size=\"18\" font-weight=\"700\" fill=\"#FFFFFF\" text-anchor=\"middle\">1</text>\n  <line x1=\"20\" y1=\"38\" x2=\"20\" y2=\"100\" stroke=\"#CF5706\" stroke-width=\"3\"/>\n</svg><div class=\"timeline-content\"><strong>Appelez le <a href=\"tel:+3228445401\" class=\"phone-link\">02 844 54 01</a> –</strong> Indiquez-nous la marque, le modèle et l'année de votre véhicule. Dites-nous si vous avez déjà une batterie ou non.</div></div>\n  <div class=\"timeline-step\"><svg class=\"step-timeline step-2\" xmlns=\"http://www.w3.org/2000/svg\" width=\"40\" height=\"100%\" viewBox=\"0 0 40 100\" preserveAspectRatio=\"xMinYMin meet\">\n  <defs>\n    <linearGradient id=\"greenGradient2\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"100%\">\n      <stop offset=\"0%\" style=\"stop-color:#CF5706;stop-opacity:1\" />\n      <stop offset=\"100%\" style=\"stop-color:#CF5706;stop-opacity:1\" />\n    </linearGradient>\n  </defs>\n  <line x1=\"20\" y1=\"0\" x2=\"20\" y2=\"2\" stroke=\"#CF5706\" stroke-width=\"3\"/>\n  <circle cx=\"20\" cy=\"20\" r=\"18\" fill=\"url(#greenGradient2)\" stroke=\"#FFFFFF\" stroke-width=\"3\"/>\n  <text x=\"20\" y=\"27\" font-family=\"Outfit, sans-serif\" font-size=\"18\" font-weight=\"700\" fill=\"#FFFFFF\" text-anchor=\"middle\">2</text>\n  <line x1=\"20\" y1=\"38\" x2=\"20\" y2=\"100\" stroke=\"#CF5706\" stroke-width=\"3\"/>\n</svg><div class=\"timeline-content\"><strong>Devis immédiat par téléphone –</strong> On vous annonce le montant exact. Vous validez, on part vers vous.</div></div>\n  <div class=\"timeline-step\"><svg class=\"step-timeline step-3\" xmlns=\"http://www.w3.org/2000/svg\" width=\"40\" height=\"40\" viewBox=\"0 0 40 40\" preserveAspectRatio=\"xMinYMin meet\">\n  <defs>\n    <linearGradient id=\"greenGradient3\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"100%\">\n      <stop offset=\"0%\" style=\"stop-color:#CF5706;stop-opacity:1\" />\n      <stop offset=\"100%\" style=\"stop-color:#CF5706;stop-opacity:1\" />\n    </linearGradient>\n  </defs>\n  <line x1=\"20\" y1=\"0\" x2=\"20\" y2=\"2\" stroke=\"#CF5706\" stroke-width=\"3\"/>\n  <circle cx=\"20\" cy=\"20\" r=\"18\" fill=\"url(#greenGradient3)\" stroke=\"#FFFFFF\" stroke-width=\"3\"/>\n  <text x=\"20\" y=\"27\" font-family=\"Outfit, sans-serif\" font-size=\"18\" font-weight=\"700\" fill=\"#FFFFFF\" text-anchor=\"middle\">3</text>\n</svg><div class=\"timeline-content\"><strong>Intervention sur place –</strong> Diagnostic, dépose, nettoyage, pose, test complet. Vous repartez avec une batterie neuve et l'esprit tranquille.</div></div>\n</div>"
+    },
+    {
+      "h2": "L'intérêt de confier ça à un professionnel",
+      "content": "<p>Changer une batterie, ça a l'air simple. En théorie. En pratique, on voit régulièrement des dégâts évitables : bornes inversées (ça grille le fusible principal ou pire, le calculateur), fixation mal serrée (la batterie bouge et les cosses se déconnectent sur un nid-de-poule), cosses oxydées non nettoyées (mauvais contact = démarrage aléatoire).</p><p>Chez <strong>Helpcar dépannage</strong>, chaque pose suit un protocole précis : ordre de déconnexion, nettoyage mécanique des cosses, graissage, serrage au couple, test de tension en charge. En 15 à 20 minutes, c'est bouclé proprement. Vous gagnez du temps, vous évitez les risques, et vous avez la certitude que c'est fait dans les règles.</p>"
+    },
+    {
+      "h2": "Autres services Helpcar pour votre véhicule",
+      "content": "<div class=\"related-services-grid\">\n  <a href=\"../{{URL_SERVICE_BATTERIE}}/\" class=\"related-service-card\">\n    <span class=\"related-service-icon\">🔌</span>\n    <h3>Dépannage Batterie</h3>\n    <p>Batterie à plat mais encore viable ? On la relance avec nos boosters pro.</p>\n  </a>\n  <a href=\"../{{URL_SERVICE_PNEU}}/\" class=\"related-service-card\">\n    <span class=\"related-service-icon\">🛞</span>\n    <h3>Réparation Pneu</h3>\n    <p>Crevaison sur la route ? Réparation ou remplacement de roue sur place.</p>\n  </a>\n  <a href=\"../remorquage-voiture-bruxelles/\" class=\"related-service-card\">\n    <span class=\"related-service-icon\">🚗</span>\n    <h3>Remorquage Voiture</h3>\n    <p>Panne mécanique sérieuse ? On transporte votre auto vers le garage voulu.</p>\n  </a>\n  <a href=\"../{{URL_SERVICE_OUVERTURE_PORTE}}/\" class=\"related-service-card\">\n    <span class=\"related-service-icon\">🔑</span>\n    <h3>Ouverture de Porte</h3>\n    <p>Clés restées à l'intérieur ? Ouverture sans dégât, en quelques minutes.</p>\n  </a>\n</div>"
+    }
+  ],
+  "cta": {
+    "title": "Batterie morte ? On arrive avec la solution.",
+    "subtitle": "Déplacement en moins de 30 minutes partout à Bruxelles",
+    "button_text": "📞  Appeler le 02 844 54 01"
+  },
+  "faq": [
+    {
+      "question": "Quelles marques de batteries installez-vous ?",
+      "answer": "On travaille principalement avec <strong>Varta</strong> (Silver Dynamic, Blue Dynamic), <strong>Bosch</strong> (S4, S5) et <strong>Exide</strong> (Premium, Excell). Ce sont des références OEM utilisées par les constructeurs automobiles. On ne monte pas de batteries premier prix – une batterie fiable, c'est 3 à 5 ans de tranquillité."
+    },
+    {
+      "question": "C'est quoi le CCA et pourquoi c'est important ?",
+      "answer": "Le CCA (Cold Cranking Amps) mesure la capacité de la batterie à fournir du courant par temps froid. En Belgique, avec des matins à -5 ou -10 degrés en hiver, un CCA trop bas signifie un démarrage laborieux voire impossible. On sélectionne toujours une batterie avec un CCA au moins égal à celui d'origine, souvent supérieur."
+    },
+    {
+      "question": "Vous pouvez intervenir le soir et le week-end ?",
+      "answer": "Oui, <strong>Helpcar dépannage</strong> fonctionne 24h/24, 7j/7, week-ends et jours fériés compris. Les batteries ne choisissent pas leur moment pour lâcher. Appelez le <a href=\"tel:+3228445401\" style=\"color: #CF5706; font-weight: 600;\">02 844 54 01</a>, on répond à toute heure."
+    },
+    {
+      "question": "Ma voiture ne démarre plus : c'est forcément la batterie ?",
+      "answer": "Pas toujours. Un alternateur défaillant, un démarreur usé ou même un problème de faisceau électrique peuvent provoquer les mêmes symptômes. C'est pour ça qu'on commence <strong>systématiquement</strong> par un diagnostic au multimètre avant de toucher à quoi que ce soit. Si le souci vient d'ailleurs, on vous le dit."
+    },
+    {
+      "question": "J'ai commandé une batterie en ligne, vous pouvez juste la poser ?",
+      "answer": "Tout à fait. On vérifie d'abord que la référence correspond à votre véhicule : dimensions du bac (L x l x H), position des bornes (polarité), capacité en Ah et CCA. Si tout est conforme, on l'installe. Si la batterie n'est pas compatible, on vous le signale avant de la monter."
+    },
+    {
+      "question": "Combien de temps faut-il pour changer la batterie ?",
+      "answer": "Comptez <strong>15 à 25 minutes</strong> selon le véhicule. Certains modèles récents (BMW, Mercedes, Audi) ont la batterie dans le coffre ou sous le plancher, ce qui ajoute quelques minutes. On gère tous les cas de figure."
+    },
+    {
+      "question": "Quel est le tarif pour un remplacement complet ?",
+      "answer": "Le prix dépend de la formule (pose seule ou batterie + pose) et du type de batterie nécessaire. Appelez le <a href=\"tel:+3228445401\" style=\"color: #CF5706; font-weight: 600;\">02 844 54 01</a> : on vous donne le <strong class=\"text-orange\">montant exact</strong> par téléphone, avant de nous déplacer. Zéro surprise sur la facture."
+    },
+    {
+      "question": "Que devient mon ancienne batterie ?",
+      "answer": "On la récupère et on l'achemine vers un centre de traitement agréé. Une batterie au plomb contient environ 10 kg de plomb et de l'acide sulfurique : c'est un déchet dangereux qu'il est <strong>interdit</strong> de jeter aux encombrants ou à la poubelle. La reprise est gratuite chez Helpcar."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{# Template: Services groupés par catégories #}
+{# Usage: _build_services_categories_html() #}
+{# Variables: categories (list), path_prefix (str) #}
+
+<div class="services-categories">
+{% for category in categories %}
+  <div class="service-category{{ category.class_attr }}">
+    <div class="category-header">
+      <span class="category-icon">{{ category.icon_svg | safe }}</span>
+      <h3 class="category-titre">{{ category.titre }}</h3>
+    </div>
+    <ul class="category-services">
+{% for service in category.services %}
+      <li class="service-item">
+        <a href="{{ service.url }}" class="service-link">
+          <strong>{{ service.nom }}</strong> - {{ service.description }}
+        </a>
+      </li>
+{% endfor %}
+    </ul>
+  </div>
+{% endfor %}
+</div>

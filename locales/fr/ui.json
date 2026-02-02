@@ -1,0 +1,91 @@
+{
+  "language": "fr",
+  "language_name": "Français",
+  "locale": "fr_BE",
+
+  "nav": {
+    "home": "Accueil",
+    "services": "Services",
+    "zones": "Zones",
+    "pricing": "Tarifs",
+    "contact": "Contact"
+  },
+
+  "cta": {
+    "devis_gratuit": "Devis gratuit",
+    "besoin_aide": "Besoin d'aide ?",
+    "contactez_nous": "Contactez-nous maintenant",
+    "appeler_template": "Appelez {{PHONE}}"
+  },
+
+  "defaults": {
+    "contenu_a_venir": "Contenu à venir..."
+  },
+
+  "links": {
+    "voir_services": "Voir les services →"
+  },
+
+  "services": {
+    "hero": {
+      "cta_primary": "Demander un Devis",
+      "accroche": "Intervention rapide partout à Bruxelles et en périphérie"
+    },
+    "cta_final": {
+      "titre": "Besoin d'aide ?",
+      "subtitle": "Contactez notre équipe pour une intervention professionnelle et rapide",
+      "button": "Nous Contacter"
+    }
+  },
+
+  "communes": {
+    "hero": {
+      "cta_primary": "Nous Contacter",
+      "accroche_template": "Notre équipe locale intervient rapidement à {{COMMUNE_NAME}} et alentours. Service de qualité disponible 24h/24."
+    },
+    "cta_final": {
+      "titre_template": "En Panne à {{COMMUNE_NAME}} ?",
+      "button": "Devis Gratuit Immédiat"
+    },
+    "content": {
+      "h2_1_default": "Service de dépannage professionnel à {{COMMUNE_NAME}}. Nous intervenons rapidement dans toute la commune et ses alentours.",
+      "h2_3_default": "Nous intervenons également dans les communes voisines de {{COMMUNE_NAME}}. Notre proximité nous permet une intervention rapide partout dans la région."
+    },
+    "meta": {
+      "title_default": "Dépannage Auto {{COMMUNE_NAME}} ({{POSTAL_CODE}}) | Service Professionnel",
+      "description_default": "Service de dépannage automobile à {{COMMUNE_NAME}}. Équipe professionnelle locale, intervention rapide. Devis gratuit. ☎ 0479 89 00 89"
+    },
+    "seo": {
+      "h1_default": "Dépannage Voiture & Remorquage à {{COMMUNE_NAME}} - 24h/24",
+      "h2_1_default": "Service de Dépannage à {{COMMUNE_NAME}}",
+      "h2_2_default": "Nos Services à {{COMMUNE_NAME}}",
+      "h2_3_default": "Zones d'Intervention",
+      "h2_4_default": "Nos Tarifs à {{COMMUNE_NAME}}",
+      "h2_5_default": "Pourquoi Nous Choisir à {{COMMUNE_NAME}}"
+    }
+  },
+
+  "footer": {
+    "description": "Service de remorquage et de dépannage automobile disponible 24h/24 et 7j/7 dans toute la région de Bruxelles-Capitale et périphérie.",
+    "social_title": "Restons connectés",
+    "services_title": "Nos Services",
+    "services_all": "Tous les services",
+    "info_title": "Informations",
+    "info_about": "À propos de nous",
+    "info_legal": "Mentions Légales",
+    "info_privacy": "Confidentialité",
+    "zones_title": "Zones d'Intervention",
+    "zones_all": "Voir toutes les communes",
+    "reviews_title": "Votre Avis Compte",
+    "reviews_description": "Vous avez été dépanné par nos équipes ? Partagez votre expérience !",
+    "reviews_count": "avis clients",
+    "copyright": "Tous droits réservés",
+    "tagline": "Dépannage automobile professionnel 24h/24"
+  },
+
+  "labels": {
+    "note": "Note :",
+    "email": "Email :",
+    "site_web": "Site web :"
+  }
+}

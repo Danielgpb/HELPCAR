@@ -1,0 +1,86 @@
+{
+  "service_id": 4,
+  "last_updated": "2026-02-01",
+  "hero": {
+    "h1": "Pneu Crevé à Bruxelles ? Helpcar Dépannage Intervient Jour et Nuit",
+    "badges": [
+      "intervention_rapide",
+      "disponible_24_7",
+      "expertise_10_ans"
+    ],
+    "subtitle": "Réparation par mèche, montage roue de secours ou remorquage — on gère tout sur place"
+  },
+  "sections": [
+    {
+      "h2": "Trois solutions selon l'état de votre pneu",
+      "content": "<p>Chaque crevaison est différente. Chez <strong style=\"color: #CF5706;\">Helpcar dépannage</strong>, on ne propose pas une solution unique — on adapte l'intervention à ce qu'on constate sur place.</p><p><strong>Solution 1 — Pose de mèche :</strong> Le trou se situe sur la bande de roulement et fait moins de 6 mm ? On insère une mèche, on regonfle, vous repartez en quelques minutes. C'est la réparation la plus courante.</p><p><strong>Solution 2 — Montage de votre roue de secours :</strong> Vous en avez une dans le coffre ? On démonte la roue endommagée, on installe la roue de secours, et vous pouvez rejoindre un centre pneus à votre rythme.</p><p><strong>Solution 3 — Remorquage :</strong> Pas de roue de secours et crevaison non réparable ? On charge votre véhicule et on le transporte jusqu'au magasin de pneus le plus proche de votre choix.</p><div class=\"conseil-callout\"><p>Dans tous les cas, notre dépanneur évalue la situation et vous explique clairement quelle option est possible avant toute intervention.</p></div>"
+    },
+    {
+      "h2": "Pourquoi Helpcar dépannage pour un pneu à plat ?",
+      "content": "<div class=\"why-trust-list\">\n<p style=\"margin-bottom: 1.5rem;\">✓ <strong>Diagnostic honnête sur place</strong> – On vous dit si la réparation est faisable ou non, sans vous facturer un déplacement inutile</p>\n<p style=\"margin-bottom: 1.5rem;\">✓ <strong>{{YEARS_EXPERIENCE_PLUS}} ans sur les routes de Bruxelles</strong> – Des milliers de crevaisons traitées, on connait chaque scénario</p>\n<p style=\"margin-bottom: 1.5rem;\">✓ <strong class=\"text-orange\">Moins de 30 minutes pour être chez vous</strong> – De jour comme de nuit, week-ends et jours fériés inclus</p>\n<p style=\"margin-bottom: 1.5rem;\">✓ <strong>Ce sont les gérants qui interviennent</strong> – Pas de sous-traitance, vous parlez directement aux professionnels</p>\n<p style=\"margin-bottom: 0;\">✓ <strong><a href=\"{{GOOGLE_MY_BUSINESS_URL}}\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"google-rating-link\">{{GOOGLE_RATING}}/5 sur Google — {{GOOGLE_REVIEWS}}+ avis vérifiés</a></strong> – La preuve par les clients satisfaits</p>\n</div>"
+    },
+    {
+      "h2": "Tarifs pour une crevaison : transparence totale",
+      "content": "<div style=\"background: #F9FAFB; padding: 1.5rem; border-radius: 12px; border-left: 4px solid #10B981; margin: 1.5rem 0;\">\n<p style=\"margin-bottom: 1rem;\"><strong style=\"color: #10B981;\">Prix annoncé avant déplacement</strong> – Vous connaissez le montant exact avant qu'on démarre. Zéro frais caché, zéro supplément surprise.</p>\n<p style=\"margin-bottom: 1rem;\"><strong style=\"color: #10B981;\">Mèche sur bande de roulement :</strong> Intervention la plus économique — tarif fixe communiqué par téléphone selon votre localisation.</p>\n<p style=\"margin-bottom: 1rem;\"><strong style=\"color: #10B981;\">Installation roue de secours :</strong> Démontage et remontage inclus — prix confirmé à l'appel.</p>\n<p style=\"margin-bottom: 1rem;\"><strong style=\"color: #10B981;\">Remorquage vers centre pneus :</strong> Tarif calculé selon la distance — devis immédiat et gratuit au téléphone.</p>\n</div>\n<p><strong class=\"text-orange\">Contactez le <a href=\"tel:+3228445401\" style=\"color: #CF5706; font-weight: 700;\">02 844 54 01</a></strong> pour obtenir votre tarif en moins de 2 minutes. <strong>Aucune obligation.</strong></p>"
+    },
+    {
+      "h2": "Notre intervention étape par étape",
+      "content": "<div class=\"timeline-steps\">\n  <div class=\"timeline-step\"><svg class=\"step-timeline step-1\" xmlns=\"http://www.w3.org/2000/svg\" width=\"40\" height=\"100%\" viewBox=\"0 0 40 100\" preserveAspectRatio=\"xMinYMin meet\">\n  <defs>\n    <linearGradient id=\"greenGradient1\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"100%\">\n      <stop offset=\"0%\" style=\"stop-color:#CF5706;stop-opacity:1\" />\n      <stop offset=\"100%\" style=\"stop-color:#CF5706;stop-opacity:1\" />\n    </linearGradient>\n  </defs>\n  <circle cx=\"20\" cy=\"20\" r=\"18\" fill=\"url(#greenGradient1)\" stroke=\"#FFFFFF\" stroke-width=\"3\"/>\n  <text x=\"20\" y=\"27\" font-family=\"Outfit, sans-serif\" font-size=\"18\" font-weight=\"700\" fill=\"#FFFFFF\" text-anchor=\"middle\">1</text>\n  <line x1=\"20\" y1=\"38\" x2=\"20\" y2=\"100\" stroke=\"#CF5706\" stroke-width=\"3\"/>\n</svg><div class=\"timeline-content\"><strong>Appelez le <a href=\"tel:+3228445401\" class=\"phone-link\">02 844 54 01</a> –</strong> Décrivez votre situation et votre position exacte</div></div>\n  <div class=\"timeline-step\"><svg class=\"step-timeline step-2\" xmlns=\"http://www.w3.org/2000/svg\" width=\"40\" height=\"100%\" viewBox=\"0 0 40 100\" preserveAspectRatio=\"xMinYMin meet\">\n  <defs>\n    <linearGradient id=\"greenGradient2\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"100%\">\n      <stop offset=\"0%\" style=\"stop-color:#CF5706;stop-opacity:1\" />\n      <stop offset=\"100%\" style=\"stop-color:#CF5706;stop-opacity:1\" />\n    </linearGradient>\n  </defs>\n  <line x1=\"20\" y1=\"0\" x2=\"20\" y2=\"2\" stroke=\"#CF5706\" stroke-width=\"3\"/>\n  <circle cx=\"20\" cy=\"20\" r=\"18\" fill=\"url(#greenGradient2)\" stroke=\"#FFFFFF\" stroke-width=\"3\"/>\n  <text x=\"20\" y=\"27\" font-family=\"Outfit, sans-serif\" font-size=\"18\" font-weight=\"700\" fill=\"#FFFFFF\" text-anchor=\"middle\">2</text>\n  <line x1=\"20\" y1=\"38\" x2=\"20\" y2=\"100\" stroke=\"#CF5706\" stroke-width=\"3\"/>\n</svg><div class=\"timeline-content\"><strong>Tarif confirmé immédiatement –</strong> On vous annonce le prix exact avant de partir</div></div>\n  <div class=\"timeline-step\"><svg class=\"step-timeline step-3\" xmlns=\"http://www.w3.org/2000/svg\" width=\"40\" height=\"40\" viewBox=\"0 0 40 40\" preserveAspectRatio=\"xMinYMin meet\">\n  <defs>\n    <linearGradient id=\"greenGradient3\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"100%\">\n      <stop offset=\"0%\" style=\"stop-color:#CF5706;stop-opacity:1\" />\n      <stop offset=\"100%\" style=\"stop-color:#CF5706;stop-opacity:1\" />\n    </linearGradient>\n  </defs>\n  <line x1=\"20\" y1=\"0\" x2=\"20\" y2=\"2\" stroke=\"#CF5706\" stroke-width=\"3\"/>\n  <circle cx=\"20\" cy=\"20\" r=\"18\" fill=\"url(#greenGradient3)\" stroke=\"#FFFFFF\" stroke-width=\"3\"/>\n  <text x=\"20\" y=\"27\" font-family=\"Outfit, sans-serif\" font-size=\"18\" font-weight=\"700\" fill=\"#FFFFFF\" text-anchor=\"middle\">3</text>\n</svg><div class=\"timeline-content\"><strong>Réparation ou prise en charge sur place –</strong> En moyenne 15 minutes de travail, et vous reprenez la route</div></div>\n</div>"
+    },
+    {
+      "h2": "Quand la mèche ne suffit pas : ce qu'il faut savoir",
+      "content": "<p>La mèche est efficace dans environ 70 % des cas de crevaison. Elle fonctionne quand le trou est situé sur la bande de roulement — la partie du pneu en contact avec la route — et qu'il ne dépasse pas 6 mm de diamètre.</p><p>En revanche, une crevaison sur le flanc du pneu rend toute réparation impossible. La structure du flanc est trop fine et trop sollicitée en roulant : poser une mèche à cet endroit serait dangereux. Même chose pour une entaille longue, un pneu déjà usé jusqu'au témoin d'usure, ou un pneu qui a roulé à plat sur plusieurs kilomètres — la carcasse interne est alors déformée de façon irréversible.</p><p>Notre dépanneur vous montre systématiquement le dégât constaté et vous explique pourquoi la réparation est possible ou non. Pas de jargon, pas de pression commerciale.</p>"
+    },
+    {
+      "h2": "Pneu à plat partout à Bruxelles et en périphérie",
+      "content": "<p><strong style=\"color: #CF5706;\">Helpcar dépannage</strong> couvre l'ensemble des <strong>19 communes bruxelloises</strong> : Anderlecht, Molenbeek, Saint-Gilles, Forest, Etterbeek, Auderghem, Jette, Evere, Ganshoren et toutes les autres. On intervient également en <strong>périphérie</strong> : Zaventem, Waterloo, Nivelles, Halle, Grimbergen, Wemmel, Dilbeek...</p><p><strong class=\"text-orange\">Sur le Ring, dans un parking souterrain, devant chez vous ?</strong> Peu importe l'endroit — on arrive équipés et prêts à intervenir.</p><p style=\"margin-top: 1rem;\"><a href=\"../zones/\" class=\"link-arrow\" style=\"color: #CF5706; font-weight: 600; text-decoration: none;\">Consulter toutes nos zones d'intervention →</a></p>"
+    },
+    {
+      "h2": "Crevaison : comment réagir en attendant le dépanneur",
+      "content": "<p><strong>Réparation pneu crevé à Bruxelles</strong> — voici ce que <strong style=\"color: #CF5706;\">Helpcar dépannage</strong> vous recommande de faire dès que vous constatez la crevaison :</p><p>Allumez vos feux de détresse immédiatement. Si vous êtes sur une route rapide ou le Ring, restez dans votre véhicule ceinture attachée jusqu'à notre arrivée — c'est plus sûr que de sortir. Sur une voie calme, placez votre triangle de signalisation à 30 mètres derrière le véhicule et enfilez votre gilet réfléchissant.</p><p>Ne tentez pas de rouler sur un pneu complètement à plat. Même 500 mètres suffisent à détruire la jante et le pneu de façon définitive, ce qui transforme une réparation à 50 euros en un remplacement à plusieurs centaines d'euros.</p><p>Appelez-nous au <a href=\"tel:+3228445401\" style=\"color: #CF5706; font-weight: 700;\">02 844 54 01</a> et envoyez-nous votre localisation par SMS ou WhatsApp — on arrive au plus vite.</p>"
+    },
+    {
+      "h2": "Services complémentaires Helpcar dépannage",
+      "content": "<div class=\"services-lies-grid\" style=\"display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem; margin-top: 1.5rem;\">\n<div style=\"background: #F9FAFB; padding: 1.25rem; border-radius: 12px; border-left: 4px solid #CF5706;\">\n<h3 style=\"font-size: 1.1rem; font-weight: 700; margin-bottom: 0.5rem;\"><a href=\"../{{URL_SERVICE_ROUE_SECOURS}}/\" style=\"color: #1A1A1A; text-decoration: none;\">→ Placement Roue de Secours</a></h3>\n<p style=\"font-size: 0.95rem; color: #6B7280; margin: 0;\">Montage rapide de votre roue de secours sur place</p>\n</div>\n<div style=\"background: #F9FAFB; padding: 1.25rem; border-radius: 12px; border-left: 4px solid #CF5706;\">\n<h3 style=\"font-size: 1.1rem; font-weight: 700; margin-bottom: 0.5rem;\"><a href=\"../remorquage-voiture-bruxelles/\" style=\"color: #1A1A1A; text-decoration: none;\">→ Remorquage Voiture</a></h3>\n<p style=\"font-size: 0.95rem; color: #6B7280; margin: 0;\">Transport vers le garage ou centre pneus de votre choix</p>\n</div>\n<div style=\"background: #F9FAFB; padding: 1.25rem; border-radius: 12px; border-left: 4px solid #CF5706;\">\n<h3 style=\"font-size: 1.1rem; font-weight: 700; margin-bottom: 0.5rem;\"><a href=\"../{{URL_SERVICE_DEPANNAGE_VOITURE}}/\" style=\"color: #1A1A1A; text-decoration: none;\">→ Dépannage Voiture</a></h3>\n<p style=\"font-size: 0.95rem; color: #6B7280; margin: 0;\">Panne mécanique, batterie, démarreur — on gère aussi</p>\n</div>\n<div style=\"background: #F9FAFB; padding: 1.25rem; border-radius: 12px; border-left: 4px solid #CF5706;\">\n<h3 style=\"font-size: 1.1rem; font-weight: 700; margin-bottom: 0.5rem;\"><a href=\"../{{URL_SERVICE_REMORQUAGE}}/\" style=\"color: #1A1A1A; text-decoration: none;\">→ Dépannage Accident</a></h3>\n<p style=\"font-size: 0.95rem; color: #6B7280; margin: 0;\">Prise en charge complète après un accident de la route</p>\n</div>\n</div>"
+    }
+  ],
+  "cta": {
+    "title": "Crevaison en cours ? On arrive.",
+    "subtitle": "Réparation sur place ou remorquage — appelez maintenant",
+    "button_text": "📞  Appeler le 02 844 54 01"
+  },
+  "faq": [
+    {
+      "question": "Quel est le prix d'un dépannage pneu crevé avec Helpcar dépannage ?",
+      "answer": "Le tarif dépend de l'intervention nécessaire : mèche, roue de secours ou remorquage. Appelez le <a href=\"tel:+3228445401\" style=\"color: #CF5706; font-weight: 600;\">02 844 54 01</a> et on vous communique le <strong class=\"text-orange\">montant exact avant de se déplacer</strong>. Aucun supplément à l'arrivée."
+    },
+    {
+      "question": "Pouvez-vous intervenir la nuit ou le week-end pour un pneu crevé ?",
+      "answer": "Absolument. <strong>Helpcar dépannage</strong> fonctionne <strong>24 heures sur 24, 7 jours sur 7</strong>, y compris les jours fériés. Que ce soit à 3h du matin ou un dimanche après-midi, on est disponible au <a href=\"tel:+3228445401\" style=\"color: #CF5706; font-weight: 600;\">02 844 54 01</a>."
+    },
+    {
+      "question": "Ma voiture récente n'a pas de roue de secours, comment faites-vous ?",
+      "answer": "C'est de plus en plus fréquent. Si la crevaison permet une pose de mèche, on répare sur place. Sinon, on remorque votre véhicule jusqu'à un centre pneus où vous pourrez acheter et faire monter un pneu neuf. On vous accompagne dans les deux cas."
+    },
+    {
+      "question": "Est-ce que la réparation par mèche abîme le pneu ?",
+      "answer": "Non, à condition que la mèche soit posée correctement et au bon endroit (bande de roulement uniquement). La mèche comble le trou et empêche toute fuite d'air. C'est toutefois considéré comme une <strong>réparation d'urgence</strong> : on recommande de faire poser un patch interne chez un spécialiste dans les semaines qui suivent."
+    },
+    {
+      "question": "Combien de temps dure l'intervention sur place ?",
+      "answer": "En moyenne <strong>15 à 20 minutes</strong> pour une pose de mèche ou un changement de roue. Notre dépanneur arrive équipé de tout le matériel nécessaire — cric, compresseur, kit de mèches — donc pas de temps perdu."
+    },
+    {
+      "question": "Intervenez-vous aussi pour les pneus de motos ou scooters ?",
+      "answer": "Oui, on prend en charge les deux-roues motorisés. Pour plus de détails, consultez notre page <a href=\"../remorquage-motos-bruxelles/\" style=\"color: #CF5706; font-weight: 600;\">Remorquage Motos à Bruxelles</a>."
+    },
+    {
+      "question": "Que faire si j'ai une crevaison sur le Ring de Bruxelles ?",
+      "answer": "Restez dans votre véhicule avec la ceinture de sécurité, activez vos feux de détresse et appelez immédiatement le <a href=\"tel:+3228445401\" style=\"color: #CF5706; font-weight: 600;\">02 844 54 01</a>. Ne sortez pas du véhicule sur une voie rapide — c'est la première cause d'accident secondaire. On vous rejoint sur la bande d'arrêt d'urgence."
+    },
+    {
+      "question": "Un pneu réparé à la mèche peut-il passer le contrôle technique ?",
+      "answer": "En Belgique, un pneu réparé par mèche visible de l'extérieur peut être refusé au contrôle technique. On conseille de faire poser un <strong>patch de vulcanisation par l'intérieur</strong> chez un spécialiste pneus après notre intervention d'urgence. Cela garantit une réparation définitive et conforme."
+    }
+  ]
+}

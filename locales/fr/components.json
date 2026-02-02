@@ -1,0 +1,103 @@
+{
+  "version": "1.0",
+  "language": "fr",
+  "last_updated": "2025-12-17",
+  "description": "Traductions des composants UI réutilisables (badges, FAQ, cartes, breadcrumbs)",
+
+  "badges": {
+    "intervention_rapide": "⚡ Intervention rapide",
+    "disponible_24_7": "🕐 Disponible 24/7",
+    "expertise_10_ans": "✓ 10 ans d'expérience",
+    "batterie_stock": "🔋 Batteries disponibles",
+    "sans_supplement": "💰 Sans supplément",
+    "tarif_transparent": "💯 Tarif transparent"
+  },
+
+  "faq": {
+    "section_label": "FAQ",
+    "section_title": "Questions Fréquentes"
+  },
+
+  "why_cards": {
+    "section_label": "POURQUOI NOUS ?",
+    "section_title": "Pourquoi Nous Choisir",
+    "cards": [
+      {
+        "icon": "⚡",
+        "title": "Intervention Rapide",
+        "text": "Nous arrivons en moins de 30 minutes partout dans la région de Bruxelles."
+      },
+      {
+        "icon": "💰",
+        "title": "Tarif Transparent",
+        "text": "Prix ferme communiqué avant intervention. Pas de surprise, pas de frais cachés."
+      },
+      {
+        "icon": "🔧",
+        "title": "Techniciens Experts",
+        "text": "Équipe expérimentée avec 15 ans d'expertise en dépannage automobile."
+      }
+    ]
+  },
+
+  "breadcrumb": {
+    "home": "Accueil",
+    "services": "Services",
+    "services_index": "Nos Services",
+    "zones": "Zones",
+    "zones_index": "Zones d'Intervention",
+    "tarifs": "Tarifs",
+    "contact": "Contact",
+    "a_propos": "À Propos",
+    "mentions_legales": "Mentions Légales",
+    "politique_confidentialite": "Politique de Confidentialité"
+  },
+
+  "service_cards": {
+    "link_text": "→"
+  },
+
+  "commune_sections": {
+    "h2_2": "Nos Services à {{COMMUNE_NAME}}",
+    "h2_3": "Zones d'Intervention",
+    "h2_4": "Nos Tarifs à {{COMMUNE_NAME}}",
+    "h2_5": "Pourquoi Nous Choisir à {{COMMUNE_NAME}}"
+  },
+
+  "commune_hero": {
+    "stat_intervention_value": "30 min",
+    "stat_intervention_label": "Intervention rapide",
+    "stat_disponible_value": "24h/24 - 7j/7",
+    "stat_disponible_label": "Disponible",
+    "btn_voir_services": "Voir les services",
+    "devis_titre": "Obtenez Votre Tarif en 2 Minutes",
+    "devis_subtitle": "Appelez-nous, décrivez votre panne, recevez un prix exact. Sans engagement.",
+    "section_services_label": "NOS SERVICES",
+    "section_zones_label": "ZONES VOISINES",
+    "cta_subtitle_template": "Intervention rapide à {{COMMUNE_NAME}} en moins de 30 minutes"
+  },
+
+  "cta": {
+    "default_title": "Besoin d'aide maintenant ?",
+    "default_subtitle": "Appelez-nous pour une intervention rapide",
+    "default_button": "Nous Contacter",
+    "commune_title": "En Panne à {{COMMUNE_NAME}} ?",
+    "commune_subtitle": "Notre équipe intervient en moins de 30 minutes",
+    "service_title": "Besoin de ce Service Maintenant ?",
+    "service_subtitle": "Notre équipe est disponible 24h/24 pour intervenir rapidement"
+  },
+
+  "sidebar": {
+    "services_title": "Nos Services",
+    "communes_title": "Zones d'Intervention",
+    "voisines_title": "Communes Voisines"
+  },
+
+  "footer": {
+    "col_about_title": "À Propos",
+    "col_services_title": "Nos Services",
+    "col_zones_title": "Zones d'Intervention",
+    "col_avis_title": "Avis Google",
+    "copyright": "© {{YEAR}} {{SITE_NAME}}. Tous droits réservés."
+  }
+}

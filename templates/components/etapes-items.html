@@ -1,0 +1,13 @@
+{# Template: Étapes "Comment ça marche" #}
+{# Usage: build_comment_ca_marche_section() #}
+{# Variables: etapes (list) #}
+
+{% for etape in etapes %}
+<div class="etape-item">
+  <div class="etape-numero">{{ etape.numero }}</div>
+  <div class="etape-icone">{{ etape.icone | safe }}</div>
+  <h3 class="etape-titre">{{ etape.titre }}</h3>
+  <p class="etape-description">{{ etape.description }}</p>
+  {% if etape.photo %}<div class="etape-photo"><img src="{{ etape.photo }}" alt="{{ etape.titre }}" width="400" height="250" loading="lazy"></div>{% endif %}
+</div>
+{% endfor %}

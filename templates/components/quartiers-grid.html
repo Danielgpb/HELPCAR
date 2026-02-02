@@ -1,0 +1,13 @@
+{# Template: Grille des quartiers #}
+{# Usage: _build_quartiers_html() #}
+{# Variables: quartiers (list of dict with icon, nom, description) #}
+
+<div class="quartiers-grid">
+{% for quartier in quartiers %}
+  <div class="quartier-card">
+    <div class="quartier-icon">{{ quartier.icon_svg | safe }}</div>
+    <h3 class="quartier-nom">{{ quartier.nom }}</h3>
+    <p class="quartier-description">{{ quartier.description }}</p>
+  </div>
+{% endfor %}
+</div>

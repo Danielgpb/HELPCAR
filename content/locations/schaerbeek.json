@@ -1,0 +1,167 @@
+{
+  "version": "2.0",
+  "slug": "schaerbeek",
+  "commune_name": "Schaerbeek",
+  "last_updated": "2026-01-30",
+  "seo": {
+    "meta_title": "Dépannage voiture Schaerbeek 1030 | Urgence 24h/24 🚨",
+    "meta_description": "Panne à Schaerbeek ? HELPCAR Dépannage assure dépannage et remorquage rapide. Tarif clair, assistance disponible 24h/24 📞 02 844 54 01."
+  },
+  "hero": {
+    "h1": "Dépannage Voiture & Remorquage à Schaerbeek – 24h/24",
+    "accroche": "Intervention rapide dans toute la commune : Place Colignon, Helmet, Meiser"
+  },
+  "content": {
+    "intro_autorite": {
+      "paragraphe_0": "Help Car est le dépanneur le plus rapide de Schaerbeek. Avec <strong>4.9/5 sur Google</strong> et plus de <strong>150 avis</strong>, nous sommes le service de dépannage auto le plus recommandé de la commune.",
+      "paragraphe_1": "Votre voiture est en panne à Schaerbeek ? <strong>Batterie à plat</strong> ? <strong>Pneu crevé</strong> ? <strong>Clés enfermées</strong> ? Nous arrivons en moins de <strong class=\"text-orange\">30 minutes</strong>, 24h/24 et 7j/7.",
+      "paragraphe_2": "Notre équipe locale intervient dans tous les quartiers de Schaerbeek. Nous connaissons bien la commune, ses rues, ses parkings. Prix fixe annoncé par téléphone <strong>avant</strong> de venir — pas de mauvaise surprise."
+    },
+    "section_services": {
+      "h2": "Nos services de dépannage à Schaerbeek",
+      "intro": "Tous nos services sont disponibles à Schaerbeek, 24h/24 :",
+      "categories": [
+        {
+          "icon": "battery",
+          "titre": "Problèmes de batterie",
+          "services": [
+            {
+              "nom": "Dépannage Batterie",
+              "description": "Recharge sur place en 15 min",
+              "url": "/services/depannage-batterie/"
+            },
+            {
+              "nom": "Remplacement Batterie",
+              "description": "Installation à domicile",
+              "url": "/services/remplacement-batterie/"
+            }
+          ]
+        },
+        {
+          "icon": "car",
+          "titre": "Problèmes de pneus",
+          "services": [
+            {
+              "nom": "Réparation Pneu Crevé",
+              "description": "Pose de mèche définitive",
+              "url": "/services/reparation-pneu/"
+            },
+            {
+              "nom": "Placement Roue de Secours",
+              "description": "Changement rapide",
+              "url": "/services/placement-roue-secours/"
+            }
+          ]
+        },
+        {
+          "icon": "fuel",
+          "titre": "Problèmes de carburant",
+          "services": [
+            {
+              "nom": "Panne d'Essence",
+              "description": "Livraison sur place",
+              "url": "/services/panne-essence/"
+            },
+            {
+              "nom": "Siphonnage Réservoir",
+              "description": "Erreur de carburant",
+              "url": "/services/siphonnage-reservoir/"
+            }
+          ]
+        },
+        {
+          "icon": "key",
+          "titre": "Accès au véhicule",
+          "services": [
+            {
+              "nom": "Ouverture de Porte",
+              "description": "Clés enfermées",
+              "url": "/services/ouverture-porte-voiture/"
+            }
+          ]
+        },
+        {
+          "icon": "truck",
+          "titre": "Remorquage",
+          "services": [
+            {
+              "nom": "Remorquage Voiture",
+              "description": "Vers garage ou domicile",
+              "url": "/services/remorquage-voiture/"
+            },
+            {
+              "nom": "Remorquage Moto",
+              "description": "Deux-roues",
+              "url": "/services/remorquage-motos/"
+            }
+          ]
+        },
+        {
+          "icon": "alert",
+          "titre": "Urgences",
+          "services": [
+            {
+              "nom": "Dépannage Accident",
+              "description": "Après accident",
+              "url": "/services/depannage-accident/"
+            },
+            {
+              "nom": "Dépannage Parking Souterrain",
+              "description": "Notre dépanneuse basse passe partout",
+              "url": "/services/depannage-parking-souterrain/"
+            }
+          ]
+        }
+      ],
+      "cta_text": "Voir tous nos services",
+      "cta_url": "/services/"
+    },
+    "faq_locale": {
+      "h2": "Questions fréquentes – Dépannage à Schaerbeek",
+      "questions": [
+        {
+          "question": "Combien de temps pour arriver à Schaerbeek ?",
+          "reponse": "En moyenne <strong class=\"text-orange\">20-30 minutes</strong>. Schaerbeek fait partie de notre zone d'intervention prioritaire. Même aux heures de pointe ou la nuit, nous arrivons rapidement."
+        },
+        {
+          "question": "Quel est le prix pour une recharge de batterie à Schaerbeek ?",
+          "reponse": "Prix communiqué par téléphone pour une recharge de batterie sur place. Si la batterie est morte, nous pouvons la remplacer directement. Prix fixe annoncé par téléphone avant d'intervenir – pas de surprise."
+        },
+        {
+          "question": "Vous intervenez la nuit et le week-end à Schaerbeek ?",
+          "reponse": "Oui, nous sommes disponibles <strong>24h/24 et 7j/7</strong> à Schaerbeek. Même à 3h du matin, même un dimanche ou jour férié."
+        },
+        {
+          "question": "Combien coûte un remorquage depuis Schaerbeek ?",
+          "reponse": "Prix communiqué par téléphone en moyenne pour une voiture légère. Le prix exact dépend de la distance et du type de véhicule. Nous vous l'annonçons par téléphone avant de venir."
+        },
+        {
+          "question": "C'est plus cher le week-end ou la nuit ?",
+          "reponse": "Non, le prix que nous vous annonçons par téléphone est le prix final. <strong>Pas de supplément caché</strong> pour les interventions de nuit, de week-end ou de jours fériés."
+        },
+        {
+          "question": "Vous dépannez aussi les camionnettes à Schaerbeek ?",
+          "reponse": "Oui, nous dépannons et remorquons les camionnettes (type Kangoo, Berlingo, Partner). Prix communiqué par téléphone. Pour les utilitaires plus lourds (Sprinter, Transit, Master), contactez-nous pour un devis."
+        }
+      ]
+    },
+    "section_zones_voisines": {
+      "h2": "Nous intervenons aussi dans les communes autour de Schaerbeek",
+      "content": "<p>Schaerbeek est idéalement située. Notre position nous permet d'intervenir très rapidement dans les communes voisines : Bruxelles-Ville, Ixelles, Etterbeek. Si vous êtes en panne à la limite entre deux communes, nous arrivons tout aussi vite.</p>",
+      "communes_voisines": [
+        {
+          "nom": "Bruxelles-Ville",
+          "url": "/zones/bruxelles-ville/"
+        },
+        {
+          "nom": "Ixelles",
+          "url": "/zones/ixelles/"
+        },
+        {
+          "nom": "Etterbeek",
+          "url": "/zones/etterbeek/"
+        }
+      ]
+    }
+  }
+}

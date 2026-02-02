@@ -1,0 +1,51 @@
+{
+  "description": "Informations de base Help Car - Identiques pour toutes les langues",
+  "version": "1.0",
+  "date": "2026-01-30",
+
+  "organization": {
+    "@id": "https://helpcar.be/#organization",
+    "@type": "AutoRepair",
+    "name": "Help Car SPRL",
+    "alternateName": "Help Car",
+    "telephone": "+32479890089",
+    "email": "contact@helpcar.be",
+    "priceRange": "€€",
+    "url": "https://www.helpcar.be",
+    "logo": "https://www.helpcar.be/images/logo/helpcar-logo.png",
+    "image": "https://www.helpcar.be/images/hero/service.webp",
+
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Rue Example 123",
+      "addressLocality": "Bruxelles",
+      "postalCode": "1000",
+      "addressRegion": "Bruxelles-Capitale",
+      "addressCountry": "BE"
+    },
+
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 50.8503,
+      "longitude": 4.3517
+    },
+
+    "openingHoursSpecification": {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ],
+      "opens": "00:00",
+      "closes": "23:59"
+    },
+
+    "sameAs": [
+    ]
+  }
+}

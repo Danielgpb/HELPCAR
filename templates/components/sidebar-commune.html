@@ -1,0 +1,52 @@
+<!-- ========================================
+     COMPOSANT : SIDEBAR POUR PAGE COMMUNE
+     Fichier: templates/components/sidebar-commune.html
+     Variables: {{SIDEBAR_SERVICES}} {{SIDEBAR_VOISINES}}
+     Maillage: 7 services + 5 voisines = 12 liens
+     ======================================== -->
+<aside class="sidebar">
+
+  <!-- Widget 1: Nos Services (7 liens) -->
+  <div class="sidebar-widget">
+    <h3 class="sidebar-title">Nos Services à {{COMMUNE}}</h3>
+    <ul class="sidebar-links">
+      {{SIDEBAR_SERVICES}}
+    </ul>
+    <div class="sidebar-cta">
+      <a href="/services/" class="link-view-all">
+        Voir tous les services ({{NOMBRE_SERVICES}}) →
+      </a>
+    </div>
+  </div>
+
+  <!-- CTA Sidebar (Compact Call-to-Action) -->
+  <div class="cta-sidebar">
+    <div class="cta-sidebar-badge">
+      En panne à {{COMMUNE}} ?
+    </div>
+
+    <a href="tel:{{TELEPHONE_HREF}}" class="btn-cta-sidebar">
+      <span class="icon">📞</span>
+      <span>{{TELEPHONE}}</span>
+    </a>
+
+    <div class="cta-sidebar-footer">
+      <span class="availability-dot"></span>
+      <span>Disponible 24h/24 - 7j/7</span>
+    </div>
+  </div>
+
+  <!-- Widget 2: Communes Voisines (5 liens) -->
+  <div class="sidebar-widget">
+    <h3 class="sidebar-title">Communes Voisines</h3>
+    <ul class="sidebar-links sidebar-communes">
+      {{SIDEBAR_VOISINES}}
+    </ul>
+    <div class="sidebar-cta">
+      <a href="/zones/" class="link-view-all">
+        Voir toutes les zones ({{NOMBRE_COMMUNES}}) →
+      </a>
+    </div>
+  </div>
+
+</aside>

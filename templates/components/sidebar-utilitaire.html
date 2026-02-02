@@ -1,0 +1,62 @@
+<!-- ========================================
+     COMPOSANT : SIDEBAR POUR PAGES UTILITAIRES
+     Fichier: templates/components/sidebar-utilitaire.html
+     Variables: {{PATH_PREFIX}} {{TELEPHONE}} {{NOMBRE_SERVICES}} {{NOMBRE_COMMUNES}}
+     Maillage: 6 services + 6 communes = 12 liens internes
+     ======================================== -->
+<aside class="sidebar">
+
+  <!-- Widget 1: Services Populaires (6 liens) -->
+  <div class="sidebar-widget">
+    <h3 class="sidebar-title">Services Populaires</h3>
+    <ul class="sidebar-links">
+      <li><a href="{{PATH_PREFIX}}{{URL_SERVICE_REMORQUAGE_VOITURE}}/index.html">Remorquage de voitures</a></li>
+      <li><a href="{{PATH_PREFIX}}{{URL_SERVICE_BATTERIE}}/index.html">Dépannage batterie</a></li>
+      <li><a href="{{PATH_PREFIX}}{{URL_SERVICE_PNEU}}/index.html">Réparation pneu</a></li>
+      <li><a href="{{PATH_PREFIX}}{{URL_SERVICE_PANNE_ESSENCE}}/index.html">Panne d'essence</a></li>
+      <li><a href="{{PATH_PREFIX}}{{URL_SERVICE_OUVERTURE_PORTE}}/index.html">Ouverture de porte</a></li>
+      <li><a href="{{PATH_PREFIX}}{{URL_SERVICE_REMORQUAGE_MOTO}}/index.html">Remorquage de motos</a></li>
+    </ul>
+    <div class="sidebar-cta">
+      <a href="{{PATH_PREFIX}}services/index.html" class="link-view-all">
+        Voir tous les services ({{NOMBRE_SERVICES}}) →
+      </a>
+    </div>
+  </div>
+
+  <!-- CTA Sidebar (Compact Call-to-Action) -->
+  <div class="cta-sidebar">
+    <div class="cta-sidebar-badge">
+      Besoin d'aide ?
+    </div>
+
+    <a href="tel:{{TELEPHONE_HREF}}" class="btn-cta-sidebar">
+      <span class="icon">📞</span>
+      <span>{{TELEPHONE}}</span>
+    </a>
+
+    <div class="cta-sidebar-footer">
+      <span class="availability-dot"></span>
+      <span>Disponible 24h/24 - 7j/7</span>
+    </div>
+  </div>
+
+  <!-- Widget 2: Zones d'Intervention (6 liens) -->
+  <div class="sidebar-widget">
+    <h3 class="sidebar-title">Zones d'Intervention</h3>
+    <ul class="sidebar-links sidebar-communes">
+      <li><a href="{{PATH_PREFIX}}{{URL_COMMUNE_BRUXELLES_VILLE}}/index.html">Bruxelles-Ville</a></li>
+      <li><a href="{{PATH_PREFIX}}{{URL_COMMUNE_IXELLES}}/index.html">Ixelles</a></li>
+      <li><a href="{{PATH_PREFIX}}{{URL_COMMUNE_SCHAERBEEK}}/index.html">Schaerbeek</a></li>
+      <li><a href="{{PATH_PREFIX}}{{URL_COMMUNE_UCCLE}}/index.html">Uccle</a></li>
+      <li><a href="{{PATH_PREFIX}}{{URL_COMMUNE_WOLUWE_SAINT_LAMBERT}}/index.html">Woluwe-Saint-Lambert</a></li>
+      <li><a href="{{PATH_PREFIX}}{{URL_COMMUNE_ZAVENTEM}}/index.html">Zaventem</a></li>
+    </ul>
+    <div class="sidebar-cta">
+      <a href="{{PATH_PREFIX}}zones/index.html" class="link-view-all">
+        Voir toutes les zones ({{NOMBRE_COMMUNES}}) →
+      </a>
+    </div>
+  </div>
+
+</aside>

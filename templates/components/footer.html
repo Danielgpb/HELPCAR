@@ -1,0 +1,97 @@
+<!-- ========================================
+     COMPOSANT : FOOTER GLOBAL v2.0
+     Fichier: templates/components/footer.html
+     Optimisé: Moins de communes, CTA Google Reviews
+     ======================================== -->
+<footer class="footer">
+  <div class="footer-container">
+
+    <!-- Colonne 1: À Propos + Contact + Réseaux Sociaux -->
+    <div class="footer-col">
+      <h3 class="footer-title"><a href="{{PATH_PREFIX}}index.html" class="footer-title-link">{{COMPANY_NAME}}</a></h3>
+      <p class="footer-desc">
+        {{FOOTER_DESCRIPTION}}
+      </p>
+
+      <div class="footer-contact">
+        <p>📍 <a href="{{GOOGLE_MAPS_SEARCH_URL}}" target="_blank" rel="noopener noreferrer" class="footer-address">{{ADRESSE}}</a></p>
+        <p><a href="tel:{{TELEPHONE}}" class="footer-phone-cta">→ {{TELEPHONE}}</a></p>
+      </div>
+
+      <h3 class="footer-title footer-title-social">{{FOOTER_SOCIAL_TITLE}}</h3>
+      <div class="footer-social">
+        <a href="{{FACEBOOK_URL}}" target="_blank" rel="noopener noreferrer" class="footer-social-link footer-social-facebook" aria-label="Facebook">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+          </svg>
+        </a>
+        <a href="{{INSTAGRAM_URL}}" target="_blank" rel="noopener noreferrer" class="footer-social-link footer-social-instagram" aria-label="Instagram">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+          </svg>
+        </a>
+      </div>
+    </div>
+
+    <!-- Colonne 2: Services Principaux + Informations -->
+    <div class="footer-col">
+      <h3 class="footer-title">{{FOOTER_SERVICES_TITLE}}</h3>
+      <ul class="footer-links">
+        <li><a href="{{PATH_PREFIX}}{{URL_SERVICE_BATTERIE}}/index.html">Batterie</a></li>
+        <li><a href="{{PATH_PREFIX}}{{URL_SERVICE_REMORQUAGE_VOITURE}}/index.html">Remorquage Voitures</a></li>
+        <li><a href="{{PATH_PREFIX}}{{URL_SERVICE_PANNE_ESSENCE}}/index.html">Panne d'Essence</a></li>
+        <li><a href="{{PATH_PREFIX}}{{URL_SERVICE_OUVERTURE_PORTE}}/index.html">Ouverture de Porte</a></li>
+        <li><a href="{{PATH_PREFIX}}{{URL_SERVICE_PNEU}}/index.html">Réparation Pneu</a></li>
+        <li><a href="{{PATH_PREFIX}}{{URL_SERVICE_REMORQUAGE_MOTO}}/index.html">Remorquage de Motos</a></li>
+        <li><a href="{{PATH_PREFIX}}services/index.html" class="footer-link-all">→ {{FOOTER_SERVICES_ALL}} ({{NOMBRE_SERVICES}})</a></li>
+      </ul>
+
+      <h3 class="footer-title footer-title-info">{{FOOTER_INFO_TITLE}}</h3>
+      <ul class="footer-links">
+        <li><a href="{{PATH_PREFIX}}a-propos/index.html">{{FOOTER_INFO_ABOUT}}</a></li>
+        <li><a href="{{PATH_PREFIX}}mentions-legales/index.html">{{FOOTER_INFO_LEGAL}}</a></li>
+        <li><a href="{{PATH_PREFIX}}politique-confidentialite/index.html">{{FOOTER_INFO_PRIVACY}}</a></li>
+      </ul>
+    </div>
+
+    <!-- Colonne 3: Zones d'Intervention (Top 6 dynamiques) -->
+    <div class="footer-col">
+      <h3 class="footer-title">{{FOOTER_ZONES_TITLE}}</h3>
+      <ul class="footer-links">
+        {{FOOTER_COMMUNES}}
+        <li><a href="{{PATH_PREFIX}}zones/index.html" class="footer-link-all">→ {{FOOTER_ZONES_ALL}} ({{NOMBRE_COMMUNES}})</a></li>
+      </ul>
+    </div>
+
+    <!-- Colonne 4: Avis Google + CTA -->
+    <div class="footer-col">
+      <h3 class="footer-title">{{FOOTER_REVIEWS_TITLE}}</h3>
+      <p class="footer-desc">
+        {{FOOTER_REVIEWS_DESCRIPTION}}
+      </p>
+
+      <!-- Badge Rating actuel - Cliquable pour laisser un avis -->
+      <div class="footer-google-badge">
+        <a href="{{GOOGLE_MY_BUSINESS_URL}}" target="_blank" rel="noopener noreferrer" class="footer-google-link" aria-label="Laisser un avis Google">
+          <img src="{{PATH_PREFIX}}images/logo/Google_Favicon_2025.svg.png" alt="Google" class="footer-google-logo" width="40" height="40" loading="lazy">
+          <div class="footer-google-content">
+            <div class="footer-stars">
+              <span class="star-icon">⭐</span>
+              <span class="rating-number">{{GOOGLE_RATING}}/5</span>
+            </div>
+            <p class="reviews-count">{{GOOGLE_REVIEWS}} {{FOOTER_REVIEWS_COUNT}}</p>
+          </div>
+        </a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Barre copyright -->
+  <div class="footer-bottom">
+    <div class="footer-bottom-container">
+      <p>&copy; 2025 {{COMPANY_NAME}} - {{FOOTER_COPYRIGHT}}</p>
+      <p class="footer-tagline">{{FOOTER_TAGLINE}}</p>
+    </div>
+  </div>
+</footer>

@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="fr-BE">
+<head>
+  <!-- Meta tags essentiels -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <!-- SEO Meta Tags -->
+  <title>{{META_TITLE}}</title>
+  <meta name="description" content="{{META_DESCRIPTION}}">
+  <meta name="keywords" content="{{KEYWORDS}}">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="{{CANONICAL_URL}}">
+  <meta property="og:title" content="{{META_TITLE}}">
+  <meta property="og:description" content="{{META_DESCRIPTION}}">
+  <meta property="og:image" content="{{OG_IMAGE}}">
+
+  <!-- Canonical URL -->
+  <link rel="canonical" href="{{CANONICAL_URL}}">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="{{PATH_PREFIX}}favicon.webp">
+  <link rel="shortcut icon" href="{{PATH_PREFIX}}favicon.ico">
+
+  <!-- Preload LCP Image (Critical) -->
+  <link rel="preload" as="image" href="{{PATH_PREFIX}}images/homepage/remorquage.webp" fetchpriority="high">
+
+  <!-- CSS Critical (chargement synchrone pour éviter CLS) -->
+  <link rel="stylesheet" href="{{PATH_PREFIX}}public/css/main.css?v=7.4">
+  <link rel="stylesheet" href="{{PATH_PREFIX}}public/css/dropdown.css?v=1.4">
+  <link rel="stylesheet" href="{{PATH_PREFIX}}public/css/homepage-v2.css?v=1.0">
+
+  <!-- Fonts avec font-display:swap pour éviter CLS -->
+
+  <!-- Schema.org JSON-LD -->
+  {{SCHEMA_ORG_LOCALBUSINESS}}
+
+  <!-- Google Analytics -->
+  {{COMPONENT_GOOGLE_ANALYTICS}}
+
+  <!-- Microsoft Clarity (Heatmaps & Session Recordings) -->
+  {{COMPONENT_MICROSOFT_CLARITY}}
+</head>
+
+<body class="page-homepage-v2">
+
+  <!-- ===== CTA STICKY BAR (apparaît après scroll) ===== -->
+  <div class="cta-sticky-bar" id="ctaStickyBar">
+    <div class="cta-sticky-container">
+      <div class="cta-sticky-left">
+        <span class="cta-sticky-urgence">🚨 Besoin d'un dépannage ?</span>
+        <span class="cta-sticky-rating">⭐ 4.9/5 • Arrivée en 30min</span>
+      </div>
+      <div class="cta-sticky-right">
+        <a href="tel:0479890089" class="btn-sticky-phone">📞 0479 89 00 89</a>
+        <a href="https://wa.me/{{TELEPHONE_HREF}}" class="btn-sticky-whatsapp" target="_blank" rel="noopener noreferrer">💬 WhatsApp</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===== HEADER ===== -->
+  {{COMPONENT_HEADER}}
+
+  <!-- ===== MAIN CONTENT ===== -->
+  <main class="main-content-v2">
+
+    <!-- ========== HERO V2 - Moderne avec urgence ========== -->
+    <section class="hero-v2">
+      <!-- Badge urgence flottant -->
+      <div class="hero-v2-badge-urgence">
+        {{HERO_V2_BADGE_URGENCE}}
+      </div>
+
+      <div class="hero-v2-container">
+        <!-- Gauche : Contenu -->
+        <div class="hero-v2-content">
+          <h1 class="hero-v2-h1">
+            {{HERO_V2_H1}}
+            <span class="hero-v2-h1-highlight">{{HERO_V2_H1_HIGHLIGHT}}</span>
+          </h1>
+          <p class="hero-v2-h2">{{HERO_V2_H2}}</p>
+
+          <!-- CTAs -->
+          <div class="hero-v2-ctas">
+            <a href="tel:0479890089" class="btn-hero-primary" onclick="gtag('event', 'click_call_hero', {'event_category': 'conversion'});">
+              {{HERO_V2_CTA_PRIMARY}}
+            </a>
+            <a href="https://wa.me/{{TELEPHONE_HREF}}?text=Bonjour%2C%20j'ai%20besoin%20d'un%20d%C3%A9pannage%20%C3%A0%20Bruxelles"
+               class="btn-hero-secondary"
+               target="_blank"
+               rel="noopener noreferrer"
+               onclick="gtag('event', 'click_whatsapp_hero', {'event_category': 'conversion'});">
+              {{HERO_V2_CTA_SECONDARY}}
+            </a>
+          </div>
+
+          <!-- Badges confiance -->
+          <div class="hero-v2-badges">
+            {{HERO_V2_BADGES}}
+          </div>
+
+          <!-- Trust line -->
+          <p class="hero-v2-trust-line">{{HERO_V2_TRUST_LINE}}</p>
+        </div>
+
+        <!-- Droite : Photos (bento grid) -->
+        <div class="hero-v2-visuals">
+          <div class="hero-photo hero-photo-1">
+            <img src="images/homepage/remorquage.webp" alt="Service de remorquage voiture Bruxelles" width="450" height="800" loading="eager" fetchpriority="high">
+          </div>
+          <div class="hero-photo hero-photo-2">
+            <img src="images/homepage/depanneuse-plateau.webp" alt="Dépanneuse plateau Bruxelles" width="800" height="600" loading="eager">
+          </div>
+          <div class="hero-photo hero-photo-3">
+            <img src="images/homepage/batterie.webp" alt="Dépannage batterie Bruxelles" width="800" height="600" loading="eager">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== TRUST LOGOS ========== -->
+    <section class="section-trust-logos">
+      <div class="container">
+        <p class="trust-logos-titre">{{SECTION_TRUST_LOGOS_TITRE}}</p>
+        <div class="trust-logos-grid">
+          {{TRUST_LOGOS}}
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== BIG STATS ========== -->
+    <section class="section-big-stats">
+      <div class="container">
+        <h2 class="section-title-center">{{SECTION_BIG_STATS_TITRE}}</h2>
+        <div class="big-stats-grid">
+          {{BIG_STATS}}
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== COMMENT ÇA MARCHE ========== -->
+    <section class="section-comment-ca-marche">
+      <div class="container">
+        <div class="section-header-center">
+          <span class="section-label">{{SECTION_COMMENT_CA_MARCHE_LABEL}}</span>
+          <h2 class="section-title">{{SECTION_COMMENT_CA_MARCHE_TITRE}}</h2>
+        </div>
+        <div class="etapes-grid">
+          {{ETAPES}}
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== TARIFS INDICATIFS ========== -->
+    <section class="section-tarifs-indicatifs">
+      <div class="container">
+        <div class="section-header-center">
+          <span class="section-label">{{SECTION_TARIFS_LABEL}}</span>
+          <h2 class="section-title">{{SECTION_TARIFS_TITRE}}</h2>
+          <p class="section-subtitle">{{SECTION_TARIFS_SUBTITLE}}</p>
+        </div>
+        <div class="tarifs-grid">
+          {{TARIFS}}
+        </div>
+        <div class="tarifs-cta">
+          <a href="tarifs/index.html" class="btn-outline-large">{{SECTION_TARIFS_CTA}}</a>
+        </div>
+        <p class="tarifs-note">{{SECTION_TARIFS_NOTE}}</p>
+      </div>
+    </section>
+
+    <!-- ========== SECTION ALTERNÉE 1 : Gérants ========== -->
+    <section class="section-alternee section-alternee-image-gauche">
+      <div class="container">
+        <div class="alternee-grid">
+          <div class="alternee-image">
+            <img src="{{SECTION_ALTERNEE_1_IMAGE}}" alt="{{SECTION_ALTERNEE_1_IMAGE_ALT}}" width="600" height="400" loading="lazy">
+            <div class="alternee-badge">{{SECTION_ALTERNEE_1_BADGE}}</div>
+          </div>
+          <div class="alternee-content">
+            <h2>{{SECTION_ALTERNEE_1_TITRE}}</h2>
+            <p>{{SECTION_ALTERNEE_1_DESCRIPTION}}</p>
+            <ul class="alternee-points">
+              {{SECTION_ALTERNEE_1_POINTS}}
+            </ul>
+            <a href="a-propos/index.html" class="btn-outline">En savoir plus →</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== SECTION ALTERNÉE 2 : Prix Transparent ========== -->
+    <section class="section-alternee section-alternee-image-droite">
+      <div class="container">
+        <div class="alternee-grid">
+          <div class="alternee-content">
+            <h2>{{SECTION_ALTERNEE_2_TITRE}}</h2>
+            <p>{{SECTION_ALTERNEE_2_DESCRIPTION}}</p>
+            <ul class="alternee-points">
+              {{SECTION_ALTERNEE_2_POINTS}}
+            </ul>
+            <a href="tarifs/index.html" class="btn-outline">Voir nos tarifs →</a>
+          </div>
+          <div class="alternee-image">
+            <img src="{{SECTION_ALTERNEE_2_IMAGE}}" alt="{{SECTION_ALTERNEE_2_IMAGE_ALT}}" width="600" height="400" loading="lazy">
+            <div class="alternee-badge">{{SECTION_ALTERNEE_2_BADGE}}</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== SECTION ALTERNÉE 3 : Disponible 24/7 ========== -->
+    <section class="section-alternee section-alternee-image-gauche">
+      <div class="container">
+        <div class="alternee-grid">
+          <div class="alternee-image">
+            <img src="{{SECTION_ALTERNEE_3_IMAGE}}" alt="{{SECTION_ALTERNEE_3_IMAGE_ALT}}" width="600" height="400" loading="lazy">
+            <div class="alternee-badge">{{SECTION_ALTERNEE_3_BADGE}}</div>
+          </div>
+          <div class="alternee-content">
+            <h2>{{SECTION_ALTERNEE_3_TITRE}}</h2>
+            <p>{{SECTION_ALTERNEE_3_DESCRIPTION}}</p>
+            <ul class="alternee-points">
+              {{SECTION_ALTERNEE_3_POINTS}}
+            </ul>
+            <a href="contact/index.html" class="btn-outline">Nous contacter →</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== NOS SERVICES ========== -->
+    <section class="section section-services-v2" id="services">
+      <div class="container">
+        <div class="section-header-center">
+          <span class="section-label">{{SECTION_SERVICES_LABEL}}</span>
+          <h2 class="section-title">{{SECTION_SERVICES_TITRE}}</h2>
+          <p class="section-subtitle">{{SECTION_SERVICES_SUBTITLE}}</p>
+        </div>
+        <div class="services-grid">
+          {{SERVICES_CARDS}}
+        </div>
+        <div class="services-cta">
+          <a href="services/index.html" class="btn-outline-large">Voir tous les services (22) →</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== POURQUOI NOUS V2 ========== -->
+    <section class="section section-pourquoi-v2">
+      <div class="container">
+        <div class="section-header-center">
+          <span class="section-label">{{SECTION_POURQUOI_V2_LABEL}}</span>
+          <h2 class="section-title">{{SECTION_POURQUOI_V2_TITRE}}</h2>
+        </div>
+        <div class="pourquoi-v2-grid">
+          {{POURQUOI_V2_ARGUMENTS}}
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== AVIS CLIENTS ========== -->
+    <section class="section reviews-section">
+      <div class="container">
+        <div class="section-header-center">
+          <span class="section-label">{{SECTION_AVIS_LABEL}}</span>
+          <h2 class="section-title">{{SECTION_AVIS_TITRE}}</h2>
+        </div>
+
+        <p style="text-align: center; max-width: 800px; margin: 0 auto 2.5rem; font-size: 1.05rem; line-height: 1.7; color: #4B5563;">
+          {{SECTION_AVIS_INTRO}}
+        </p>
+
+        {{REVIEWS_CAROUSEL}}
+
+        <div class="reviews-cta">
+          <a href="{{GOOGLE_MY_BUSINESS_URL}}" target="_blank" rel="noopener noreferrer" class="reviews-google-card">
+            <img src="images/logo/Google_Favicon_2025.svg.png" alt="Google" class="reviews-google-logo" loading="lazy">
+            <div class="reviews-google-content">
+              <div class="reviews-google-stars">
+                <span class="star-icon">⭐</span>
+                <span class="rating-number">{{GOOGLE_RATING}}/5</span>
+              </div>
+              <p class="reviews-count">{{GOOGLE_REVIEWS}} {{AVIS_REVIEWS_COUNT_SUFFIX}}</p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== FAQ (remontée avant zones) ========== -->
+    <section class="section section-faq">
+      <div class="container" style="max-width: 900px;">
+        <div class="section-header-center">
+          <span class="section-label">{{SECTION_FAQ_LABEL}}</span>
+          <h2 class="section-title">{{SECTION_FAQ_TITRE}}</h2>
+        </div>
+        <div class="faq-list">
+          {{FAQ_ITEMS}}
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== ZONES ========== -->
+    <section class="section zones-section" id="zones">
+      <div class="container">
+        <div class="section-header-center">
+          <span class="section-label">{{SECTION_ZONES_LABEL}}</span>
+          <h2 class="section-title">{{SECTION_ZONES_TITRE}}</h2>
+        </div>
+
+        <div class="zones-content">
+          <div class="zones-text">
+            <p>{{SECTION_ZONES_PARAGRAPHE}}</p>
+            <div class="zones-tags">
+              {{ZONES_TAGS}}
+            </div>
+            <div class="zones-cta">
+              <a href="zones/index.html" class="btn-outline-large">{{SECTION_ZONES_CTA}} →</a>
+            </div>
+          </div>
+
+          <div class="zones-map">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d40494.56696912686!2d4.3244513!3d50.8465573!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3a4ed73c76867%3A0xc18b3a66787302a7!2sBruxelles!5e0!3m2!1sfr!2sbe!4v1234567890123"
+              width="100%"
+              height="400"
+              style="border:0; border-radius: var(--radius-lg);"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              title="Carte Google Maps des zones d'intervention à Bruxelles">
+            </iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== CTA FINAL V2 ========== -->
+    <section class="cta-final-v2">
+      <div class="container">
+        <div class="cta-final-v2-badge">{{CTA_FINAL_V2_BADGE}}</div>
+        <h2 class="cta-final-v2-title">{{CTA_FINAL_V2_TITRE}}</h2>
+        <p class="cta-final-v2-subtitle">{{CTA_FINAL_V2_SUBTITLE}}</p>
+
+        <div class="cta-final-v2-buttons">
+          <a href="tel:0479890089" class="btn-cta-final-primary" onclick="gtag('event', 'click_call_footer', {'event_category': 'conversion'});">
+            {{CTA_FINAL_V2_BUTTON_PRIMARY}}
+          </a>
+          <a href="https://wa.me/{{TELEPHONE_HREF}}?text=Bonjour%2C%20j'ai%20besoin%20d'un%20d%C3%A9pannage%20%C3%A0%20Bruxelles"
+             class="btn-cta-final-secondary"
+             target="_blank"
+             rel="noopener noreferrer"
+             onclick="gtag('event', 'click_whatsapp_footer', {'event_category': 'conversion'});">
+            {{CTA_FINAL_V2_BUTTON_SECONDARY}}
+          </a>
+        </div>
+
+        <div class="cta-final-v2-trust-badges">
+          {{CTA_FINAL_V2_TRUST_BADGES}}
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  {{COMPONENT_FOOTER}}
+
+  <!-- JavaScript -->
+  <script src="public/js/main.js?v=3.4" defer></script>
+  <script src="public/js/tracking.js?v=1.0" defer></script>
+  <script src="public/js/homepage-v2.js?v=1.0" defer></script>
+
+</body>
+</html>

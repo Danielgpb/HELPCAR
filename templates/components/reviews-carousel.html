@@ -1,0 +1,43 @@
+{# Template: Carousel d'avis clients - Version générique avec data-* #}
+{# Usage: build_reviews_carousel() #}
+{# Variables: avis_list (list), aria_prev (str), aria_next (str), aria_dot_prefix (str) #}
+
+<div class="reviews-carousel" data-carousel data-autoplay="7000" data-loop="true" data-pause-on-hover="true">
+  <div class="reviews-track" data-carousel-track>
+    {% for avis in avis_list %}
+    <div class="review-card" data-carousel-item>
+      <div class="review-stars">
+        <span class="star">★</span>
+        <span class="star">★</span>
+        <span class="star">★</span>
+        <span class="star">★</span>
+        <span class="star">★</span>
+        <span class="review-rating">{{ avis.rating }}</span>
+      </div>
+      <p class="review-text">{{ avis.texte }}</p>
+      <div class="review-author">
+        {% if avis.photo %}<img class="review-avatar-img" src="{{ avis.photo }}" alt="{{ avis.auteur }}" width="44" height="44" loading="lazy">{% else %}<div class="review-avatar">{{ avis.initiales }}</div>{% endif %}
+        <div class="review-author-info">
+          <strong>{{ avis.auteur }}</strong>
+          <span class="review-date">{{ avis.date }}</span>
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+
+  <!-- Navigation -->
+  <button class="carousel-btn carousel-btn-prev" data-carousel-prev aria-label="{{ aria_prev }}">
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+      <polyline points="15 18 9 12 15 6"></polyline>
+    </svg>
+  </button>
+  <button class="carousel-btn carousel-btn-next" data-carousel-next aria-label="{{ aria_next }}">
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+      <polyline points="9 18 15 12 9 6"></polyline>
+    </svg>
+  </button>
+
+  <!-- Dots (générés automatiquement par carousel.js) -->
+  <div class="carousel-dots" data-carousel-dots></div>
+</div>

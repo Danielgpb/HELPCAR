@@ -1,0 +1,33 @@
+{
+  "hero": {
+    "badges": ["intervention_rapide", "disponible_24_7", "prix_transparent"]
+  },
+  "intro": {
+    "template": "<p><strong>Helpcar Dépannage</strong> intervient à <strong>{{COMMUNE_NAME}}</strong> pour tous vos besoins de dépannage auto : panne de batterie, remorquage, pneu crevé, ouverture de porte...</p><p>Notre équipe arrive sur place en <strong>30 minutes en moyenne</strong>. Appelez le <strong>02 844 54 01</strong> et on vous donne le prix immédiatement.</p>"
+  },
+  "services_list": {
+    "h2": "Nos services à {{COMMUNE_NAME}}",
+    "services": [
+      "Remorquage de voiture",
+      "Dépannage batterie",
+      "Réparation pneu",
+      "Ouverture de porte",
+      "Fourniture carburant",
+      "Remorquage moto"
+    ]
+  },
+  "why_local": {
+    "h2": "Pourquoi Helpcar à {{COMMUNE_NAME}} ?",
+    "points": [
+      "Connaissance parfaite des rues et quartiers",
+      "Intervention rapide grâce à notre proximité",
+      "Disponible 24h/24, 7j/7",
+      "Prix annoncé avant intervention"
+    ]
+  },
+  "cta": {
+    "h2": "Besoin d'un dépannage à {{COMMUNE_NAME}} ?",
+    "text": "Appelez maintenant, on arrive rapidement.",
+    "button": "02 844 54 01"
+  }
+}

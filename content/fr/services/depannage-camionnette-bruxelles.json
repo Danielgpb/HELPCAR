@@ -1,0 +1,86 @@
+{
+  "service_id": 24,
+  "last_updated": "2026-02-01",
+  "hero": {
+    "h1": "Assistance Utilitaire & Camionnette Bruxelles – Helpcar dépannage",
+    "badges": [
+      "intervention_rapide",
+      "disponible_24_7",
+      "expertise_10_ans"
+    ],
+    "subtitle": "Votre utilitaire est immobilisé ? Nos techniciens sont en route dans les minutes qui suivent votre appel."
+  },
+  "sections": [
+    {
+      "h2": "Tarifs clairs pour le dépannage de votre utilitaire",
+      "content": "<div style=\"background: #F9FAFB; padding: 1.5rem; border-radius: 12px; border-left: 4px solid #10B981; margin: 1.5rem 0;\">\n<p style=\"margin-bottom: 1rem;\"><strong style=\"color: #10B981;\">Transparence totale sur les coûts</strong> – Avant de nous déplacer, nous vous communiquons un montant précis par téléphone. Aucun supplément à l'arrivée, aucune facturation surprise.</p>\n<p style=\"margin-bottom: 1rem;\"><strong style=\"color: #10B981;\">Intervention technique sur site :</strong> Batterie, pneumatique, carburant, ouverture de porte – tarif fixe annoncé avant déplacement.</p>\n<p style=\"margin-bottom: 1rem;\"><strong style=\"color: #10B981;\">Remorquage utilitaire compact :</strong> Kangoo, Berlingo, Caddy, Partner – devis immédiat par téléphone.</p>\n<p style=\"margin-bottom: 1rem;\"><strong style=\"color: #10B981;\">Remorquage fourgon grand volume :</strong> Sprinter, Master, Transit, Crafter – prix ajusté au tonnage, communiqué avant toute intervention.</p>\n<p style=\"margin-bottom: 0;\"><strong class=\"text-orange\">Contactez-nous au <a href=\"tel:+3228445401\" style=\"color: #CF5706; font-weight: 700;\">02 844 54 01</a></strong> : vous obtenez un tarif ferme en moins de deux minutes. <strong>Zéro frais dissimulé, zéro mauvaise surprise.</strong></p>\n</div>"
+    },
+    {
+      "h2": "Les pannes d'utilitaires que nous traitons au quotidien",
+      "content": "<div style=\"background: #F9FAFB; padding: 1.5rem; border-radius: 12px; margin: 1.5rem 0;\">\n<p style=\"margin-bottom: 1rem;\">🔋 <strong>Défaillance batterie</strong> – Rechargement immédiat ou installation d'une batterie neuve. Les utilitaires stationnés longtemps en zone de chantier y sont particulièrement sujets.</p>\n<p style=\"margin-bottom: 1rem;\">🛞 <strong>Crevaison ou éclatement</strong> – Réparation par mèche ou remplacement de roue complet. Nos équipements sont dimensionnés pour les pneumatiques renforcés des véhicules professionnels.</p>\n<p style=\"margin-bottom: 1rem;\">⛽ <strong>Réservoir vide</strong> – Apport de carburant directement sur votre lieu d'immobilisation. Diesel ou essence, nous vous remettons en circulation.</p>\n<p style=\"margin-bottom: 1rem;\">🔑 <strong>Clés bloquées dans l'habitacle</strong> – Déverrouillage sans détérioration de la serrure ni de la carrosserie. Technique maîtrisée sur tous les modèles utilitaires.</p>\n<p style=\"margin-bottom: 1rem;\">🔧 <strong>Défaut mécanique</strong> – Analyse diagnostique sur place. Réparable immédiatement ? Nous intervenons. Autrement, transfert vers le garage de votre choix.</p>\n<p style=\"margin-bottom: 0;\">🚛 <strong>Mise sur plateau</strong> – Pour les pannes lourdes, chargement sécurisé de votre véhicule et acheminement à la destination que vous indiquez.</p>\n</div>"
+    },
+    {
+      "h2": "Couverture sur l'ensemble de la région bruxelloise",
+      "content": "<p>Helpcar dépannage intervient dans les <strong>19 communes de Bruxelles-Capitale</strong> : Anderlecht, Schaerbeek, Molenbeek, Forest, Ixelles, Uccle, Saint-Gilles, Etterbeek, Jette, Evere... Nous couvrons également la première couronne : Zaventem, Machelen, Vilvoorde, Diegem, Asse, Grimbergen...</p><p><strong>Utilitaire bloqué en zone de livraison ?</strong> Fourgon immobilisé devant un dépôt ? Nous atteignons votre position en <strong class=\"text-orange\">30 minutes</strong> et mettons tout en œuvre pour limiter votre temps d'arrêt.</p><p style=\"margin-top: 1rem;\"><a href=\"../zones/\" class=\"link-arrow\" style=\"color: #CF5706; font-weight: 600; text-decoration: none;\">Découvrir l'intégralité de nos zones d'intervention →</a></p>"
+    },
+    {
+      "h2": "Helpcar dépannage : le réflexe des professionnels bruxellois",
+      "content": "<p><strong>Dépannage camionnette à Bruxelles</strong> – assistance technique disponible jour et nuit, week-ends et jours fériés inclus.</p><p><strong style=\"color: #CF5706;\">Helpcar dépannage</strong> possède une expertise approfondie dans l'<strong>assistance aux véhicules utilitaires et camionnettes</strong> sur Bruxelles, forgée au fil de <strong>{{YEARS_EXPERIENCE_PLUS}} années</strong> de terrain. Avec une note de <strong>{{GOOGLE_RATING}}/5 sur Google</strong> basée sur <strong>{{GOOGLE_REVIEWS}} évaluations</strong>, notre équipe est la référence pour les pannes de véhicules professionnels. Chaque intervention est réalisée par les gérants eux-mêmes.</p><p>Votre Trafic refuse de démarrer en pleine tournée ? Votre Vito est immobilisé sur un parking client ? Votre Crafter a lâché devant l'entrepôt ? Ce sont des situations que nous gérons plusieurs fois par semaine.</p><p>Le véhicule utilitaire, c'est notre spécialité exclusive. <strong>Batterie, pneumatique, panne sèche, verrouillage accidentel, défaut moteur</strong> – nous privilégions systématiquement la réparation sur site. Le remorquage n'intervient que lorsque la situation technique l'exige. Délai moyen d'arrivée : <strong class=\"text-orange\">moins de 30 minutes</strong> dans tout Bruxelles.</p>"
+    },
+    {
+      "h2": "Trois étapes et votre utilitaire repart",
+      "content": "<div class=\"timeline-steps\">\n  <div class=\"timeline-step\"><svg class=\"step-timeline step-1\" xmlns=\"http://www.w3.org/2000/svg\" width=\"40\" height=\"100%\" viewBox=\"0 0 40 100\" preserveAspectRatio=\"xMinYMin meet\">\n  <defs>\n    <linearGradient id=\"greenGradient1\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"100%\">\n      <stop offset=\"0%\" style=\"stop-color:#CF5706;stop-opacity:1\" />\n      <stop offset=\"100%\" style=\"stop-color:#CF5706;stop-opacity:1\" />\n    </linearGradient>\n  </defs>\n  <circle cx=\"20\" cy=\"20\" r=\"18\" fill=\"url(#greenGradient1)\" stroke=\"#FFFFFF\" stroke-width=\"3\"/>\n  <text x=\"20\" y=\"27\" font-family=\"Outfit, sans-serif\" font-size=\"18\" font-weight=\"700\" fill=\"#FFFFFF\" text-anchor=\"middle\">1</text>\n  <line x1=\"20\" y1=\"38\" x2=\"20\" y2=\"100\" stroke=\"#CF5706\" stroke-width=\"3\"/>\n</svg><div class=\"timeline-content\"><strong>Appelez le <a href=\"tel:+3228445401\" class=\"phone-link\">02 844 54 01</a> –</strong> Indiquez votre localisation, le modèle de votre utilitaire et la nature du problème</div></div>\n  <div class=\"timeline-step\"><svg class=\"step-timeline step-2\" xmlns=\"http://www.w3.org/2000/svg\" width=\"40\" height=\"100%\" viewBox=\"0 0 40 100\" preserveAspectRatio=\"xMinYMin meet\">\n  <defs>\n    <linearGradient id=\"greenGradient2\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"100%\">\n      <stop offset=\"0%\" style=\"stop-color:#CF5706;stop-opacity:1\" />\n      <stop offset=\"100%\" style=\"stop-color:#CF5706;stop-opacity:1\" />\n    </linearGradient>\n  </defs>\n  <line x1=\"20\" y1=\"0\" x2=\"20\" y2=\"2\" stroke=\"#CF5706\" stroke-width=\"3\"/>\n  <circle cx=\"20\" cy=\"20\" r=\"18\" fill=\"url(#greenGradient2)\" stroke=\"#FFFFFF\" stroke-width=\"3\"/>\n  <text x=\"20\" y=\"27\" font-family=\"Outfit, sans-serif\" font-size=\"18\" font-weight=\"700\" fill=\"#FFFFFF\" text-anchor=\"middle\">2</text>\n  <line x1=\"20\" y1=\"38\" x2=\"20\" y2=\"100\" stroke=\"#CF5706\" stroke-width=\"3\"/>\n</svg><div class=\"timeline-content\"><strong>Tarif confirmé par téléphone –</strong> Montant fixe annoncé avant déplacement, aucun ajustement postérieur</div></div>\n  <div class=\"timeline-step\"><svg class=\"step-timeline step-3\" xmlns=\"http://www.w3.org/2000/svg\" width=\"40\" height=\"40\" viewBox=\"0 0 40 40\" preserveAspectRatio=\"xMinYMin meet\">\n  <defs>\n    <linearGradient id=\"greenGradient3\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"100%\">\n      <stop offset=\"0%\" style=\"stop-color:#CF5706;stop-opacity:1\" />\n      <stop offset=\"100%\" style=\"stop-color:#CF5706;stop-opacity:1\" />\n    </linearGradient>\n  </defs>\n  <line x1=\"20\" y1=\"0\" x2=\"20\" y2=\"2\" stroke=\"#CF5706\" stroke-width=\"3\"/>\n  <circle cx=\"20\" cy=\"20\" r=\"18\" fill=\"url(#greenGradient3)\" stroke=\"#FFFFFF\" stroke-width=\"3\"/>\n  <text x=\"20\" y=\"27\" font-family=\"Outfit, sans-serif\" font-size=\"18\" font-weight=\"700\" fill=\"#FFFFFF\" text-anchor=\"middle\">3</text>\n</svg><div class=\"timeline-content\"><strong>Technicien sur place sous 30 min –</strong> Réparation immédiate ou remorquage sécurisé selon le diagnostic</div></div>\n</div>"
+    },
+    {
+      "h2": "Chaque type d'utilitaire est pris en charge",
+      "content": "<div style=\"background: #F9FAFB; padding: 1.5rem; border-radius: 12px; margin: 1.5rem 0;\">\n<p style=\"margin-bottom: 1rem;\">🚐 <strong>Utilitaires compacts</strong> – Renault Kangoo, Citroën Berlingo, Peugeot Partner, VW Caddy, Fiat Doblò, Opel Combo...</p>\n<p style=\"margin-bottom: 1rem;\">🚚 <strong>Fourgons intermédiaires</strong> – Renault Trafic, VW Transporter, Mercedes Vito, Ford Transit Custom, Citroën Jumpy, Toyota Proace...</p>\n<p style=\"margin-bottom: 1rem;\">🚛 <strong>Fourgons grand volume</strong> – Mercedes Sprinter, Ford Transit, Renault Master, Iveco Daily, VW Crafter, Fiat Ducato, MAN TGE...</p>\n<p style=\"margin-bottom: 1rem;\">🚐 <strong>Véhicules aménagés</strong> – VW California, Mercedes Marco Polo, fourgons transformés en ateliers mobiles ou en habitations...</p>\n<p style=\"margin-bottom: 0;\">🍔 <strong>Véhicules de restauration mobile</strong> – Food trucks et camions de marché équipés (manipulation adaptée aux installations embarquées)</p>\n</div>\n<p>Quel que soit le constructeur ou le gabarit, nos techniciens disposent de l'outillage et du savoir-faire nécessaires.</p>"
+    },
+    {
+      "h2": "Un partenaire fiable quand votre activité dépend de votre véhicule",
+      "content": "<p>Artisans du bâtiment, coursiers, sociétés de maintenance, flottistes – lorsqu'un utilitaire tombe en panne, c'est toute une chaîne de travail qui se grippe. Chaque heure d'immobilisation représente un manque à gagner concret.</p><p>C'est précisément pour cette raison que les professionnels bruxellois font appel à Helpcar dépannage. <strong class=\"text-orange\">Arrivée en 30 minutes</strong>, coût annoncé dès le premier échange téléphonique, et réparation sur site chaque fois que la technique le permet – pour éviter un remorquage inutile.</p><div class=\"conseil-callout\"><p>Conseil aux indépendants et gestionnaires de flotte : enregistrez le <a href=\"tel:+3228445401\" style=\"color: #CF5706; font-weight: 700;\">02 844 54 01</a> dans le répertoire de chaque chauffeur. Le jour où un véhicule s'immobilise en cours de mission, la réaction sera immédiate.</p></div>"
+    },
+    {
+      "h2": "Prestations complémentaires pour vos véhicules",
+      "content": "<div class=\"services-lies-grid\" style=\"display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem; margin-top: 1.5rem;\">\n<div style=\"background: #F9FAFB; padding: 1.25rem; border-radius: 12px; border-left: 4px solid #CF5706;\">\n<h3 style=\"font-size: 1.1rem; font-weight: 700; margin-bottom: 0.5rem;\"><a href=\"../remorquage-vehicules-speciaux-bruxelles/\" style=\"color: #1A1A1A; text-decoration: none;\">→ Remorquage Véhicules Spéciaux</a></h3>\n<p style=\"font-size: 0.95rem; color: #6B7280; margin: 0;\">Camping-cars, 4x4, remorques, engins de chantier</p>\n</div>\n<div style=\"background: #F9FAFB; padding: 1.25rem; border-radius: 12px; border-left: 4px solid #CF5706;\">\n<h3 style=\"font-size: 1.1rem; font-weight: 700; margin-bottom: 0.5rem;\"><a href=\"../{{URL_SERVICE_BATTERIE}}/\" style=\"color: #1A1A1A; text-decoration: none;\">→ Dépannage Batterie</a></h3>\n<p style=\"font-size: 0.95rem; color: #6B7280; margin: 0;\">Rechargement ou remplacement directement sur site</p>\n</div>\n<div style=\"background: #F9FAFB; padding: 1.25rem; border-radius: 12px; border-left: 4px solid #CF5706;\">\n<h3 style=\"font-size: 1.1rem; font-weight: 700; margin-bottom: 0.5rem;\"><a href=\"../{{URL_SERVICE_PNEU}}/\" style=\"color: #1A1A1A; text-decoration: none;\">→ Réparation Pneumatique</a></h3>\n<p style=\"font-size: 0.95rem; color: #6B7280; margin: 0;\">Pose de mèche, substitution de roue complète</p>\n</div>\n<div style=\"background: #F9FAFB; padding: 1.25rem; border-radius: 12px; border-left: 4px solid #CF5706;\">\n<h3 style=\"font-size: 1.1rem; font-weight: 700; margin-bottom: 0.5rem;\"><a href=\"../{{URL_SERVICE_OUVERTURE_PORTE}}/\" style=\"color: #1A1A1A; text-decoration: none;\">→ Ouverture de Porte</a></h3>\n<p style=\"font-size: 0.95rem; color: #6B7280; margin: 0;\">Déverrouillage non destructif de votre utilitaire</p>\n</div>\n</div>"
+    }
+  ],
+  "cta": {
+    "title": "Votre utilitaire est immobilisé ?",
+    "subtitle": "Technicien sur place en moins de 30 minutes – réparation ou remorquage selon le diagnostic",
+    "button_text": "📞  Appeler le 02 844 54 01"
+  },
+  "faq": [
+    {
+      "question": "Quels gabarits d'utilitaires prenez-vous en charge ?",
+      "answer": "Nous intervenons sur l'ensemble des véhicules utilitaires légers et moyens : du Kangoo au Sprinter, en passant par les Trafic, Transporter, Transit et tous les modèles équivalents. Fourgons aménagés et food trucks sont également couverts."
+    },
+    {
+      "question": "Comment est calculé le coût d'une intervention sur camionnette ?",
+      "answer": "Le tarif dépend de la nature de la panne (dépannage sur site ou remorquage), du gabarit du véhicule et de la distance. Appelez le <a href=\"tel:+3228445401\" style=\"color: #CF5706; font-weight: 600;\">02 844 54 01</a> : nous vous communiquons un montant ferme avant de nous déplacer. Aucun supplément à l'arrivée."
+    },
+    {
+      "question": "Intervenez-vous sur les chantiers et zones d'accès restreint ?",
+      "answer": "Absolument. Nos techniciens interviennent sur les chantiers, dans les zones industrielles, les parkings souterrains, les aires de livraison et tout autre lieu où votre utilitaire est immobilisé. Délai standard : <strong class=\"text-orange\">30 minutes</strong>."
+    },
+    {
+      "question": "Privilégiez-vous la réparation sur place ou le remorquage ?",
+      "answer": "Notre approche consiste toujours à tenter la réparation sur site en priorité : remplacement de batterie, réparation de pneumatique, apport de carburant, déverrouillage. Le remorquage n'est engagé que si le défaut technique l'impose (moteur, transmission, électronique complexe)."
+    },
+    {
+      "question": "Mon fourgon est chargé à plein, est-ce que vous pouvez le remorquer ?",
+      "answer": "Oui. Notre matériel de levage et nos plateaux sont dimensionnés pour les utilitaires en charge. Précisez-nous le poids approximatif lors de votre appel afin que nous mobilisions l'équipement adéquat."
+    },
+    {
+      "question": "Proposez-vous un service pour les flottes d'entreprise ?",
+      "answer": "Oui. Les gestionnaires de flotte peuvent enregistrer notre numéro <a href=\"tel:+3228445401\" style=\"color: #CF5706; font-weight: 600;\">02 844 54 01</a> comme contact d'assistance prioritaire pour l'ensemble de leurs chauffeurs. Nous assurons un suivi cohérent quel que soit le véhicule concerné."
+    },
+    {
+      "question": "Êtes-vous opérationnels la nuit et les jours fériés ?",
+      "answer": "Nous fonctionnons en <strong>continu, 24 heures sur 24, 7 jours sur 7</strong>, jours fériés inclus. Un technicien est toujours disponible, quelle que soit l'heure de votre appel."
+    },
+    {
+      "question": "Quelle est votre zone de couverture exacte autour de Bruxelles ?",
+      "answer": "Nous couvrons les 19 communes de Bruxelles-Capitale ainsi que les communes limitrophes : Zaventem, Machelen, Vilvoorde, Diegem, Asse, Grimbergen, Overijse et au-delà. Consultez notre page zones d'intervention pour le détail complet."
+    }
+  ]
+}

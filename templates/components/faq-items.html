@@ -1,0 +1,12 @@
+{# Template: Items FAQ #}
+{# Usage: build_faq_items() #}
+{# Variables: questions (list), variables (dict) #}
+
+{% for q in questions %}
+<div class="faq-item">
+  <h3 class="faq-question">{{ q.question }}</h3>
+  <div class="faq-answer">
+    <p>{{ q.reponse | replace('{{GOOGLE_RATING}}', variables.GOOGLE_RATING) | replace('{{GOOGLE_REVIEWS}}', variables.GOOGLE_REVIEWS) | safe }}</p>
+  </div>
+</div>
+{% endfor %}

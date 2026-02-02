@@ -1,0 +1,151 @@
+<!-- ========================================
+     COMPOSANT : HEADER GLOBAL avec menu déroulant Services
+     Fichier: templates/components/header.html
+     Variables: Aucune (statique)
+     ======================================== -->
+<header class="header">
+  <div class="header-container">
+    <!-- Logo -->
+    <div class="header-logo">
+      <a href="{{PATH_PREFIX}}index.html" class="logo" aria-label="{{COMPANY_NAME}} - Retour à l'accueil">
+        <img src="{{PATH_PREFIX}}images/logo/helpcar-depannage-logo.png"
+             alt="{{COMPANY_NAME}} - Dépannage et remorquage auto 24/7"
+             class="logo-img"
+             height="55"
+             loading="eager">
+      </a>
+    </div>
+
+    <!-- Navigation Desktop -->
+    <nav class="header-nav" aria-label="Navigation principale">
+      <ul class="nav-menu">
+        <!-- Dropdown Services -->
+        <li class="nav-item has-dropdown">
+          <a href="{{PATH_PREFIX}}services/index.html">
+            Nos Services
+            <svg class="dropdown-arrow" width="10" height="10" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M2 4L6 8L10 4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            </svg>
+          </a>
+          <div class="dropdown-menu">
+            <div class="dropdown-content">
+              <ul class="dropdown-list">
+                <li><a href="{{PATH_PREFIX}}{{URL_SERVICE_REMORQUAGE_VOITURE}}/index.html">Remorquage de voitures</a></li>
+                <li><a href="{{PATH_PREFIX}}{{URL_SERVICE_BATTERIE}}/index.html">Dépannage batterie</a></li>
+                <li><a href="{{PATH_PREFIX}}{{URL_SERVICE_PNEU}}/index.html">Réparation pneu</a></li>
+                <li><a href="{{PATH_PREFIX}}{{URL_SERVICE_PANNE_ESSENCE}}/index.html">Panne d'essence</a></li>
+                <li><a href="{{PATH_PREFIX}}{{URL_SERVICE_OUVERTURE_PORTE}}/index.html">Ouverture de porte</a></li>
+                <li><a href="{{PATH_PREFIX}}{{URL_SERVICE_REMORQUAGE_MOTO}}/index.html">Remorquage de motos</a></li>
+              </ul>
+              <div class="dropdown-cta">
+                <a href="{{PATH_PREFIX}}services/index.html" class="link-view-all">
+                  Voir tous les services ({{NOMBRE_SERVICES}}) →
+                </a>
+              </div>
+            </div>
+          </div>
+        </li>
+
+        <!-- Dropdown Zones -->
+        <li class="nav-item has-dropdown">
+          <a href="{{PATH_PREFIX}}zones/index.html">
+            Zones d'Intervention
+            <svg class="dropdown-arrow" width="10" height="10" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M2 4L6 8L10 4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            </svg>
+          </a>
+          <div class="dropdown-menu">
+            <div class="dropdown-content">
+              <ul class="dropdown-list">
+                <li><a href="{{PATH_PREFIX}}{{URL_COMMUNE_BRUXELLES_VILLE}}/index.html">Bruxelles-Ville</a></li>
+                <li><a href="{{PATH_PREFIX}}{{URL_COMMUNE_IXELLES}}/index.html">Ixelles</a></li>
+                <li><a href="{{PATH_PREFIX}}{{URL_COMMUNE_SCHAERBEEK}}/index.html">Schaerbeek</a></li>
+                <li><a href="{{PATH_PREFIX}}{{URL_COMMUNE_ETTERBEEK}}/index.html">Etterbeek</a></li>
+              </ul>
+              <div class="dropdown-cta">
+                <a href="{{PATH_PREFIX}}zones/index.html" class="link-view-all">
+                  Voir toutes les zones ({{NOMBRE_COMMUNES}}) →
+                </a>
+              </div>
+            </div>
+          </div>
+        </li>
+
+        <li><a href="{{PATH_PREFIX}}tarifs/index.html">Tarifs</a></li>
+        <li><a href="{{PATH_PREFIX}}contact/index.html">Contact</a></li>
+      </ul>
+    </nav>
+
+    <!-- Phone Button -->
+    <a href="tel:{{TELEPHONE_HREF}}" class="phone-btn" aria-label="Appeler le {{TELEPHONE}}">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+      </svg>
+      <span>Appelez-nous <span class="text-green">24/7</span></span>
+    </a>
+
+    <!-- Bouton Menu Mobile -->
+    <button class="mobile-menu-toggle" aria-label="Ouvrir le menu" aria-expanded="false">
+      <span class="hamburger"></span>
+      <span class="hamburger"></span>
+      <span class="hamburger"></span>
+    </button>
+  </div>
+
+  <!-- Menu Mobile (overlay) -->
+  <div class="mobile-menu" aria-hidden="true">
+    <nav aria-label="Navigation mobile">
+      <ul class="mobile-nav-list">
+        <li><a href="{{PATH_PREFIX}}services/index.html">Nos Services</a></li>
+        <li><a href="{{PATH_PREFIX}}zones/index.html">Zones d'Intervention</a></li>
+        <li><a href="{{PATH_PREFIX}}tarifs/index.html">Tarifs</a></li>
+        <li><a href="{{PATH_PREFIX}}contact/index.html">Contact</a></li>
+        <li class="mobile-cta">
+          <a href="tel:{{TELEPHONE_HREF}}" class="btn-phone-mobile" aria-label="Appeler le {{TELEPHONE}}">
+            <svg class="phone-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+            </svg>
+            Appelez Maintenant
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<!-- Bouton téléphone sticky mobile (toujours visible en bas) -->
+<a href="tel:{{TELEPHONE_HREF}}" class="sticky-phone-mobile" aria-label="Appeler le {{TELEPHONE}}">
+  <svg class="phone-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+  </svg>
+  <span class="phone-text">Appelez-nous <span class="text-green">24/7</span></span>
+</a>
+
+<script>
+(function() {
+  var btn = document.querySelector('.mobile-menu-toggle');
+  var menu = document.querySelector('.mobile-menu');
+  if (!btn || !menu) return;
+
+  function toggle(open) {
+    var isOpen = typeof open === 'boolean' ? open : !menu.classList.contains('active');
+    menu.classList.toggle('active', isOpen);
+    btn.classList.toggle('active', isOpen);
+    btn.setAttribute('aria-expanded', String(isOpen));
+    menu.setAttribute('aria-hidden', String(!isOpen));
+    btn.setAttribute('aria-label', isOpen ? 'Fermer le menu' : 'Ouvrir le menu');
+  }
+
+  btn.addEventListener('click', function(e) { e.stopPropagation(); toggle(); });
+
+  menu.querySelectorAll('a').forEach(function(link) {
+    link.addEventListener('click', function() { toggle(false); });
+  });
+
+  document.addEventListener('click', function(e) {
+    if (menu.classList.contains('active') && !menu.contains(e.target) && !btn.contains(e.target)) {
+      toggle(false);
+    }
+  });
+})();
+</script>

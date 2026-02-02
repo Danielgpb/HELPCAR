@@ -1,0 +1,112 @@
+{
+  "service_id": 15,
+  "last_updated": "2026-02-01",
+  "hero": {
+    "h1": "Véhicule Enlisé à Bruxelles – Extraction par Treuil 24h/24",
+    "badges": [
+      "intervention_rapide",
+      "disponible_24_7",
+      "expertise_10_ans"
+    ],
+    "subtitle": "Helpcar dépannage dégage votre auto embourbée, de jour comme de nuit"
+  },
+  "sections": [
+    {
+      "h2": "Les bons réflexes quand votre voiture est bloquée",
+      "content": "<p><strong>✅ Ce que vous devez faire :</strong></p>\n<ul style=\"list-style: none; padding: 0;\">\n  <li style=\"margin-bottom: 0.5rem; padding-left: 1.75rem; position: relative;\">\n    <span style=\"position: absolute; left: 0; color: #10B981; font-weight: bold; font-size: 1.2rem;\">✓</span>\n    Coupez le moteur et enclenchez le frein à main\n  </li>\n  <li style=\"margin-bottom: 0.5rem; padding-left: 1.75rem; position: relative;\">\n    <span style=\"position: absolute; left: 0; color: #10B981; font-weight: bold; font-size: 1.2rem;\">✓</span>\n    Activez vos warnings pour signaler votre présence\n  </li>\n  <li style=\"margin-bottom: 0.5rem; padding-left: 1.75rem; position: relative;\">\n    <span style=\"position: absolute; left: 0; color: #10B981; font-weight: bold; font-size: 1.2rem;\">✓</span>\n    Repérez votre position exacte (adresse ou coordonnées GPS)\n  </li>\n  <li style=\"margin-bottom: 0; padding-left: 1.75rem; position: relative;\">\n    <span style=\"position: absolute; left: 0; color: #10B981; font-weight: bold; font-size: 1.2rem;\">✓</span>\n    Contactez immédiatement Helpcar dépannage\n  </li>\n</ul>\n<p><strong>❌ Ce qu'il faut absolument éviter :</strong></p>\n<ul style=\"list-style: none; padding: 0;\">\n  <li style=\"margin-bottom: 0.5rem; padding-left: 1.75rem; position: relative;\">\n    <span style=\"position: absolute; left: 0; color: #CF5706; font-weight: bold; font-size: 1.2rem;\">✗</span>\n    Insister sur l'accélérateur : les roues s'enfoncent davantage à chaque tentative\n  </li>\n  <li style=\"margin-bottom: 0.5rem; padding-left: 1.75rem; position: relative;\">\n    <span style=\"position: absolute; left: 0; color: #CF5706; font-weight: bold; font-size: 1.2rem;\">✗</span>\n    Demander à un proche de tracter avec une corde : risque de casse et de blessure\n  </li>\n  <li style=\"margin-bottom: 0; padding-left: 1.75rem; position: relative;\">\n    <span style=\"position: absolute; left: 0; color: #CF5706; font-weight: bold; font-size: 1.2rem;\">✗</span>\n    Glisser des objets sous les pneus sans savoir : projection dangereuse possible\n  </li>\n</ul>\n<p><strong>Gardez votre calme. Notre équipe est en route.</strong></p>"
+    },
+    {
+      "h2": "Helpcar dépannage : spécialiste de l'extraction de véhicules à Bruxelles",
+      "content": "<p><strong>Votre voiture est embourbée à Bruxelles ?</strong> Helpcar dépannage intervient <strong>jour et nuit, 365 jours par an</strong>.</p><p>Depuis <strong>{{YEARS_EXPERIENCE_PLUS}} ans</strong>, notre équipe libère les automobilistes bruxellois piégés par un sol instable. Notre réputation parle d'elle-même : <strong>{{GOOGLE_RATING}}/5 sur Google</strong> avec plus de <strong>{{GOOGLE_REVIEWS}} avis vérifiés</strong>. Ce sont les fondateurs eux-mêmes qui se déplacent, au volant de leur 4x4 équipé d'un treuil de forte capacité.</p><p>Sol boueux, neige accumulée, gazon gorgé d'eau, fossé en bord de route : quelle que soit la cause, nous maîtrisons chaque situation. Nous atteignons votre position en <strong class=\"text-orange\">30 minutes maximum</strong> et procédons à une extraction soignée, sans causer le moindre dommage à votre véhicule. Notre ligne est ouverte <strong>24h/24</strong>, y compris les jours fériés.</p>"
+    },
+    {
+      "h2": "Chaque terrain, chaque situation : nous avons la solution",
+      "content": "<p>Nos techniciens traitent tous les types d'enlisement sans exception :</p>\n<ul style=\"list-style: none; padding: 0;\">\n  <li style=\"margin-bottom: 0.75rem; padding-left: 1.5rem; position: relative;\">\n    <span style=\"position: absolute; left: 0; color: #CF5706; font-weight: bold; font-size: 1.2rem;\">🌧️</span>\n    <strong>Terrain boueux</strong> – Chemin forestier, parking en terre battue, accès de chantier détrempé\n  </li>\n  <li style=\"margin-bottom: 0.75rem; padding-left: 1.5rem; position: relative;\">\n    <span style=\"position: absolute; left: 0; color: #CF5706; font-weight: bold; font-size: 1.2rem;\">❄️</span>\n    <strong>Conditions hivernales</strong> – Accumulation de neige, plaque de verglas, congère sur le trajet\n  </li>\n  <li style=\"margin-bottom: 0.75rem; padding-left: 1.5rem; position: relative;\">\n    <span style=\"position: absolute; left: 0; color: #CF5706; font-weight: bold; font-size: 1.2rem;\">🌿</span>\n    <strong>Gazon mouillé</strong> – Stationnement sur herbe après un événement, jardin imbibé\n  </li>\n  <li style=\"margin-bottom: 0.75rem; padding-left: 1.5rem; position: relative;\">\n    <span style=\"position: absolute; left: 0; color: #CF5706; font-weight: bold; font-size: 1.2rem;\">🚧</span>\n    <strong>Fossé ou talus</strong> – Sortie de chaussée, virage mal négocié, visibilité réduite\n  </li>\n  <li style=\"margin-bottom: 0.75rem; padding-left: 1.5rem; position: relative;\">\n    <span style=\"position: absolute; left: 0; color: #CF5706; font-weight: bold; font-size: 1.2rem;\">🏖️</span>\n    <strong>Sol sablonneux ou meuble</strong> – Gravier instable, remblai qui a cédé\n  </li>\n  <li style=\"margin-bottom: 0; padding-left: 1.5rem; position: relative;\">\n    <span style=\"position: absolute; left: 0; color: #CF5706; font-weight: bold; font-size: 1.2rem;\">🏗️</span>\n    <strong>Zone de chantier</strong> – Terrain non stabilisé, plateforme en cours d'aménagement\n  </li>\n</ul>\n<p>Vous ne savez pas exactement comment décrire votre situation ? Appelez-nous, on comprendra vite.</p>"
+    },
+    {
+      "h2": "Notre méthode d'extraction étape par étape",
+      "content": "<p>Chaque désembourbement suit un protocole précis pour garantir un résultat sans dégât.</p><p>À l'arrivée, notre technicien analyse la scène : nature du sol, profondeur d'enfoncement, inclinaison du véhicule, accessibilité du terrain. Cette évaluation détermine la technique la plus adaptée. Pour un léger enlisement, une manoeuvre guidée peut suffire. Dans la majorité des cas, nous utilisons notre treuil professionnel.</p><p>Le câble est fixé exclusivement sur les points de remorquage d'origine ou directement sur le châssis. Jamais sur un élément de carrosserie ni sur une pièce fragile. La traction s'effectue de manière progressive et contrôlée : notre opérateur ajuste la puissance en continu et peut stopper instantanément si nécessaire. Une fois le véhicule libéré, nous vérifions le dessous de caisse et le bon fonctionnement de la direction et des freins.</p><div class=\"conseil-callout\"><p>Conseil de pro : résistez à la tentation d'appuyer sur le champignon. Chaque coup d'accélérateur creuse les sillons et complique l'extraction. Appelez-nous directement au <a href=\"tel:+3228445401\" style=\"color: #CF5706; font-weight: 700;\">02 844 54 01</a> : vous gagnerez du temps et éviterez un remorquage coûteux.</p></div>"
+    },
+    {
+      "h2": "Treuillage ou remorquage : quelle option pour votre cas ?",
+      "content": "<p>Un voisin serviable avec une sangle et un attelage ne remplace pas un équipement professionnel. Les tractions improvisées génèrent des à-coups violents, sollicitent des points de fixation inadaptés et peuvent provoquer la rupture du câble, avec un effet de fouet extrêmement dangereux.</p><p>Notre treuil exerce une force constante et graduée. L'opérateur garde le contrôle total : il module la puissance, interrompt la manoeuvre au moindre doute et repositionne l'ancrage si la trajectoire l'exige. Lorsque l'enlisement est trop profond ou que le terrain rend toute extraction sur place impossible, nous chargeons votre véhicule sur notre plateau de remorquage et le transportons vers une surface praticable. Vous repartez au volant, en toute sécurité.</p>"
+    },
+    {
+      "h2": "Tarif pour dégager un véhicule embourbé",
+      "content": "<div style=\"background: #F0FDF4; padding: 1.5rem; border-radius: 12px; border-left: 4px solid #10B981; margin: 1.5rem 0;\">\n<p style=\"margin-bottom: 0.75rem; font-size: 1.1rem;\"><strong style=\"color: #10B981;\">💰 Grille Tarifaire Extraction</strong></p>\n<p style=\"margin-bottom: 1rem;\"><strong style=\"color: #10B981;\">Prix transparent, communiqué avant déplacement</strong> – Nous adaptons notre tarif à la difficulté réelle. Aucun supplément caché.</p>\n<ul style=\"list-style: none; padding: 0; margin: 0;\">\n  <li style=\"margin-bottom: 0.5rem;\">✓ <strong>Désenlisement léger</strong> (roues patinant en surface) – prix annoncé par téléphone</li>\n  <li style=\"margin-bottom: 0.5rem;\">✓ <strong>Extraction au treuil</strong> (véhicule significativement enfoncé) – estimation gratuite immédiate</li>\n  <li style=\"margin-bottom: 0.5rem;\">✓ <strong>Intervention sur terrain difficile</strong> (fossé, pente raide, accès restreint) – devis personnalisé</li>\n  <li style=\"margin-bottom: 0;\">✓ <strong>Évacuation par plateau</strong> (si extraction impossible sur place) – tarif global communiqué</li>\n</ul>\n</div>\n<p><strong class=\"text-orange\">Contactez le <a href=\"tel:+3228445401\" style=\"color: #CF5706; font-weight: 700;\">02 844 54 01</a></strong> et décrivez brièvement votre situation : nous vous indiquons le montant exact en quelques instants. <strong>Zéro mauvaise surprise.</strong></p>"
+    },
+    {
+      "h2": "Trois étapes et c'est réglé",
+      "content": "<div class=\"timeline-steps\">\n  <div class=\"timeline-step\"><svg class=\"step-timeline step-1\" xmlns=\"http://www.w3.org/2000/svg\" width=\"40\" height=\"100%\" viewBox=\"0 0 40 100\" preserveAspectRatio=\"xMinYMin meet\">\n  <defs>\n    <linearGradient id=\"greenGradient1\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"100%\">\n      <stop offset=\"0%\" style=\"stop-color:#CF5706;stop-opacity:1\" />\n      <stop offset=\"100%\" style=\"stop-color:#CF5706;stop-opacity:1\" />\n    </linearGradient>\n  </defs>\n  <circle cx=\"20\" cy=\"20\" r=\"18\" fill=\"url(#greenGradient1)\" stroke=\"#FFFFFF\" stroke-width=\"3\"/>\n  <text x=\"20\" y=\"27\" font-family=\"Outfit, sans-serif\" font-size=\"18\" font-weight=\"700\" fill=\"#FFFFFF\" text-anchor=\"middle\">1</text>\n  <line x1=\"20\" y1=\"38\" x2=\"20\" y2=\"100\" stroke=\"#CF5706\" stroke-width=\"3\"/>\n</svg><div class=\"timeline-content\"><strong>Appelez le <a href=\"tel:+3228445401\" class=\"phone-link\">02 844 54 01</a> –</strong> Décrivez le lieu et le type de terrain (boue, neige, herbe...)</div></div>\n  <div class=\"timeline-step\"><svg class=\"step-timeline step-2\" xmlns=\"http://www.w3.org/2000/svg\" width=\"40\" height=\"100%\" viewBox=\"0 0 40 100\" preserveAspectRatio=\"xMinYMin meet\">\n  <defs>\n    <linearGradient id=\"greenGradient2\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"100%\">\n      <stop offset=\"0%\" style=\"stop-color:#CF5706;stop-opacity:1\" />\n      <stop offset=\"100%\" style=\"stop-color:#CF5706;stop-opacity:1\" />\n    </linearGradient>\n  </defs>\n  <line x1=\"20\" y1=\"0\" x2=\"20\" y2=\"2\" stroke=\"#CF5706\" stroke-width=\"3\"/>\n  <circle cx=\"20\" cy=\"20\" r=\"18\" fill=\"url(#greenGradient2)\" stroke=\"#FFFFFF\" stroke-width=\"3\"/>\n  <text x=\"20\" y=\"27\" font-family=\"Outfit, sans-serif\" font-size=\"18\" font-weight=\"700\" fill=\"#FFFFFF\" text-anchor=\"middle\">2</text>\n  <line x1=\"20\" y1=\"38\" x2=\"20\" y2=\"100\" stroke=\"#CF5706\" stroke-width=\"3\"/>\n</svg><div class=\"timeline-content\"><strong>Tarif confirmé en direct –</strong> Montant fixe annoncé avant toute intervention</div></div>\n  <div class=\"timeline-step\"><svg class=\"step-timeline step-3\" xmlns=\"http://www.w3.org/2000/svg\" width=\"40\" height=\"40\" viewBox=\"0 0 40 40\" preserveAspectRatio=\"xMinYMin meet\">\n  <defs>\n    <linearGradient id=\"greenGradient3\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"100%\">\n      <stop offset=\"0%\" style=\"stop-color:#CF5706;stop-opacity:1\" />\n      <stop offset=\"100%\" style=\"stop-color:#CF5706;stop-opacity:1\" />\n    </linearGradient>\n  </defs>\n  <line x1=\"20\" y1=\"0\" x2=\"20\" y2=\"2\" stroke=\"#CF5706\" stroke-width=\"3\"/>\n  <circle cx=\"20\" cy=\"20\" r=\"18\" fill=\"url(#greenGradient3)\" stroke=\"#FFFFFF\" stroke-width=\"3\"/>\n  <text x=\"20\" y=\"27\" font-family=\"Outfit, sans-serif\" font-size=\"18\" font-weight=\"700\" fill=\"#FFFFFF\" text-anchor=\"middle\">3</text>\n</svg><div class=\"timeline-content\"><strong>Extraction réalisée –</strong> Votre véhicule est libre, vous reprenez la route</div></div>\n</div>"
+    },
+    {
+      "h2": "Zone de couverture : Bruxelles et sa périphérie",
+      "content": "<p>Que vous soyez bloqué sur un sentier en bordure de la Forêt de Soignes ou dans un parking boueux à Anderlecht, Helpcar dépannage se déplace partout.</p><p>Nous couvrons les <strong>19 communes de la Région de Bruxelles-Capitale</strong> : Anderlecht, Auderghem, Berchem-Sainte-Agathe, Bruxelles-Ville, Etterbeek, Evere, Forest, Ganshoren, Ixelles, Jette, Koekelberg, Molenbeek-Saint-Jean, Saint-Gilles, Saint-Josse-ten-Noode, Schaerbeek, Uccle, Watermael-Boitsfort, Woluwe-Saint-Lambert, Woluwe-Saint-Pierre.</p><p><strong>Périphérie également desservie</strong> : Zaventem, Grimbergen, Vilvoorde, Machelen, Diegem, Wemmel, Kraainem, Wezembeek-Oppem, Tervuren, Overijse, Hoeilaart, La Hulpe, Waterloo, Braine-l'Alleud, Rhode-Saint-Genèse, Linkebeek, Drogenbos, Ruisbroek, Sint-Pieters-Leeuw, Dilbeek, Zellik, Asse, Strombeek-Bever, Neder-Over-Heembeek.</p><p>Vous vous trouvez au-delà de ces zones ? <strong>Appelez quand même</strong> le <a href=\"tel:+3228445401\" style=\"color: #CF5706; font-weight: 700;\">02 844 54 01</a>. Pour les cas complexes, nous nous déplaçons dans toute la Belgique.</p>"
+    },
+    {
+      "h2": "Les garanties Helpcar dépannage pour votre extraction",
+      "content": "<p>Plus de <strong>{{YEARS_EXPERIENCE_PLUS}} ans</strong> de terrain nous ont appris une chose : chaque embourbement a sa solution. Voici ce qui nous distingue :</p><ul style=\"list-style: none; padding: 0;\">\n  <li style=\"margin-bottom: 0.75rem; padding-left: 1.75rem; position: relative;\">\n    <span style=\"position: absolute; left: 0; color: #10B981; font-weight: bold; font-size: 1.2rem;\">✓</span>\n    <strong>Matériel de grade professionnel</strong> – 4x4 robuste, treuil haute capacité, sangles renforcées\n  </li>\n  <li style=\"margin-bottom: 0.75rem; padding-left: 1.75rem; position: relative;\">\n    <span style=\"position: absolute; left: 0; color: #10B981; font-weight: bold; font-size: 1.2rem;\">✓</span>\n    <strong>Extraction sans dommage</strong> – Traction progressive, fixation sur points de remorquage d'usine\n  </li>\n  <li style=\"margin-bottom: 0.75rem; padding-left: 1.75rem; position: relative;\">\n    <span style=\"position: absolute; left: 0; color: #10B981; font-weight: bold; font-size: 1.2rem;\">✓</span>\n    <strong>Disponibilité permanente</strong> – Nuit, week-end, jour férié, conditions météo difficiles\n  </li>\n  <li style=\"margin-bottom: 0.75rem; padding-left: 1.75rem; position: relative;\">\n    <span style=\"position: absolute; left: 0; color: #10B981; font-weight: bold; font-size: 1.2rem;\">✓</span>\n    <strong>Tarification honnête</strong> – Montant annoncé au téléphone, aucun supplément sur place\n  </li>\n  <li style=\"margin-bottom: 0; padding-left: 1.75rem; position: relative;\">\n    <span style=\"position: absolute; left: 0; color: #10B981; font-weight: bold; font-size: 1.2rem;\">✓</span>\n    <strong>Savoir-faire éprouvé</strong> – Des centaines de véhicules extraits dans toutes les conditions\n  </li>\n</ul><p>La preuve par les chiffres : <svg class=\"star-icon\" xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"#FFC107\"><path d=\"M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z\"/></svg><a href=\"{{GOOGLE_MY_BUSINESS_URL}}\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"google-rating-link\"><strong>{{GOOGLE_RATING}}/5 sur Google, {{GOOGLE_REVIEWS}}+ avis</strong></a>.</p>"
+    }
+  ],
+  "cta": {
+    "title": "Votre véhicule est enlisé en ce moment ?",
+    "subtitle": "Helpcar dépannage arrive avec le matériel adapté en moins de 30 minutes",
+    "button_text": "📞  Appeler Maintenant"
+  },
+  "faq": [
+    {
+      "question": "Quel est le prix pour dégager une voiture embourbée à Bruxelles ?",
+      "answer": "Appelez le <a href=\"tel:+3228445401\" style=\"color: #CF5706; font-weight: 600;\">02 844 54 01</a> et décrivez votre situation. Nous vous communiquons un <strong class=\"text-orange\">tarif ferme</strong> avant de nous déplacer. Le montant dépend du degré d'enfoncement et de l'accessibilité du terrain. Aucun frais caché."
+    },
+    {
+      "question": "Intervenez-vous la nuit et les jours fériés ?",
+      "answer": "Absolument. Notre service fonctionne 24 heures sur 24, 7 jours sur 7, y compris Noël, Nouvel An et tous les jours fériés. Les conditions météo nocturnes ou hivernales ne nous arrêtent pas."
+    },
+    {
+      "question": "J'ai fait patiner mes roues longtemps, la voiture est très enfoncée. C'est encore récupérable ?",
+      "answer": "Dans la grande majorité des cas, oui. Notre treuil professionnel développe une puissance suffisante pour extraire un véhicule profondément enlisé. Cessez toute tentative et contactez-nous : moins vous insistez, plus l'intervention sera simple et rapide."
+    },
+    {
+      "question": "L'extraction risque-t-elle d'endommager mon véhicule ?",
+      "answer": "Non. Nous fixons systématiquement le câble sur les crochets de remorquage ou sur le châssis, jamais sur un élément fragile. La traction est progressive et entièrement contrôlée. Au moindre point de résistance anormal, nous stoppons et repositionnons."
+    },
+    {
+      "question": "Pouvez-vous dégager un SUV ou un utilitaire ?",
+      "answer": "Oui. Notre équipement est dimensionné pour traiter des véhicules lourds : SUV, utilitaires, camionnettes. Précisez le modèle et le poids approximatif lorsque vous appelez, nous adapterons le matériel en conséquence."
+    },
+    {
+      "question": "Quelle est la durée moyenne d'une extraction ?",
+      "answer": "Entre 10 et 45 minutes sur place selon la profondeur de l'enlisement, le type de sol et l'accessibilité. Nous vous donnons une estimation réaliste au téléphone avant notre arrivée."
+    },
+    {
+      "question": "Que se passe-t-il si le treuil ne suffit pas à sortir mon véhicule ?",
+      "answer": "Si l'extraction sur place s'avère techniquement impossible, nous chargeons votre véhicule sur notre plateau de remorquage et le transportons vers un endroit stable où vous pouvez repartir. Le tarif global vous est communiqué avant toute décision."
+    },
+    {
+      "question": "Faut-il rester dans la voiture en attendant votre arrivée ?",
+      "answer": "Si vous êtes en bord de route ou dans une zone à risque, sortez du véhicule et mettez-vous en sécurité. Si vous êtes sur un terrain privé sans danger, vous pouvez rester à bord. Dans tous les cas, activez vos feux de détresse et envoyez-nous votre localisation GPS par téléphone."
+    }
+  ],
+  "services_related": [
+    {
+      "title": "Remorquage Voiture",
+      "description": "Quand l'extraction sur place est impossible, nous transportons votre véhicule vers la destination de votre choix.",
+      "link": "../remorquage-voiture-bruxelles/"
+    },
+    {
+      "title": "Dépannage Batterie",
+      "description": "Batterie déchargée après de multiples tentatives pour vous dégager ? Nous la relançons ou la remplaçons sur place.",
+      "link": "../{{URL_SERVICE_BATTERIE}}/"
+    },
+    {
+      "title": "Panne d'Essence",
+      "description": "Réservoir vide après avoir cherché une issue sur un chemin isolé ? Nous livrons le carburant directement.",
+      "link": "../{{URL_SERVICE_PANNE_ESSENCE}}/"
+    },
+    {
+      "title": "Changement Roue de Secours",
+      "description": "Pneu endommagé lors de l'enlisement ? Notre technicien pose la roue de secours sur place.",
+      "link": "../{{URL_SERVICE_ROUE_SECOURS}}/"
+    }
+  ]
+}

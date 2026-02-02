@@ -1,0 +1,86 @@
+{
+  "service_id": 12,
+  "last_updated": "2026-02-01",
+  "hero": {
+    "h1": "Panne Sèche à Bruxelles ? Helpcar Livre Votre Carburant 24h/24",
+    "badges": [
+      "intervention_rapide",
+      "disponible_24_7",
+      "expertise_10_ans"
+    ],
+    "subtitle": "Réservoir vide, moteur coupé : on repart en 30 minutes chrono"
+  },
+  "sections": [
+    {
+      "h2": "Tarif livraison carburant à Bruxelles : zéro mauvaise surprise",
+      "content": "<div style=\"background: #F9FAFB; padding: 1.5rem; border-radius: 12px; border-left: 4px solid #10B981; margin: 1.5rem 0;\">\n<p style=\"margin-bottom: 1rem;\"><strong style=\"color: #10B981;\">Prix annoncé par téléphone</strong> – Avant tout déplacement, notre équipe vous indique le montant exact. Vous acceptez ou non. Point final.</p>\n<p style=\"margin-bottom: 1rem;\"><strong style=\"color: #10B981;\">Apport de 5 litres (essence ou diesel) :</strong> Suffisant pour atteindre la pompe la plus proche – montant fixe communiqué à l'appel.</p>\n<p style=\"margin-bottom: 1rem;\"><strong style=\"color: #10B981;\">Réamorçage circuit diesel :</strong> Purge de l'air dans les conduits après une panne sèche complète – estimation gratuite au téléphone.</p>\n<p style=\"margin-bottom: 0;\"><strong style=\"color: #10B981;\">Transport vers station-service :</strong> Si la situation l'exige, on achemine votre véhicule directement à la pompe – tarif au kilomètre.</p>\n</div>\n<p><strong class=\"text-orange\">Composez le <a href=\"tel:+3228445401\" style=\"color: #CF5706; font-weight: 700;\">02 844 54 01</a></strong> : tarif exact en moins de 2 minutes. <strong>Aucun frais caché.</strong></p>"
+    },
+    {
+      "h2": "Moteur essence vs diesel : deux pannes, deux réalités",
+      "content": "<p>Une panne sèche sur un véhicule essence se résout vite. On verse le carburant, vous tournez la clé, le moteur tourne. Rien de plus.</p><p>Sur un diesel, le scénario change radicalement. Le gasoil circule sous haute pression dans un circuit fermé. Dès que le réservoir se vide, l'air s'infiltre dans les canalisations. Résultat : même avec du carburant frais, le moteur refuse de démarrer. Il faut purger le circuit, chasser chaque bulle d'air, et forcer le gasoil à reprendre sa place. Certains modèles récents gèrent ça automatiquement. Les autres nécessitent une intervention manuelle de 10 à 20 minutes.</p><p>Chez <strong style=\"color: #CF5706;\">Helpcar dépannage</strong>, nos techniciens maîtrisent les deux cas. On adapte la procédure à votre motorisation, sans tâtonnement.</p>"
+    },
+    {
+      "h2": "Réservoir vide à Bruxelles : Helpcar intervient en 30 minutes",
+      "content": "<p>Jauge en panne, trajet plus long que prévu, oubli pur et simple : les raisons d'une panne sèche sont multiples. Le résultat est toujours le même : vous êtes bloqué.</p><p><strong style=\"color: #CF5706;\">Helpcar dépannage</strong> couvre Bruxelles et sa périphérie depuis <strong>{{YEARS_EXPERIENCE_PLUS}} ans</strong>. Notre note de <strong>{{GOOGLE_RATING}}/5 sur Google</strong> (plus de <strong>{{GOOGLE_REVIEWS}} avis</strong>) ne doit rien au hasard : ce sont les gérants eux-mêmes qui se déplacent.</p><p>On arrive sur place en <strong class=\"text-orange\">moins de 30 minutes</strong> avec 5 litres du carburant adapté à votre véhicule. On remplit, on vérifie le démarrage, vous filez à la station la plus proche. Panne réglée.</p>"
+    },
+    {
+      "h2": "Trois étapes pour repartir",
+      "content": "<div class=\"timeline-steps\">\n  <div class=\"timeline-step\"><svg class=\"step-timeline step-1\" xmlns=\"http://www.w3.org/2000/svg\" width=\"40\" height=\"100%\" viewBox=\"0 0 40 100\" preserveAspectRatio=\"xMinYMin meet\">\n  <defs>\n    <linearGradient id=\"greenGradient1\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"100%\">\n      <stop offset=\"0%\" style=\"stop-color:#CF5706;stop-opacity:1\" />\n      <stop offset=\"100%\" style=\"stop-color:#CF5706;stop-opacity:1\" />\n    </linearGradient>\n  </defs>\n  <circle cx=\"20\" cy=\"20\" r=\"18\" fill=\"url(#greenGradient1)\" stroke=\"#FFFFFF\" stroke-width=\"3\"/>\n  <text x=\"20\" y=\"27\" font-family=\"Outfit, sans-serif\" font-size=\"18\" font-weight=\"700\" fill=\"#FFFFFF\" text-anchor=\"middle\">1</text>\n  <line x1=\"20\" y1=\"38\" x2=\"20\" y2=\"100\" stroke=\"#CF5706\" stroke-width=\"3\"/>\n</svg><div class=\"timeline-content\"><strong>Appelez le <a href=\"tel:+3228445401\" class=\"phone-link\">02 844 54 01</a> –</strong> Indiquez votre position exacte et le type de carburant de votre véhicule</div></div>\n  <div class=\"timeline-step\"><svg class=\"step-timeline step-2\" xmlns=\"http://www.w3.org/2000/svg\" width=\"40\" height=\"100%\" viewBox=\"0 0 40 100\" preserveAspectRatio=\"xMinYMin meet\">\n  <defs>\n    <linearGradient id=\"greenGradient2\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"100%\">\n      <stop offset=\"0%\" style=\"stop-color:#CF5706;stop-opacity:1\" />\n      <stop offset=\"100%\" style=\"stop-color:#CF5706;stop-opacity:1\" />\n    </linearGradient>\n  </defs>\n  <line x1=\"20\" y1=\"0\" x2=\"20\" y2=\"2\" stroke=\"#CF5706\" stroke-width=\"3\"/>\n  <circle cx=\"20\" cy=\"20\" r=\"18\" fill=\"url(#greenGradient2)\" stroke=\"#FFFFFF\" stroke-width=\"3\"/>\n  <text x=\"20\" y=\"27\" font-family=\"Outfit, sans-serif\" font-size=\"18\" font-weight=\"700\" fill=\"#FFFFFF\" text-anchor=\"middle\">2</text>\n  <line x1=\"20\" y1=\"38\" x2=\"20\" y2=\"100\" stroke=\"#CF5706\" stroke-width=\"3\"/>\n</svg><div class=\"timeline-content\"><strong>Tarif confirmé à l'avance –</strong> On annonce le prix, vous validez, on part immédiatement</div></div>\n  <div class=\"timeline-step\"><svg class=\"step-timeline step-3\" xmlns=\"http://www.w3.org/2000/svg\" width=\"40\" height=\"40\" viewBox=\"0 0 40 40\" preserveAspectRatio=\"xMinYMin meet\">\n  <defs>\n    <linearGradient id=\"greenGradient3\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"100%\">\n      <stop offset=\"0%\" style=\"stop-color:#CF5706;stop-opacity:1\" />\n      <stop offset=\"100%\" style=\"stop-color:#CF5706;stop-opacity:1\" />\n    </linearGradient>\n  </defs>\n  <line x1=\"20\" y1=\"0\" x2=\"20\" y2=\"2\" stroke=\"#CF5706\" stroke-width=\"3\"/>\n  <circle cx=\"20\" cy=\"20\" r=\"18\" fill=\"url(#greenGradient3)\" stroke=\"#FFFFFF\" stroke-width=\"3\"/>\n  <text x=\"20\" y=\"27\" font-family=\"Outfit, sans-serif\" font-size=\"18\" font-weight=\"700\" fill=\"#FFFFFF\" text-anchor=\"middle\">3</text>\n</svg><div class=\"timeline-content\"><strong>Carburant versé, moteur relancé –</strong> 5 litres dans le réservoir, vérification du démarrage, vous reprenez la route</div></div>\n</div>"
+    },
+    {
+      "h2": "Notre méthode sur le terrain",
+      "content": "<p>Le dépanneur arrive avec un jerrycan de 5 litres, adapté à votre motorisation (essence SP95/SP98 ou diesel). Ce volume suffit pour parcourir 40 à 60 km selon votre véhicule, largement de quoi rejoindre une station.</p><p>Le carburant est versé directement dans le réservoir. On attend le démarrage effectif avant de repartir. Pas question de vous laisser sur le bas-côté avec un doute.</p><div class=\"conseil-callout\"><p>À retenir : sur un diesel, ne laissez jamais le témoin de réserve s'allumer. Une panne sèche complète oblige à purger tout le circuit d'injection. C'est faisable sur place, mais le réamorçage en garage coûte nettement plus cher. Sur une essence, le risque est moindre, mais rouler à sec aspire les impuretés du fond de réservoir vers les injecteurs. Mauvais plan à long terme.</p></div>"
+    },
+    {
+      "h2": "Helpcar : pourquoi nous choisir pour votre panne sèche ?",
+      "content": "<div class=\"why-trust-list\">\n<p style=\"margin-bottom: 1.5rem;\">✓ <strong>{{YEARS_EXPERIENCE_PLUS}} ans sur le terrain</strong> – Des milliers de pannes sèches résolues à Bruxelles et alentours</p>\n<p style=\"margin-bottom: 1.5rem;\">✓ <strong class=\"text-orange\">Sur place en 30 minutes</strong> – Partout dans Bruxelles, de jour comme de nuit</p>\n<p style=\"margin-bottom: 1.5rem;\">✓ <strong>Essence et diesel maîtrisés</strong> – Y compris le réamorçage des circuits diesel les plus récalcitrants</p>\n<p style=\"margin-bottom: 1.5rem;\">✓ <strong>Tarif fixe, annoncé avant déplacement</strong> – Vous savez exactement ce que vous payez</p>\n<p style=\"margin-bottom: 0;\">✓ <strong><a href=\"{{GOOGLE_MY_BUSINESS_URL}}\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"google-rating-link\">{{GOOGLE_RATING}}/5 sur Google, {{GOOGLE_REVIEWS}}+ avis</a></strong> – La référence carburant d'urgence à Bruxelles</p>\n</div>"
+    },
+    {
+      "h2": "Zone d'intervention : Bruxelles et toute la périphérie",
+      "content": "<p>Nos dépanneurs couvrent les <strong>19 communes de Bruxelles-Capitale</strong> : Uccle, Ixelles, Forest, Schaerbeek, Watermael-Boitsfort, Saint-Gilles, Anderlecht, Molenbeek, Woluwe-Saint-Lambert, Etterbeek, Jette...</p><p>On intervient aussi en <strong>périphérie</strong> : Tervuren, Overijse, Hoeilaart, La Hulpe, Waterloo, Wavre, Rixensart, Zaventem, Vilvoorde, Grimbergen.</p><p><strong>Bloqué sur le Ring ? Sur l'autoroute ? Dans un parking souterrain ?</strong> On accède à tous les emplacements en <strong class=\"text-orange\">30 minutes</strong>.</p><p style=\"margin-top: 1rem;\"><a href=\"../zones/\" class=\"link-arrow\" style=\"color: #CF5706; font-weight: 600; text-decoration: none;\">Consulter toutes nos zones de couverture →</a></p>"
+    },
+    {
+      "h2": "Services complémentaires Helpcar",
+      "content": "<div class=\"services-lies-grid\" style=\"display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem; margin-top: 1.5rem;\">\n<div style=\"background: #F9FAFB; padding: 1.25rem; border-radius: 12px; border-left: 4px solid #CF5706;\">\n<h3 style=\"font-size: 1.1rem; font-weight: 700; margin-bottom: 0.5rem;\"><a href=\"../{{URL_SERVICE_SIPHONNAGE}}/\" style=\"color: #1A1A1A; text-decoration: none;\">→ Siphonnage Réservoir</a></h3>\n<p style=\"font-size: 0.95rem; color: #6B7280; margin: 0;\">Mauvais carburant dans le réservoir ? On vidange sur place</p>\n</div>\n<div style=\"background: #F9FAFB; padding: 1.25rem; border-radius: 12px; border-left: 4px solid #CF5706;\">\n<h3 style=\"font-size: 1.1rem; font-weight: 700; margin-bottom: 0.5rem;\"><a href=\"../fourniture-carburant-bruxelles/\" style=\"color: #1A1A1A; text-decoration: none;\">→ Fourniture Carburant</a></h3>\n<p style=\"font-size: 0.95rem; color: #6B7280; margin: 0;\">Livraison pour groupes électrogènes, tondeuses, chantiers</p>\n</div>\n<div style=\"background: #F9FAFB; padding: 1.25rem; border-radius: 12px; border-left: 4px solid #CF5706;\">\n<h3 style=\"font-size: 1.1rem; font-weight: 700; margin-bottom: 0.5rem;\"><a href=\"../remorquage-voiture-bruxelles/\" style=\"color: #1A1A1A; text-decoration: none;\">→ Remorquage Véhicule</a></h3>\n<p style=\"font-size: 0.95rem; color: #6B7280; margin: 0;\">Problème mécanique au-delà de la panne sèche</p>\n</div>\n<div style=\"background: #F9FAFB; padding: 1.25rem; border-radius: 12px; border-left: 4px solid #CF5706;\">\n<h3 style=\"font-size: 1.1rem; font-weight: 700; margin-bottom: 0.5rem;\"><a href=\"../{{URL_SERVICE_DEPANNAGE_VOITURE}}/\" style=\"color: #1A1A1A; text-decoration: none;\">→ Dépannage Automobile</a></h3>\n<p style=\"font-size: 0.95rem; color: #6B7280; margin: 0;\">Batterie, démarreur, alternateur : on diagnostique tout</p>\n</div>\n</div>"
+    }
+  ],
+  "cta": {
+    "title": "Réservoir vide ? On arrive.",
+    "subtitle": "5 litres de carburant livrés sur place, partout à Bruxelles, en 30 minutes",
+    "button_text": "Appeler Helpcar Maintenant"
+  },
+  "faq": [
+    {
+      "question": "Quel volume de carburant Helpcar apporte-t-il sur place ?",
+      "answer": "Nous livrons <strong>5 litres</strong> d'essence ou de diesel. Ce volume permet de parcourir 40 à 60 km selon la consommation de votre véhicule, soit largement assez pour atteindre la station-service la plus proche."
+    },
+    {
+      "question": "Helpcar intervient-il la nuit et les jours fériés ?",
+      "answer": "Oui. Notre service de livraison carburant fonctionne <strong class=\"text-green\">24 heures sur 24, 7 jours sur 7</strong>, dimanches et jours fériés inclus. Appelez le <a href=\"tel:+3228445401\" style=\"color: #CF5706; font-weight: 600;\">02 844 54 01</a>, quelle que soit l'heure."
+    },
+    {
+      "question": "Pourquoi mon diesel refuse-t-il de démarrer après une panne sèche ?",
+      "answer": "Le circuit d'injection diesel fonctionne sous pression. Quand le réservoir se vide complètement, de l'air remplace le gasoil dans les conduits. Il faut <strong>purger ce circuit</strong> pour évacuer chaque poche d'air. Nos techniciens réalisent ce réamorçage sur place en 10 à 20 minutes."
+    },
+    {
+      "question": "Comment est calculé le prix du dépannage carburant ?",
+      "answer": "Le tarif dépend de votre localisation et du type d'intervention (simple apport de carburant ou réamorçage diesel). Appelez le <a href=\"tel:+3228445401\" style=\"color: #CF5706; font-weight: 600;\">02 844 54 01</a> : on vous communique le montant exact avant de se déplacer. Aucun supplément à l'arrivée."
+    },
+    {
+      "question": "Livrez-vous de l'essence et du diesel, ou seulement l'un des deux ?",
+      "answer": "Les deux. Nos véhicules d'intervention transportent de l'essence (SP95) et du diesel. Précisez votre motorisation au téléphone, on arrive avec le bon carburant. Aucun risque d'erreur."
+    },
+    {
+      "question": "Que faire si j'ai mis le mauvais carburant dans mon réservoir ?",
+      "answer": "<strong>Ne démarrez surtout pas le moteur.</strong> Contactez-nous immédiatement au <a href=\"tel:+3228445401\" style=\"color: #CF5706; font-weight: 600;\">02 844 54 01</a>. On viendra siphonner le réservoir sur place pour éviter tout dommage au système d'injection. Plus de détails sur notre page <a href=\"../{{URL_SERVICE_SIPHONNAGE}}/\" style=\"color: #CF5706; font-weight: 600;\">Siphonnage Réservoir</a>."
+    },
+    {
+      "question": "Intervenez-vous sur le Ring de Bruxelles et les autoroutes ?",
+      "answer": "Oui. Nos dépanneurs accèdent au Ring, aux autoroutes, aux bretelles et aux aires de repos. On se coordonne avec la police si nécessaire pour sécuriser l'intervention. Délai moyen : <strong class=\"text-orange\">30 minutes</strong>."
+    },
+    {
+      "question": "Est-ce qu'une panne sèche peut endommager mon moteur ?",
+      "answer": "Sur un moteur essence, le risque est limité mais rouler à sec aspire les impuretés du fond de réservoir vers les injecteurs. Sur un diesel, c'est plus sérieux : l'air dans le circuit peut endommager la pompe haute pression si le réamorçage n'est pas fait correctement. Raison de plus pour appeler un professionnel."
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "site_name": "Helpcar dépannage",
+  "site_tagline": "Dépannage Voiture & Remorquage à Bruxelles",
+  "phone": "02 844 54 01",
+  "email": "contact@helpcar.be",
+  "domain": "helpcar.be",
+  "base_url": "https://www.helpcar.be",
+
+  "company": {
+    "legal_name": "Helpcar dépannage",
+    "tva": "",
+    "address": "Rue Charles Martel 55, 1000 Bruxelles",
+    "years_experience": 15
+  },
+
+  "social": {
+    "facebook": "",
+    "instagram": "",
+    "google_business": ""
+  },
+
+  "ratings": {
+    "google_rating": "4.9",
+    "google_reviews": "150",
+    "trustpilot_rating": "",
+    "trustpilot_reviews": ""
+  },
+
+  "coverage_area": {
+    "main_city": "Bruxelles",
+    "communes": [
+      "bruxelles-ville",
+      "schaerbeek",
+      "ixelles",
+      "etterbeek"
+    ],
+    "radius_km": 30
+  },
+
+  "services": {
+    "intervention_time": "30 minutes",
+    "availability": "24h/24 - 7j/7",
+    "payment_methods": ["Espèces", "Bancontact", "Carte de crédit", "Virement"],
+    "garantie": "Satisfaction garantie"
+  },
+
+  "whatsapp": {
+    "enabled": true,
+    "number": "+3228445401",
+    "message_template": "Bonjour Helpcar dépannage, j'ai besoin d'un dépannage."
+  },
+
+  "seo": {
+    "default_meta_title": "Help Car - Dépannage Voiture Bruxelles | Intervention 24h/24",
+    "default_meta_description": "Help Car : dépannage et remorquage de voiture à Bruxelles. Intervention rapide en 30 min. Service 24h/24. Prix fixe annoncé. ☎️ 0479 89 00 89",
+    "keywords": ["dépannage voiture", "remorquage", "batterie", "pneu crevé", "Bruxelles"],
+    "author": "Help Car",
+    "og_image": "/images/og-image.jpg"
+  },
+
+  "tracking": {
+    "google_analytics": "",
+    "google_tag_manager": "",
+    "facebook_pixel": ""
+  },
+
+  "variables": {
+    "YEARS_EXPERIENCE": "15",
+    "GOOGLE_RATING": "4.9",
+    "GOOGLE_REVIEWS": "150",
+    "PHONE": "02 844 54 01",
+    "EMAIL": "contact@helpcar.be",
+    "SITE_NAME": "Helpcar dépannage",
+    "INTERVENTION_TIME": "30 minutes"
+  }
+}

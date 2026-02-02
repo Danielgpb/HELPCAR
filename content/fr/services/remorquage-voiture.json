@@ -1,0 +1,78 @@
+{
+  "service_id": 1,
+  "last_updated": "2026-02-01",
+  "hero": {
+    "h1": "Votre Dépanneuse à Bruxelles – Remorquage Fiable, Tarif Annoncé d'Avance",
+    "badges": [
+      "intervention_rapide",
+      "disponible_24_7",
+      "expertise_10_ans"
+    ],
+    "subtitle": "On vous donne le montant exact avant de démarrer le moteur"
+  },
+  "sections": [
+    {
+      "h2": "Ce qui nous distingue des autres dépanneurs bruxellois",
+      "content": "<div class=\"why-trust-list\">\n<p style=\"margin-bottom: 1.5rem;\">✓ <strong>{{YEARS_EXPERIENCE_PLUS}} ans sur les routes belges</strong> – Chaque tunnel, chaque bretelle, chaque raccourci de Bruxelles, on les connaît les yeux fermés</p>\n<p style=\"margin-bottom: 1.5rem;\">✓ <strong>Les patrons sont au volant</strong> – C'est nous qui venons, pas un intérimaire envoyé à la dernière minute</p>\n<p style=\"margin-bottom: 1.5rem;\">✓ <strong>Zéro mauvaise surprise</strong> – Le montant qu'on annonce au téléphone, c'est celui que vous payez. Point final</p>\n<p style=\"margin-bottom: 1.5rem;\">✓ <strong><a href=\"{{GOOGLE_MY_BUSINESS_URL}}\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"google-rating-link\">{{GOOGLE_RATING}}/5 sur Google, {{GOOGLE_REVIEWS}}+ avis vérifiés</a></strong> – Les automobilistes bruxellois nous recommandent depuis des années</p>\n<p style=\"margin-bottom: 0;\">✓ <strong class=\"text-green\">Joignable à toute heure</strong> – 3h du matin un dimanche de Noël ? On décroche</p>\n</div>"
+    },
+    {
+      "h2": "Trois étapes et votre voiture est prise en charge",
+      "content": "<div class=\"timeline-steps\">\n  <div class=\"timeline-step\"><svg class=\"step-timeline step-1\" xmlns=\"http://www.w3.org/2000/svg\" width=\"40\" height=\"100%\" viewBox=\"0 0 40 100\" preserveAspectRatio=\"xMinYMin meet\">\n  <defs>\n    <linearGradient id=\"greenGradient1\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"100%\">\n      <stop offset=\"0%\" style=\"stop-color:#CF5706;stop-opacity:1\" />\n      <stop offset=\"100%\" style=\"stop-color:#CF5706;stop-opacity:1\" />\n    </linearGradient>\n  </defs>\n  <circle cx=\"20\" cy=\"20\" r=\"18\" fill=\"url(#greenGradient1)\" stroke=\"#FFFFFF\" stroke-width=\"3\"/>\n  <text x=\"20\" y=\"27\" font-family=\"Outfit, sans-serif\" font-size=\"18\" font-weight=\"700\" fill=\"#FFFFFF\" text-anchor=\"middle\">1</text>\n  <line x1=\"20\" y1=\"38\" x2=\"20\" y2=\"100\" stroke=\"#CF5706\" stroke-width=\"3\"/>\n</svg><div class=\"timeline-content\"><strong>Composez le <a href=\"tel:+3228445401\" class=\"phone-link\">02 844 54 01</a> –</strong> Décrivez votre situation et votre localisation exacte</div></div>\n  <div class=\"timeline-step\"><svg class=\"step-timeline step-2\" xmlns=\"http://www.w3.org/2000/svg\" width=\"40\" height=\"100%\" viewBox=\"0 0 40 100\" preserveAspectRatio=\"xMinYMin meet\">\n  <defs>\n    <linearGradient id=\"greenGradient2\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"100%\">\n      <stop offset=\"0%\" style=\"stop-color:#CF5706;stop-opacity:1\" />\n      <stop offset=\"100%\" style=\"stop-color:#CF5706;stop-opacity:1\" />\n    </linearGradient>\n  </defs>\n  <line x1=\"20\" y1=\"0\" x2=\"20\" y2=\"2\" stroke=\"#CF5706\" stroke-width=\"3\"/>\n  <circle cx=\"20\" cy=\"20\" r=\"18\" fill=\"url(#greenGradient2)\" stroke=\"#FFFFFF\" stroke-width=\"3\"/>\n  <text x=\"20\" y=\"27\" font-family=\"Outfit, sans-serif\" font-size=\"18\" font-weight=\"700\" fill=\"#FFFFFF\" text-anchor=\"middle\">2</text>\n  <line x1=\"20\" y1=\"38\" x2=\"20\" y2=\"100\" stroke=\"#CF5706\" stroke-width=\"3\"/>\n</svg><div class=\"timeline-content\"><strong>On calcule et on vous annonce le tarif –</strong> Vous validez avant qu'on se mette en route</div></div>\n  <div class=\"timeline-step\"><svg class=\"step-timeline step-3\" xmlns=\"http://www.w3.org/2000/svg\" width=\"40\" height=\"40\" viewBox=\"0 0 40 40\" preserveAspectRatio=\"xMinYMin meet\">\n  <defs>\n    <linearGradient id=\"greenGradient3\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"100%\">\n      <stop offset=\"0%\" style=\"stop-color:#CF5706;stop-opacity:1\" />\n      <stop offset=\"100%\" style=\"stop-color:#CF5706;stop-opacity:1\" />\n    </linearGradient>\n  </defs>\n  <line x1=\"20\" y1=\"0\" x2=\"20\" y2=\"2\" stroke=\"#CF5706\" stroke-width=\"3\"/>\n  <circle cx=\"20\" cy=\"20\" r=\"18\" fill=\"url(#greenGradient3)\" stroke=\"#FFFFFF\" stroke-width=\"3\"/>\n  <text x=\"20\" y=\"27\" font-family=\"Outfit, sans-serif\" font-size=\"18\" font-weight=\"700\" fill=\"#FFFFFF\" text-anchor=\"middle\">3</text>\n</svg><div class=\"timeline-content\"><strong>On embarque votre véhicule –</strong> Direction le garage, le concessionnaire ou votre domicile</div></div>\n</div>"
+    },
+    {
+      "h2": "Remorquage à Bruxelles : pourquoi votre voiture mérite un plateau",
+      "content": "<p>Vous roulez en BMW Série 3 avec boîte automatique ? En Tesla Model 3 ? En Golf GTI surbaissée ? Dans tous ces cas, un remorquage classique avec les roues au sol peut endommager sérieusement votre transmission. C'est pour ça qu'on privilégie systématiquement le <strong>plateau</strong>.</p><p>Le principe est simple : on monte votre véhicule intégralement sur notre camion-plateau. Les quatre roues décollent du sol. Résultat : aucune contrainte sur le pont, la boîte de vitesses ou le différentiel. Que vous conduisiez une citadine Peugeot 208 ou un SUV Volvo XC60, le transport se fait sans le moindre risque mécanique.</p><div class=\"conseil-callout\"><p>Astuce de mécanicien : si vous tombez en panne sur le ring de Bruxelles ou dans le tunnel Léopold II, ne tentez jamais de pousser votre voiture vous-même. Mettez vos warnings, restez derrière la glissière si possible, et appelez-nous. On gère la mise en sécurité avant le chargement.</p></div>"
+    },
+    {
+      "h2": "Grille tarifaire remorquage – tout est dit au téléphone",
+      "content": "<div style=\"background: #F9FAFB; padding: 1.5rem; border-radius: 12px; border-left: 4px solid #10B981; margin: 1.5rem 0;\">\n<p style=\"margin-bottom: 1rem;\"><strong style=\"color: #10B981;\">Politique de prix chez Helpcar</strong> – On facture au kilomètre réel entre le lieu de panne et la destination. Pas de forfait gonflé, pas de supplément inventé à l'arrivée.</p>\n<p style=\"margin-bottom: 1rem;\"><strong style=\"color: #10B981;\">Trajet dans Bruxelles-Capitale :</strong> Tarif fixe communiqué par téléphone – idéal si votre garage est dans la même commune.</p>\n<p style=\"margin-bottom: 1rem;\"><strong style=\"color: #10B981;\">Trajet vers le Brabant ou au-delà :</strong> Prix au kilomètre dégressif – plus c'est loin, moins le km coûte cher. Devis en 2 minutes.</p>\n<p style=\"margin-bottom: 1rem;\"><strong style=\"color: #10B981;\">Véhicules spéciaux (électriques, sportives, utilitaires) :</strong> Même tarif plateau, aucun supplément lié au type de motorisation.</p>\n</div>\n<p><strong class=\"text-orange\">Contactez-nous au <a href=\"tel:+3228445401\" style=\"color: #CF5706; font-weight: 700;\">02 844 54 01</a></strong> : le tarif est calculé et confirmé pendant l'appel. <strong>Vous savez exactement ce que vous allez payer.</strong></p>"
+    },
+    {
+      "h2": "Helpcar dépannage : le remorquage qui vient à vous, partout à Bruxelles",
+      "content": "<p><strong>Remorquage voiture à Bruxelles</strong> – votre véhicule est immobilisé et vous ne savez pas quoi faire ? C'est exactement notre métier depuis <strong>{{YEARS_EXPERIENCE_PLUS}} ans</strong>.</p><p><strong style=\"color: #CF5706;\">Helpcar dépannage</strong> affiche <strong>{{GOOGLE_RATING}}/5 sur Google</strong> avec <strong>{{GOOGLE_REVIEWS}} avis authentiques</strong>, et ce n'est pas un hasard. Quand vous nous appelez, ce sont les fondateurs qui prennent la route. Pas de centre d'appel externalisé, pas de sous-traitant inconnu qui débarque.</p><p>Panne sèche avenue Louise, courroie de distribution claquée sur le boulevard du Souverain, embrayage lâché en plein carrefour à Molenbeek – quelle que soit la situation, on envoie la dépanneuse adaptée et on transporte votre voiture vers la destination de votre choix. Garage agréé, concessionnaire Volkswagen, Mercedes ou Toyota, votre allée de garage… c'est vous le patron.</p><p>Besoin d'un <strong class=\"text-orange\">remorquage rapide et au juste prix à Bruxelles</strong> ? Appelez le <a href=\"tel:+3228445401\" style=\"color: #CF5706; font-weight: 700;\">02 844 54 01</a> : on décroche, on chiffre, on roule. Aussi simple que ça.</p>"
+    },
+    {
+      "h2": "On couvre les 19 communes et bien au-delà",
+      "content": "<p>Nos dépanneuses sillonnent <strong>tout Bruxelles-Capitale</strong> : Anderlecht, Saint-Josse, Jette, Ganshoren, Berchem-Sainte-Agathe, Koekelberg, Auderghem, Watermael-Boitsfort, Evere… Et la périphérie ne nous fait pas peur : Nivelles, Louvain-la-Neuve, Halle, Vilvoorde, Overijse, Braine-l'Alleud, Ottignies…</p><p>On connaît les axes compliqués : le tunnel Montgomery aux heures de pointe, la sortie Léonard quand tout est bloqué, la petite ceinture un vendredi soir. On adapte notre itinéraire pour arriver le plus vite possible.</p><p style=\"margin-top: 1rem;\"><a href=\"../zones/\" class=\"link-arrow\" style=\"color: #CF5706; font-weight: 600; text-decoration: none;\">Découvrir toutes nos zones de couverture →</a></p>"
+    },
+    {
+      "h2": "Nos autres services de dépannage auto",
+      "content": "<div class=\"services-lies-grid\" style=\"display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem; margin-top: 1.5rem;\">\n<div style=\"background: #F9FAFB; padding: 1.25rem; border-radius: 12px; border-left: 4px solid #CF5706;\">\n<h3 style=\"font-size: 1.1rem; font-weight: 700; margin-bottom: 0.5rem;\"><a href=\"../{{URL_SERVICE_DEPANNAGE_VOITURE}}/\" style=\"color: #1A1A1A; text-decoration: none;\">→ Dépannage Voiture</a></h3>\n<p style=\"font-size: 0.95rem; color: #6B7280; margin: 0;\">Réparation sur place quand votre moteur peut repartir</p>\n</div>\n<div style=\"background: #F9FAFB; padding: 1.25rem; border-radius: 12px; border-left: 4px solid #CF5706;\">\n<h3 style=\"font-size: 1.1rem; font-weight: 700; margin-bottom: 0.5rem;\"><a href=\"../{{URL_SERVICE_BATTERIE}}/\" style=\"color: #1A1A1A; text-decoration: none;\">→ Dépannage Batterie</a></h3>\n<p style=\"font-size: 0.95rem; color: #6B7280; margin: 0;\">Diagnostic, recharge ou remplacement batterie sur le bord de la route</p>\n</div>\n<div style=\"background: #F9FAFB; padding: 1.25rem; border-radius: 12px; border-left: 4px solid #CF5706;\">\n<h3 style=\"font-size: 1.1rem; font-weight: 700; margin-bottom: 0.5rem;\"><a href=\"../remorquage-motos-bruxelles/\" style=\"color: #1A1A1A; text-decoration: none;\">→ Remorquage Motos</a></h3>\n<p style=\"font-size: 0.95rem; color: #6B7280; margin: 0;\">Prise en charge sécurisée de votre deux-roues</p>\n</div>\n<div style=\"background: #F9FAFB; padding: 1.25rem; border-radius: 12px; border-left: 4px solid #CF5706;\">\n<h3 style=\"font-size: 1.1rem; font-weight: 700; margin-bottom: 0.5rem;\"><a href=\"../{{URL_SERVICE_REMORQUAGE}}/\" style=\"color: #1A1A1A; text-decoration: none;\">→ Dépannage Accident</a></h3>\n<p style=\"font-size: 0.95rem; color: #6B7280; margin: 0;\">Intervention post-collision et évacuation du véhicule</p>\n</div>\n</div>"
+    }
+  ],
+  "cta": {
+    "title": "Votre voiture ne bouge plus ?",
+    "subtitle": "Dépanneuse plateau en route vers vous en moins de 30 minutes",
+    "button_text": "📞  Appeler Maintenant"
+  },
+  "faq": [
+    {
+      "question": "Quel est le délai d'arrivée d'une dépanneuse Helpcar à Bruxelles ?",
+      "answer": "Nos équipes sont réparties sur plusieurs points stratégiques de la capitale. En général, comptez <strong class=\"text-orange\">moins de 30 minutes</strong> dans les 19 communes. Si vous êtes en périphérie (Waterloo, Zaventem, Wavre…), on rallonge un peu mais on vous donne une estimation précise dès l'appel au <a href=\"tel:+3228445401\" style=\"color: #CF5706; font-weight: 600;\">02 844 54 01</a>."
+    },
+    {
+      "question": "Ma voiture est bloquée dans un parking souterrain, vous intervenez quand même ?",
+      "answer": "Absolument. Parking sous-terrain, voie étroite, impasse… on a l'habitude. Notre matériel permet de manœuvrer dans des espaces restreints. Si le parking a une hauteur limitée, on utilise un chariot de levage pour sortir le véhicule avant de le charger sur le plateau dehors."
+    },
+    {
+      "question": "Vous prenez en charge les voitures de collection ou sportives (Porsche, Audi RS, etc.) ?",
+      "answer": "Oui, et on y fait particulièrement attention. Les véhicules surbaissés ou de valeur sont chargés exclusivement sur <strong>plateau à rampes extra-basses</strong>. On utilise des sangles de roue adaptées pour ne laisser aucune trace. Vos jantes et votre carrosserie restent intactes."
+    },
+    {
+      "question": "Je suis en panne sur l'autoroute E40 ou le ring, que faire ?",
+      "answer": "D'abord, activez vos feux de détresse et placez votre triangle à 100 mètres derrière le véhicule. Restez derrière la glissière de sécurité si possible. Ensuite, appelez-nous au <a href=\"tel:+3228445401\" style=\"color: #CF5706; font-weight: 600;\">02 844 54 01</a>. On est habilité à intervenir sur autoroute et on sécurise la zone avant de charger votre voiture."
+    },
+    {
+      "question": "Le remorquage d'un véhicule électrique coûte-t-il plus cher ?",
+      "answer": "Non. Qu'il s'agisse d'une Tesla, d'une Hyundai Ioniq ou d'une Renault ZOE, le tarif reste identique. La seule différence technique : on utilise obligatoirement le plateau (jamais de roues au sol) pour protéger le moteur électrique et la batterie haute tension. C'est inclus dans le prix."
+    },
+    {
+      "question": "Puis-je choisir le garage où vous emmenez ma voiture ?",
+      "answer": "C'est toujours vous qui décidez de la destination. Garage indépendant, concessionnaire officiel, carrossier, votre domicile ou même une adresse dans une autre province – on s'adapte. Si vous ne connaissez pas de garage fiable, on peut vous orienter vers des partenaires de confiance, mais jamais d'obligation."
+    },
+    {
+      "question": "Que se passe-t-il si ma voiture est accidentée et non roulante ?",
+      "answer": "On s'en occupe. Véhicule retourné, roues arrachées, châssis déformé – notre dépanneuse plateau est équipée d'un treuil hydraulique capable de tirer jusqu'à 3,5 tonnes. On sécurise le véhicule, on le charge, et on le transporte vers le lieu de votre choix ou celui indiqué par votre assureur."
+    }
+  ]
+}

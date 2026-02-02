@@ -1,0 +1,300 @@
+{
+  "description": "Variables globales centralisées pour tout le site - Source de vérité unique",
+  "version": "2.0",
+  "last_updated": "2025-12-18",
+  "site": {
+    "name": "Helpcar dépannage",
+    "domain": "https://helpcar.be",
+    "baseline": "Dépannage Auto 24h/24 à Bruxelles"
+  },
+  "company": {
+    "name": "Helpcar dépannage",
+    "name_full": "Helpcar dépannage",
+    "baseline": "Dépannage Auto 24h/24 à Bruxelles",
+    "company_number": "",
+    "vat_number": "",
+    "founding_year": "2015",
+    "years_experience": "10",
+    "years_experience_plus": "+10"
+  },
+  "google": {
+    "rating": "4.9",
+    "reviews_count": "212",
+    "my_business_url": "",
+    "maps_search_url": "https://www.google.com/maps/search/?api=1&query=Rue+Charles+Martel+55,+1000+Bruxelles",
+    "analytics_id": ""
+  },
+  "clarity": {
+    "project_id": "DISABLED",
+    "_comment": "Pour activer Clarity: 1) Créer compte sur clarity.microsoft.com, 2) Ajouter site, 3) Copier Project ID ici"
+  },
+  "whatsapp": {
+    "phone_number": "3228445401",
+    "services": [
+      {
+        "id": "batterie",
+        "name": "Panne de batterie",
+        "icon": "images/icons/depannage-batterie.png",
+        "needs_destination": false
+      },
+      {
+        "id": "remorquage_voiture",
+        "name": "Remorquage voiture",
+        "icon": "images/icons/remorquage-voiture.png",
+        "needs_destination": true
+      },
+      {
+        "id": "remorquage_moto",
+        "name": "Remorquage moto",
+        "icon": "images/icons/remorquage-motos.png",
+        "needs_destination": true
+      },
+      {
+        "id": "remorquage_camionnette",
+        "name": "Remorquage camionnette",
+        "icon": "images/icons/depannage-camionnette.png",
+        "needs_destination": true
+      },
+      {
+        "id": "enlevement_epave",
+        "name": "Enlèvement épave",
+        "icon": "images/icons/enlevement-epave.png",
+        "needs_destination": true
+      },
+      {
+        "id": "depannage_souterrain",
+        "name": "Dépannage en souterrain",
+        "icon": "images/icons/depannage-parking-souterrain.png",
+        "needs_destination": false
+      }
+    ]
+  },
+  "contact": {
+    "phone": "+3228445401",
+    "phone_display": "+32 2 844 54 01",
+    "phone_local": "028445401",
+    "phone_local_display": "02 844 54 01",
+    "email": "contact@helpcar.be",
+    "address": "Rue Charles Martel 55, 1000 Bruxelles"
+  },
+  "social": {
+    "facebook_url": "",
+    "instagram_url": ""
+  },
+  "stats": {
+    "description": "Statistiques du site - Mis à jour automatiquement",
+    "services_total": 22,
+    "services_remorquage": 13,
+    "services_depannage": 9,
+    "locations_total": 35,
+    "locations_bruxelles": 19,
+    "locations_peripherie": 16,
+    "nombre_communes": "35",
+    "years_experience": 15,
+    "years_existence": 10,
+    "arrival_time": "30 min",
+    "satisfaction_rate": "98%"
+  },
+  "seo": {
+    "default_meta_suffix": "☎ +32 479 89 00 89",
+    "default_description": "Dépannage automobile rapide et professionnel. Intervention en 30 minutes. Disponible 24h/24 et 7j/7.",
+    "keywords_global": [
+      "dépannage bruxelles",
+      "remorquage belgique",
+      "panne voiture 24h"
+    ],
+    "language": "fr-BE",
+    "region": "BE-BRU"
+  },
+  "design": {
+    "colors": {
+      "primary": "#CF5706",
+      "secondary": "#CF5706",
+      "success": "#059669",
+      "dark": "#1A1A1A",
+      "light": "#FFFFFF",
+      "gray": "#6B7280"
+    },
+    "fonts": {
+      "primary": "-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif",
+      "body": "-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif",
+      "google_font_url": "",
+      "_comment": "Fonts système pour performances maximales (0 requête réseau, amélioration LCP de ~500-1000ms)"
+    },
+    "spacing": {
+      "mobile": "16px",
+      "tablet": "24px",
+      "desktop": "32px"
+    },
+    "breakpoints": {
+      "mobile": "640px",
+      "tablet": "768px",
+      "desktop": "1024px"
+    }
+  },
+  "performance": {
+    "minify_html": true,
+    "minify_css": true,
+    "minify_js": true,
+    "inline_critical_css": true,
+    "lazy_load_images": true,
+    "preload_fonts": false,
+    "_comment_preload_fonts": "Désactivé car utilisation de fonts système uniquement"
+  },
+  "template_variables": {
+    "SITE_NAME": "site.name",
+    "DOMAIN": "site.domain",
+    "COMPANY_NAME": "company.name_full",
+    "COMPANY_NUMBER": "company.company_number",
+    "VAT_NUMBER": "company.vat_number",
+    "FOUNDING_YEAR": "company.founding_year",
+    "YEARS_EXPERIENCE": "company.years_experience",
+    "YEARS_EXPERIENCE_PLUS": "company.years_experience_plus",
+    "GOOGLE_RATING": "google.rating",
+    "GOOGLE_REVIEWS": "google.reviews_count",
+    "GOOGLE_REVIEWS_COUNT": "google.reviews_count",
+    "GOOGLE_MY_BUSINESS_URL": "google.my_business_url",
+    "GOOGLE_MAPS_SEARCH_URL": "google.maps_search_url",
+    "GOOGLE_ANALYTICS_ID": "google.analytics_id",
+    "CLARITY_PROJECT_ID": "clarity.project_id",
+    "TELEPHONE": "contact.phone_local_display",
+    "TELEPHONE_HREF": "contact.phone_local",
+    "EMAIL": "contact.email",
+    "ADRESSE": "contact.address",
+    "FACEBOOK_URL": "social.facebook_url",
+    "INSTAGRAM_URL": "social.instagram_url",
+    "SERVICES_TOTAL": "stats.services_total",
+    "SERVICES_REMORQUAGE": "stats.services_remorquage",
+    "SERVICES_DEPANNAGE": "stats.services_depannage",
+    "LOCATIONS_TOTAL": "stats.locations_total",
+    "LOCATIONS_BRUXELLES": "stats.locations_bruxelles",
+    "LOCATIONS_PERIPHERIE": "stats.locations_peripherie",
+    "NOMBRE_COMMUNES": "stats.nombre_communes",
+    "URL_COMMUNE_AUDERGHEM": "urls.communes.AUDERGHEM",
+    "URL_COMMUNE_BRUXELLES_VILLE": "urls.communes.BRUXELLES_VILLE",
+    "URL_COMMUNE_ETTERBEEK": "urls.communes.ETTERBEEK",
+    "URL_COMMUNE_EVERE": "urls.communes.EVERE",
+    "URL_COMMUNE_FOREST": "urls.communes.FOREST",
+    "URL_COMMUNE_IXELLES": "urls.communes.IXELLES",
+    "URL_COMMUNE_SAINT_GILLES": "urls.communes.SAINT_GILLES",
+    "URL_COMMUNE_SAINT_JOSSE_TEN_NOODE": "urls.communes.SAINT_JOSSE_TEN_NOODE",
+    "URL_COMMUNE_SCHAERBEEK": "urls.communes.SCHAERBEEK",
+    "URL_COMMUNE_UCCLE": "urls.communes.UCCLE",
+    "URL_COMMUNE_WATERMAEL_BOITSFORT": "urls.communes.WATERMAEL_BOITSFORT",
+    "URL_COMMUNE_WOLUWE_SAINT_LAMBERT": "urls.communes.WOLUWE_SAINT_LAMBERT",
+    "URL_COMMUNE_WOLUWE_SAINT_PIERRE": "urls.communes.WOLUWE_SAINT_PIERRE",
+    "URL_COMMUNE_ZAVENTEM": "urls.communes.ZAVENTEM",
+    "URL_COMMUNE_VILVOORDE": "urls.communes.VILVOORDE",
+    "URL_COMMUNE_MACHELEN": "urls.communes.MACHELEN",
+    "URL_COMMUNE_GRIMBERGEN": "urls.communes.GRIMBERGEN",
+    "URL_COMMUNE_KRAAINEM": "urls.communes.KRAAINEM",
+    "URL_COMMUNE_WEZEMBEEK_OPPEM": "urls.communes.WEZEMBEEK_OPPEM",
+    "URL_COMMUNE_TERVUREN": "urls.communes.TERVUREN",
+    "URL_COMMUNE_OVERIJSE": "urls.communes.OVERIJSE",
+    "URL_COMMUNE_HOEILAART": "urls.communes.HOEILAART",
+    "URL_COMMUNE_LA_HULPE": "urls.communes.LA_HULPE",
+    "URL_COMMUNE_WATERLOO": "urls.communes.WATERLOO",
+    "URL_COMMUNE_BRAINE_L_ALLEUD": "urls.communes.BRAINE_L_ALLEUD",
+    "URL_COMMUNE_RHODE_SAINT_GENÈSE": "urls.communes.RHODE_SAINT_GENÈSE",
+    "URL_COMMUNE_DROGENBOS": "urls.communes.DROGENBOS",
+    "URL_COMMUNE_ASSE": "urls.communes.ASSE",
+    "URL_COMMUNE_MEISE": "urls.communes.MEISE",
+    "URL_COMMUNE_RIXENSART": "urls.communes.RIXENSART",
+    "URL_COMMUNE_WAVRE": "urls.communes.WAVRE",
+    "URL_COMMUNE_LASNE": "urls.communes.LASNE",
+    "URL_COMMUNE_OTTIGNIES": "urls.communes.OTTIGNIES",
+    "URL_COMMUNE_LOUVAIN_LA_NEUVE": "urls.communes.LOUVAIN_LA_NEUVE",
+    "URL_COMMUNE_DIEGEM": "urls.communes.DIEGEM",
+    "URL_SERVICE_REMORQUAGE_VOITURE": "urls.services.REMORQUAGE_VOITURE",
+    "URL_SERVICE_BATTERIE": "urls.services.BATTERIE",
+    "URL_SERVICE_PNEU": "urls.services.PNEU",
+    "URL_SERVICE_FOURNITURE_CARBURANT": "urls.services.FOURNITURE_CARBURANT",
+    "URL_SERVICE_REMORQUAGE_MOTO": "urls.services.REMORQUAGE_MOTO",
+    "URL_SERVICE_REMORQUAGE_SPECIAUX": "urls.services.REMORQUAGE_SPECIAUX",
+    "URL_SERVICE_REMPLACEMENT_BATTERIE": "urls.services.REMPLACEMENT_BATTERIE",
+    "URL_SERVICE_TRANSPORT_LOCAL": "urls.services.TRANSPORT_LOCAL",
+    "URL_SERVICE_TRANSPORT_LONGUE_DISTANCE": "urls.services.TRANSPORT_LONGUE_DISTANCE",
+    "URL_SERVICE_OUVERTURE_PORTE": "urls.services.OUVERTURE_PORTE",
+    "URL_SERVICE_PANNE_ESSENCE": "urls.services.PANNE_ESSENCE",
+    "URL_SERVICE_ROUE_SECOURS": "urls.services.ROUE_SECOURS",
+    "URL_SERVICE_PARKING_SOUTERRAIN": "urls.services.PARKING_SOUTERRAIN",
+    "URL_SERVICE_VOITURE_EMBOURBEE": "urls.services.VOITURE_EMBOURBEE",
+    "URL_SERVICE_SIPHONNAGE": "urls.services.SIPHONNAGE",
+    "URL_SERVICE_EPAVE": "urls.services.EPAVE",
+    "URL_SERVICE_PANNE_MOTEUR": "urls.services.PANNE_MOTEUR",
+    "URL_SERVICE_SORTIE_FOURRIERE": "urls.services.SORTIE_FOURRIERE",
+    "URL_SERVICE_VOITURE_ELECTRIQUE": "urls.services.VOITURE_ELECTRIQUE",
+    "URL_SERVICE_DEPANNAGE_VOITURE": "urls.services.DEPANNAGE_VOITURE",
+    "URL_SERVICE_CAMIONNETTE": "urls.services.CAMIONNETTE"
+  },
+  "notes": [
+    "Ce fichier est la SOURCE DE VÉRITÉ pour toutes les variables du site",
+    "Modifier ce fichier met à jour automatiquement tout le site lors de la génération",
+    "Les slugs sont sans trailing slash (ajouté automatiquement dans les templates)",
+    "Pour ajouter un nouveau service : ajouter dans services_slugs ET dans template_variables",
+    "Version 2.0 : Migration complète depuis site.json - Fichier unifié"
+  ],
+  "urls": {
+    "description": "URLs centralisées - Source unique pour tout le maillage interne",
+    "communes": {
+      "AUDERGHEM": "depannage-voiture-auderghem",
+      "BRUXELLES_VILLE": "depannage-voiture-bruxelles-centre",
+      "ETTERBEEK": "depannage-voiture-etterbeek",
+      "EVERE": "depannage-voiture-evere",
+      "FOREST": "depannage-voiture-forest",
+      "IXELLES": "depannage-voiture-ixelles",
+      "SAINT_GILLES": "depannage-voiture-saint-gilles",
+      "SAINT_JOSSE_TEN_NOODE": "depannage-voiture-saint-josse",
+      "SCHAERBEEK": "depannage-voiture-schaerbeek",
+      "UCCLE": "depannage-voiture-uccle",
+      "WATERMAEL_BOITSFORT": "depannage-voiture-watermael-boitsfort",
+      "WOLUWE_SAINT_LAMBERT": "depannage-voiture-woluwe-saint-lambert",
+      "WOLUWE_SAINT_PIERRE": "depannage-voiture-woluwe-saint-pierre",
+      "ZAVENTEM": "depannage-voiture-zaventem",
+      "VILVOORDE": "depannage-voiture-vilvoorde",
+      "MACHELEN": "depannage-voiture-machelen",
+      "GRIMBERGEN": "depannage-voiture-grimbergen",
+      "KRAAINEM": "depannage-voiture-kraainem",
+      "WEZEMBEEK_OPPEM": "depannage-voiture-wezembeek-oppem",
+      "TERVUREN": "depannage-voiture-tervuren",
+      "OVERIJSE": "depannage-voiture-overijse",
+      "HOEILAART": "depannage-voiture-hoeilaart",
+      "LA_HULPE": "depannage-voiture-la-hulpe",
+      "WATERLOO": "depannage-voiture-waterloo",
+      "BRAINE_L_ALLEUD": "depannage-voiture-braine-lalleud",
+      "RHODE_SAINT_GENÈSE": "depannage-voiture-rhode-saint-genese",
+      "DROGENBOS": "depannage-voiture-drogenbos",
+      "ASSE": "depannage-voiture-asse",
+      "MEISE": "depannage-voiture-meise",
+      "RIXENSART": "depannage-voiture-rixensart",
+      "WAVRE": "depannage-voiture-wavre",
+      "LASNE": "depannage-voiture-lasne",
+      "OTTIGNIES": "depannage-voiture-ottignies",
+      "LOUVAIN_LA_NEUVE": "depannage-voiture-louvain-la-neuve",
+      "DIEGEM": "depannage-voiture-diegem"
+    },
+    "services": {
+      "REMORQUAGE_VOITURE": "remorquage-voiture-bruxelles",
+      "BATTERIE": "depannage-batterie-bruxelles",
+      "PNEU": "reparation-pneu-bruxelles",
+      "FOURNITURE_CARBURANT": "fourniture-carburant-bruxelles",
+      "REMORQUAGE_MOTO": "remorquage-motos-bruxelles",
+      "REMORQUAGE_SPECIAUX": "remorquage-vehicules-speciaux-bruxelles",
+      "REMPLACEMENT_BATTERIE": "remplacement-batterie-bruxelles",
+      "TRANSPORT_LOCAL": "transport-routier-local-bruxelles",
+      "TRANSPORT_LONGUE_DISTANCE": "transport-routier-longue-distance-bruxelles",
+      "OUVERTURE_PORTE": "ouverture-porte-voiture-bruxelles",
+      "PANNE_ESSENCE": "panne-essence-bruxelles",
+      "ROUE_SECOURS": "placement-roue-secours-bruxelles",
+      "PARKING_SOUTERRAIN": "depannage-parking-souterrain-bruxelles",
+      "VOITURE_EMBOURBEE": "voiture-embourbee-bruxelles",
+      "SIPHONNAGE": "siphonnage-reservoir-bruxelles",
+      "EPAVE": "enlevement-epave-bruxelles",
+      "PANNE_MOTEUR": "panne-moteur-bruxelles",
+      "SORTIE_FOURRIERE": "sortie-fourriere-bruxelles",
+      "VOITURE_ELECTRIQUE": "depannage-voiture-electrique-bruxelles",
+      "DEPANNAGE_VOITURE": "depannage-voiture-bruxelles",
+      "CAMIONNETTE": "depannage-camionnette-bruxelles"
+    }
+  }
+}

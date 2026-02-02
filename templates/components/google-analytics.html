@@ -1,0 +1,25 @@
+<!-- Google Analytics 4 (GA4) - Chargé après onload pour optimiser LCP -->
+<script>
+  // Différer le chargement de Google Analytics après le chargement complet de la page
+  window.addEventListener('load', function() {
+    // Créer le script GA4
+    var gaScript = document.createElement('script');
+    gaScript.async = true;
+    gaScript.src = 'https://www.googletagmanager.com/gtag/js?id={{GOOGLE_ANALYTICS_ID}}';
+    document.head.appendChild(gaScript);
+
+    // Initialiser dataLayer et gtag globalement
+    window.dataLayer = window.dataLayer || [];
+    window.gtag = function(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    // Configuration GA4 avec tracking des événements activé
+    gtag('config', '{{GOOGLE_ANALYTICS_ID}}', {
+      'send_page_view': true,
+      'cookie_flags': 'SameSite=None;Secure',
+      'anonymize_ip': true  // RGPD friendly
+    });
+
+    console.log('✅ Google Analytics 4 chargé (ID: {{GOOGLE_ANALYTICS_ID}})');
+  });
+</script>

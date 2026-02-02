@@ -1,0 +1,554 @@
+{
+  "language": "fr",
+  "version": "4.2",
+  "description": "Données fixes des communes actives uniquement (core data)",
+  "last_updated": "2025-12-18",
+  "locations": [
+    {
+      "id": 2,
+      "name": "Auderghem",
+      "slug": "depannage-voiture-auderghem",
+      "postal_code": "1160",
+      "zone": "Bruxelles",
+      "priority": 8,
+      "neighbors": [
+        "Watermael-Boitsfort",
+        "Etterbeek",
+        "Woluwe-Saint-Pierre"
+      ],
+      "active": false,
+      "quartiers": "Pinoy, Rouge-Cloître, Transvaal"
+    },
+    {
+      "id": 4,
+      "name": "Bruxelles-Ville",
+      "slug": "depannage-voiture-bruxelles-centre",
+      "postal_code": "1000",
+      "zone": "Bruxelles",
+      "priority": 1,
+      "neighbors": [
+        "Saint-Josse",
+        "Schaerbeek",
+        "Etterbeek",
+        "Ixelles",
+        "Saint-Gilles"
+      ],
+      "active": true,
+      "quartiers": "Grand-Place, Sablon, Marolles, Quartier Européen"
+    },
+    {
+      "id": 5,
+      "name": "Etterbeek",
+      "slug": "depannage-voiture-etterbeek",
+      "postal_code": "1040",
+      "zone": "Bruxelles",
+      "priority": 6,
+      "neighbors": [
+        "Bruxelles-Ville",
+        "Ixelles",
+        "Auderghem",
+        "Woluwe-Saint-Pierre",
+        "Schaerbeek"
+      ],
+      "active": true,
+      "quartiers": "Quartier des Chasses, Cinquantenaire"
+    },
+    {
+      "id": 6,
+      "name": "Evere",
+      "slug": "depannage-voiture-evere",
+      "postal_code": "1140",
+      "zone": "Bruxelles",
+      "priority": 5,
+      "neighbors": [
+        "Schaerbeek",
+        "Woluwe-Saint-Lambert",
+        "Zaventem",
+        "Diegem"
+      ],
+      "active": false,
+      "quartiers": "Evere centre, Tornooiveld"
+    },
+    {
+      "id": 7,
+      "name": "Forest",
+      "slug": "depannage-voiture-forest",
+      "postal_code": "1190",
+      "zone": "Bruxelles",
+      "priority": 11,
+      "neighbors": [
+        "Uccle",
+        "Saint-Gilles",
+        "Drogenbos"
+      ],
+      "active": false,
+      "quartiers": "Altitude 100, Saint-Denis, Bas-Forest"
+    },
+    {
+      "id": 9,
+      "name": "Ixelles",
+      "slug": "depannage-voiture-ixelles",
+      "postal_code": "1050",
+      "zone": "Bruxelles",
+      "priority": 4,
+      "neighbors": [
+        "Bruxelles-Ville",
+        "Etterbeek",
+        "Saint-Gilles",
+        "Forest",
+        "Watermael-Boitsfort"
+      ],
+      "active": true,
+      "quartiers": "Flagey, Porte de Namur, ULB, Place Fernand Cocq"
+    },
+    {
+      "id": 13,
+      "name": "Saint-Gilles",
+      "slug": "depannage-voiture-saint-gilles",
+      "postal_code": "1060",
+      "zone": "Bruxelles",
+      "priority": 10,
+      "neighbors": [
+        "Bruxelles-Ville",
+        "Ixelles",
+        "Forest"
+      ],
+      "active": false,
+      "quartiers": "Parvis, Hôtel de Ville, Barrière"
+    },
+    {
+      "id": 14,
+      "name": "Saint-Josse-ten-Noode",
+      "slug": "depannage-voiture-saint-josse",
+      "postal_code": "1210",
+      "zone": "Bruxelles",
+      "priority": 13,
+      "neighbors": [
+        "Bruxelles-Ville",
+        "Schaerbeek",
+        "Etterbeek"
+      ],
+      "active": false,
+      "quartiers": "Madou, Botanique"
+    },
+    {
+      "id": 15,
+      "name": "Schaerbeek",
+      "slug": "depannage-voiture-schaerbeek",
+      "postal_code": "1030",
+      "zone": "Bruxelles",
+      "priority": 7,
+      "neighbors": [
+        "Bruxelles-Ville",
+        "Saint-Josse",
+        "Etterbeek",
+        "Evere",
+        "Woluwe-Saint-Lambert"
+      ],
+      "active": true,
+      "quartiers": "Cage aux Ours, Place Meiser, Helmet"
+    },
+    {
+      "id": 16,
+      "name": "Uccle",
+      "slug": "depannage-voiture-uccle",
+      "postal_code": "1180",
+      "zone": "Bruxelles",
+      "priority": 9,
+      "neighbors": [
+        "Forest",
+        "Saint-Gilles",
+        "Ixelles",
+        "Watermael-Boitsfort",
+        "Drogenbos"
+      ],
+      "active": false,
+      "quartiers": "Fort Jaco, Uccle centre, Calevoet, Globe"
+    },
+    {
+      "id": 17,
+      "name": "Watermael-Boitsfort",
+      "slug": "depannage-voiture-watermael-boitsfort",
+      "postal_code": "1170",
+      "zone": "Bruxelles",
+      "priority": 14,
+      "neighbors": [
+        "Uccle",
+        "Ixelles",
+        "Auderghem",
+        "La Hulpe",
+        "Overijse"
+      ],
+      "active": false,
+      "quartiers": "Coin du Balai, Watermael centre"
+    },
+    {
+      "id": 18,
+      "name": "Woluwe-Saint-Lambert",
+      "slug": "depannage-voiture-woluwe-saint-lambert",
+      "postal_code": "1200",
+      "zone": "Bruxelles",
+      "priority": 2,
+      "neighbors": [
+        "Schaerbeek",
+        "Etterbeek",
+        "Woluwe-Saint-Pierre",
+        "Evere",
+        "Kraainem"
+      ],
+      "active": false,
+      "quartiers": "Woluwe Shopping, Tomberg, Roodebeek"
+    },
+    {
+      "id": 19,
+      "name": "Woluwe-Saint-Pierre",
+      "slug": "depannage-voiture-woluwe-saint-pierre",
+      "postal_code": "1150",
+      "zone": "Bruxelles",
+      "priority": 3,
+      "neighbors": [
+        "Etterbeek",
+        "Auderghem",
+        "Woluwe-Saint-Lambert",
+        "Kraainem",
+        "Tervuren"
+      ],
+      "active": false,
+      "quartiers": "Stockel, Montgomery"
+    },
+    {
+      "id": 20,
+      "name": "Zaventem",
+      "slug": "depannage-voiture-zaventem",
+      "postal_code": "1930",
+      "zone": "Périphérie",
+      "priority": 15,
+      "neighbors": [
+        "Evere",
+        "Kraainem",
+        "Machelen",
+        "Woluwe-Saint-Lambert",
+        "Diegem"
+      ],
+      "active": false,
+      "quartiers": "Aéroport de Bruxelles, Zaventem centre, Nossegem"
+    },
+    {
+      "id": 21,
+      "name": "Vilvoorde",
+      "slug": "depannage-voiture-vilvoorde",
+      "postal_code": "1800",
+      "zone": "Périphérie",
+      "priority": 18,
+      "neighbors": [
+        "Machelen",
+        "Grimbergen",
+        "Schaerbeek"
+      ],
+      "active": false,
+      "quartiers": "Vilvoorde centre, Peutie, Koningslo"
+    },
+    {
+      "id": 22,
+      "name": "Machelen",
+      "slug": "depannage-voiture-machelen",
+      "postal_code": "1830",
+      "zone": "Périphérie",
+      "priority": 17,
+      "neighbors": [
+        "Zaventem",
+        "Vilvoorde",
+        "Evere",
+        "Diegem"
+      ],
+      "active": false,
+      "quartiers": "Machelen centre, Diegem"
+    },
+    {
+      "id": 23,
+      "name": "Grimbergen",
+      "slug": "depannage-voiture-grimbergen",
+      "postal_code": "1850",
+      "zone": "Périphérie",
+      "priority": 34,
+      "neighbors": [
+        "Vilvoorde",
+        "Meise"
+      ],
+      "active": false,
+      "quartiers": "Grimbergen centre, Strombeek-Bever, Beigem"
+    },
+    {
+      "id": 26,
+      "name": "Kraainem",
+      "slug": "depannage-voiture-kraainem",
+      "postal_code": "1950",
+      "zone": "Périphérie",
+      "priority": 19,
+      "neighbors": [
+        "Woluwe-Saint-Pierre",
+        "Woluwe-Saint-Lambert",
+        "Zaventem",
+        "Wezembeek-Oppem"
+      ],
+      "active": false,
+      "quartiers": "Kraainem centre"
+    },
+    {
+      "id": 27,
+      "name": "Wezembeek-Oppem",
+      "slug": "depannage-voiture-wezembeek-oppem",
+      "postal_code": "1970",
+      "zone": "Périphérie",
+      "priority": 20,
+      "neighbors": [
+        "Kraainem",
+        "Tervuren",
+        "Auderghem"
+      ],
+      "active": false,
+      "quartiers": "Wezembeek-Oppem centre"
+    },
+    {
+      "id": 28,
+      "name": "Tervuren",
+      "slug": "depannage-voiture-tervuren",
+      "postal_code": "3080",
+      "zone": "Périphérie",
+      "priority": 21,
+      "neighbors": [
+        "Woluwe-Saint-Pierre",
+        "Wezembeek-Oppem",
+        "Overijse"
+      ],
+      "active": false,
+      "quartiers": "Parc de Tervuren, Tervuren centre, Vossem"
+    },
+    {
+      "id": 29,
+      "name": "Overijse",
+      "slug": "depannage-voiture-overijse",
+      "postal_code": "3090",
+      "zone": "Périphérie",
+      "priority": 22,
+      "neighbors": [
+        "Watermael-Boitsfort",
+        "Auderghem",
+        "Tervuren",
+        "Hoeilaart"
+      ],
+      "active": false,
+      "quartiers": "Overijse centre, Jezus-Eik, Tombeek"
+    },
+    {
+      "id": 30,
+      "name": "Hoeilaart",
+      "slug": "depannage-voiture-hoeilaart",
+      "postal_code": "1560",
+      "zone": "Périphérie",
+      "priority": 23,
+      "neighbors": [
+        "Overijse",
+        "Watermael-Boitsfort",
+        "La Hulpe"
+      ],
+      "active": false,
+      "quartiers": "Hoeilaart centre, vignobles"
+    },
+    {
+      "id": 31,
+      "name": "La Hulpe",
+      "slug": "depannage-voiture-la-hulpe",
+      "postal_code": "1310",
+      "zone": "Périphérie",
+      "priority": 24,
+      "neighbors": [
+        "Watermael-Boitsfort",
+        "Hoeilaart",
+        "Rixensart",
+        "Overijse",
+        "Wavre",
+        "Lasne"
+      ],
+      "active": false,
+      "quartiers": "La Hulpe centre, Domaine Solvay, lac"
+    },
+    {
+      "id": 32,
+      "name": "Waterloo",
+      "slug": "depannage-voiture-waterloo",
+      "postal_code": "1410",
+      "zone": "Périphérie",
+      "priority": 30,
+      "neighbors": [
+        "Braine-l'Alleud",
+        "Uccle",
+        "Rhode-Saint-Genèse",
+        "Lasne"
+      ],
+      "active": false,
+      "quartiers": "Waterloo centre, Butte du Lion, Mont-Saint-Jean"
+    },
+    {
+      "id": 33,
+      "name": "Braine-l'Alleud",
+      "slug": "depannage-voiture-braine-lalleud",
+      "postal_code": "1420",
+      "zone": "Périphérie",
+      "priority": 31,
+      "neighbors": [
+        "Waterloo",
+        "Uccle"
+      ],
+      "active": false,
+      "quartiers": "Braine-l'Alleud centre, Ophain, Lillois"
+    },
+    {
+      "id": 34,
+      "name": "Rhode-Saint-Genèse",
+      "slug": "depannage-voiture-rhode-saint-genese",
+      "postal_code": "1640",
+      "zone": "Périphérie",
+      "priority": 32,
+      "neighbors": [
+        "Uccle",
+        "Waterloo"
+      ],
+      "active": false,
+      "quartiers": "Rhode centre, La Hulpe"
+    },
+    {
+      "id": 37,
+      "name": "Drogenbos",
+      "slug": "depannage-voiture-drogenbos",
+      "postal_code": "1620",
+      "zone": "Périphérie",
+      "priority": 33,
+      "neighbors": [
+        "Forest",
+        "Uccle"
+      ],
+      "active": false,
+      "quartiers": "Drogenbos centre, Ruisbroek"
+    },
+    {
+      "id": 38,
+      "name": "Asse",
+      "slug": "depannage-voiture-asse",
+      "postal_code": "1730",
+      "zone": "Périphérie",
+      "priority": 36,
+      "neighbors": [
+        "Grimbergen",
+        "Meise"
+      ],
+      "active": false,
+      "quartiers": "Asse centre, Zellik, Kobbegem"
+    },
+    {
+      "id": 39,
+      "name": "Meise",
+      "slug": "depannage-voiture-meise",
+      "postal_code": "1860",
+      "zone": "Périphérie",
+      "priority": 35,
+      "neighbors": [
+        "Grimbergen",
+        "Asse"
+      ],
+      "active": false,
+      "quartiers": "Meise centre, Jardin botanique"
+    },
+    {
+      "id": 40,
+      "name": "Rixensart",
+      "slug": "depannage-voiture-rixensart",
+      "postal_code": "1330",
+      "zone": "Périphérie",
+      "priority": 25,
+      "neighbors": [
+        "La Hulpe",
+        "Hoeilaart",
+        "Overijse",
+        "Wavre"
+      ],
+      "active": false,
+      "quartiers": "Rixensart centre, Genval, Rosières"
+    },
+    {
+      "id": 41,
+      "name": "Wavre",
+      "slug": "depannage-voiture-wavre",
+      "postal_code": "1300",
+      "zone": "Périphérie",
+      "priority": 26,
+      "neighbors": [
+        "La Hulpe",
+        "Rixensart",
+        "Ottignies",
+        "Louvain-la-Neuve"
+      ],
+      "active": false,
+      "quartiers": "Wavre centre, Bierges, Limal"
+    },
+    {
+      "id": 42,
+      "name": "Lasne",
+      "slug": "depannage-voiture-lasne",
+      "postal_code": "1380",
+      "zone": "Périphérie",
+      "priority": 29,
+      "neighbors": [
+        "Waterloo",
+        "Rixensart",
+        "La Hulpe"
+      ],
+      "active": false,
+      "quartiers": "Lasne centre, Plancenoit, Ohain"
+    },
+    {
+      "id": 43,
+      "name": "Ottignies",
+      "slug": "depannage-voiture-ottignies",
+      "postal_code": "1340",
+      "zone": "Périphérie",
+      "priority": 27,
+      "neighbors": [
+        "Wavre",
+        "Louvain-la-Neuve",
+        "Rixensart"
+      ],
+      "active": false,
+      "quartiers": "Ottignies centre, Louvain-la-Neuve"
+    },
+    {
+      "id": 44,
+      "name": "Louvain-la-Neuve",
+      "slug": "depannage-voiture-louvain-la-neuve",
+      "postal_code": "1348",
+      "zone": "Périphérie",
+      "priority": 28,
+      "neighbors": [
+        "Ottignies",
+        "Wavre"
+      ],
+      "active": false,
+      "quartiers": "Université UCLouvain, centre-ville, Lac"
+    },
+    {
+      "id": 45,
+      "name": "Diegem",
+      "slug": "depannage-voiture-diegem",
+      "postal_code": "1831",
+      "zone": "Périphérie",
+      "priority": 16,
+      "neighbors": [
+        "Machelen",
+        "Zaventem",
+        "Evere"
+      ],
+      "active": false,
+      "quartiers": "Diegem centre, proche aéroport"
+    }
+  ]
+}

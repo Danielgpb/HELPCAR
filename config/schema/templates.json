@@ -1,0 +1,161 @@
+{
+  "description": "Templates Schema.org pour génération des pages",
+  "version": "2.0",
+
+  "homepage": {
+    "description": "Template pour la homepage - Schema complet LocalBusiness",
+    "schema": {
+      "@context": "https://schema.org",
+      "@type": "AutoRepair",
+      "@id": "{{BASE_URL}}/#organization",
+      "name": "{{BUSINESS_NAME}}",
+      "alternateName": "{{ALTERNATE_NAME}}",
+      "description": "{{BUSINESS_DESCRIPTION}}",
+      "url": "{{BASE_URL}}",
+      "logo": "{{LOGO_URL}}",
+      "image": "{{IMAGE_URL}}",
+      "telephone": "{{TELEPHONE}}",
+      "email": "{{EMAIL}}",
+      "priceRange": "{{PRICE_RANGE}}",
+      "inLanguage": "{{LANGUAGE}}",
+      "address": "{{ADDRESS}}",
+      "geo": "{{GEO}}",
+      "openingHoursSpecification": "{{OPENING_HOURS}}",
+      "aggregateRating": "{{AGGREGATE_RATING}}",
+      "areaServed": {
+        "@type": "City",
+        "name": "{{AREA_CITY}}"
+      },
+      "sameAs": "{{SAME_AS}}"
+    }
+  },
+
+  "service_page": {
+    "description": "Template pour les pages services",
+    "schema": {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "name": "{{SERVICE_NAME}}",
+      "serviceType": "{{SERVICE_TYPE}}",
+      "description": "{{SERVICE_DESCRIPTION}}",
+      "inLanguage": "{{LANGUAGE}}",
+      "provider": {
+        "@type": "AutoRepair",
+        "@id": "{{BASE_URL}}/#organization",
+        "name": "{{BUSINESS_NAME}}",
+        "telephone": "{{TELEPHONE}}",
+        "url": "{{BASE_URL}}"
+      },
+      "areaServed": {
+        "@type": "City",
+        "name": "{{AREA_CITY}}"
+      },
+      "availableChannel": {
+        "@type": "ServiceChannel",
+        "serviceUrl": "{{SERVICE_URL}}",
+        "servicePhone": {
+          "@type": "ContactPoint",
+          "telephone": "{{TELEPHONE}}",
+          "contactType": "Emergency Service",
+          "areaServed": "BE",
+          "availableLanguage": ["French", "Dutch", "English"]
+        }
+      }
+    }
+  },
+
+  "commune_page": {
+    "description": "Template pour les pages communes/localisation",
+    "schema": {
+      "@context": "https://schema.org",
+      "@type": "AutoRepair",
+      "name": "{{BUSINESS_NAME}} - {{COMMUNE_NAME}}",
+      "description": "{{COMMUNE_DESCRIPTION}}",
+      "telephone": "{{TELEPHONE}}",
+      "email": "{{EMAIL}}",
+      "inLanguage": "{{LANGUAGE}}",
+      "url": "{{COMMUNE_URL}}",
+      "areaServed": {
+        "@type": "City",
+        "name": "{{COMMUNE_NAME}}",
+        "postalCode": "{{POSTAL_CODE}}",
+        "addressCountry": "BE"
+      },
+      "parentOrganization": {
+        "@type": "AutoRepair",
+        "@id": "{{BASE_URL}}/#organization",
+        "name": "{{BUSINESS_NAME}}",
+        "telephone": "{{TELEPHONE}}"
+      },
+      "availableChannel": {
+        "@type": "ServiceChannel",
+        "servicePhone": {
+          "@type": "ContactPoint",
+          "telephone": "{{TELEPHONE}}",
+          "contactType": "Emergency Service"
+        }
+      }
+    }
+  },
+
+  "breadcrumb": {
+    "description": "Template fil d'Ariane - Toutes les pages",
+    "schema": {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": []
+    },
+    "item_template": {
+      "@type": "ListItem",
+      "position": "{{POSITION}}",
+      "name": "{{NAME}}",
+      "item": "{{URL}}"
+    }
+  },
+
+  "faq": {
+    "description": "Template FAQ - Pages avec questions fréquentes",
+    "schema": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": []
+    },
+    "question_template": {
+      "@type": "Question",
+      "name": "{{QUESTION}}",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "{{ANSWER}}"
+      }
+    }
+  },
+
+  "organization_complete": {
+    "description": "Schema complet organization - Pour page À Propos",
+    "schema": {
+      "@context": "https://schema.org",
+      "@type": ["AutoRepair", "LocalBusiness"],
+      "@id": "{{BASE_URL}}/#organization",
+      "name": "{{BUSINESS_NAME}}",
+      "alternateName": "{{ALTERNATE_NAME}}",
+      "description": "{{BUSINESS_DESCRIPTION}}",
+      "url": "{{BASE_URL}}",
+      "logo": "{{LOGO_URL}}",
+      "image": "{{IMAGE_URL}}",
+      "telephone": "{{TELEPHONE}}",
+      "email": "{{EMAIL}}",
+      "priceRange": "{{PRICE_RANGE}}",
+      "inLanguage": "{{LANGUAGE}}",
+      "address": "{{ADDRESS}}",
+      "geo": "{{GEO}}",
+      "openingHoursSpecification": "{{OPENING_HOURS}}",
+      "aggregateRating": "{{AGGREGATE_RATING}}",
+      "sameAs": "{{SAME_AS}}",
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Services de dépannage automobile",
+        "itemListElement": "{{SERVICES_LIST}}"
+      }
+    }
+  }
+}

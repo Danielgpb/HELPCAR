@@ -1,0 +1,66 @@
+{
+  "version": "1.0",
+  "description": "Descriptions alt optimisées SEO pour toutes les images du site Help Car",
+  "last_updated": "2026-02-01",
+  "homepage": {
+    "hero": {
+      "booster sur batterie": "Technicien Help Car effectuant un boost de batterie sur véhicule en panne à Bruxelles",
+      "choc batterie avec client": "Intervention de dépannage batterie avec client satisfait à Bruxelles",
+      "depannage camionette sur plateau porte namur": "Camionnette chargée sur plateau dépanneuse près de la Porte de Namur à Bruxelles",
+      "dépannage de nuit bois de la cambre": "Dépannage automobile de nuit au Bois de la Cambre - Service 24h/24",
+      "depannage voiture accidenté": "Prise en charge d'une voiture accidentée par la dépanneuse Help Car",
+      "depanneuse au 50nerre": "Dépanneuse Help Car en intervention au Cinquantenaire à Bruxelles",
+      "ouverture de porte avec passe": "Ouverture de portière verrouillée avec outil professionnel par Help Car",
+      "placement roue de reserve": "Technicien Help Car installant une roue de secours en bord de route"
+    }
+  },
+  "carousel-photos": {
+    "booster sur batterie": "Boost de batterie par un technicien Help Car à Bruxelles",
+    "choc batterie avec client": "Client assisté lors d'un dépannage batterie à Bruxelles",
+    "depannage camionette sur plateau porte namur": "Remorquage de camionnette sur plateau à la Porte de Namur",
+    "dépannage de nuit bois de la cambre": "Service de dépannage nocturne au Bois de la Cambre",
+    "depannage voiture accidenté": "Dépannage d'une voiture accidentée à Bruxelles",
+    "depanneuse au 50nerre": "Dépanneuse professionnelle au parc du Cinquantenaire",
+    "ouverture de porte avec passe": "Ouverture de portière de voiture verrouillée sans dégât",
+    "placement roue de reserve": "Remplacement de pneu crevé et placement de roue de secours"
+  },
+  "logo": {
+    "logo": "Logo Help Car - Service de dépannage automobile à Bruxelles",
+    "logo-large": "Logo Help Car - Dépannage et remorquage 24h/24 à Bruxelles"
+  },
+  "zones-index": {
+    "hero": {
+      "default": "Zones d'intervention Help Car - Couverture Bruxelles et périphérie"
+    }
+  },
+  "tarifs": {
+    "hero": {
+      "default": "Tarification transparente pour dépannage et remorquage à Bruxelles"
+    }
+  },
+  "contact": {
+    "hero": {
+      "default": "Contactez Help Car pour une intervention d'urgence 24h/24"
+    }
+  },
+  "a-propos": {
+    "hero": {
+      "default": "Équipe professionnelle de Help Car - Dépannage automobile à Bruxelles"
+    }
+  },
+  "services-index": {
+    "hero": {
+      "default": "Services de dépannage et remorquage Help Car à Bruxelles"
+    }
+  },
+  "communes": {
+    "hero": {
+      "default": "Intervention de dépannage automobile rapide à {{COMMUNE_NAME}}"
+    }
+  },
+  "services": {
+    "hero": {
+      "default": "Service professionnel de {{SERVICE_NAME}} à Bruxelles 24h/24"
+    }
+  }
+}

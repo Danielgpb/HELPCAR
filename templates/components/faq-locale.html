@@ -1,0 +1,20 @@
+{# Template: FAQ locale (style page service/commune) #}
+{# Usage: _build_faq_locale_html() #}
+{# Variables: h2 (str), questions (list of dict with question, reponse) #}
+
+<section class="content-section section-faq-locale">
+  <div class="section-header">
+    <span class="section-label">FAQ</span>
+    <h2>{{ h2 }}</h2>
+  </div>
+  <div class="faq-list">
+{% for q in questions %}
+    <div class="faq-item">
+      <h3 class="faq-question">{{ q.question }}</h3>
+      <div class="faq-answer">
+        <p>{{ q.reponse | safe }}</p>
+      </div>
+    </div>
+{% endfor %}
+  </div>
+</section>

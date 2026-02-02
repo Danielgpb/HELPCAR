@@ -1,0 +1,56 @@
+/* ========================================
+   VARIABLES CSS GÉNÉRÉES AUTOMATIQUEMENT
+   ⚠️ NE PAS MODIFIER CE FICHIER DIRECTEMENT
+   Modifiez config/variables.json et régénérez
+   ======================================== */
+
+:root {
+  /* === COULEURS (depuis config/variables.json) === */
+  --red: #CF5706;
+  --red-primary: #CF5706;
+  --red-dark: #AF4905;
+  --red-light: #FF6B6B;
+  --orange: #CF5706;
+  --orange-accent: #CF5706;
+  --orange-burnt: #CF5706;
+  --green: #059669;
+  --green-emerald: #059669;
+  --green-light: #69C0A5;
+  --black: #1A1A1A;
+  --soft-black: #2D2D2D;
+  --white: #FFFFFF;
+  --off-white: #FAFAFA;
+  --gray-dark: #6B7280;
+  --light-gray: #F5F5F5;
+  --medium-gray: #E0E0E0;
+  --light-red: rgba(220, 38, 38, 0.1);
+
+  /* === DÉGRADÉS === */
+  --gradient-primary: linear-gradient(135deg, #CF5706 0%, #D6702B 50%, #CF5706 100%);
+  --gradient-cta: linear-gradient(135deg, #CF5706 0%, #D6702B 50%, #CF5706 100%);
+  --gradient-intense: linear-gradient(135deg, #AF4905 0%, #CF5706 100%);
+  --gradient-soft: linear-gradient(135deg, rgba(220, 38, 38, 0.10) 0%, rgba(239, 68, 68, 0.08) 100%);
+  --gradient-hero-bg: linear-gradient(180deg, #FAFAFA 0%, #FFFFFF 100%);
+
+  /* === TYPOGRAPHIE === */
+  --font-heading: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+  --font-display: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+  --font-body: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+
+  /* === SPACING === */
+  --spacing-xs: 0.5rem;   /* 8px */
+  --spacing-sm: 1rem;     /* 16px */
+  --spacing-md: 1.5rem;   /* 24px */
+  --spacing-lg: 2rem;     /* 32px */
+  --spacing-xl: 3rem;     /* 48px */
+  --spacing-2xl: 4rem;    /* 64px */
+  --spacing-3xl: 6rem;    /* 96px */
+
+  /* === BREAKPOINTS (référence pour @media queries) === */
+  /* Mobile: 640px */
+  /* Tablet: 768px */
+  /* Desktop: 1024px */
+
+}
+
+/* === IMPORTS DES POLICES === */

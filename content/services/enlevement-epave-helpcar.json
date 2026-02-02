@@ -1,0 +1,108 @@
+{
+  "service_id": 17,
+  "last_updated": "2026-02-01",
+  "hero": {
+    "h1": "Enlèvement d'Épaves Bruxelles -- Helpcar Dépannage, Service Agréé",
+    "badges": [
+      "intervention_rapide",
+      "disponible_24_7",
+      "expertise_10_ans"
+    ],
+    "subtitle": "Votre véhicule hors d'usage récupéré, détruit et radié dans les règles"
+  },
+  "sections": [
+    {
+      "h2": "Ce que prévoit la réglementation bruxelloise sur les véhicules abandonnés",
+      "content": "<p>La Région de Bruxelles-Capitale applique des règles strictes en matière de <strong>véhicules abandonnés et épaves</strong>. Selon le règlement général de police, tout véhicule stationné sur la voie publique sans bouger pendant <strong>plus de 24 heures</strong> et présentant des signes visibles de dégradation (pneus crevés, vitres brisées, rouille avancée) peut être signalé par les agents communaux.</p><p>La commune émet alors un <strong>avis de 15 jours</strong> collé sur le pare-brise. Sans réaction du propriétaire, le véhicule est enlevé d'office et les frais vous sont facturés -- souvent <strong>entre 250 et 500 euros</strong>. En parallèle, la taxe de circulation et l'assurance continuent de courir tant que la <strong>radiation à la DIV</strong> n'est pas effectuée.</p><p>Chez <strong style=\"color: #CF5706;\">Helpcar dépannage</strong>, on vous évite cette cascade de problèmes. Un appel au <a href=\"tel:+3228445401\" style=\"color: #CF5706; font-weight: 700;\">02 844 54 01</a> suffit pour déclencher la procédure propre et légale.</p>"
+    },
+    {
+      "h2": "Tarification transparente : gratuit, rachat ou frais minimes",
+      "content": "<p>Pas de mauvaise surprise. On évalue votre véhicule par téléphone et on vous donne un verdict clair :</p>\n<ul style=\"list-style: none; padding: 0;\">\n  <li style=\"margin-bottom: 1rem; padding-left: 1.5rem; position: relative;\">\n    <span style=\"position: absolute; left: 0; color: #10B981; font-weight: bold; font-size: 1.2rem;\">✓</span>\n    <strong>Récupération GRATUITE</strong> -- Le véhicule contient des pièces ou métaux exploitables<br>\n    <span style=\"font-size: 0.95rem;\">• Modèle de moins de 15 ans<br>• Carrosserie et mécanique relativement intactes<br>• Présence du catalyseur et des éléments valorisables</span>\n  </li>\n  <li style=\"margin-bottom: 1rem; padding-left: 1.5rem; position: relative;\">\n    <span style=\"position: absolute; left: 0; color: #CF5706; font-weight: bold; font-size: 1.2rem;\">💰</span>\n    <strong>RACHAT immédiat</strong> -- Votre auto vaut plus que sa ferraille<br>\n    <span style=\"font-size: 0.95rem;\">• Marque prisée sur le marché de la pièce d'occasion<br>• Kilométrage raisonnable<br>• Véhicule réparable ou exportable<br>• Paiement sur place + transport inclus</span>\n  </li>\n  <li style=\"margin-bottom: 0; padding-left: 1.5rem; position: relative;\">\n    <span style=\"position: absolute; left: 0; color: #CF5706; font-weight: bold; font-size: 1.2rem;\">€</span>\n    <strong>Frais réduits (cas exceptionnels)</strong> -- Épave dégradée au point de ne rien valoir<br>\n    <span style=\"font-size: 0.95rem;\">• Véhicule calciné ou immergé<br>• Éléments mécaniques absents (moteur, boîte)<br>• Montant exact communiqué avant intervention</span>\n  </li>\n</ul>\n<p><strong>Contactez le <a href=\"tel:+3228445401\" style=\"color: #CF5706; font-weight: 700;\">02 844 54 01</a> -- en une minute, on vous situe dans la bonne catégorie.</strong></p>"
+    },
+    {
+      "h2": "Helpcar dépannage : qui sommes-nous pour gérer votre épave ?",
+      "content": "<p><strong style=\"color: #CF5706;\">Helpcar dépannage</strong> opère à Bruxelles depuis <strong>{{YEARS_EXPERIENCE_PLUS}} ans</strong>. Ce sont les gérants eux-mêmes qui interviennent sur le terrain -- pas de sous-traitants, pas d'intermédiaires. Notre note de <strong>{{GOOGLE_RATING}}/5 basée sur {{GOOGLE_REVIEWS}} avis Google</strong> reflète cette approche directe.</p><p>On ne se limite pas à charger une carcasse sur un plateau. On prend en charge <strong>l'intégralité du processus administratif</strong> : radiation auprès de la DIV, émission du certificat de destruction conforme, et si nécessaire, les démarches auprès de votre assureur pour clôturer le contrat.</p><p>Résultat : vous récupérez de l'espace, vous arrêtez de payer taxe et assurance, et vous êtes en règle vis-à-vis de la loi belge. Le tout organisé en <strong class=\"text-orange\">un seul appel téléphonique</strong>.</p>"
+    },
+    {
+      "h2": "Le certificat de destruction : votre protection juridique",
+      "content": "<p>Le certificat de destruction n'est pas une formalité -- c'est votre <strong>bouclier légal</strong>. Sans ce document, vous restez inscrit comme propriétaire du véhicule auprès de la DIV, avec toutes les conséquences que cela implique.</p>\n<ul style=\"list-style: none; padding: 0;\">\n  <li style=\"margin-bottom: 0.75rem; padding-left: 1.75rem; position: relative;\">\n    <span style=\"position: absolute; left: 0; font-size: 1.2rem;\">📄</span>\n    <strong>Coupure du lien juridique</strong> -- Vous n'êtes plus responsable de ce véhicule en cas d'infraction ou d'accident impliquant ses plaques.\n  </li>\n  <li style=\"margin-bottom: 0.75rem; padding-left: 1.75rem; position: relative;\">\n    <span style=\"position: absolute; left: 0; font-size: 1.2rem;\">📄</span>\n    <strong>Arrêt de la taxe de circulation</strong> -- La Région ne peut plus vous facturer dès que la radiation est enregistrée.\n  </li>\n  <li style=\"margin-bottom: 0.75rem; padding-left: 1.75rem; position: relative;\">\n    <span style=\"position: absolute; left: 0; font-size: 1.2rem;\">📄</span>\n    <strong>Résiliation de l'assurance RC auto</strong> -- Votre assureur exige ce document pour stopper les primes.\n  </li>\n  <li style=\"margin-bottom: 0; padding-left: 1.75rem; position: relative;\">\n    <span style=\"position: absolute; left: 0; font-size: 1.2rem;\">📄</span>\n    <strong>Conformité environnementale</strong> -- Preuve que les fluides (huile, liquide de frein, réfrigérant) ont été traités selon les normes belges.\n  </li>\n</ul>\n<p><strong>Helpcar dépannage</strong> vous remet ce certificat le jour même de l'enlèvement. Aucun délai, aucune relance nécessaire.</p>"
+    },
+    {
+      "h2": "Quels véhicules acceptons-nous ?",
+      "content": "<p>Notre flotte de dépanneuses et plateaux est dimensionnée pour prendre en charge pratiquement tout :</p>\n<ul style=\"list-style: none; padding: 0;\">\n  <li style=\"margin-bottom: 0.75rem; padding-left: 1.5rem; position: relative;\">\n    <span style=\"position: absolute; left: 0; color: #CF5706; font-weight: bold; font-size: 1.2rem;\">🚗</span>\n    <strong>Berlines, citadines, SUV</strong> -- Toutes marques, de la Fiat Punto au BMW X5\n  </li>\n  <li style=\"margin-bottom: 0.75rem; padding-left: 1.5rem; position: relative;\">\n    <span style=\"position: absolute; left: 0; color: #CF5706; font-weight: bold; font-size: 1.2rem;\">🏍️</span>\n    <strong>Motos et scooters</strong> -- Y compris les 125cc et les maxiscooters\n  </li>\n  <li style=\"margin-bottom: 0.75rem; padding-left: 1.5rem; position: relative;\">\n    <span style=\"position: absolute; left: 0; color: #CF5706; font-weight: bold; font-size: 1.2rem;\">🚐</span>\n    <strong>Camionnettes et fourgons</strong> -- Sprinter, Transit, Trafic et similaires\n  </li>\n  <li style=\"margin-bottom: 0.75rem; padding-left: 1.5rem; position: relative;\">\n    <span style=\"position: absolute; left: 0; color: #CF5706; font-weight: bold; font-size: 1.2rem;\">💥</span>\n    <strong>Véhicules accidentés</strong> -- Même avec déformation structurelle importante\n  </li>\n  <li style=\"margin-bottom: 0.75rem; padding-left: 1.5rem; position: relative;\">\n    <span style=\"position: absolute; left: 0; color: #CF5706; font-weight: bold; font-size: 1.2rem;\">🔥</span>\n    <strong>Carcasses calcinées</strong> -- Intervention spécifique avec frais éventuels\n  </li>\n  <li style=\"margin-bottom: 0; padding-left: 1.5rem; position: relative;\">\n    <span style=\"position: absolute; left: 0; color: #CF5706; font-weight: bold; font-size: 1.2rem;\">📋</span>\n    <strong>Véhicules sans documents</strong> -- Procédure adaptée avec déclaration de perte préalable\n  </li>\n</ul>"
+    },
+    {
+      "h2": "Nos trois étapes pour récupérer votre épave",
+      "content": "<div class=\"timeline-steps\">\n  <div class=\"timeline-step\"><svg class=\"step-timeline step-1\" xmlns=\"http://www.w3.org/2000/svg\" width=\"40\" height=\"100%\" viewBox=\"0 0 40 100\" preserveAspectRatio=\"xMinYMin meet\">\n  <defs>\n    <linearGradient id=\"greenGradient1\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"100%\">\n      <stop offset=\"0%\" style=\"stop-color:#CF5706;stop-opacity:1\" />\n      <stop offset=\"100%\" style=\"stop-color:#CF5706;stop-opacity:1\" />\n    </linearGradient>\n  </defs>\n  <circle cx=\"20\" cy=\"20\" r=\"18\" fill=\"url(#greenGradient1)\" stroke=\"#FFFFFF\" stroke-width=\"3\"/>\n  <text x=\"20\" y=\"27\" font-family=\"Outfit, sans-serif\" font-size=\"18\" font-weight=\"700\" fill=\"#FFFFFF\" text-anchor=\"middle\">1</text>\n  <line x1=\"20\" y1=\"38\" x2=\"20\" y2=\"100\" stroke=\"#CF5706\" stroke-width=\"3\"/>\n</svg><div class=\"timeline-content\"><strong>Appelez le <a href=\"tel:+3228445401\" class=\"phone-link\">02 844 54 01</a> --</strong> Décrivez le véhicule (marque, année, localisation, état visible)</div></div>\n  <div class=\"timeline-step\"><svg class=\"step-timeline step-2\" xmlns=\"http://www.w3.org/2000/svg\" width=\"40\" height=\"100%\" viewBox=\"0 0 40 100\" preserveAspectRatio=\"xMinYMin meet\">\n  <defs>\n    <linearGradient id=\"greenGradient2\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"100%\">\n      <stop offset=\"0%\" style=\"stop-color:#CF5706;stop-opacity:1\" />\n      <stop offset=\"100%\" style=\"stop-color:#CF5706;stop-opacity:1\" />\n    </linearGradient>\n  </defs>\n  <line x1=\"20\" y1=\"0\" x2=\"20\" y2=\"2\" stroke=\"#CF5706\" stroke-width=\"3\"/>\n  <circle cx=\"20\" cy=\"20\" r=\"18\" fill=\"url(#greenGradient2)\" stroke=\"#FFFFFF\" stroke-width=\"3\"/>\n  <text x=\"20\" y=\"27\" font-family=\"Outfit, sans-serif\" font-size=\"18\" font-weight=\"700\" fill=\"#FFFFFF\" text-anchor=\"middle\">2</text>\n  <line x1=\"20\" y1=\"38\" x2=\"20\" y2=\"100\" stroke=\"#CF5706\" stroke-width=\"3\"/>\n</svg><div class=\"timeline-content\"><strong>Verdict immédiat --</strong> On vous confirme : enlèvement gratuit, offre de rachat, ou tarif fixe</div></div>\n  <div class=\"timeline-step\"><svg class=\"step-timeline step-3\" xmlns=\"http://www.w3.org/2000/svg\" width=\"40\" height=\"40\" viewBox=\"0 0 40 40\" preserveAspectRatio=\"xMinYMin meet\">\n  <defs>\n    <linearGradient id=\"greenGradient3\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"100%\">\n      <stop offset=\"0%\" style=\"stop-color:#CF5706;stop-opacity:1\" />\n      <stop offset=\"100%\" style=\"stop-color:#CF5706;stop-opacity:1\" />\n    </linearGradient>\n  </defs>\n  <line x1=\"20\" y1=\"0\" x2=\"20\" y2=\"2\" stroke=\"#CF5706\" stroke-width=\"3\"/>\n  <circle cx=\"20\" cy=\"20\" r=\"18\" fill=\"url(#greenGradient3)\" stroke=\"#FFFFFF\" stroke-width=\"3\"/>\n  <text x=\"20\" y=\"27\" font-family=\"Outfit, sans-serif\" font-size=\"18\" font-weight=\"700\" fill=\"#FFFFFF\" text-anchor=\"middle\">3</text>\n</svg><div class=\"timeline-content\"><strong>Intervention sur site --</strong> Chargement, transport vers centre agréé, certificat de destruction remis en main propre</div></div>\n</div>"
+    },
+    {
+      "h2": "Zone d'intervention : les 19 communes et au-delà",
+      "content": "<p>Notre base d'opérations est à Bruxelles. On couvre <strong>l'ensemble de la Région de Bruxelles-Capitale</strong> : Anderlecht, Auderghem, Berchem-Sainte-Agathe, Bruxelles-Ville, Etterbeek, Evere, Forest, Ganshoren, Ixelles, Jette, Koekelberg, Molenbeek-Saint-Jean, Saint-Gilles, Saint-Josse-ten-Noode, Schaerbeek, Uccle, Watermael-Boitsfort, Woluwe-Saint-Lambert, Woluwe-Saint-Pierre.</p><p><strong>Communes limitrophes également desservies</strong> : Drogenbos, Grimbergen, Kraainem, Linkebeek, Machelen, Rhode-Saint-Genèse, Vilvoorde, Wemmel, Wezembeek-Oppem, Zaventem, Tervuren, Overijse, Hoeilaart, La Hulpe, Waterloo, Braine-l'Alleud, Lasne.</p><p>Vous habitez encore plus loin ? Appelez le <a href=\"tel:+3228445401\" style=\"color: #CF5706; font-weight: 700;\">02 844 54 01</a>. On se déplace régulièrement en Brabant wallon et flamand pour des enlèvements.</p>"
+    },
+    {
+      "h2": "Les atouts concrets d'Helpcar dépannage pour votre épave",
+      "content": "<p>Avec <strong>{{YEARS_EXPERIENCE_PLUS}} ans</strong> de terrain à Bruxelles, voici ce qui nous distingue :</p><ul style=\"list-style: none; padding: 0;\">\n  <li style=\"margin-bottom: 0.75rem; padding-left: 1.75rem; position: relative;\">\n    <span style=\"position: absolute; left: 0; color: #10B981; font-weight: bold; font-size: 1.2rem;\">✓</span>\n    <strong>Opérateur agréé Région bruxelloise</strong> -- Destruction et recyclage conformes à la directive européenne 2000/53/CE\n  </li>\n  <li style=\"margin-bottom: 0.75rem; padding-left: 1.75rem; position: relative;\">\n    <span style=\"position: absolute; left: 0; color: #10B981; font-weight: bold; font-size: 1.2rem;\">✓</span>\n    <strong>Certificat de destruction le jour J</strong> -- Pas d'attente, pas de courrier postal à espérer\n  </li>\n  <li style=\"margin-bottom: 0.75rem; padding-left: 1.75rem; position: relative;\">\n    <span style=\"position: absolute; left: 0; color: #10B981; font-weight: bold; font-size: 1.2rem;\">✓</span>\n    <strong>Zéro paperasse pour vous</strong> -- Radiation DIV, notification assureur : on fait tout\n  </li>\n  <li style=\"margin-bottom: 0.75rem; padding-left: 1.75rem; position: relative;\">\n    <span style=\"position: absolute; left: 0; color: #10B981; font-weight: bold; font-size: 1.2rem;\">✓</span>\n    <strong>Les gérants se déplacent personnellement</strong> -- Pas de sous-traitance, un seul interlocuteur\n  </li>\n  <li style=\"margin-bottom: 0; padding-left: 1.75rem; position: relative;\">\n    <span style=\"position: absolute; left: 0; color: #10B981; font-weight: bold; font-size: 1.2rem;\">✓</span>\n    <strong>Évaluation honnête par téléphone</strong> -- On vous dit la vérité sur la valeur de votre véhicule\n  </li>\n</ul><p>La preuve par les chiffres : <svg class=\"star-icon\" xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"#FFC107\"><path d=\"M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z\"/></svg><a href=\"{{GOOGLE_MY_BUSINESS_URL}}\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"google-rating-link\"><strong>{{GOOGLE_RATING}}/5 sur Google -- {{GOOGLE_REVIEWS}}+ avis vérifiés</strong></a>.</p>"
+    }
+  ],
+  "cta": {
+    "title": "Une épave qui vous encombre ?",
+    "subtitle": "Appelez maintenant pour savoir si l'enlèvement est gratuit dans votre cas",
+    "button_text": "📞  Appeler Helpcar Maintenant"
+  },
+  "faq": [
+    {
+      "question": "Mon véhicule stationne sur la voie publique depuis des semaines. Que risque-t-il concrètement ?",
+      "answer": "À Bruxelles, la commune peut coller un avis de 15 jours sur votre véhicule dès qu'il présente des signes d'abandon (pneus à plat, poussière, dégradations). Passé ce délai, il est enlevé d'office et vous recevez la facture, souvent entre 250 et 500 euros. En parallèle, vous continuez de payer taxe de circulation et assurance. Contactez-nous au <a href=\"tel:+3228445401\" style=\"color: #CF5706; font-weight: 600;\">02 844 54 01</a> pour éviter ces frais."
+    },
+    {
+      "question": "Comment déterminez-vous si l'enlèvement sera gratuit ou payant ?",
+      "answer": "On se base sur trois critères : l'âge du véhicule, son état général et la présence des composants valorisables (catalyseur, moteur, boîte de vitesses). Donnez-nous la marque, le modèle et l'année par téléphone, et on vous donne une réponse en moins d'une minute."
+    },
+    {
+      "question": "Quel document recevrai-je après la destruction de mon véhicule ?",
+      "answer": "Vous recevez un certificat de destruction officiel conforme à la réglementation belge. Ce document vous permet de radier le véhicule à la DIV, de résilier votre assurance RC auto et de stopper la taxe de circulation. On vous le remet le jour même de l'enlèvement."
+    },
+    {
+      "question": "J'ai égaré le certificat d'immatriculation. L'enlèvement est-il quand même possible ?",
+      "answer": "Oui, mais il faut d'abord obtenir un duplicata ou effectuer une déclaration de perte auprès de la DIV. On vous accompagne dans cette démarche étape par étape. Appelez-nous, on vous explique exactement quoi faire selon votre situation."
+    },
+    {
+      "question": "Sous quel délai pouvez-vous intervenir ?",
+      "answer": "En règle générale, on programme l'enlèvement dans les 24 à 48 heures. Si la situation est urgente -- par exemple un avis communal déjà collé sur le pare-brise ou un véhicule qui bloque un accès -- on fait le maximum pour passer le jour même."
+    },
+    {
+      "question": "Un véhicule qui ne démarre plus peut-il être racheté ?",
+      "answer": "Tout à fait. Un moteur bloqué ou une batterie morte n'empêchent pas la valorisation. Si le modèle est recherché pour ses pièces détachées ou si le châssis est en bon état, on vous propose un rachat. Le chargement sur plateau est inclus dans notre offre."
+    },
+    {
+      "question": "Quelle différence entre faire appel à Helpcar et amener soi-même la voiture à la casse ?",
+      "answer": "Premièrement, vous n'avez pas besoin d'organiser un remorquage -- on vient directement chez vous avec notre équipement. Deuxièmement, on gère toute l'administration (radiation DIV, certificat). Troisièmement, si le véhicule a de la valeur, on vous paye sur place au lieu de vous facturer un dépôt."
+    },
+    {
+      "question": "Prenez-vous en charge les deux-roues et les véhicules utilitaires ?",
+      "answer": "Oui. Motos, scooters, camionnettes, fourgons : mêmes conditions que pour les voitures. Enlèvement gratuit si le véhicule a une valeur résiduelle, rachat possible pour les modèles intéressants, et certificat de destruction fourni dans tous les cas."
+    }
+  ],
+  "services_related": [
+    {
+      "title": "Remorquage Voiture",
+      "description": "Transport sécurisé de votre véhicule sur plateau si le chargement sur site nécessite un remorquage spécifique.",
+      "link": "../remorquage-voiture-bruxelles/"
+    },
+    {
+      "title": "Remorquage Moto",
+      "description": "Prise en charge et transport de motos et scooters hors d'usage vers un centre agréé.",
+      "link": "../remorquage-motos-bruxelles/"
+    },
+    {
+      "title": "Dépannage Camionnette",
+      "description": "Récupération d'utilitaires légers et fourgons professionnels en fin de vie.",
+      "link": "../{{URL_SERVICE_CAMIONNETTE}}/"
+    },
+    {
+      "title": "Dépannage Voiture",
+      "description": "Votre véhicule peut encore être sauvé ? On diagnostique avant de parler de casse.",
+      "link": "../{{URL_SERVICE_DEPANNAGE_VOITURE}}/"
+    }
+  ]
+}

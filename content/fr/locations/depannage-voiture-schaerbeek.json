@@ -1,0 +1,19 @@
+{
+  "commune": "Schaerbeek",
+  "code_postal": "1030",
+  "hero": {
+    "h1": "Dépannage Voiture Schaerbeek 1030 | 24h/24",
+    "subtitle": "Intervention rapide dans toute la commune"
+  },
+  "intro": {
+    "content": "<p><strong>Helpcar Dépannage</strong> intervient dans tout <strong>Schaerbeek (1030)</strong> : Cage aux Ours, Place Meiser, Helmet, Josaphat, et tous les quartiers.</p><p>Panne, accident ou besoin de remorquage ? On arrive en <strong>30 minutes</strong>. Appelez le <strong>02 844 54 01</strong> pour un devis immédiat.</p>"
+  },
+  "quartiers": {
+    "h2": "Quartiers desservis à Schaerbeek",
+    "liste": ["Cage aux Ours", "Place Meiser", "Helmet", "Josaphat", "Colignon", "Dailly", "Pogge"]
+  },
+  "specificites": {
+    "h2": "Dépannage à Schaerbeek",
+    "content": "<p>Schaerbeek est une grande commune avec des zones très différentes. Que vous soyez près de la gare, dans un quartier résidentiel ou sur une grande avenue, notre équipe connaît le terrain et arrive rapidement.</p>"
+  }
+}

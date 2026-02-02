@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="fr-BE">
+<head>
+  <!-- Meta tags essentiels -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <!-- SEO Meta Tags -->
+  <title>{{META_TITLE}}</title>
+  <meta name="description" content="{{META_DESCRIPTION}}">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="{{CANONICAL_URL}}">
+  <meta property="og:title" content="{{OG_TITLE}}">
+  <meta property="og:description" content="{{OG_DESCRIPTION}}">
+  <meta property="og:image" content="{{OG_IMAGE_1}}">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Zones d'intervention dépannage - {{COMPANY_NAME}} Bruxelles">
+  <meta property="og:image" content="{{OG_IMAGE_2}}">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Zones d'intervention dépannage - {{COMPANY_NAME}} Bruxelles">
+  <meta property="og:locale" content="fr_BE">
+  <meta property="og:site_name" content="{{COMPANY_NAME}}">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{{OG_TITLE}}">
+  <meta name="twitter:description" content="{{OG_DESCRIPTION}}">
+  <meta name="twitter:image" content="{{OG_IMAGE_1}}">
+  <meta name="twitter:image:alt" content="Zones d'intervention dépannage - {{COMPANY_NAME}} Bruxelles">
+
+  <!-- Canonical URL -->
+  <link rel="canonical" href="{{CANONICAL_URL}}">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="{{PATH_PREFIX}}favicon.webp">
+  <link rel="shortcut icon" href="{{PATH_PREFIX}}favicon.ico">
+
+  <!-- Critical CSS Inline (Minimal) -->
+  <style>:root{--red:#CF5706;--green:#059669;--black:#1A1A1A;--white:#FFFFFF;--gray-dark:#6B7280;--gradient-primary:linear-gradient(135deg,#CF5706 0%,#CF5706 50%,#CF5706 100%);--font-heading:'Outfit',sans-serif;--font-body:'DM Sans',sans-serif;--spacing-sm:1rem;--spacing-md:1.5rem;--spacing-lg:2rem;--spacing-xl:3rem;--spacing-2xl:4rem;--spacing-3xl:6rem;--radius-full:9999px}*{margin:0;padding:0;box-sizing:border-box}body{font-family:var(--font-body);color:var(--black);background:#fff;line-height:1.6}img,svg{max-width:100%;height:auto}.logo-img{height:55px !important;width:auto !important;max-height:55px !important;object-fit:contain}.phone-icon svg{width:20px;height:20px}.logo-icon{width:60px;height:60px}.header{position:fixed;top:0;left:0;right:0;z-index:1000;background:#1A1A1A}</style>
+
+  <!-- Critical CSS Inline (Complete) -->
+  <style>:root{--red:#CF5706;--green:#059669;--black:#1A1A1A;--white:#FFFFFF;--gray-dark:#6B7280;--soft-black:#2D3748;--off-white:#F9FAFB;--orange:#CF5706;--gradient-primary:linear-gradient(135deg,#CF5706 0%,#CF5706 50%,#CF5706 100%);--gradient-cta:linear-gradient(135deg,#CF5706 0%,#CF5706 100%);--red-primary:#CF5706;--font-heading:'Outfit',sans-serif;--font-body:'DM Sans',sans-serif;--spacing-xs:0.5rem;--spacing-sm:1rem;--spacing-md:1.5rem;--spacing-lg:2rem;--spacing-xl:3rem;--spacing-2xl:4rem;--spacing-3xl:6rem;--radius-full:9999px;--radius-pill:50px;--shadow-glow-red:0 4px 30px rgba(220,38,38,0.35);--shadow-card-hover:0 8px 20px rgba(0,0,0,0.12);--transition-base:0.3s ease}*{margin:0;padding:0;box-sizing:border-box}html{scroll-behavior:smooth}body{font-family:var(--font-body);font-size:16px;line-height:1.6;color:var(--black);background:#fff;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}h1,h2,h3,h4,h5,h6{font-family:var(--font-heading);line-height:1.2;margin-bottom:var(--spacing-sm)}h1{font-size:clamp(2.2rem,6vw,4rem);font-weight:800}h2{font-size:clamp(1.8rem,4vw,2.5rem);font-weight:700}h3{font-size:1.15rem;font-weight:700}p{margin-bottom:var(--spacing-sm)}img,svg{max-width:100%;height:auto}.logo-img{height:55px !important;width:auto !important;max-height:55px !important;object-fit:contain}.container{max-width:1200px;margin:0 auto;padding:0 var(--spacing-sm)}@media(min-width:768px){.container{padding:0 var(--spacing-md)}}@media(min-width:1024px){.container{padding:0 var(--spacing-lg)}}.header{position:fixed;top:0;left:0;right:0;z-index:1000;background:#1A1A1A;border-bottom:1px solid rgba(255,255,255,0.1);transition:all var(--transition-base)}.header-container{max-width:1200px;margin:0 auto;padding:var(--spacing-sm) var(--spacing-md);display:flex;justify-content:space-between;align-items:center}@media(min-width:1024px){.header-container{padding:var(--spacing-sm) var(--spacing-lg)}}.header-logo{display:flex;align-items:center}.header-logo .logo{display:flex;align-items:center;gap:12px;text-decoration:none;transition:opacity var(--transition-base)}.logo-icon{width:60px;height:60px;display:flex;align-items:center;justify-content:center;flex-shrink:0}.logo-icon img{width:100%;height:100%;object-fit:contain}.logo-text{font-family:var(--font-heading);font-size:1.25rem;font-weight:700;color:white;white-space:nowrap;line-height:1.2}.logo-text span{color:var(--red-primary)}.phone-btn{display:none;align-items:center;gap:8px;background:var(--gradient-primary);color:white;padding:12px 24px;border-radius:var(--radius-pill);text-decoration:none;font-weight:600;font-family:var(--font-heading);transition:all var(--transition-base)}@media(min-width:768px){.phone-btn{display:flex}}.phone-btn:hover{transform:translateY(-2px);box-shadow:var(--shadow-glow-red)}.header-nav{display:none}@media(min-width:1024px){.header-nav{display:block}}.nav-menu{display:flex;list-style:none;gap:var(--spacing-lg);align-items:center}.nav-menu>li>a{position:relative;color:white;text-decoration:none;font-weight:600;font-family:var(--font-heading);transition:color var(--transition-base)}.nav-menu>li>a::after{content:'';position:absolute;bottom:-4px;left:0;width:0;height:2px;background:var(--red-primary);transition:width var(--transition-base)}.nav-menu>li>a:hover{color:var(--red-primary)}.nav-menu>li>a:hover::after{width:100%}.mobile-menu-toggle{display:flex;flex-direction:column;gap:5px;background:none;border:none;cursor:pointer;padding:8px;z-index:1001}@media(min-width:1024px){.mobile-menu-toggle{display:none}}.mobile-menu-toggle span{display:block;width:28px;height:3px;background:white;border-radius:3px;transition:all 0.3s ease}.btn{display:inline-flex;align-items:center;justify-content:center;gap:var(--spacing-xs);padding:16px 32px;font-family:var(--font-heading);font-size:16px;font-weight:700;border-radius:var(--radius-pill);border:none;cursor:pointer;text-decoration:none;transition:all var(--transition-base)}.btn-primary{background:var(--gradient-cta);color:var(--white);box-shadow:var(--shadow-glow-red)}.btn-primary:hover{transform:translateY(-3px) scale(1.02);box-shadow:0 6px 40px rgba(220,38,38,0.45)}.btn-white{background:var(--white);color:var(--red-primary);box-shadow:var(--shadow-card-hover)}.btn-white:hover{transform:translateY(-2px);box-shadow:0 8px 24px rgba(0,0,0,0.15)}.btn-lg{padding:20px 40px;font-size:18px;min-height:56px}.btn .phone-icon,.btn-phone .phone-icon{display:inline-flex;align-items:center;justify-content:center}.btn .phone-icon svg,.btn-phone .phone-icon svg{width:20px;height:20px;stroke:currentColor;flex-shrink:0}.btn-primary .phone-icon svg{stroke:white}.btn-white .phone-icon svg{stroke:var(--red-primary)}.hero{position:relative;min-height:90vh;display:flex;align-items:center;overflow:hidden;padding-top:150px;background:linear-gradient(110deg,#f8fafc 0%,#ffffff 45%,#fef9f5 100%)}.hero-container{max-width:1200px;margin:0 auto;padding:0 var(--spacing-lg);display:grid;grid-template-columns:1fr 1fr;gap:var(--spacing-3xl);align-items:center;position:relative;z-index:1}@media(max-width:1024px){.hero-container{grid-template-columns:1fr;gap:var(--spacing-2xl)}}.hero-content{padding-right:var(--spacing-lg)}.hero-h1{font-size:clamp(2.5rem,5vw,3.5rem);font-weight:800;color:var(--black);line-height:1.1;margin-bottom:var(--spacing-md)}.hero-h1 .gradient-text{background:linear-gradient(135deg,var(--red-primary) 0%,var(--orange) 100%);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}.hero-h2,.hero-subtitle{font-size:clamp(1.1rem,2vw,1.3rem);color:var(--gray-dark);font-weight:500;line-height:1.5;margin-bottom:var(--spacing-xl)}.hero-cta{display:flex;flex-direction:column;gap:var(--spacing-sm);align-items:center}.hero-btn-primary{display:inline-flex;align-items:center;gap:var(--spacing-sm);background:var(--gradient-primary);color:var(--white);padding:18px 36px;border-radius:var(--radius-full);font-size:1.2rem;font-weight:700;text-decoration:none;transition:all var(--transition-base);box-shadow:var(--shadow-glow-red)}.hero-btn-primary:hover{transform:translateY(-3px);box-shadow:0 12px 40px rgba(220,38,38,0.4)}.hero-visuals-single{width:100%;max-width:600px;position:relative}.hero-carousel-main{position:relative;width:100%;aspect-ratio:4/3;border-radius:20px;overflow:hidden;box-shadow:0 8px 30px rgba(0,0,0,0.1),0 2px 8px rgba(0,0,0,0.06)}.hero-carousel-track{display:flex;width:100%;height:100%;transition:transform 0.6s cubic-bezier(0.4,0,0.2,1)}.hero-carousel-image{width:100%;height:100%;object-fit:cover;flex-shrink:0}.main-content{margin-top:0}</style>
+
+  <!-- Preload LCP image -->
+  <link rel="preload" as="image" href="{{PATH_PREFIX}}images/zones-index/bruxelles-car-depannage-srl-services-service.webp" fetchpriority="high">
+
+  <!-- CSS (chargement normal - ZÉRO glitch) -->
+  <link rel="stylesheet" href="{{PATH_PREFIX}}public/css/main.css?v=8.9">
+  <link rel="stylesheet" href="{{PATH_PREFIX}}public/css/shared.css?v=2.0">
+  <link rel="stylesheet" href="{{PATH_PREFIX}}public/css/dropdown.css?v=2.0">
+  <link rel="stylesheet" href="{{PATH_PREFIX}}public/css/accessibility.css?v=1.0">
+
+  <!-- Fonts (chargement normal) -->
+
+  <!-- <!-- Schema.org JSON-LD -->
+  {{SCHEMA_ORG_LOCALBUSINESS}}
+
+  <!-- Google Analytics -->
+  {{COMPONENT_GOOGLE_ANALYTICS}}
+
+  <!-- Microsoft Clarity (Heatmaps & Session Recordings) -->
+  {{COMPONENT_MICROSOFT_CLARITY}}
+</head>
+
+<body class="page-zones-index">
+
+  <!-- ===== HEADER ===== -->
+  {{COMPONENT_HEADER}}
+
+  <!-- ===== BREADCRUMB ===== -->
+  {{COMPONENT_BREADCRUMB}}
+
+  <!-- ===== MAIN CONTENT ===== -->
+  <main class="main-content">
+
+    <!-- Hero Section -->
+    <section class="hero-two-cols">
+      <div class="hero-two-cols-grid">
+        <div class="hero-two-cols-content">
+          <h1 class="hero-title">{{HERO_H1}}</h1>
+
+          <p class="hero-subtitle">{{HERO_H2}}</p>
+
+          <!-- CTA Buttons -->
+          <div class="hero-cta-container" style="display: flex; flex-direction: column; gap: 1rem; margin-top: 2rem; align-items: flex-start;">
+            <a href="tel:{{TELEPHONE_HREF}}" class="hero-btn-primary" style="display: inline-flex !important; align-items: center !important; gap: 0.5rem !important; padding: 14px 28px !important;">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+              </svg>
+              <span class="hero-btn-phone-number">{{TELEPHONE}}</span>
+            </a>
+            <a href="https://wa.me/{{TELEPHONE_HREF}}" class="hero-btn-whatsapp" style="display: inline-flex !important; align-items: center !important; gap: 0.5rem !important; padding: 14px 28px !important;" target="_blank" rel="noopener noreferrer">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/>
+              </svg>
+              <span class="hero-btn-whatsapp-content">
+                <span class="hero-btn-whatsapp-text">Devis WhatsApp</span>
+                <span class="hero-btn-whatsapp-badge">NEW</span>
+              </span>
+            </a>
+          </div>
+        </div>
+        <div class="hero-two-cols-image">
+          {{ZONES_CAROUSEL}}
+        </div>
+      </div>
+    </section>
+
+    <!-- Section Couverture (sans map) -->
+    <section class="section section-alt">
+      <div class="container" style="max-width: 900px;">
+        <div class="section-header-zones">
+          <span class="section-label">{{COUVERTURE_LABEL}}</span>
+          <h2 class="section-title">{{COUVERTURE_TITLE}}</h2>
+        </div>
+
+        <div style="margin-top: 2rem;">
+          {{COUVERTURE_PARAGRAPHES}}
+
+          <!-- Badge Google centré -->
+          <div style="text-align: center; margin-top: 2.5rem;">
+            <div style="display: inline-block; background: white; padding: 1.25rem 1.75rem; border-radius: 12px; box-shadow: 0 4px 16px rgba(0,0,0,0.1);">
+              <a href="{{GOOGLE_MY_BUSINESS_URL}}" target="_blank" rel="noopener noreferrer" style="display: flex; align-items: center; gap: 1rem; text-decoration: none; color: inherit;">
+                <img src="{{PATH_PREFIX}}images/logo/Google_Favicon_2025.svg.png" alt="Google" width="40" height="40" loading="lazy">
+                <div>
+                  <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 4px;">
+                    <span style="font-size: 1.2rem;">⭐</span>
+                    <span style="font-family: var(--font-heading); font-weight: 700; font-size: 1.1rem; color: #1A1A1A;">{{GOOGLE_RATING}}/5</span>
+                  </div>
+                  <p style="color: #666; font-size: 0.9rem; margin: 0;">{{GOOGLE_REVIEWS}} avis Google</p>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section Liste des Communes (déplacée ici) -->
+    <section class="section">
+      <div class="container">
+        <div class="section-header-zones">
+          <span class="section-label">{{COMMUNES_LABEL}}</span>
+          <h2 class="section-title">{{COMMUNES_TITLE}}</h2>
+          <p class="section-description">{{COMMUNES_DESCRIPTION}}</p>
+        </div>
+
+        <div class="communes-grid">
+          {{COMMUNES_CARDS}}
+        </div>
+      </div>
+    </section>
+
+    <!-- Section Services Disponibles -->
+    <section class="section section-alt">
+      <div class="container">
+        <div class="section-header-zones">
+          <span class="section-label">{{SERVICES_LABEL}}</span>
+          <h2 class="section-title">{{SERVICES_TITLE}}</h2>
+          <p class="section-description">{{SERVICES_DESCRIPTION}}</p>
+        </div>
+
+        <div class="services-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem; margin: 3rem 0;">
+          {{SERVICES_CARDS}}
+        </div>
+
+        <div style="text-align: center; margin-top: 2rem;">
+          <a href="{{PATH_PREFIX}}services/index.html" class="btn btn-primary">{{SERVICES_CTA}}</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section Axes Routiers -->
+    <section class="section">
+      <div class="container">
+        <div class="section-header-zones">
+          <span class="section-label">{{AXES_LABEL}}</span>
+          <h2 class="section-title">{{AXES_TITLE}}</h2>
+        </div>
+
+        <div style="background: white; padding: 2rem; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.08);">
+          <ul style="list-style: none; padding: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1rem;">
+            {{AXES_LISTE}}
+          </ul>
+          <p style="margin-top: 1.5rem; text-align: center; font-style: italic; color: #666;">{{AXES_NOTE}}</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section Pourquoi nous choisir -->
+    <section class="section section-alt">
+      <div class="container">
+        <div class="section-header-zones">
+          <span class="section-label">{{POURQUOI_LABEL}}</span>
+          <h2 class="section-title">{{POURQUOI_TITLE}}</h2>
+        </div>
+
+        <div style="background: white; padding: 2.5rem; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.08); max-width: 900px; margin: 0 auto;">
+          <ul style="list-style: none; padding: 0; text-align: center;">
+            {{POURQUOI_AVANTAGES}}
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section FAQ -->
+    <section class="section section-faq">
+      <div class="container" style="max-width: 900px;">
+        <div class="section-header" style="text-align: center; margin-bottom: 3rem;">
+          <span class="section-label">{{FAQ_LABEL}}</span>
+          <h2 class="section-title">{{FAQ_TITLE}}</h2>
+        </div>
+        <div class="faq-list">
+          {{FAQ_ITEMS}}
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA Final -->
+    <section class="cta-final">
+      <div class="container" style="text-align: center;">
+        <h2 class="cta-final-title">{{CTA_FINAL_TITRE}}</h2>
+        <p style="font-size: 1.15rem; color: rgba(255,255,255,0.95); margin-bottom: 2rem;">{{CTA_FINAL_SUBTITLE}}</p>
+        <a href="tel:{{TELEPHONE_HREF}}" class="btn btn-white btn-lg">
+          <svg class="phone-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+          </svg>
+          {{CTA_FINAL_BUTTON}}
+        </a>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  {{COMPONENT_FOOTER}}
+
+  <!-- JavaScript -->
+  <script src="{{PATH_PREFIX}}public/js/main.js" defer></script>
+  <script src="{{PATH_PREFIX}}public/js/tracking.js?v=1.0" defer></script>
+
+  <!-- Google Maps API (pour WhatsApp Smart autocomplete et directions) -->
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDDWguZ0hygny9cH7zG__Br2z6tTxud5-o&libraries=places" async defer></script>
+
+  <!-- WhatsApp Configuration -->
+  <script>
+    window.WHATSAPP_CONFIG = {{WHATSAPP_CONFIG_JSON}};
+  </script>
+  <script src="{{PATH_PREFIX}}public/js/whatsapp-smart.js?v=7.4" defer></script>
+
+  <!-- JavaScript -->
+  <script src="../public/js/carousel.js"></script>
+</body>
+</html>

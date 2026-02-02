@@ -1,0 +1,104 @@
+{
+  "service_id": 16,
+  "last_updated": "2026-02-01",
+  "hero": {
+    "h1": "Siphonnage Réservoir Bruxelles – Vidange Carburant d'Urgence",
+    "badges": [
+      "intervention_rapide",
+      "disponible_24_7",
+      "expertise_10_ans"
+    ],
+    "subtitle": "Mauvais carburant dans le réservoir ? Helpcar dépannage vide et corrige l'erreur sur place."
+  },
+  "sections": [
+    {
+      "h2": "Vous avez fait le plein avec le mauvais carburant ?",
+      "content": "<div style=\"background: #FEE2E2; padding: 1.5rem; border-radius: 12px; border-left: 4px solid #CF5706; margin: 1.5rem 0;\">\n<p style=\"margin-bottom: 0; font-size: 1.1rem;\">🚨 <strong style=\"color: #CF5706;\">MOTEUR COUPÉ, NE TOUCHEZ PLUS À RIEN !</strong> Diesel au lieu d'essence ou l'inverse ? <strong>Ne tournez pas la clé de contact</strong> et contactez immédiatement le <a href=\"tel:+3228445401\" style=\"color: #CF5706; font-weight: 700;\">02 844 54 01</a>.<br><strong>Démarrer avec le mauvais carburant peut engendrer 3 000 à 8 000 € de dommages mécaniques</strong> – le siphonnage revient à une fraction de ce montant.</p>\n</div>\n<p>Chaque année, des milliers d'automobilistes belges confondent la pompe à la station-service. Ce geste anodin peut se transformer en catastrophe mécanique si le moteur est mis en route. Chez <strong style=\"color: #CF5706;\">Helpcar dépannage</strong>, nous intervenons depuis <strong>{{YEARS_EXPERIENCE_PLUS}} ans</strong> exclusivement sur ce type de situation d'urgence à Bruxelles et dans toute la périphérie.</p><p>Notre équipe de techniciens spécialisés se déplace avec du matériel de vidange professionnel pour extraire intégralement le carburant inadapté, purger le circuit si nécessaire, et remettre votre véhicule en état de marche. Avec <strong>{{GOOGLE_RATING}}/5 sur Google</strong> et plus de <strong>{{GOOGLE_REVIEWS}} avis vérifiés</strong>, notre fiabilité n'est plus à démontrer.</p>"
+    },
+    {
+      "h2": "Zones desservies : Bruxelles et toute la périphérie",
+      "content": "<p>Que vous soyez bloqué à une station-service, sur un parking, en bord de route ou sur une aire d'autoroute, <strong>Helpcar dépannage</strong> se déplace <strong>partout dans la Région de Bruxelles-Capitale et bien au-delà</strong>.</p><p><strong>Les 19 communes bruxelloises :</strong> Anderlecht, Auderghem, Berchem-Sainte-Agathe, Bruxelles-Ville, Etterbeek, Evere, Forest, Ganshoren, Ixelles, Jette, Koekelberg, Molenbeek-Saint-Jean, Saint-Gilles, Saint-Josse-ten-Noode, Schaerbeek, Uccle, Watermael-Boitsfort, Woluwe-Saint-Lambert, Woluwe-Saint-Pierre.</p><p><strong>Communes limitrophes :</strong> Zaventem, Grimbergen, Vilvoorde, Machelen, Diegem, Wemmel, Kraainem, Wezembeek-Oppem, Tervuren, Overijse, Hoeilaart, La Hulpe, Waterloo, Braine-l'Alleud, Rhode-Saint-Genèse, Linkebeek, Drogenbos, Ruisbroek, Sint-Pieters-Leeuw, Dilbeek, Zellik, Asse, Strombeek-Bever, Neder-Over-Heembeek.</p><p>Vous vous trouvez en dehors de ces zones ? <strong>Contactez-nous quand même</strong> au <a href=\"tel:+3228445401\" style=\"color: #CF5706; font-weight: 700;\">02 844 54 01</a>. Nous couvrons toute la Belgique pour les urgences carburant. Mieux vaut un siphonnage rapide qu'une facture de garagiste à cinq chiffres.</p>"
+    },
+    {
+      "h2": "Notre méthode de siphonnage étape par étape",
+      "content": "<div class=\"timeline-steps\">\n  <div class=\"timeline-step\"><svg class=\"step-timeline step-1\" xmlns=\"http://www.w3.org/2000/svg\" width=\"40\" height=\"100%\" viewBox=\"0 0 40 100\" preserveAspectRatio=\"xMinYMin meet\">\n  <defs>\n    <linearGradient id=\"greenGradient1\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"100%\">\n      <stop offset=\"0%\" style=\"stop-color:#CF5706;stop-opacity:1\" />\n      <stop offset=\"100%\" style=\"stop-color:#CF5706;stop-opacity:1\" />\n    </linearGradient>\n  </defs>\n  <circle cx=\"20\" cy=\"20\" r=\"18\" fill=\"url(#greenGradient1)\" stroke=\"#FFFFFF\" stroke-width=\"3\"/>\n  <text x=\"20\" y=\"27\" font-family=\"Outfit, sans-serif\" font-size=\"18\" font-weight=\"700\" fill=\"#FFFFFF\" text-anchor=\"middle\">1</text>\n  <line x1=\"20\" y1=\"38\" x2=\"20\" y2=\"100\" stroke=\"#CF5706\" stroke-width=\"3\"/>\n</svg><div class=\"timeline-content\"><strong>Appel au <a href=\"tel:+3228445401\" class=\"phone-link\">02 844 54 01</a> –</strong> Décrivez la situation : type de carburant versé, moteur démarré ou non, localisation exacte</div></div>\n  <div class=\"timeline-step\"><svg class=\"step-timeline step-2\" xmlns=\"http://www.w3.org/2000/svg\" width=\"40\" height=\"100%\" viewBox=\"0 0 40 100\" preserveAspectRatio=\"xMinYMin meet\">\n  <defs>\n    <linearGradient id=\"greenGradient2\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"100%\">\n      <stop offset=\"0%\" style=\"stop-color:#CF5706;stop-opacity:1\" />\n      <stop offset=\"100%\" style=\"stop-color:#CF5706;stop-opacity:1\" />\n    </linearGradient>\n  </defs>\n  <line x1=\"20\" y1=\"0\" x2=\"20\" y2=\"2\" stroke=\"#CF5706\" stroke-width=\"3\"/>\n  <circle cx=\"20\" cy=\"20\" r=\"18\" fill=\"url(#greenGradient2)\" stroke=\"#FFFFFF\" stroke-width=\"3\"/>\n  <text x=\"20\" y=\"27\" font-family=\"Outfit, sans-serif\" font-size=\"18\" font-weight=\"700\" fill=\"#FFFFFF\" text-anchor=\"middle\">2</text>\n  <line x1=\"20\" y1=\"38\" x2=\"20\" y2=\"100\" stroke=\"#CF5706\" stroke-width=\"3\"/>\n</svg><div class=\"timeline-content\"><strong>Tarif communiqué par téléphone –</strong> Prix fixe annoncé avant déplacement, aucun supplément caché</div></div>\n  <div class=\"timeline-step\"><svg class=\"step-timeline step-3\" xmlns=\"http://www.w3.org/2000/svg\" width=\"40\" height=\"40\" viewBox=\"0 0 40 40\" preserveAspectRatio=\"xMinYMin meet\">\n  <defs>\n    <linearGradient id=\"greenGradient3\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"100%\">\n      <stop offset=\"0%\" style=\"stop-color:#CF5706;stop-opacity:1\" />\n      <stop offset=\"100%\" style=\"stop-color:#CF5706;stop-opacity:1\" />\n    </linearGradient>\n  </defs>\n  <line x1=\"20\" y1=\"0\" x2=\"20\" y2=\"2\" stroke=\"#CF5706\" stroke-width=\"3\"/>\n  <circle cx=\"20\" cy=\"20\" r=\"18\" fill=\"url(#greenGradient3)\" stroke=\"#FFFFFF\" stroke-width=\"3\"/>\n  <text x=\"20\" y=\"27\" font-family=\"Outfit, sans-serif\" font-size=\"18\" font-weight=\"700\" fill=\"#FFFFFF\" text-anchor=\"middle\">3</text>\n</svg><div class=\"timeline-content\"><strong>Vidange complète sur place –</strong> Extraction du mauvais carburant, remplissage correct, redémarrage contrôlé</div></div>\n</div>"
+    },
+    {
+      "h2": "Combien coûte une vidange de réservoir après erreur de carburant ?",
+      "content": "<div style=\"background: #F0FDF4; padding: 1.5rem; border-radius: 12px; border-left: 4px solid #10B981; margin: 1.5rem 0;\">\n<p style=\"margin-bottom: 0.75rem; font-size: 1.1rem;\"><strong style=\"color: #10B981;\">💰 Grille Tarifaire – Siphonnage Réservoir</strong></p>\n<p style=\"margin-bottom: 1rem;\"><strong style=\"color: #10B981;\">Un prix adapté à chaque cas</strong> – Le coût varie selon que le moteur a tourné ou non. Nous vous indiquons le montant exact au téléphone, AVANT toute intervention.</p>\n<ul style=\"list-style: none; padding: 0; margin: 0;\">\n  <li style=\"margin-bottom: 0.5rem;\">✓ <strong>Vidange simple</strong> (contact non mis) – tarif fixe communiqué par téléphone</li>\n  <li style=\"margin-bottom: 0.5rem;\">✓ <strong>Vidange + purge du circuit</strong> (moteur a tourné) – devis immédiat et gratuit</li>\n  <li style=\"margin-bottom: 0.5rem;\">✓ <strong>Carburant correct</strong> – Facturé au tarif pompe du jour, sans marge</li>\n  <li style=\"margin-bottom: 0;\">✓ <strong>Remorquage si nécessaire</strong> (dégâts moteur constatés) – selon kilométrage</li>\n</ul>\n</div>\n<div style=\"background: #FEE2E2; padding: 1.5rem; border-radius: 12px; border-left: 4px solid #CF5706; margin: 1.5rem 0;\">\n<p style=\"margin-bottom: 0; font-size: 1rem;\">⚠️ <strong>Le calcul est simple :</strong><br>Un siphonnage représente un investissement modeste. Une pompe à injection détruite par le mauvais carburant, c'est <strong>3 000 à 8 000 €</strong> chez le garagiste. <strong>Agir vite, c'est protéger votre portefeuille.</strong></p>\n</div>\n<p><strong class=\"text-orange\">Composez le <a href=\"tel:+3228445401\" style=\"color: #CF5706; font-weight: 700;\">02 844 54 01</a></strong> : vous connaîtrez le tarif précis en quelques minutes. <strong>Zéro mauvaise surprise.</strong></p>"
+    },
+    {
+      "h2": "Moteur déjà en marche ? Voici quoi faire selon votre situation",
+      "content": "<p>Vous avez tourné la clé avant de réaliser l'erreur ? <strong>Pas de panique</strong>, mais chaque seconde compte. Coupez le contact et suivez le guide :</p>\n<ul style=\"list-style: none; padding: 0;\">\n  <li style=\"margin-bottom: 1rem; padding-left: 1.5rem; position: relative;\">\n    <span style=\"position: absolute; left: 0; color: #CF5706; font-weight: bold; font-size: 1.2rem;\">⚠️</span>\n    <strong>Contact mis mais véhicule non déplacé</strong><br>\n    Le carburant inadapté a commencé à circuler dans les conduites. Les dommages restent souvent réversibles. Nous procédons à une vidange intégrale suivie d'un rinçage du circuit (réservoir, conduites, filtre à carburant). Cette intervention évite généralement le passage en atelier.\n  </li>\n  <li style=\"margin-bottom: 1rem; padding-left: 1.5rem; position: relative;\">\n    <span style=\"position: absolute; left: 0; color: #CF5706; font-weight: bold; font-size: 1.2rem;\">🚨</span>\n    <strong>Vous avez roulé sur une certaine distance</strong><br>\n    La situation est sérieuse. Le carburant incorrect a traversé l'ensemble du système d'alimentation. <strong>Arrêtez-vous dès que possible en sécurité</strong> et appelez-nous. Après le siphonnage et le rinçage, un <strong>remorquage vers un garage</strong> sera probablement nécessaire pour un diagnostic de la pompe haute pression et des injecteurs.\n  </li>\n  <li style=\"margin-bottom: 0; padding-left: 1.5rem; position: relative;\">\n    <span style=\"position: absolute; left: 0; color: #CF5706; font-weight: bold; font-size: 1.2rem;\">💀</span>\n    <strong>Le moteur s'est arrêté de lui-même</strong><br>\n    C'est le signal que des composants internes ont déjà souffert. Nous intervenons malgré tout pour vider le réservoir et nettoyer ce qui peut l'être, puis nous <strong>remorquons votre véhicule vers un spécialiste</strong>. La pompe à injection et les injecteurs devront être inspectés. Le coût de réparation en garage peut atteindre <strong>plusieurs milliers d'euros</strong>.\n  </li>\n</ul>\n<p><strong>Le réflexe qui sauve : à l'instant où vous prenez conscience de l'erreur, coupez le moteur et appelez le <a href=\"tel:+3228445401\" style=\"color: #CF5706; font-weight: 700;\">02 844 54 01</a>.</strong></p>"
+    },
+    {
+      "h2": "Pourquoi mélanger les carburants détruit votre moteur",
+      "content": "<p>Un moteur thermique est conçu pour fonctionner avec un seul type de carburant. Introduire le mauvais produit provoque des réactions mécaniques et chimiques qui peuvent être irréversibles en quelques minutes seulement.</p><p><strong>Essence versée dans un réservoir diesel :</strong> c'est le scénario le plus destructeur. Le gazole possède des propriétés lubrifiantes essentielles au fonctionnement de la pompe haute pression et des injecteurs. L'essence, dépourvue de ces propriétés, provoque un frottement métal contre métal. Résultat : micro-copeaux dans le circuit, grippage de la pompe, destruction des injecteurs. La facture en atelier dépasse facilement les 5 000 €.</p><p><strong>Diesel versé dans un réservoir essence :</strong> moins catastrophique mais tout de même problématique. Le gazole, plus visqueux, encrasse rapidement les injecteurs et le catalyseur. Le moteur perd en puissance, fume anormalement, puis finit par caler. Une vidange rapide permet généralement d'éviter les dégâts permanents.</p><p><strong>Dans les deux cas, la règle est identique : ne démarrez sous aucun prétexte.</strong></p>"
+    },
+    {
+      "h2": "Les atouts d'Helpcar dépannage pour votre siphonnage",
+      "content": "<p>Depuis <strong>+{{YEARS_EXPERIENCE_PLUS}} ans</strong>, notre équipe gère des urgences carburant au quotidien dans la région bruxelloise. Voici ce qui nous distingue :</p><ul style=\"list-style: none; padding: 0;\">\n  <li style=\"margin-bottom: 0.75rem; padding-left: 1.75rem; position: relative;\">\n    <span style=\"position: absolute; left: 0; color: #10B981; font-weight: bold; font-size: 1.2rem;\">✓</span>\n    <strong>Matériel de vidange haute capacité</strong> – Extraction totale du carburant, sans résidu dans le réservoir\n  </li>\n  <li style=\"margin-bottom: 0.75rem; padding-left: 1.75rem; position: relative;\">\n    <span style=\"position: absolute; left: 0; color: #10B981; font-weight: bold; font-size: 1.2rem;\">✓</span>\n    <strong>Arrivée rapide sur site</strong> – Nos techniciens sont positionnés stratégiquement pour couvrir Bruxelles en <strong class=\"text-orange\">moins de 30 minutes</strong>\n  </li>\n  <li style=\"margin-bottom: 0.75rem; padding-left: 1.75rem; position: relative;\">\n    <span style=\"position: absolute; left: 0; color: #10B981; font-weight: bold; font-size: 1.2rem;\">✓</span>\n    <strong>Purge complète du circuit d'alimentation</strong> – Réservoir, conduites, filtre à carburant : tout est nettoyé si le moteur a fonctionné\n  </li>\n  <li style=\"margin-bottom: 0.75rem; padding-left: 1.75rem; position: relative;\">\n    <span style=\"position: absolute; left: 0; color: #10B981; font-weight: bold; font-size: 1.2rem;\">✓</span>\n    <strong>Joignable jour et nuit, week-ends et jours fériés</strong> – Une erreur de carburant n'attend pas les heures de bureau\n  </li>\n  <li style=\"margin-bottom: 0; padding-left: 1.75rem; position: relative;\">\n    <span style=\"position: absolute; left: 0; color: #10B981; font-weight: bold; font-size: 1.2rem;\">✓</span>\n    <strong>Tarification claire et annoncée à l'avance</strong> – Le montant est confirmé par téléphone avant le moindre déplacement\n  </li>\n</ul><p>La satisfaction de nos clients parle d'elle-même : <svg class=\"star-icon\" xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"#FFC107\"><path d=\"M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z\"/></svg><a href=\"{{GOOGLE_MY_BUSINESS_URL}}\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"google-rating-link\"><strong>{{GOOGLE_RATING}}/5 sur Google, {{GOOGLE_REVIEWS}}+ avis</strong></a>.</p>"
+    }
+  ],
+  "cta": {
+    "title": "Erreur de carburant en ce moment ?",
+    "subtitle": "Nos techniciens vident votre réservoir et vous remettent en route rapidement",
+    "button_text": "📞  Appelez pour un Devis Immédiat"
+  },
+  "faq": [
+    {
+      "question": "Quel est le tarif d'un siphonnage de réservoir chez Helpcar dépannage ?",
+      "answer": "Contactez-nous au <a href=\"tel:+3228445401\" style=\"color: #CF5706; font-weight: 600;\">02 844 54 01</a> pour obtenir un <strong class=\"text-orange\">tarif précis</strong> en fonction de votre cas (moteur démarré ou non, quantité de carburant). Le carburant de remplacement est facturé au prix affiché en station. Le montant total vous est communiqué AVANT notre déplacement."
+    },
+    {
+      "question": "Dois-je absolument éviter de démarrer après une erreur de carburant ?",
+      "answer": "Oui, c'est la consigne la plus importante. Mettre le contact envoie le mauvais carburant dans le circuit d'alimentation et peut endommager des pièces coûteuses comme la pompe haute pression et les injecteurs. Gardez la clé hors du contact et appelez-nous sans attendre."
+    },
+    {
+      "question": "En combien de temps arrivez-vous sur place à Bruxelles ?",
+      "answer": "Notre objectif est d'être sur site en <strong>moins de 30 minutes</strong> dans la Région de Bruxelles-Capitale. Pour la périphérie, le délai peut varier légèrement selon la distance. Nous vous donnons une estimation précise dès votre appel au <a href=\"tel:+3228445401\" style=\"color: #CF5706; font-weight: 600;\">02 844 54 01</a>."
+    },
+    {
+      "question": "Le siphonnage abîme-t-il le réservoir ou le véhicule ?",
+      "answer": "Absolument pas. Nous utilisons du matériel professionnel conçu spécifiquement pour cette opération. L'extraction se fait par aspiration contrôlée, sans aucun démontage ni risque de détérioration pour votre véhicule."
+    },
+    {
+      "question": "Intervenez-vous aussi la nuit et les jours fériés ?",
+      "answer": "Oui, <strong>Helpcar dépannage</strong> est joignable <strong>24 heures sur 24, 7 jours sur 7</strong>, y compris les week-ends et jours fériés. Les erreurs de carburant surviennent à tout moment et notre service est dimensionné en conséquence."
+    },
+    {
+      "question": "Puis-je repartir directement après l'intervention ?",
+      "answer": "Dans la grande majorité des cas, oui. Une fois le réservoir vidé et rempli avec le bon carburant, nous effectuons un test de redémarrage pour vérifier que tout fonctionne. Nous vous conseillons ensuite de faire un plein complet rapidement afin de diluer d'éventuels résidus."
+    },
+    {
+      "question": "Fournissez-vous le carburant de remplacement ?",
+      "answer": "Oui. Nous apportons le carburant adapté à votre véhicule et le versons dans votre réservoir après la vidange. Il vous est facturé au tarif station du jour, sans aucune majoration. Vous pouvez ainsi repartir immédiatement sans repasser à la pompe."
+    },
+    {
+      "question": "Mon assurance couvre-t-elle le siphonnage de réservoir ?",
+      "answer": "Cela dépend de votre contrat d'assistance. Certaines assurances auto et cartes bancaires incluent le dépannage carburant. Nous vous remettons une facture détaillée que vous pourrez transmettre à votre assureur pour demander un remboursement."
+    }
+  ],
+  "services_related": [
+    {
+      "title": "Livraison de Carburant",
+      "description": "Réservoir vide en pleine route ? Nous apportons le carburant qu'il vous faut pour reprendre votre trajet.",
+      "link": "../{{URL_SERVICE_PANNE_ESSENCE}}/"
+    },
+    {
+      "title": "Remorquage Véhicule",
+      "description": "Moteur endommagé suite à une erreur de plein ? Nous transportons votre voiture vers l'atelier de votre choix.",
+      "link": "../remorquage-voiture-bruxelles/"
+    },
+    {
+      "title": "Remplacement Batterie",
+      "description": "Batterie déchargée après de multiples tentatives de démarrage ? Nous la rechargeons ou la remplaçons sur place.",
+      "link": "../{{URL_SERVICE_BATTERIE}}/"
+    },
+    {
+      "title": "Ouverture de Véhicule",
+      "description": "Clés restées à l'intérieur pendant la panique ? Nous déverrouillons votre portière sans endommager la serrure.",
+      "link": "../{{URL_SERVICE_OUVERTURE_PORTE}}/"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+<!-- ========================================
+     COMPOSANT : HERO CAROUSEL SIMPLE
+     Fichier: templates/components/hero-carousel-simple.html
+     Version: 2.0 - Carrousel générique avec attributs data-*
+     ======================================== -->
+<div class="hero-carousel-simple">
+  <div class="hero-carousel-simple-main" data-carousel data-autoplay="5000" data-loop="true" data-pause-on-hover="true">
+    <div class="hero-carousel-track" data-carousel-track>
+      {{CAROUSEL_IMAGES}}
+    </div>
+
+    <!-- Contrôles carrousel -->
+    <button class="hero-carousel-prev" data-carousel-prev aria-label="Image précédente">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <polyline points="15 18 9 12 15 6"></polyline>
+      </svg>
+    </button>
+    <button class="hero-carousel-next" data-carousel-next aria-label="Image suivante">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <polyline points="9 18 15 12 9 6"></polyline>
+      </svg>
+    </button>
+
+    <!-- Dots navigation (générés automatiquement par carousel.js) -->
+    <div class="hero-carousel-dots" data-carousel-dots></div>
+  </div>
+</div>

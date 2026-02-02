@@ -1,0 +1,19 @@
+{
+  "commune": "Etterbeek",
+  "code_postal": "1040",
+  "hero": {
+    "h1": "Dépannage Voiture Etterbeek 1040 | 24h/24",
+    "subtitle": "Intervention rapide dans toute la commune"
+  },
+  "intro": {
+    "content": "<p><strong>Helpcar Dépannage</strong> intervient dans tout <strong>Etterbeek (1040)</strong> : Quartier des Chasses, Cinquantenaire, Place Jourdan, et tous les quartiers.</p><p>Panne de batterie, pneu crevé, remorquage ? On arrive en <strong>30 minutes</strong>. Appelez le <strong>02 844 54 01</strong>.</p>"
+  },
+  "quartiers": {
+    "h2": "Quartiers desservis à Etterbeek",
+    "liste": ["Quartier des Chasses", "Cinquantenaire", "Place Jourdan", "Casernes", "Germoir"]
+  },
+  "specificites": {
+    "h2": "Dépannage à Etterbeek",
+    "content": "<p>Etterbeek est situé au cœur de Bruxelles, près du Cinquantenaire et du quartier européen. Notre équipe connaît parfaitement les rues et peut intervenir rapidement où que vous soyez.</p>"
+  }
+}

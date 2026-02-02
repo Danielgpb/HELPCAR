@@ -1,0 +1,19 @@
+{
+  "commune": "Ixelles",
+  "code_postal": "1050",
+  "hero": {
+    "h1": "Dépannage Voiture Ixelles 1050 | 24h/24",
+    "subtitle": "Intervention rapide dans toute la commune"
+  },
+  "intro": {
+    "content": "<p><strong>Helpcar Dépannage</strong> intervient dans tout <strong>Ixelles (1050)</strong> : Flagey, Porte de Namur, ULB, Place Fernand Cocq, Etangs d'Ixelles, et tous les quartiers.</p><p>Besoin d'un dépannage ou remorquage ? On arrive en <strong>30 minutes</strong>. Appelez le <strong>02 844 54 01</strong>.</p>"
+  },
+  "quartiers": {
+    "h2": "Quartiers desservis à Ixelles",
+    "liste": ["Flagey", "Porte de Namur", "ULB", "Place Fernand Cocq", "Etangs d'Ixelles", "Châtelain", "Ma Campagne"]
+  },
+  "specificites": {
+    "h2": "Dépannage à Ixelles",
+    "content": "<p>Ixelles est une commune très animée avec beaucoup de circulation. Notre équipe intervient rapidement que vous soyez près de l'université, dans le quartier européen ou dans les zones résidentielles.</p>"
+  }
+}

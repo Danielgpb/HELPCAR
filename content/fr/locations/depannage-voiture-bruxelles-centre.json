@@ -1,0 +1,19 @@
+{
+  "commune": "Bruxelles-Ville",
+  "code_postal": "1000",
+  "hero": {
+    "h1": "Dépannage Voiture Bruxelles-Ville | 24h/24",
+    "subtitle": "Intervention rapide au centre de Bruxelles"
+  },
+  "intro": {
+    "content": "<p><strong>Helpcar Dépannage</strong> intervient dans tout <strong>Bruxelles-Ville (1000)</strong> : Grand-Place, Sablon, Marolles, Quartier Européen, et tous les autres quartiers du centre.</p><p>Panne de batterie, pneu crevé, besoin d'un remorquage ? Notre équipe arrive en <strong>30 minutes maximum</strong> au centre de Bruxelles. Appelez le <strong>02 844 54 01</strong>.</p>"
+  },
+  "quartiers": {
+    "h2": "Quartiers desservis à Bruxelles-Ville",
+    "liste": ["Grand-Place", "Sablon", "Marolles", "Quartier Européen", "Sainte-Catherine", "Place Flagey", "Mont des Arts"]
+  },
+  "specificites": {
+    "h2": "Dépannage au centre de Bruxelles",
+    "content": "<p>Le centre de Bruxelles présente des défis particuliers : rues piétonnes, zones à trafic limité, parkings souterrains étroits. Notre équipe connaît parfaitement le terrain et dispose du matériel adapté pour intervenir partout.</p>"
+  }
+}

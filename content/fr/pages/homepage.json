@@ -1,0 +1,141 @@
+{
+  "hero": {
+    "h1": "Dépannage Auto & Remorquage à Bruxelles",
+    "h2": "Intervention rapide 24h/24, 7j/7 dans toute la région bruxelloise",
+    "h2_cta": "Réponse en moins de 2 minutes",
+    "cta_text": "Appelez maintenant",
+    "cta_whatsapp": "Devis WhatsApp",
+    "cta_whatsapp_badge": "RAPIDE",
+    "disponible": "Disponible maintenant",
+    "devis": "Devis gratuit",
+    "badge_disponibilite": "24/7"
+  },
+  "intro": {
+    "h2": "Helpcar Dépannage : votre partenaire de confiance",
+    "content": "<p><strong>Helpcar Dépannage</strong> intervient rapidement pour tous vos problèmes de voiture à Bruxelles et dans toute la périphérie. Que vous soyez en panne de batterie, avec un pneu crevé, ou que vous ayez besoin d'un remorquage, nous sommes là pour vous.</p><p>Notre équipe de professionnels expérimentés arrive sur place en <strong>30 minutes en moyenne</strong>. Nous vous donnons toujours le <strong>prix avant intervention</strong>, sans surprise ni frais cachés.</p>"
+  },
+  "services_section": {
+    "h2": "Nos services de dépannage",
+    "subtitle": "Une solution pour chaque situation"
+  },
+  "zones_section": {
+    "h2": "Zones d'intervention",
+    "subtitle": "Bruxelles et toute la périphérie"
+  },
+  "why_us": {
+    "h2": "Pourquoi choisir Helpcar ?",
+    "points": [
+      {
+        "title": "Intervention rapide",
+        "description": "Sur place en 30 minutes en moyenne dans Bruxelles"
+      },
+      {
+        "title": "Prix transparent",
+        "description": "Tarif communiqué par téléphone avant déplacement"
+      },
+      {
+        "title": "Disponible 24/7",
+        "description": "Jour, nuit, week-end et jours fériés"
+      },
+      {
+        "title": "Professionnels qualifiés",
+        "description": "Équipe expérimentée et équipement professionnel"
+      }
+    ]
+  },
+  "section_comment_ca_marche": {
+    "label": "Comment ça marche",
+    "titre": "Dépannage en 4 Étapes Simples",
+    "etapes": [
+      {
+        "numero": "1",
+        "icone": "<svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\" stroke-width=\"2\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z\" /></svg>",
+        "titre": "Contactez Helpcar",
+        "description": "Un simple appel suffit. Expliquez-nous votre situation et recevez immédiatement un tarif fixe, sans mauvaise surprise à l'arrivée.",
+        "photo": "images/etapes-contacter.jpg"
+      },
+      {
+        "numero": "2",
+        "icone": "<svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\" stroke-width=\"2\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M13 16V6a1 1 0 00-1-1H4a1 1 0 00-1 1v10a1 1 0 001 1h1m8-1a1 1 0 01-1 1H9m4-1V8a1 1 0 011-1h2.586a1 1 0 01.707.293l3.414 3.414a1 1 0 01.293.707V16a1 1 0 01-1 1h-1m-6-1a1 1 0 001 1h1M5 17a2 2 0 104 0m-4 0a2 2 0 114 0m6 0a2 2 0 104 0m-4 0a2 2 0 114 0\" /></svg>",
+        "titre": "Notre équipe se déplace",
+        "description": "Un dépanneur qualifié part aussitôt vers votre position. Nous couvrons Bruxelles et toute sa périphérie, de jour comme de nuit.",
+        "photo": "images/etapes-deplacement-bruxelles.png"
+      },
+      {
+        "numero": "3",
+        "icone": "<svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\" stroke-width=\"2\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z\" /><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M15 12a3 3 0 11-6 0 3 3 0 016 0z\" /></svg>",
+        "titre": "Diagnostic & intervention",
+        "description": "Sur place, notre technicien évalue le problème et agit : réparation directe ou remorquage vers le garage que vous préférez.",
+        "photo": "images/etapes-diagnostic.png"
+      },
+      {
+        "numero": "4",
+        "icone": "<svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\" stroke-width=\"2\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z\" /></svg>",
+        "titre": "Réglement simple",
+        "description": "Payez uniquement après le dépannage, au tarif convenu. Carte bancaire, espèces ou virement — vous choisissez.",
+        "photo": "images/etapes-reglement.jpg"
+      }
+    ]
+  },
+  "section_avis": {
+    "label": "Avis Clients",
+    "titre": "Ce que nos clients pensent de Helpcar",
+    "intro": "<strong style=\"color: #CF5706;\">Helpcar Dépannage</strong> est fier de la confiance que lui accordent ses clients à Bruxelles, avec une note de <strong>{{GOOGLE_RATING}}/5 sur Google</strong> et plus de <strong>{{GOOGLE_REVIEWS}} avis vérifiés</strong>. Notre priorité : un service humain, rapide et au prix annoncé.",
+    "avis": [
+      {
+        "rating": "5.0",
+        "texte": "Panne de batterie un dimanche soir à Ixelles. J'ai appelé Helpcar et en moins de 25 minutes le technicien était là. Diagnostic rapide, batterie remplacée sur place. Le prix correspondait exactement à ce qu'on m'avait dit au téléphone. Vraiment rassurant.",
+        "auteur": "Mehdi Alaoui",
+        "initiales": "MA",
+        "photo": "images/avatars/mehdi.jpg",
+        "date": "Il y a 3 jours"
+      },
+      {
+        "rating": "5.0",
+        "texte": "Ma voiture ne démarrait plus sur le parking de mon travail à Zaventem. Helpcar m'a dépannée en un rien de temps. Le chauffeur était ponctuel, poli et m'a tout expliqué. Tarif très raisonnable. Je garde le numéro précieusement !",
+        "auteur": "Laura Janssens",
+        "initiales": "LJ",
+        "photo": "images/avatars/laura.jpg",
+        "date": "Il y a une semaine"
+      },
+      {
+        "rating": "5.0",
+        "texte": "Remorquage de ma moto après une chute sur le Ring. L'équipe est arrivée vite et a manipulé la moto avec beaucoup de soin. Transport jusqu'à mon garage sans aucun souci. Merci pour le professionnalisme.",
+        "auteur": "Nicolas Melin",
+        "initiales": "NM",
+        "photo": "images/avatars/nicolas.jpg",
+        "date": "Il y a 2 semaines"
+      },
+      {
+        "rating": "5.0",
+        "texte": "Pneu crevé sur la route du travail, impossible de changer la roue moi-même. Helpcar est venu poser ma roue de secours en moins de 30 minutes. Le technicien était efficace et sympathique. Tarif correct et facture claire. Je recommande.",
+        "auteur": "Sofia El Amrani",
+        "initiales": "SE",
+        "photo": "images/avatars/sofia.jpg",
+        "date": "Il y a un mois"
+      },
+      {
+        "rating": "4.9",
+        "texte": "Pneu crevé en pleine nuit à Schaerbeek. J'avais peur de tomber sur un dépanneur qui profite de la situation. Helpcar m'a donné le prix au téléphone et l'a respecté. Intervention propre et rapide. Rien à redire.",
+        "auteur": "Kevin Parmentier",
+        "initiales": "KP",
+        "photo": "images/avatars/kevin.jpg",
+        "date": "Il y a 5 jours"
+      }
+    ],
+    "aria_labels": {
+      "btn_prev": "Avis précédent",
+      "btn_next": "Avis suivant",
+      "dot_prefix": "Aller à l'avis",
+      "google_card": "Laisser un avis Google"
+    },
+    "google_card": {
+      "reviews_count_suffix": "avis clients"
+    }
+  },
+  "cta_final": {
+    "h2": "Besoin d'un dépannage ?",
+    "text": "Appelez-nous maintenant, on vous répond en moins de 2 minutes.",
+    "button": "02 844 54 01"
+  }
+}

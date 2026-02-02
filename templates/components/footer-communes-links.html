@@ -1,0 +1,7 @@
+{# Template: Liens communes pour footer #}
+{# Usage: build_footer_communes_links() #}
+{# Variables: communes (list sorted by priority), path_prefix (str) #}
+
+{% for commune in communes %}
+        <li><a href="{{ path_prefix }}{{ commune.slug }}/index.html">{{ commune.name }}</a></li>
+{% endfor %}

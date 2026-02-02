@@ -1,0 +1,17 @@
+{# Template: Section parkings souterrains #}
+{# Usage: _build_parkings_html() #}
+{# Variables: h3, intro, parkings (list), conclusion #}
+
+<section class="content-section section-parkings">
+  <h3>{{ h3 }}</h3>
+  <p>{{ intro }}</p>
+  <div class="parkings-list">
+{% for parking in parkings %}
+    <div class="parking-item">
+      <span class="parking-icon">{{ parking.icon_svg | safe }}</span>
+      <span class="parking-nom">{{ parking.nom }}</span>
+    </div>
+{% endfor %}
+  </div>
+  <p class="parkings-conclusion">{{ conclusion }}</p>
+</section>
