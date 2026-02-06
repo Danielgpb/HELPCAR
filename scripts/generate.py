@@ -1683,11 +1683,11 @@ class SiteGenerator:
 
             icon_svg = get_service_icon(slug)
             services_html += f'''<a href="{service_url}" class="service-card" style="display: flex; align-items: flex-start; gap: 1rem; padding: 1.5rem; background: white; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08); text-decoration: none; transition: transform 0.3s, box-shadow 0.3s;">
-            <div style="width: 48px; height: 48px; background: rgba(220, 38, 38, 0.08); border-radius: 10px; display: flex; align-items: center; justify-content: center; flex-shrink: 0;">
+            <div style="width: 48px; height: 48px; background: rgba(249, 115, 22, 0.08); border-radius: 10px; display: flex; align-items: center; justify-content: center; flex-shrink: 0;">
               {icon_svg}
             </div>
             <div style="text-align: left;">
-              <h3 style="margin: 0 0 0.5rem 0; color: #CF5706; font-size: 1.1rem; font-weight: 700;">{nom}</h3>
+              <h3 style="margin: 0 0 0.5rem 0; color: #1E3A8A; font-size: 1.1rem; font-weight: 700;">{nom}</h3>
               <p style="margin: 0; color: #666; font-size: 0.95rem; line-height: 1.5;">{description}</p>
             </div>
           </a>
@@ -1714,7 +1714,7 @@ class SiteGenerator:
             nom = axe.get('nom', '')
             description = axe.get('description', '')
             axes_html += f'''<li style="padding-left: 2rem; position: relative;">
-              <span style="position: absolute; left: 0; color: #CF5706; font-size: 1.2rem;">{emoji}</span>
+              <span style="position: absolute; left: 0; color: #1E3A8A; font-size: 1.2rem;">{emoji}</span>
               <strong>{nom}</strong> – {description}
             </li>
             '''
@@ -1745,7 +1745,7 @@ class SiteGenerator:
                 avantages_html += f'''<li style="{margin}">
               <span style="color: #10B981; font-weight: bold; font-size: 1.2rem; margin-right: 0.5rem;">✓</span>
               <svg class="star-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="#FFC107" style="vertical-align: middle; margin-right: 4px;"><path d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z"/></svg>
-              <a href="{variables['GOOGLE_MY_BUSINESS_URL']}" target="_blank" rel="noopener noreferrer" style="color: #CF5706; font-weight: 600; text-decoration: none;">{texte}</a> {most_recommended_text}
+              <a href="{variables['GOOGLE_MY_BUSINESS_URL']}" target="_blank" rel="noopener noreferrer" style="color: #F97316; font-weight: 600; text-decoration: none;">{texte}</a> {most_recommended_text}
             </li>
             '''
             else:
@@ -2372,13 +2372,13 @@ class SiteGenerator:
         etapes_html = ''
         for etape in ccm.get('etapes', []):
             numero = etape.get('numero', 1)
-            color = etape.get('color', '#CF5706')
+            color = etape.get('color', '#F97316')
             titre = etape.get('titre', '')
             description = etape.get('description', '')
             etapes_html += f'''
           <div style="text-align: center; position: relative;">
             <div style="background: white; width: 60px; height: 60px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: 800; font-size: 1.5rem; color: {color}; box-shadow: 0 4px 12px rgba(0,0,0,0.1); border: 3px solid {color}; margin: 0 auto 1.5rem;">{numero}</div>
-            <h3 style="font-size: 1.375rem; font-weight: 800; margin-bottom: 0.75rem; color: #1A1A1A;">{titre}</h3>
+            <h3 style="font-size: 1.375rem; font-weight: 800; margin-bottom: 0.75rem; color: #0F172A;">{titre}</h3>
             <p style="color: #6B7280; line-height: 1.7; font-size: 1rem;">{description}</p>
           </div>
 '''
@@ -2398,12 +2398,12 @@ class SiteGenerator:
             titre = facteur.get('titre', '')
             description = facteur.get('description', '')
             facteurs_html += f'''
-          <div style="background: white; border-radius: 12px; padding: 1.5rem; box-shadow: 0 2px 8px rgba(0,0,0,0.06); border-left: 3px solid #CF5706; transition: all 0.3s ease; display: flex; gap: 1rem;">
-            <div style="flex-shrink: 0; width: 48px; height: 48px; background: linear-gradient(135deg, #FEE2E2 0%, #FECACA 100%); border-radius: 10px; display: flex; align-items: center; justify-content: center; color: #CF5706;">
+          <div style="background: white; border-radius: 12px; padding: 1.5rem; box-shadow: 0 2px 8px rgba(0,0,0,0.06); border-left: 3px solid #1E3A8A; transition: all 0.3s ease; display: flex; gap: 1rem;">
+            <div style="flex-shrink: 0; width: 48px; height: 48px; background: linear-gradient(135deg, #DBEAFE 0%, #BFDBFE 100%); border-radius: 10px; display: flex; align-items: center; justify-content: center; color: #1E3A8A;">
               {icon_svg}
             </div>
             <div style="flex: 1;">
-              <h3 style="font-size: 1.125rem; font-weight: 700; margin: 0 0 0.5rem 0; color: #1A1A1A;">{titre}</h3>
+              <h3 style="font-size: 1.125rem; font-weight: 700; margin: 0 0 0.5rem 0; color: #0F172A;">{titre}</h3>
               <p style="color: #6B7280; font-size: 0.9375rem; line-height: 1.6; margin: 0;">{description}</p>
             </div>
           </div>
@@ -2435,7 +2435,7 @@ class SiteGenerator:
             else:
                 # Fallback sur ancien système si url_var n'existe pas
                 url_relative = service.get('slug', '')
-            depannage_liste_html += f'<li><a href="{url_relative}" style="display: flex; align-items: center; gap: 0.875rem; padding: 1.125rem 1.5rem; background: white; border-radius: 12px; text-decoration: none; color: #1A1A1A; font-weight: 600; font-size: 1.05rem; transition: all 0.2s ease; box-shadow: 0 2px 8px rgba(0,0,0,0.06); border-left: 4px solid transparent;"><span style="color: #CF5706; font-size: 1.25rem;">→</span>{nom}</a></li>\n'
+            depannage_liste_html += f'<li><a href="{url_relative}" style="display: flex; align-items: center; gap: 0.875rem; padding: 1.125rem 1.5rem; background: white; border-radius: 12px; text-decoration: none; color: #0F172A; font-weight: 600; font-size: 1.05rem; transition: all 0.2s ease; box-shadow: 0 2px 8px rgba(0,0,0,0.06); border-left: 4px solid transparent;"><span style="color: #F97316; font-size: 1.25rem;">→</span>{nom}</a></li>\n'
         variables['DEPANNAGE_LISTE'] = depannage_liste_html
 
         # Remorquage
@@ -2453,7 +2453,7 @@ class SiteGenerator:
             else:
                 # Fallback sur ancien système si url_var n'existe pas
                 url_relative = service.get('slug', '')
-            remorquage_liste_html += f'<li><a href="{url_relative}" style="display: flex; align-items: center; gap: 0.875rem; padding: 1.125rem 1.5rem; background: white; border-radius: 12px; text-decoration: none; color: #1A1A1A; font-weight: 600; font-size: 1.05rem; transition: all 0.2s ease; box-shadow: 0 2px 8px rgba(0,0,0,0.06); border-left: 4px solid transparent;"><span style="color: #CF5706; font-size: 1.25rem;">→</span>{nom}</a></li>\n'
+            remorquage_liste_html += f'<li><a href="{url_relative}" style="display: flex; align-items: center; gap: 0.875rem; padding: 1.125rem 1.5rem; background: white; border-radius: 12px; text-decoration: none; color: #0F172A; font-weight: 600; font-size: 1.05rem; transition: all 0.2s ease; box-shadow: 0 2px 8px rgba(0,0,0,0.06); border-left: 4px solid transparent;"><span style="color: #F97316; font-size: 1.25rem;">→</span>{nom}</a></li>\n'
         variables['REMORQUAGE_LISTE'] = remorquage_liste_html
 
         # Lien tous services
@@ -2628,7 +2628,7 @@ class SiteGenerator:
 
         # Générer HTML des items de coordonnées
         coord_html = ''
-        icon_colors = {'telephone': '#CF5706', 'email': '#CF5706', 'adresse': '#10B981', 'horaires': '#10B981'}
+        icon_colors = {'telephone': '#F97316', 'email': '#F97316', 'adresse': '#10B981', 'horaires': '#10B981'}
         svg_paths = {
             'telephone': 'M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z',
             'email': 'M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z',
@@ -2646,7 +2646,7 @@ class SiteGenerator:
             value = value.replace('{{EMAIL}}', variables['EMAIL'])
             value = value.replace('{{ADRESSE}}', variables['ADRESSE'])
 
-            color = icon_colors.get(item_type, '#CF5706')
+            color = icon_colors.get(item_type, '#F97316')
             svg_path = svg_paths.get(item_type, svg_paths['telephone'])
 
             border = '' if idx == len(coordonnees.get('items', [])) - 1 else 'border-bottom: 1px solid #E5E7EB;'
@@ -2663,14 +2663,14 @@ class SiteGenerator:
 
             if item_type == 'telephone':
                 href = item.get('href', '').replace('{{TELEPHONE_HREF}}', variables['TELEPHONE_HREF'])
-                coord_html += f'<a href="{href}" style="color: #CF5706; font-size: 1.5rem; font-weight: 700; text-decoration: none; display: block;">{value}</a>'
+                coord_html += f'<a href="{href}" style="color: #F97316; font-size: 1.5rem; font-weight: 700; text-decoration: none; display: block;">{value}</a>'
             elif item_type == 'email':
                 href = item.get('href', '').replace('{{EMAIL}}', variables['EMAIL'])
-                coord_html += f'<a href="{href}" style="color: #1A1A1A; font-size: 1.05rem; font-weight: 600; text-decoration: none; display: block;">{value}</a>'
+                coord_html += f'<a href="{href}" style="color: #0F172A; font-size: 1.05rem; font-weight: 600; text-decoration: none; display: block;">{value}</a>'
             elif item_type == 'horaires':
-                coord_html += f'<p style="color: #CF5706; font-size: 1.25rem; font-weight: 700; margin: 0;">{value}</p>'
+                coord_html += f'<p style="color: #F97316; font-size: 1.25rem; font-weight: 700; margin: 0;">{value}</p>'
             else:
-                coord_html += f'<p style="color: #1A1A1A; font-size: 1.05rem; font-weight: 600; margin: 0;">{value}</p>'
+                coord_html += f'<p style="color: #0F172A; font-size: 1.05rem; font-weight: 600; margin: 0;">{value}</p>'
 
             coord_html += '</div>\n'
 
@@ -2804,7 +2804,7 @@ class SiteGenerator:
             p = p.replace('{{COMPANY_NAME}}', variables['COMPANY_NAME'])
             p = p.replace('{{YEARS_EXPERIENCE}}', variables['YEARS_EXPERIENCE'])
             margin = ' margin-bottom: 1.5rem;' if p != histoire.get('paragraphes', [])[-1] else ' margin-bottom: 0;'
-            paragraphes_html += f'<p style="font-size: 1.15rem; line-height: 1.8; color: #1A1A1A;{margin}">\n{p}\n</p>\n'
+            paragraphes_html += f'<p style="font-size: 1.15rem; line-height: 1.8; color: #0F172A;{margin}">\n{p}\n</p>\n'
         variables['HISTOIRE_PARAGRAPHES'] = paragraphes_html
 
         # Chiffres clés
@@ -2816,9 +2816,9 @@ class SiteGenerator:
             label = chiffre.get('label', '')
             label = label.replace('{{GOOGLE_REVIEWS_COUNT}}', variables['GOOGLE_REVIEWS_COUNT'])
             chiffres_html += f'''
-          <div style="background: linear-gradient(135deg, #FEF3C7 0%, #FDE68A 100%); border-radius: 16px; padding: 2rem; text-align: center;">
-            <div style="font-size: 2.5rem; font-weight: 800; color: #CF5706; margin-bottom: 0.5rem;">{valeur}</div>
-            <div style="font-weight: 600; color: #1A1A1A;">{label}</div>
+          <div style="background: linear-gradient(135deg, #EFF6FF 0%, #DBEAFE 100%); border-radius: 16px; padding: 2rem; text-align: center;">
+            <div style="font-size: 2.5rem; font-weight: 800; color: #F97316; margin-bottom: 0.5rem;">{valeur}</div>
+            <div style="font-weight: 600; color: #0F172A;">{label}</div>
           </div>
 '''
         variables['CHIFFRES_CLES'] = chiffres_html
@@ -2839,10 +2839,10 @@ class SiteGenerator:
             description = description.replace('{{GOOGLE_REVIEWS_COUNT}}', variables['GOOGLE_REVIEWS_COUNT'])
             valeurs_html += f'''
           <div style="background: white; border-radius: 16px; padding: 2rem; box-shadow: 0 2px 8px rgba(0,0,0,0.08); text-align: center;">
-            <div style="width: 80px; height: 80px; background: linear-gradient(135deg, #CF5706 0%, #CF5706 100%); border-radius: 20px; display: flex; align-items: center; justify-content: center; margin: 0 auto 1.5rem; box-shadow: 0 4px 12px rgba(220, 38, 38, 0.3);">
+            <div style="width: 80px; height: 80px; background: linear-gradient(135deg, #F97316 0%, #F97316 100%); border-radius: 20px; display: flex; align-items: center; justify-content: center; margin: 0 auto 1.5rem; box-shadow: 0 4px 12px rgba(220, 38, 38, 0.3);">
               <span style="font-size: 2.5rem;">{emoji}</span>
             </div>
-            <h3 style="font-size: 1.25rem; font-weight: 700; margin-bottom: 1rem; color: #1A1A1A;">{titre}</h3>
+            <h3 style="font-size: 1.25rem; font-weight: 700; margin-bottom: 1rem; color: #0F172A;">{titre}</h3>
             <p style="color: #6B7280; line-height: 1.6;">
               {description}
             </p>
@@ -2863,11 +2863,11 @@ class SiteGenerator:
             description = item.get('description', '')
             garanties_html += f'''
           <div style="background: white; border-radius: 16px; padding: 2rem; box-shadow: 0 2px 8px rgba(0,0,0,0.08); display: flex; gap: 1.5rem; align-items: start;">
-            <div style="width: 60px; height: 60px; background: #FEF3C7; border-radius: 12px; display: flex; align-items: center; justify-content: center; flex-shrink: 0;">
+            <div style="width: 60px; height: 60px; background: #EFF6FF; border-radius: 12px; display: flex; align-items: center; justify-content: center; flex-shrink: 0;">
               <span style="font-size: 2rem;">{emoji}</span>
             </div>
             <div>
-              <h3 style="font-size: 1.2rem; font-weight: 700; margin-bottom: 0.75rem; color: #1A1A1A;">{titre}</h3>
+              <h3 style="font-size: 1.2rem; font-weight: 700; margin-bottom: 0.75rem; color: #0F172A;">{titre}</h3>
               <p style="color: #6B7280; line-height: 1.7; margin: 0;">
                 {description}
               </p>

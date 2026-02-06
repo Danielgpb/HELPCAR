@@ -17,8 +17,8 @@
     "section_label": "Notre zone",
     "section_title": "Bruxelles et ses alentours, on connaît",
     "paragraphes": [
-      "<strong style=\"color: #CF5706;\">HELPCAR Dépannage</strong>, c'est le <strong>meilleur service de dépannage auto dans toute la région bruxelloise</strong>. Que vous soyez bloqué près de la Gare Centrale, Place Jourdan à Etterbeek, au Parc Josaphat à Schaerbeek ou Avenue Louise à Ixelles – un dépanneur se déplace en 30 minutes.",
-      "Notre équipe cumule <strong>plus de 10 ans d'expérience</strong> sur les routes de Bruxelles. Appelez le <strong><a href=\"tel:+3228445604\" style=\"color: #CF5706; text-decoration: none;\">02 844 56 04</a></strong>, donnez-nous votre position et on vous rejoint."
+      "<strong style=\"color: #F97316;\">HELPCAR Dépannage</strong>, c'est le <strong>meilleur service de dépannage auto dans toute la région bruxelloise</strong>. Que vous soyez bloqué près de la Gare Centrale, Place Jourdan à Etterbeek, au Parc Josaphat à Schaerbeek ou Avenue Louise à Ixelles – un dépanneur se déplace en 30 minutes.",
+      "Notre équipe cumule <strong>plus de 10 ans d'expérience</strong> sur les routes de Bruxelles. Appelez le <strong><a href=\"tel:+3228445604\" style=\"color: #F97316; text-decoration: none;\">02 844 56 04</a></strong>, donnez-nous votre position et on vous rejoint."
     ]
   },
 
@@ -108,7 +108,7 @@
         "description": "Nationales vers le Brabant wallon et flamand"
       }
     ],
-    "note_autoroute": "Bloqué sur l'autoroute ? Mettez-vous en sécurité sur la bande d'arrêt d'urgence et appelez le <a href=\"tel:028445604\" style=\"color: #CF5706; font-weight: 600;\">02 844 56 04</a>."
+    "note_autoroute": "Bloqué sur l'autoroute ? Mettez-vous en sécurité sur la bande d'arrêt d'urgence et appelez le <a href=\"tel:028445604\" style=\"color: #F97316; font-weight: 600;\">02 844 56 04</a>."
   },
 
   "section_pourquoi_nous": {
@@ -143,7 +143,7 @@
       },
       {
         "question": "Et en dehors de Bruxelles, vous venez ?",
-        "reponse": "Oui, on intervient aussi en <strong>périphérie</strong> : Zaventem, Tervuren, Overijse, Waterloo, Wavre, Braine-l'Alleud, La Hulpe, et d'autres. Appelez-nous au <strong><a href=\"tel:+3228445604\" style=\"color: #CF5706; text-decoration: none;\">02 844 56 04</a></strong> avec votre adresse, on vous confirme tout de suite."
+        "reponse": "Oui, on intervient aussi en <strong>périphérie</strong> : Zaventem, Tervuren, Overijse, Waterloo, Wavre, Braine-l'Alleud, La Hulpe, et d'autres. Appelez-nous au <strong><a href=\"tel:+3228445604\" style=\"color: #F97316; text-decoration: none;\">02 844 56 04</a></strong> avec votre adresse, on vous confirme tout de suite."
       },
       {
         "question": "C'est plus cher en périphérie ?",
@@ -155,7 +155,7 @@
       },
       {
         "question": "Ma commune n'apparaît pas dans la liste, vous venez quand même ?",
-        "reponse": "Probablement oui. Appelez le <strong><a href=\"tel:+3228445604\" style=\"color: #CF5706; text-decoration: none;\">02 844 56 04</a></strong> avec votre localisation exacte. Si on peut intervenir dans un délai raisonnable, on vient."
+        "reponse": "Probablement oui. Appelez le <strong><a href=\"tel:+3228445604\" style=\"color: #F97316; text-decoration: none;\">02 844 56 04</a></strong> avec votre localisation exacte. Si on peut intervenir dans un délai raisonnable, on vient."
       },
       {
         "question": "Vous intervenez la nuit dans toutes les zones ?",

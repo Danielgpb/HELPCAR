@@ -5,7 +5,7 @@
 
 /* === HERO COMMUNE === */
 .hero-commune {
-  background: linear-gradient(135deg, #1A1A1A 0%, #2D2D2D 100%);
+  background: linear-gradient(135deg, #0F172A 0%, #1E293B 100%);
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -36,7 +36,7 @@
   right: -20%;
   width: 600px;
   height: 600px;
-  background: radial-gradient(circle, rgba(220, 38, 38, 0.1) 0%, transparent 70%);
+  background: radial-gradient(circle, rgba(59, 130, 246, 0.1) 0%, transparent 70%);
   border-radius: 50%;
   z-index: 2;
 }
@@ -53,7 +53,7 @@
   max-width: 800px;
   margin: 0 auto;
   text-align: center;
-  background: rgba(0, 0, 0, 0.65);
+  background: rgba(15, 23, 42, 0.65);
   backdrop-filter: blur(15px);
   padding: 2.5rem var(--spacing-xl);
   border-radius: 24px;
@@ -64,8 +64,8 @@
   display: inline-flex;
   align-items: center;
   gap: 8px;
-  background: rgba(220, 38, 38, 0.2);
-  border: 1px solid rgba(220, 38, 38, 0.6);
+  background: rgba(30, 58, 138, 0.2);
+  border: 1px solid rgba(59, 130, 246, 0.6);
   color: #ffffff;
   padding: 8px 16px;
   border-radius: 100px;
@@ -77,7 +77,7 @@
 .badge-location svg {
   width: 16px;
   height: 16px;
-  color: #CF5706;
+  color: #3B82F6;
   filter: brightness(1.5);
 }
 
@@ -204,7 +204,7 @@
   display: inline-flex;
   align-items: center;
   gap: 10px;
-  background: linear-gradient(135deg, #CF5706 0%, #CF5706 50%, #CF5706 100%);
+  background: linear-gradient(135deg, #F97316 0%, #F97316 50%, #F97316 100%);
   color: white;
   padding: 16px 32px;
   border-radius: 100px;
@@ -213,12 +213,12 @@
   font-weight: 700;
   text-decoration: none;
   transition: all 0.3s ease;
-  box-shadow: 0 4px 20px rgba(220, 38, 38, 0.4);
+  box-shadow: 0 4px 20px rgba(249, 115, 22, 0.4);
 }
 
 .btn-cta-hero:hover {
   transform: translateY(-2px);
-  box-shadow: 0 8px 30px rgba(220, 38, 38, 0.6);
+  box-shadow: 0 8px 30px rgba(249, 115, 22, 0.6);
 }
 
 .btn-cta-hero .btn-icon {
@@ -252,7 +252,7 @@
   bottom: 0;
   border-radius: 100px;
   padding: 2px;
-  background: linear-gradient(135deg, #CF5706 0%, #CF5706 100%);
+  background: linear-gradient(135deg, #3B82F6 0%, #1E3A8A 100%);
   -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
   -webkit-mask-composite: xor;
   mask-composite: exclude;
@@ -262,7 +262,7 @@
 .btn-secondary-hero:hover {
   background: rgba(0, 0, 0, 0.2);
   transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(220, 38, 38, 0.3);
+  box-shadow: 0 4px 12px rgba(59, 130, 246, 0.3);
 }
 
 @keyframes ring {
@@ -289,7 +289,7 @@
   font-weight: 700;
   letter-spacing: 0.1em;
   text-transform: uppercase;
-  color: #CF5706;
+  color: #1E3A8A;
   margin-bottom: var(--spacing-xs);
 }
 
@@ -297,7 +297,7 @@
   font-family: var(--font-heading);
   font-size: clamp(1.75rem, 3vw, 2.25rem);
   font-weight: 700;
-  color: #1A1A1A;
+  color: #0F172A;
   line-height: 1.3;
   margin: 0 0 var(--spacing-lg) 0;
 }
@@ -313,7 +313,7 @@
 .intro-content p.intro-kw {
   font-size: 1.25rem;
   font-weight: 600;
-  color: #1A1A1A;
+  color: #0F172A;
   margin-bottom: var(--spacing-md);
   line-height: 1.5;
 }
@@ -326,7 +326,7 @@
 
 /* Liens services dans intro_autorite */
 .intro-content a {
-  color: #CF5706;
+  color: #1E3A8A;
   text-decoration: none;
   font-weight: 600;
   transition: all 0.2s ease;
@@ -334,8 +334,8 @@
 }
 
 .intro-content a:hover {
-  color: #B91C1C;
-  border-bottom-color: #CF5706;
+  color: #3B82F6;
+  border-bottom-color: #1E3A8A;
 }
 
 /* === SERVICES CARDS === */
@@ -348,7 +348,7 @@
 
 .service-commune-card {
   background: white;
-  border: 2px solid #E5E7EB;
+  border: 2px solid #CBD5E1;
   border-radius: 12px;
   padding: var(--spacing-lg);
   text-decoration: none;
@@ -359,15 +359,15 @@
 }
 
 .service-commune-card:hover {
-  border-color: #CF5706;
-  box-shadow: 0 8px 20px rgba(220, 38, 38, 0.15);
+  border-color: #3B82F6;
+  box-shadow: 0 8px 20px rgba(30, 58, 138, 0.15);
   transform: translateY(-4px);
 }
 
 .service-commune-card .service-icon {
   width: 56px;
   height: 56px;
-  background: linear-gradient(135deg, #FEE2E2 0%, #FECACA 100%);
+  background: linear-gradient(135deg, #DBEAFE 0%, #BFDBFE 100%);
   border-radius: 12px;
   display: flex;
   align-items: center;
@@ -386,7 +386,7 @@
   font-family: var(--font-heading);
   font-size: 1.2rem;
   font-weight: 700;
-  color: #1A1A1A;
+  color: #0F172A;
   margin: 0 0 var(--spacing-sm);
 }
 
@@ -399,7 +399,7 @@
 }
 
 .service-commune-card .service-link {
-  color: #CF5706;
+  color: #F97316;
   font-weight: 600;
   font-size: 0.95rem;
   display: inline-flex;
@@ -420,8 +420,8 @@
 }
 
 .why-commune-card {
-  background: linear-gradient(135deg, #FAFAFA 0%, #F5F5F5 100%);
-  border-left: 4px solid #CF5706;
+  background: linear-gradient(135deg, #FAFAFA 0%, #F1F5F9 100%);
+  border-left: 4px solid #1E3A8A;
   border-radius: 8px;
   padding: var(--spacing-lg);
 }
@@ -429,7 +429,7 @@
 .why-commune-card .why-icon {
   width: 48px;
   height: 48px;
-  background: linear-gradient(135deg, #CF5706 0%, #CF5706 100%);
+  background: linear-gradient(135deg, #1E3A8A 0%, #3B82F6 100%);
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -443,7 +443,7 @@
   font-family: var(--font-heading);
   font-size: 1.1rem;
   font-weight: 700;
-  color: #1A1A1A;
+  color: #0F172A;
   margin: 0 0 var(--spacing-sm);
 }
 
@@ -472,10 +472,10 @@
   display: inline-flex;
   align-items: center;
   background: white;
-  border: 2px solid #E5E7EB;
+  border: 2px solid #CBD5E1;
   padding: 10px 18px;
   border-radius: 100px;
-  color: #1A1A1A;
+  color: #0F172A;
   font-weight: 600;
   font-size: 0.95rem;
   text-decoration: none;
@@ -483,9 +483,9 @@
 }
 
 .zone-tag-commune:hover {
-  border-color: #CF5706;
-  background: #FEF2F2;
-  color: #CF5706;
+  border-color: #3B82F6;
+  background: #EFF6FF;
+  color: #1E3A8A;
   transform: translateY(-2px);
 }
 
@@ -493,8 +493,8 @@
 .tarif-info-box {
   display: flex;
   gap: var(--spacing-md);
-  background: linear-gradient(135deg, #FFF7ED 0%, #FFEDD5 100%);
-  border-left: 4px solid #CF5706;
+  background: linear-gradient(135deg, #EFF6FF 0%, #DBEAFE 100%);
+  border-left: 4px solid #1E3A8A;
   border-radius: 12px;
   padding: var(--spacing-lg);
   margin-bottom: var(--spacing-lg);
@@ -509,12 +509,12 @@
   font-family: var(--font-heading);
   font-size: 1.3rem;
   font-weight: 700;
-  color: #1A1A1A;
+  color: #0F172A;
   margin: 0 0 var(--spacing-sm);
 }
 
 .tarif-info-content p {
-  color: #78350F;
+  color: #1E3A8A;
   font-size: 1rem;
   line-height: 1.7;
   margin: 0;
@@ -533,7 +533,7 @@
   font-family: var(--font-heading);
   font-size: 1.6rem;
   font-weight: 700;
-  color: #1A1A1A;
+  color: #0F172A;
   margin: 0 0 var(--spacing-sm);
 }
 
@@ -548,7 +548,7 @@
   display: inline-flex;
   align-items: center;
   gap: 8px;
-  background: linear-gradient(135deg, #CF5706 0%, #CF5706 50%, #CF5706 100%);
+  background: linear-gradient(135deg, #F97316 0%, #F97316 50%, #F97316 100%);
   color: white;
   padding: 12px 28px;
   border-radius: 50px;
@@ -557,12 +557,12 @@
   font-weight: 700;
   text-decoration: none;
   transition: all 0.3s ease;
-  box-shadow: 0 4px 12px rgba(220, 38, 38, 0.3);
+  box-shadow: 0 4px 12px rgba(249, 115, 22, 0.3);
 }
 
 .btn-devis-cta:hover {
   transform: translateY(-2px);
-  box-shadow: 0 6px 20px rgba(220, 38, 38, 0.5);
+  box-shadow: 0 6px 20px rgba(249, 115, 22, 0.5);
 }
 
 .btn-devis-cta .btn-icon {
@@ -571,7 +571,7 @@
 
 /* === CTA FINAL === */
 .cta-final-commune {
-  background: linear-gradient(135deg, #1A1A1A 0%, #2D2D2D 100%);
+  background: linear-gradient(135deg, #0F172A 0%, #1E293B 100%);
   color: white;
   padding: var(--spacing-3xl) 0;
   margin-top: var(--spacing-3xl);
@@ -602,7 +602,7 @@
   display: inline-flex;
   align-items: center;
   gap: 10px;
-  background: linear-gradient(135deg, #CF5706 0%, #CF5706 50%, #CF5706 100%);
+  background: linear-gradient(135deg, #F97316 0%, #F97316 50%, #F97316 100%);
   color: white;
   padding: 18px 40px;
   border-radius: 100px;
@@ -611,12 +611,12 @@
   font-weight: 700;
   text-decoration: none;
   transition: all 0.3s ease;
-  box-shadow: 0 4px 20px rgba(220, 38, 38, 0.4);
+  box-shadow: 0 4px 20px rgba(249, 115, 22, 0.4);
 }
 
 .btn-cta-final:hover {
   transform: translateY(-2px);
-  box-shadow: 0 8px 30px rgba(220, 38, 38, 0.6);
+  box-shadow: 0 8px 30px rgba(249, 115, 22, 0.6);
 }
 
 .btn-cta-final .btn-icon {
@@ -712,7 +712,7 @@
 .conclusion-on-connait {
   margin-top: var(--spacing-lg);
   padding-left: var(--spacing-md);
-  border-left: 3px solid var(--red-primary);
+  border-left: 3px solid #1E3A8A;
   color: var(--gray-dark);
 }
 
@@ -740,13 +740,13 @@
   align-items: center;
   justify-content: center;
   flex-shrink: 0;
-  color: var(--red-primary);
+  color: #1E3A8A;
 }
 
 .quartier-icon svg {
   width: 20px;
   height: 20px;
-  stroke: var(--red-primary);
+  stroke: #1E3A8A;
   stroke-width: 2.5;
 }
 
@@ -769,10 +769,10 @@
 
 /* === SECTION PARKINGS === */
 .section-parkings {
-  background: #FFF9F5;
+  background: #EFF6FF;
   padding: var(--spacing-lg);
   margin-bottom: var(--spacing-2xl);
-  border-left: 3px solid var(--orange);
+  border-left: 3px solid #1E3A8A;
 }
 
 .section-parkings h3 {
@@ -805,7 +805,7 @@
   padding: 8px 14px;
   background: white;
   border-radius: 6px;
-  border: 1px solid rgba(249, 115, 22, 0.2);
+  border: 1px solid rgba(30, 58, 138, 0.2);
 }
 
 .parking-icon {
@@ -866,7 +866,7 @@
   background: #FAFAFA; /* Fond gris très léger par défaut */
   border-radius: 12px;
   padding: 1.25rem;
-  border-left: 4px solid var(--red-primary); /* Bordure gauche colorée par défaut */
+  border-left: 4px solid #1E3A8A; /* Bordure gauche colorée par défaut */
   transition: all 0.3s ease;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
 }
@@ -890,8 +890,8 @@
   width: 36px;
   height: 36px;
   border-radius: 8px;
-  background: rgba(220, 38, 38, 0.1); /* Fond rouge transparent par défaut */
-  color: var(--red-primary);
+  background: rgba(30, 58, 138, 0.1); /* Fond bleu transparent par défaut */
+  color: #1E3A8A;
   flex-shrink: 0;
 }
 
@@ -932,7 +932,7 @@
   position: absolute;
   left: 0;
   top: 0.125rem; /* Ajustement vertical pour aligner avec le texte */
-  color: var(--red-primary);
+  color: #1E3A8A;
   font-weight: 700;
   font-size: 1rem;
   line-height: 1.5; /* Alignement avec le line-height du texte */
@@ -972,30 +972,30 @@
   color: #F59E0B;
 }
 
-/* ORANGE #CF5706 - Assistance rapide (Carburant + Accès) */
+/* ORANGE #F97316 - Assistance rapide (Carburant + Accès) */
 .service-category.cat-orange {
   background: rgba(249, 115, 22, 0.04);
-  border-left-color: #CF5706;
+  border-left-color: #F97316;
 }
 .service-category.cat-orange .category-icon {
   background: rgba(249, 115, 22, 0.1);
-  color: #CF5706;
+  color: #F97316;
 }
 .service-category.cat-orange .service-item::before {
-  color: #CF5706;
+  color: #F97316;
 }
 
-/* ROUGE #CF5706 - Urgences critiques (Remorquage + Urgences) */
+/* BLEU #1E3A8A - Urgences critiques (Remorquage + Urgences) */
 .service-category.cat-rouge {
-  background: rgba(220, 38, 38, 0.04);
-  border-left-color: #CF5706;
+  background: rgba(30, 58, 138, 0.04);
+  border-left-color: #1E3A8A;
 }
 .service-category.cat-rouge .category-icon {
-  background: rgba(220, 38, 38, 0.1);
-  color: #CF5706;
+  background: rgba(30, 58, 138, 0.1);
+  color: #1E3A8A;
 }
 .service-category.cat-rouge .service-item::before {
-  color: #CF5706;
+  color: #1E3A8A;
 }
 
 .service-link strong {
@@ -1005,7 +1005,7 @@
 }
 
 .service-link:hover strong {
-  color: var(--red-primary);
+  color: #1E3A8A;
 }
 
 /* === RESPONSIVE v2.0 === */

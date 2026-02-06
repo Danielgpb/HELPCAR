@@ -1,0 +1,91 @@
+{
+  "language": "en",
+  "language_name": "English",
+  "locale": "en_BE",
+
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "zones": "Areas",
+    "pricing": "Pricing",
+    "contact": "Contact"
+  },
+
+  "cta": {
+    "devis_gratuit": "Free Quote",
+    "besoin_aide": "Need Help?",
+    "contactez_nous": "Contact Us Now",
+    "appeler_template": "Call {{PHONE}}"
+  },
+
+  "defaults": {
+    "contenu_a_venir": "Content coming soon..."
+  },
+
+  "links": {
+    "voir_services": "View services \u2192"
+  },
+
+  "services": {
+    "hero": {
+      "cta_primary": "Get a Free Quote",
+      "accroche": "Fast response across Brussels and surrounding areas"
+    },
+    "cta_final": {
+      "titre": "Need Help?",
+      "subtitle": "Contact our team for a fast and professional response",
+      "button": "Contact Us"
+    }
+  },
+
+  "communes": {
+    "hero": {
+      "cta_primary": "Contact Us",
+      "accroche_template": "Our local team responds quickly in {{COMMUNE_NAME}} and surrounding areas. Quality service available 24/7."
+    },
+    "cta_final": {
+      "titre_template": "Stuck in {{COMMUNE_NAME}}?",
+      "button": "Get a Free Quote"
+    },
+    "content": {
+      "h2_1_default": "Professional roadside assistance in {{COMMUNE_NAME}}. We respond quickly throughout the area and surrounding neighborhoods.",
+      "h2_3_default": "We also serve the neighboring areas of {{COMMUNE_NAME}}. Our proximity allows us to respond quickly throughout the region."
+    },
+    "meta": {
+      "title_default": "Car Breakdown {{COMMUNE_NAME}} ({{POSTAL_CODE}}) | Professional Service",
+      "description_default": "Car breakdown service in {{COMMUNE_NAME}}. Professional local team, fast response. Free quote. \u260e 0479 89 00 89"
+    },
+    "seo": {
+      "h1_default": "Car Breakdown & Towing in {{COMMUNE_NAME}} - 24/7",
+      "h2_1_default": "Breakdown Service in {{COMMUNE_NAME}}",
+      "h2_2_default": "Our Services in {{COMMUNE_NAME}}",
+      "h2_3_default": "Service Areas",
+      "h2_4_default": "Our Rates in {{COMMUNE_NAME}}",
+      "h2_5_default": "Why Choose Us in {{COMMUNE_NAME}}"
+    }
+  },
+
+  "footer": {
+    "description": "Towing and roadside assistance service available 24/7 throughout the Brussels-Capital region and surrounding areas.",
+    "social_title": "Stay Connected",
+    "services_title": "Our Services",
+    "services_all": "All services",
+    "info_title": "Information",
+    "info_about": "About Us",
+    "info_legal": "Legal Notice",
+    "info_privacy": "Privacy Policy",
+    "zones_title": "Service Areas",
+    "zones_all": "View all areas",
+    "reviews_title": "Your Feedback Matters",
+    "reviews_description": "Were you helped by our team? Share your experience!",
+    "reviews_count": "customer reviews",
+    "copyright": "All rights reserved",
+    "tagline": "Professional 24/7 roadside assistance"
+  },
+
+  "labels": {
+    "note": "Note:",
+    "email": "Email:",
+    "site_web": "Website:"
+  }
+}

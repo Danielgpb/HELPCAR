@@ -100,7 +100,7 @@ def main():
     parser.add_argument(
         '--lang', '-l',
         default='fr',
-        choices=['fr'],
+        choices=['fr', 'en'],
         help='Langue du site (défaut: fr)'
     )
 

@@ -3,7 +3,7 @@
     "badges": ["intervention_rapide", "disponible_24_7", "prix_transparent"]
   },
   "intro": {
-    "template": "<p><strong>HELPCAR Dépannage</strong> intervient à <strong>{{COMMUNE_NAME}}</strong> pour tous vos besoins de dépannage auto : panne de batterie, remorquage, pneu crevé, ouverture de porte...</p><p>Notre équipe arrive sur place en <strong>30 minutes en moyenne</strong>. Appelez le <strong><a href=\"tel:+3228445604\" style=\"color: #CF5706; text-decoration: none;\">02 844 56 04</a></strong> et on vous donne le prix immédiatement.</p>"
+    "template": "<p><strong>HELPCAR Dépannage</strong> intervient à <strong>{{COMMUNE_NAME}}</strong> pour tous vos besoins de dépannage auto : panne de batterie, remorquage, pneu crevé, ouverture de porte...</p><p>Notre équipe arrive sur place en <strong>30 minutes en moyenne</strong>. Appelez le <strong><a href=\"tel:+3228445604\" style=\"color: #F97316; text-decoration: none;\">02 844 56 04</a></strong> et on vous donne le prix immédiatement.</p>"
   },
   "services_list": {
     "h2": "Nos services à {{COMMUNE_NAME}}",

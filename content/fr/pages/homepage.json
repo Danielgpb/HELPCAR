@@ -16,7 +16,7 @@
 
   "intro": {
     "h2": "HELPCAR Dépannage – Votre Dépanneur à Bruxelles",
-    "content": "<p><strong style=\"color: #CF5706;\">HELPCAR Dépannage</strong>, c'est le <strong>meilleur dépannage auto et remorquage à Bruxelles</strong>. Batterie à plat, pneu crevé, clés enfermées, remorquage – l'équipe se déplace dans toute la Région de Bruxelles-Capitale et en périphérie avec le matériel qu'il faut pour régler votre problème.</p><p>Vous appelez le <strong><a href=\"tel:+3228445604\" style=\"color: #CF5706; text-decoration: none;\">02 844 56 04</a></strong>, on vous donne le <strong>prix par téléphone</strong>, et si ça vous va, on est chez vous en <strong>environ 30 minutes</strong>. Pas de compteur qui tourne, pas de mauvaise surprise.</p>"
+    "content": "<p><strong style=\"color: #F97316;\">HELPCAR Dépannage</strong>, c'est le <strong>meilleur dépannage auto et remorquage à Bruxelles</strong>. Batterie à plat, pneu crevé, clés enfermées, remorquage – l'équipe se déplace dans toute la Région de Bruxelles-Capitale et en périphérie avec le matériel qu'il faut pour régler votre problème.</p><p>Vous appelez le <strong><a href=\"tel:+3228445604\" style=\"color: #F97316; text-decoration: none;\">02 844 56 04</a></strong>, on vous donne le <strong>prix par téléphone</strong>, et si ça vous va, on est chez vous en <strong>environ 30 minutes</strong>. Pas de compteur qui tourne, pas de mauvaise surprise.</p>"
   },
 
   "services_section": {
@@ -30,7 +30,7 @@
       "type": "image-droite",
       "label": "Notre équipe",
       "titre": "Un Appel, et On S'occupe de Tout",
-      "paragraphe": "Vous appelez le <strong><a href=\"tel:+3228445604\" style=\"color: #CF5706; text-decoration: none;\">02 844 56 04</a></strong>, vous expliquez votre situation, et on s'organise pour vous envoyer <strong>un dépanneur rapidement</strong>. Notre équipe coordonne chaque intervention avec <strong>plus de 10 ans d'expérience</strong> dans le dépannage à Bruxelles.",
+      "paragraphe": "Vous appelez le <strong><a href=\"tel:+3228445604\" style=\"color: #F97316; text-decoration: none;\">02 844 56 04</a></strong>, vous expliquez votre situation, et on s'organise pour vous envoyer <strong>un dépanneur rapidement</strong>. Notre équipe coordonne chaque intervention avec <strong>plus de 10 ans d'expérience</strong> dans le dépannage à Bruxelles.",
       "points": [
         "✓ Un seul numéro pour tout",
         "✓ Plus de 10 ans d'expérience",
@@ -147,7 +147,7 @@
   "section_avis": {
     "label": "Avis Clients",
     "titre": "Ce Qu'on Entend Après un Dépannage",
-    "intro": "<strong style=\"color: #CF5706;\">HELPCAR Dépannage</strong>, c'est une équipe avec <strong>plus de 10 ans d'expérience</strong> dans le dépannage automobile à Bruxelles. Notre principe : un service humain, rapide et au prix annoncé.",
+    "intro": "<strong style=\"color: #F97316;\">HELPCAR Dépannage</strong>, c'est une équipe avec <strong>plus de 10 ans d'expérience</strong> dans le dépannage automobile à Bruxelles. Notre principe : un service humain, rapide et au prix annoncé.",
     "avis": [
       {
         "rating": "5.0",

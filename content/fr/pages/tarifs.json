@@ -23,13 +23,13 @@
     "etapes": [
       {
         "numero": 1,
-        "color": "#CF5706",
+        "color": "#F97316",
         "titre": "Appelez le 02 844 56 04",
         "description": "On décroche à tout moment, 24h/24"
       },
       {
         "numero": 2,
-        "color": "#CF5706",
+        "color": "#F97316",
         "titre": "Expliquez-nous la situation",
         "description": "Type de panne, véhicule, où vous êtes – 30 secondes suffisent"
       },

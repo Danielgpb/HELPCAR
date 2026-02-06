@@ -56,13 +56,13 @@
 }
 
 .content-section a {
-  color: #1A1A1A;
+  color: #0F172A;
   text-decoration: none;
   transition: color 0.3s ease;
 }
 
 .content-section a:hover {
-  color: #CF5706;
+  color: #1E3A8A;
   text-decoration: underline;
 }
 
@@ -112,7 +112,7 @@
   padding: var(--spacing-lg) var(--spacing-lg) var(--spacing-lg) var(--spacing-xl);
   margin: var(--spacing-lg) 0;
   background: #F9FAFB;
-  border-left: 4px solid #10B981;
+  border-left: 4px solid #1E3A8A;
   border-radius: 0 var(--radius-md) var(--radius-md) 0;
   max-width: 750px;
 }
@@ -131,7 +131,7 @@
   left: 15px;
   font-size: 3rem;
   font-weight: 700;
-  color: #10B981;
+  color: #1E3A8A;
   font-family: Georgia, serif;
   line-height: 1;
   opacity: 0.8;
@@ -144,7 +144,7 @@
   right: 15px;
   font-size: 3rem;
   font-weight: 700;
-  color: #10B981;
+  color: #1E3A8A;
   font-family: Georgia, serif;
   line-height: 1;
   opacity: 0.8;
@@ -174,7 +174,7 @@
 .faq-item:hover {
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
   transform: translateY(-2px);
-  border-color: var(--red-primary);
+  border-color: #3B82F6;
 }
 
 .faq-question {
@@ -270,7 +270,7 @@
 }
 
 .timeline-content .phone-link:hover {
-  color: #CF5706;
+  color: #F97316;
 }
 
 .tarifs-box {
@@ -286,7 +286,7 @@
   justify-content: space-between;
   align-items: center;
   padding: var(--spacing-md) 0;
-  border-bottom: 2px dashed #E5E7EB;
+  border-bottom: 2px dashed #CBD5E1;
 }
 
 .tarif-label {
@@ -298,7 +298,7 @@
 .tarif-prix {
   font-size: 1.8rem;
   font-weight: 800;
-  color: var(--red-primary);
+  color: #F97316;
   font-family: var(--font-heading);
 }
 
@@ -597,7 +597,7 @@
   font-family: var(--font-heading);
   font-size: clamp(1.3rem, 2.5vw, 1.6rem);
   font-weight: 700;
-  color: #1A1A1A;
+  color: #0F172A;
   margin: 0 0 var(--spacing-sm);
 }
 
@@ -612,7 +612,7 @@
   display: inline-flex;
   align-items: center;
   gap: 8px;
-  background: linear-gradient(135deg, #CF5706 0%, #CF5706 50%, #CF5706 100%);
+  background: linear-gradient(135deg, #F97316 0%, #F97316 50%, #F97316 100%);
   color: white;
   padding: 12px 28px;
   border-radius: 50px;
@@ -621,12 +621,12 @@
   font-weight: 700;
   text-decoration: none;
   transition: all 0.3s ease;
-  box-shadow: 0 4px 12px rgba(220, 38, 38, 0.3);
+  box-shadow: 0 4px 12px rgba(249, 115, 22, 0.3);
 }
 
 .btn-cta-mid:hover {
   transform: translateY(-2px);
-  box-shadow: 0 6px 20px rgba(220, 38, 38, 0.5);
+  box-shadow: 0 6px 20px rgba(249, 115, 22, 0.5);
 }
 
 .btn-cta-mid .icon {
@@ -664,7 +664,7 @@
   align-items: center;
   gap: var(--spacing-sm);
   background: white;
-  color: var(--red-primary);
+  color: #F97316;
   padding: var(--spacing-lg) var(--spacing-2xl);
   border-radius: var(--radius-full);
   font-size: 1.2rem;

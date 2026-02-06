@@ -1,0 +1,103 @@
+{
+  "version": "1.0",
+  "language": "en",
+  "last_updated": "2025-12-17",
+  "description": "Translations for reusable UI components (badges, FAQ, cards, breadcrumbs)",
+
+  "badges": {
+    "intervention_rapide": "\u26a1 Fast Response",
+    "disponible_24_7": "\ud83d\udd50 Available 24/7",
+    "expertise_10_ans": "\u2713 10 years experience",
+    "batterie_stock": "\ud83d\udd0b Batteries in stock",
+    "sans_supplement": "\ud83d\udcb0 No extra charge",
+    "tarif_transparent": "\ud83d\udcaf Transparent pricing"
+  },
+
+  "faq": {
+    "section_label": "FAQ",
+    "section_title": "Frequently Asked Questions"
+  },
+
+  "why_cards": {
+    "section_label": "WHY US?",
+    "section_title": "Why Choose Us",
+    "cards": [
+      {
+        "icon": "\u26a1",
+        "title": "Fast Response",
+        "text": "We arrive in less than 30 minutes anywhere in the Brussels area."
+      },
+      {
+        "icon": "\ud83d\udcb0",
+        "title": "Transparent Pricing",
+        "text": "Fixed price communicated before intervention. No surprises, no hidden fees."
+      },
+      {
+        "icon": "\ud83d\udd27",
+        "title": "Expert Technicians",
+        "text": "Experienced team with 15 years of expertise in roadside assistance."
+      }
+    ]
+  },
+
+  "breadcrumb": {
+    "home": "Home",
+    "services": "Services",
+    "services_index": "Our Services",
+    "zones": "Areas",
+    "zones_index": "Service Areas",
+    "tarifs": "Pricing",
+    "contact": "Contact",
+    "a_propos": "About Us",
+    "mentions_legales": "Legal Notice",
+    "politique_confidentialite": "Privacy Policy"
+  },
+
+  "service_cards": {
+    "link_text": "\u2192"
+  },
+
+  "commune_sections": {
+    "h2_2": "Our Services in {{COMMUNE_NAME}}",
+    "h2_3": "Service Areas",
+    "h2_4": "Our Rates in {{COMMUNE_NAME}}",
+    "h2_5": "Why Choose Us in {{COMMUNE_NAME}}"
+  },
+
+  "commune_hero": {
+    "stat_intervention_value": "30 min",
+    "stat_intervention_label": "Fast response",
+    "stat_disponible_value": "24/7",
+    "stat_disponible_label": "Available",
+    "btn_voir_services": "View services",
+    "devis_titre": "Get Your Quote in 2 Minutes",
+    "devis_subtitle": "Call us, describe your breakdown, get an exact price. No obligation.",
+    "section_services_label": "OUR SERVICES",
+    "section_zones_label": "NEARBY AREAS",
+    "cta_subtitle_template": "Fast response in {{COMMUNE_NAME}} in under 30 minutes"
+  },
+
+  "cta": {
+    "default_title": "Need help now?",
+    "default_subtitle": "Call us for a fast response",
+    "default_button": "Contact Us",
+    "commune_title": "Stuck in {{COMMUNE_NAME}}?",
+    "commune_subtitle": "Our team responds in under 30 minutes",
+    "service_title": "Need This Service Now?",
+    "service_subtitle": "Our team is available 24/7 for a fast response"
+  },
+
+  "sidebar": {
+    "services_title": "Our Services",
+    "communes_title": "Service Areas",
+    "voisines_title": "Nearby Areas"
+  },
+
+  "footer": {
+    "col_about_title": "About",
+    "col_services_title": "Our Services",
+    "col_zones_title": "Service Areas",
+    "col_avis_title": "Google Reviews",
+    "copyright": "\u00a9 {{YEAR}} {{SITE_NAME}}. All rights reserved."
+  }
+}

@@ -107,19 +107,19 @@ class CSSGenerator:
         # Couleurs neutres
         if 'dark' in colors:
             css += f"  --black: {colors['dark']};\n"
-            css += f"  --soft-black: #2D2D2D;\n"
+            css += f"  --soft-black: #1E293B;\n"
 
         if 'light' in colors:
             css += f"  --white: {colors['light']};\n"
-            css += f"  --off-white: #FAFAFA;\n"
+            css += f"  --off-white: #F8FAFC;\n"
 
         if 'gray' in colors:
             css += f"  --gray-dark: {colors['gray']};\n"
 
         # Couleurs fixes (non configurables)
-        css += "  --light-gray: #F5F5F5;\n"
+        css += "  --light-gray: #F1F5F9;\n"
         css += "  --medium-gray: #E0E0E0;\n"
-        css += "  --light-red: rgba(220, 38, 38, 0.1);\n"
+        css += "  --light-red: rgba(249, 115, 22, 0.1);\n"
 
         css += "\n"
         return css
@@ -128,14 +128,14 @@ class CSSGenerator:
         """Génère les dégradés"""
         css = "  /* === DÉGRADÉS === */\n"
 
-        primary = colors.get('primary', '#CF5706')
-        secondary = colors.get('secondary', '#CF5706')
+        primary = colors.get('primary', '#F97316')
+        secondary = colors.get('secondary', '#F97316')
 
         css += f"  --gradient-primary: linear-gradient(135deg, {primary} 0%, {self._lighten_color(primary, 15)} 50%, {secondary} 100%);\n"
         css += f"  --gradient-cta: linear-gradient(135deg, {primary} 0%, {self._lighten_color(primary, 15)} 50%, {secondary} 100%);\n"
         css += f"  --gradient-intense: linear-gradient(135deg, {self._darken_color(primary, 15)} 0%, {primary} 100%);\n"
-        css += f"  --gradient-soft: linear-gradient(135deg, rgba(220, 38, 38, 0.10) 0%, rgba(239, 68, 68, 0.08) 100%);\n"
-        css += "  --gradient-hero-bg: linear-gradient(180deg, #FAFAFA 0%, #FFFFFF 100%);\n"
+        css += f"  --gradient-soft: linear-gradient(135deg, rgba(249, 115, 22, 0.10) 0%, rgba(239, 68, 68, 0.08) 100%);\n"
+        css += "  --gradient-hero-bg: linear-gradient(180deg, #F8FAFC 0%, #FFFFFF 100%);\n"
         css += "\n"
         return css
 
