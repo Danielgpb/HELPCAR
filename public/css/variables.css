@@ -6,10 +6,14 @@
 
 :root {
   /* === COULEURS (depuis config/variables.json) === */
-  --red: #1E3A8A;
-  --red-primary: #1E3A8A;
-  --red-dark: #193175;
-  --red-light: #FF6B6B;
+  --primary: #1E3A8A;
+  --primary-light: #3B82F6;
+  --cta: #F97316;
+  --cta-dark: #EA580C;
+  --red: #F97316;
+  --red-primary: #F97316;
+  --red-dark: #EA580C;
+  --red-light: #F98838;
   --orange: #F97316;
   --orange-accent: #F97316;
   --orange-burnt: #F97316;
@@ -22,15 +26,16 @@
   --off-white: #F8FAFC;
   --gray-dark: #64748B;
   --light-gray: #F1F5F9;
-  --medium-gray: #E0E0E0;
+  --medium-gray: #CBD5E1;
   --light-red: rgba(249, 115, 22, 0.1);
 
   /* === DÉGRADÉS === */
-  --gradient-primary: linear-gradient(135deg, #1E3A8A 0%, #3F579B 50%, #F97316 100%);
-  --gradient-cta: linear-gradient(135deg, #1E3A8A 0%, #3F579B 50%, #F97316 100%);
-  --gradient-intense: linear-gradient(135deg, #193175 0%, #1E3A8A 100%);
-  --gradient-soft: linear-gradient(135deg, rgba(249, 115, 22, 0.10) 0%, rgba(239, 68, 68, 0.08) 100%);
+  --gradient-primary: linear-gradient(135deg, #1E3A8A 0%, #4B61A1 50%, #3B82F6 100%);
+  --gradient-cta: linear-gradient(135deg, #F97316 0%, #F98838 50%, #F97316 100%);
+  --gradient-intense: linear-gradient(135deg, #EA580C 0%, #F97316 100%);
+  --gradient-soft: linear-gradient(135deg, rgba(249, 115, 22, 0.10) 0%, rgba(251, 146, 60, 0.08) 100%);
   --gradient-hero-bg: linear-gradient(180deg, #F8FAFC 0%, #FFFFFF 100%);
+  --gradient-hero-light: linear-gradient(110deg, #F8FAFC 0%, #EFF6FF 35%, #F0F4FF 60%, #FFFFFF 100%);
 
   /* === TYPOGRAPHIE === */
   --font-heading: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;

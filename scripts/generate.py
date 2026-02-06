@@ -39,7 +39,7 @@ class SiteGenerator:
     # ==========================================
 
     # Fichiers CSS à copier vers build/
-    CSS_FILES = ['main.css', 'shared.css', 'service.css', 'commune.css', 'dropdown.css', 'fonts.css', 'carousel.css', 'accessibility.css', 'language-selector.css']
+    CSS_FILES = ['variables.css', 'main.css', 'shared.css', 'service.css', 'commune.css', 'dropdown.css', 'fonts.css', 'carousel.css', 'accessibility.css', 'language-selector.css']
 
     # Fichiers JavaScript à copier vers build/
     JS_FILES = ['carousel.js', 'whatsapp-smart.js', 'language-selector.js']

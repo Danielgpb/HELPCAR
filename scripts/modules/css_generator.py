@@ -79,23 +79,28 @@ class CSSGenerator:
         return css
 
     def _generate_color_variables(self, colors):
-        """Génère les variables de couleurs"""
+        """Génère les variables de couleurs - Design v2.0 Bleu/Orange"""
         css = ""
 
-        # Couleur primaire (rouge)
-        if 'primary' in colors:
-            primary = colors['primary']
-            css += f"  --red: {primary};\n"
-            css += f"  --red-primary: {primary};\n"
-            css += f"  --red-dark: {self._darken_color(primary, 15)};\n"
-            css += f"  --red-light: #FF6B6B;\n"  # Fixe pour contraste WCAG AA sur fond noir
+        primary = colors.get('primary', '#1E3A8A')       # Bleu - confiance, headers
+        primary_light = colors.get('primary_light', '#3B82F6')
+        secondary = colors.get('secondary', '#F97316')    # Orange - CTA, boutons
+        secondary_dark = colors.get('secondary_dark', '#EA580C')
 
-        # Couleur secondaire (orange)
-        if 'secondary' in colors:
-            secondary = colors['secondary']
-            css += f"  --orange: {secondary};\n"
-            css += f"  --orange-accent: {secondary};\n"
-            css += f"  --orange-burnt: {secondary};\n"
+        # Couleurs sémantiques v2.0
+        css += f"  --primary: {primary};\n"
+        css += f"  --primary-light: {primary_light};\n"
+        css += f"  --cta: {secondary};\n"
+        css += f"  --cta-dark: {secondary_dark};\n"
+
+        # Aliases legacy (--red/--orange → CTA orange)
+        css += f"  --red: {secondary};\n"
+        css += f"  --red-primary: {secondary};\n"
+        css += f"  --red-dark: {secondary_dark};\n"
+        css += f"  --red-light: {self._lighten_color(secondary, 15)};\n"
+        css += f"  --orange: {secondary};\n"
+        css += f"  --orange-accent: {secondary};\n"
+        css += f"  --orange-burnt: {secondary};\n"
 
         # Couleur de succès (vert)
         if 'success' in colors:
@@ -116,26 +121,31 @@ class CSSGenerator:
         if 'gray' in colors:
             css += f"  --gray-dark: {colors['gray']};\n"
 
-        # Couleurs fixes (non configurables)
+        # Couleurs fixes
         css += "  --light-gray: #F1F5F9;\n"
-        css += "  --medium-gray: #E0E0E0;\n"
+        css += "  --medium-gray: #CBD5E1;\n"
         css += "  --light-red: rgba(249, 115, 22, 0.1);\n"
 
         css += "\n"
         return css
 
     def _generate_gradient_variables(self, colors):
-        """Génère les dégradés"""
+        """Génère les dégradés - Design v2.0 Bleu/Orange"""
         css = "  /* === DÉGRADÉS === */\n"
 
-        primary = colors.get('primary', '#F97316')
+        primary = colors.get('primary', '#1E3A8A')
+        primary_light = colors.get('primary_light', '#3B82F6')
         secondary = colors.get('secondary', '#F97316')
+        secondary_dark = colors.get('secondary_dark', '#EA580C')
 
-        css += f"  --gradient-primary: linear-gradient(135deg, {primary} 0%, {self._lighten_color(primary, 15)} 50%, {secondary} 100%);\n"
-        css += f"  --gradient-cta: linear-gradient(135deg, {primary} 0%, {self._lighten_color(primary, 15)} 50%, {secondary} 100%);\n"
-        css += f"  --gradient-intense: linear-gradient(135deg, {self._darken_color(primary, 15)} 0%, {primary} 100%);\n"
-        css += f"  --gradient-soft: linear-gradient(135deg, rgba(249, 115, 22, 0.10) 0%, rgba(239, 68, 68, 0.08) 100%);\n"
+        # Gradient bleu (headers, sections)
+        css += f"  --gradient-primary: linear-gradient(135deg, {primary} 0%, {self._lighten_color(primary, 20)} 50%, {primary_light} 100%);\n"
+        # Gradient orange (CTA, boutons)
+        css += f"  --gradient-cta: linear-gradient(135deg, {secondary} 0%, {self._lighten_color(secondary, 15)} 50%, {secondary} 100%);\n"
+        css += f"  --gradient-intense: linear-gradient(135deg, {secondary_dark} 0%, {secondary} 100%);\n"
+        css += f"  --gradient-soft: linear-gradient(135deg, rgba(249, 115, 22, 0.10) 0%, rgba(251, 146, 60, 0.08) 100%);\n"
         css += "  --gradient-hero-bg: linear-gradient(180deg, #F8FAFC 0%, #FFFFFF 100%);\n"
+        css += "  --gradient-hero-light: linear-gradient(110deg, #F8FAFC 0%, #EFF6FF 35%, #F0F4FF 60%, #FFFFFF 100%);\n"
         css += "\n"
         return css
 
