@@ -2668,7 +2668,7 @@ class SiteGenerator:
                 href = item.get('href', '').replace('{{EMAIL}}', variables['EMAIL'])
                 coord_html += f'<a href="{href}" style="color: #0F172A; font-size: 1.05rem; font-weight: 600; text-decoration: none; display: block;">{value}</a>'
             elif item_type == 'horaires':
-                coord_html += f'<p style="color: #F97316; font-size: 1.25rem; font-weight: 700; margin: 0;">{value}</p>'
+                coord_html += f'<p style="color: #1E3A8A; font-size: 1.25rem; font-weight: 700; margin: 0;">{value}</p>'
             else:
                 coord_html += f'<p style="color: #0F172A; font-size: 1.05rem; font-weight: 600; margin: 0;">{value}</p>'
 
@@ -2839,7 +2839,7 @@ class SiteGenerator:
             description = description.replace('{{GOOGLE_REVIEWS_COUNT}}', variables['GOOGLE_REVIEWS_COUNT'])
             valeurs_html += f'''
           <div style="background: white; border-radius: 16px; padding: 2rem; box-shadow: 0 2px 8px rgba(0,0,0,0.08); text-align: center;">
-            <div style="width: 80px; height: 80px; background: linear-gradient(135deg, #F97316 0%, #F97316 100%); border-radius: 20px; display: flex; align-items: center; justify-content: center; margin: 0 auto 1.5rem; box-shadow: 0 4px 12px rgba(220, 38, 38, 0.3);">
+            <div style="width: 80px; height: 80px; background: linear-gradient(135deg, #1E3A8A 0%, #1E3A8A 100%); border-radius: 20px; display: flex; align-items: center; justify-content: center; margin: 0 auto 1.5rem; box-shadow: 0 4px 12px rgba(249, 115, 22, 0.3);">
               <span style="font-size: 2.5rem;">{emoji}</span>
             </div>
             <h3 style="font-size: 1.25rem; font-weight: 700; margin-bottom: 1rem; color: #0F172A;">{titre}</h3>
