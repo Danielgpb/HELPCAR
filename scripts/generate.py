@@ -39,10 +39,10 @@ class SiteGenerator:
     # ==========================================
 
     # Fichiers CSS à copier vers build/
-    CSS_FILES = ['variables.css', 'main.css', 'shared.css', 'service.css', 'commune.css', 'dropdown.css', 'fonts.css', 'carousel.css', 'accessibility.css', 'language-selector.css']
+    CSS_FILES = ['style.css']
 
     # Fichiers JavaScript à copier vers build/
-    JS_FILES = ['carousel.js', 'whatsapp-smart.js', 'language-selector.js']
+    JS_FILES = ['main.js']
 
     # Fichiers logo à copier à la racine de images/
     LOGO_ROOT_FILES = ['logo.webp', 'logo.png']
@@ -75,11 +75,8 @@ class SiteGenerator:
         self.base_path = Path(base_path)
         self.lang = lang
         self.verbose = verbose
-        # FR génère à la racine de build/, autres langues dans build/{lang}/
-        if lang == 'fr':
-            self.build_dir = self.base_path / 'build'
-        else:
-            self.build_dir = self.base_path / 'build' / lang
+        # Toutes les langues dans build/{lang}/
+        self.build_dir = self.base_path / 'build' / lang
 
         # Initialisation des modules
         self.log(f"📦 Chargement des modules v4.0 ({lang.upper()})...")
@@ -1367,8 +1364,12 @@ class SiteGenerator:
         variables['NOMBRE_SERVICES'] = len(services)
         variables['COMPANY_NAME'] = self.variables.get('company', {}).get('name_full', 'Bruxelles Car Depannage srl')
         variables['GOOGLE_REVIEWS'] = self.variables.get('google', {}).get('reviews_count', '200')
+        variables['GOOGLE_REVIEWS_COUNT'] = variables['GOOGLE_REVIEWS']
         variables['GOOGLE_RATING'] = self.variables.get('google', {}).get('rating', '4.9')
         variables['GOOGLE_MY_BUSINESS_URL'] = self.variables.get('google', {}).get('my_business_url', '#')
+        variables['EMAIL'] = self.variables.get('contact', {}).get('email', '')
+        variables['ADRESSE'] = self.variables.get('contact', {}).get('address', '')
+        variables['YEARS_EXPERIENCE_PLUS'] = self.variables.get('company', {}).get('years_experience_plus', '+10')
         variables['GOOGLE_ANALYTICS_ID'] = self.variables.get('google', {}).get('analytics_id', '')
         variables['FACEBOOK_URL'] = self.variables.get('social', {}).get('facebook_url', '#')
         variables['INSTAGRAM_URL'] = self.variables.get('social', {}).get('instagram_url', '#')

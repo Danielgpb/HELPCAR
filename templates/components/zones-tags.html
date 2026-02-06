@@ -1,7 +1,7 @@
-{# Template: Tags des zones/communes #}
+{# Template: Tags des zones/communes - Version V2 #}
 {# Usage: build_zones_tags() #}
 {# Variables: communes (list), path_prefix (str) #}
 
 {% for commune in communes %}
-<a href="{{ path_prefix }}{{ commune.slug }}/index.html" class="zone-tag{% if loop.index == 1 %} highlight{% endif %}">{{ commune.name }}</a>
+<a href="{{ path_prefix }}{{ commune.slug }}/index.html" class="badge{% if loop.index == 1 %} badge-highlight{% endif %}">{{ commune.name }}</a>
 {% endfor %}

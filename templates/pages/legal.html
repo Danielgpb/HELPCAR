@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="fr-BE">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{META_TITLE}}</title>
+  <meta name="description" content="{{META_DESCRIPTION}}">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/x-icon" href="{{PATH_PREFIX}}favicon.ico">
+  <link rel="apple-touch-icon" href="{{PATH_PREFIX}}apple-touch-icon.png">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="{{PATH_PREFIX}}public/css/style.css">
+
+  <!-- Analytics -->
+  {{COMPONENT_GOOGLE_ANALYTICS}}
+  {{COMPONENT_MICROSOFT_CLARITY}}
+</head>
+<body>
+  {{COMPONENT_HEADER}}
+
+  <main id="main-content">
+    <!-- ============================================
+         HERO SECTION (Simple)
+         ============================================ -->
+    <section class="hero hero-simple">
+      <div class="container">
+        <div class="hero-content hero-content-centered">
+          <h1 class="hero-title">{{PAGE_TITLE}}</h1>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================
+         LEGAL CONTENT
+         ============================================ -->
+    <section class="section" id="legal-content">
+      <div class="container">
+        <div class="content-narrow">
+          {{LEGAL_CONTENT}}
+        </div>
+      </div>
+    </section>
+  </main>
+
+  {{COMPONENT_FOOTER}}
+
+  <script src="{{PATH_PREFIX}}public/js/main.js" defer></script>
+</body>
+</html>

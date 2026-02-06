@@ -1,14 +1,14 @@
-{# Template: Grille des communes #}
+{# Template: Grille des communes - Version V2 #}
 {# Usage: build_communes_grid() #}
 {# Variables: communes (list), path_prefix (str), voir_services_text (str) #}
 
 {% for commune in communes %}
-<a href="{{ path_prefix }}{{ commune.slug }}/index.html" class="commune-card">
-  <div class="commune-card-header">
-    <h3>{{ commune.name }}</h3>
-    <span class="commune-postal">{{ commune.postal_code if commune.postal_code else '' }}</span>
+<a href="{{ path_prefix }}{{ commune.slug }}/index.html" class="card card-link">
+  <div class="card-header">
+    <h3 class="card-title">{{ commune.name }}</h3>
+    <span class="card-badge">{{ commune.postal_code if commune.postal_code else '' }}</span>
   </div>
-  <p class="commune-description">{{ commune.quartiers if commune.quartiers else 'Dépannage et remorquage disponible 24h/24' }}</p>
-  <span class="commune-link">{{ voir_services_text }}</span>
+  <p class="card-description">{{ commune.quartiers if commune.quartiers else 'Dépannage et remorquage disponible 24h/24' }}</p>
+  <span class="card-link-text">{{ voir_services_text }}</span>
 </a>
 {% endfor %}

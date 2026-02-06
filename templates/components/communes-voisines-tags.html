@@ -1,7 +1,7 @@
-{# Template: Tags communes voisines #}
+{# Template: Tags communes voisines - Version V2 #}
 {# Usage: build_communes_voisines_tags() #}
 {# Variables: voisines (list of communes), path_prefix (str) #}
 
 {% for commune in voisines %}
-<a href="{{ path_prefix }}{{ commune.slug }}/index.html" class="zone-tag-commune">{{ commune.name }}</a>
+<a href="{{ path_prefix }}{{ commune.slug }}/index.html" class="badge">{{ commune.name }}</a>
 {% endfor %}

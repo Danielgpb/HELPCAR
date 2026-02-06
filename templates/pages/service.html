@@ -52,12 +52,7 @@
   <link rel="preload" as="image" href="{{SERVICE_HERO_IMAGE}}" fetchpriority="high">
 
   <!-- CSS (chargement normal - ZÉRO glitch) -->
-  <link rel="stylesheet" href="../public/css/variables.css?v=1.4">
-  <link rel="stylesheet" href="../public/css/main.css?v=8.9">
-  <link rel="stylesheet" href="../public/css/shared.css?v=2.0">
-  <link rel="stylesheet" href="../public/css/service.css?v=8.9">
-  <link rel="stylesheet" href="../public/css/dropdown.css?v=2.0">
-  <link rel="stylesheet" href="../public/css/accessibility.css?v=1.0">
+  <link rel="stylesheet" href="{{PATH_PREFIX}}public/css/style.css">
 
   <!-- Fonts (chargement normal) -->
 
@@ -223,19 +218,6 @@
   {{COMPONENT_FOOTER}}
 
   <!-- JavaScript -->
-  <script src="{{PATH_PREFIX}}public/js/main.js?v=2.0" defer></script>
-  <script src="{{PATH_PREFIX}}public/js/tracking.js?v=1.0" defer></script>
-
-  <!-- Google Maps API (pour WhatsApp Smart autocomplete et directions) -->
-  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDDWguZ0hygny9cH7zG__Br2z6tTxud5-o&libraries=places" async defer></script>
-
-  <!-- WhatsApp Smart Module -->
-  <script>
-    window.WHATSAPP_CONFIG = {{WHATSAPP_CONFIG_JSON}};
-  </script>
-  <script src="{{PATH_PREFIX}}public/js/whatsapp-smart.js?v=7.4" defer></script>
-
-  <!-- JavaScript -->
-  <script src="../public/js/carousel.js"></script>
+  <script src="{{PATH_PREFIX}}public/js/main.js" defer></script>
 </body>
 </html>

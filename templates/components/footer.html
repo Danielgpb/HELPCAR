@@ -1,98 +1,147 @@
-<!-- ========================================
-     COMPOSANT : FOOTER GLOBAL v2.0
-     Fichier: templates/components/footer.html
-     Optimisé: Moins de communes, CTA Google Reviews
-     ======================================== -->
-<footer class="footer">
-  <div class="footer-container">
+<!-- Footer -->
+<footer class="footer" role="contentinfo">
+  <div class="container">
+    <div class="footer-grid">
 
-    <!-- Colonne 1: À Propos + Contact + Réseaux Sociaux -->
-    <div class="footer-col">
-      <h3 class="footer-title"><a href="{{PATH_PREFIX}}index.html" class="footer-title-link">{{COMPANY_NAME}}</a></h3>
-      <p class="footer-desc">
-        {{FOOTER_DESCRIPTION}}
-      </p>
-
-      <div class="footer-contact">
-        <p>📍 <a href="{{GOOGLE_MAPS_SEARCH_URL}}" target="_blank" rel="noopener noreferrer" class="footer-address">{{ADRESSE}}</a></p>
-        <p><a href="tel:{{TELEPHONE}}" class="footer-phone-cta">→ {{TELEPHONE}}</a></p>
-      </div>
-
-      <h3 class="footer-title footer-title-social">{{FOOTER_SOCIAL_TITLE}}</h3>
-      <div class="footer-social">
-        <a href="{{FACEBOOK_URL}}" target="_blank" rel="noopener noreferrer" class="footer-social-link footer-social-facebook" aria-label="Facebook">
-          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
-            <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
-          </svg>
+      <!-- Column 1: Company -->
+      <div class="footer-col footer-col-company">
+        <a href="{{PATH_PREFIX}}index.html" class="footer-logo" aria-label="HELPCAR - Accueil">
+          <img src="{{PATH_PREFIX}}images/logo/helpcar-depannage-logo.png"
+               alt="HELPCAR Dépannage"
+               width="160"
+               height="44"
+               loading="lazy">
         </a>
-        <a href="{{INSTAGRAM_URL}}" target="_blank" rel="noopener noreferrer" class="footer-social-link footer-social-instagram" aria-label="Instagram">
-          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
-            <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
-          </svg>
-        </a>
-      </div>
-    </div>
-
-    <!-- Colonne 2: Services Principaux + Informations -->
-    <div class="footer-col">
-      <h3 class="footer-title">{{FOOTER_SERVICES_TITLE}}</h3>
-      <ul class="footer-links">
-        <li><a href="{{PATH_PREFIX}}{{URL_SERVICE_BATTERIE}}/index.html">Batterie</a></li>
-        <li><a href="{{PATH_PREFIX}}{{URL_SERVICE_REMORQUAGE_VOITURE}}/index.html">Remorquage Voitures</a></li>
-        <li><a href="{{PATH_PREFIX}}{{URL_SERVICE_PANNE_ESSENCE}}/index.html">Panne d'Essence</a></li>
-        <li><a href="{{PATH_PREFIX}}{{URL_SERVICE_OUVERTURE_PORTE}}/index.html">Ouverture de Porte</a></li>
-        <li><a href="{{PATH_PREFIX}}{{URL_SERVICE_PNEU}}/index.html">Réparation Pneu</a></li>
-        <li><a href="{{PATH_PREFIX}}{{URL_SERVICE_REMORQUAGE_MOTO}}/index.html">Remorquage de Motos</a></li>
-        <li><a href="{{PATH_PREFIX}}services/index.html" class="footer-link-all">→ {{FOOTER_SERVICES_ALL}} ({{NOMBRE_SERVICES}})</a></li>
-      </ul>
-
-      <h3 class="footer-title footer-title-info">{{FOOTER_INFO_TITLE}}</h3>
-      <ul class="footer-links">
-        <li><a href="{{PATH_PREFIX}}a-propos/index.html">{{FOOTER_INFO_ABOUT}}</a></li>
-        <li><a href="{{PATH_PREFIX}}mentions-legales/index.html">{{FOOTER_INFO_LEGAL}}</a></li>
-        <li><a href="{{PATH_PREFIX}}politique-confidentialite/index.html">{{FOOTER_INFO_PRIVACY}}</a></li>
-      </ul>
-    </div>
-
-    <!-- Colonne 3: Zones d'Intervention (Top 6 dynamiques) -->
-    <div class="footer-col">
-      <h3 class="footer-title">{{FOOTER_ZONES_TITLE}}</h3>
-      <ul class="footer-links">
-        {{FOOTER_COMMUNES}}
-        <li><a href="{{PATH_PREFIX}}zones/index.html" class="footer-link-all">→ {{FOOTER_ZONES_ALL}} ({{NOMBRE_COMMUNES}})</a></li>
-      </ul>
-    </div>
-
-    <!-- Colonne 4: Expérience + CTA -->
-    <div class="footer-col">
-      <h3 class="footer-title">Notre Expérience</h3>
-      <p class="footer-desc">
-        Une équipe avec plus de 10 ans d'expérience dans le dépannage à Bruxelles.
-      </p>
-
-      <!-- Badge Expérience -->
-      <div class="footer-google-badge">
-        <div class="footer-google-link" style="cursor: default;">
-          <svg width="40" height="40" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z" fill="#F97316"/>
-          </svg>
-          <div class="footer-google-content">
-            <div class="footer-stars">
-              <span class="rating-number" style="color: #F97316; font-weight: 700;">10+ ans</span>
-            </div>
-            <p class="reviews-count">d'expérience (équipe)</p>
+        <p class="footer-description">
+          Service de dépannage automobile rapide et professionnel à Bruxelles.
+          Assistance 24h/24, 7j/7 pour tous types de véhicules.
+        </p>
+        <div class="footer-google" aria-label="Avis Google">
+          <div class="footer-google-stars" aria-hidden="true">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="#FBBF24" aria-hidden="true">
+              <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+            </svg>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="#FBBF24" aria-hidden="true">
+              <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+            </svg>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="#FBBF24" aria-hidden="true">
+              <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+            </svg>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="#FBBF24" aria-hidden="true">
+              <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+            </svg>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="#FBBF24" aria-hidden="true">
+              <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+            </svg>
           </div>
+          <span class="footer-google-text">
+            <strong>{{GOOGLE_RATING}}/5</strong> - {{GOOGLE_REVIEWS_COUNT}} avis Google
+          </span>
         </div>
       </div>
-    </div>
 
+      <!-- Column 2: Services -->
+      <div class="footer-col footer-col-services">
+        <h3 class="footer-heading">Services</h3>
+        <ul class="footer-links">
+          <li>
+            <a href="{{PATH_PREFIX}}remorquage-voiture/index.html">Remorquage voiture</a>
+          </li>
+          <li>
+            <a href="{{PATH_PREFIX}}batterie/index.html">Dépannage batterie</a>
+          </li>
+          <li>
+            <a href="{{PATH_PREFIX}}remorquage-moto/index.html">Remorquage moto</a>
+          </li>
+          <li>
+            <a href="{{PATH_PREFIX}}reparation-pneu/index.html">Réparation pneu</a>
+          </li>
+          <li>
+            <a href="{{PATH_PREFIX}}ouverture-de-porte/index.html">Ouverture de porte</a>
+          </li>
+          <li>
+            <a href="{{PATH_PREFIX}}fourniture-carburant/index.html">Fourniture carburant</a>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Column 3: Zones -->
+      <div class="footer-col footer-col-zones">
+        <h3 class="footer-heading">Zones d'intervention</h3>
+        <ul class="footer-links">
+          <li>
+            <a href="{{PATH_PREFIX}}depannage-bruxelles-ville/index.html">Bruxelles-Ville</a>
+          </li>
+          <li>
+            <a href="{{PATH_PREFIX}}depannage-ixelles/index.html">Ixelles</a>
+          </li>
+          <li>
+            <a href="{{PATH_PREFIX}}depannage-etterbeek/index.html">Etterbeek</a>
+          </li>
+          <li>
+            <a href="{{PATH_PREFIX}}depannage-schaerbeek/index.html">Schaerbeek</a>
+          </li>
+          <li>
+            <a href="{{PATH_PREFIX}}zones/index.html" class="footer-link-all">Toutes les zones &rarr;</a>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Column 4: Contact -->
+      <div class="footer-col footer-col-contact">
+        <h3 class="footer-heading">Contact</h3>
+        <ul class="footer-contact">
+          <li class="footer-contact-item">
+            <svg class="footer-contact-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+            </svg>
+            <a href="tel:{{TELEPHONE_HREF}}">{{TELEPHONE}}</a>
+          </li>
+          <li class="footer-contact-item">
+            <svg class="footer-contact-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+              <polyline points="22,6 12,13 2,6"/>
+            </svg>
+            <a href="mailto:{{EMAIL}}">{{EMAIL}}</a>
+          </li>
+          <li class="footer-contact-item">
+            <svg class="footer-contact-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+              <circle cx="12" cy="10" r="3"/>
+            </svg>
+            <span>{{ADRESSE}}</span>
+          </li>
+        </ul>
+        <div class="footer-social" aria-label="Réseaux sociaux">
+          <a href="{{FACEBOOK_URL}}" class="footer-social-link" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+              <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/>
+            </svg>
+          </a>
+          <a href="{{INSTAGRAM_URL}}" class="footer-social-link" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+              <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
+              <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+
+    </div>
   </div>
 
-  <!-- Barre copyright -->
+  <!-- Bottom Bar -->
   <div class="footer-bottom">
-    <div class="footer-bottom-container">
-      <p>&copy; 2026 {{COMPANY_NAME}} - {{FOOTER_COPYRIGHT}}</p>
-      <p class="footer-tagline">{{FOOTER_TAGLINE}}</p>
+    <div class="container">
+      <div class="footer-bottom-inner">
+        <p class="footer-copyright">&copy; 2026 HELPCAR Dépannage. Tous droits réservés.</p>
+        <nav class="footer-bottom-links" aria-label="Liens légaux">
+          <a href="{{PATH_PREFIX}}mentions-legales/index.html">Mentions légales</a>
+          <span class="separator" aria-hidden="true">|</span>
+          <a href="{{PATH_PREFIX}}politique-confidentialite/index.html">Politique de confidentialité</a>
+        </nav>
+      </div>
     </div>
   </div>
 </footer>

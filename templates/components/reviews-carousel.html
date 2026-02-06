@@ -1,8 +1,8 @@
-{# Template: Carousel d'avis clients - Version générique avec data-* #}
+{# Template: Carousel d'avis clients - Version V2 #}
 {# Usage: build_reviews_carousel() #}
 {# Variables: avis_list (list), aria_prev (str), aria_next (str), aria_dot_prefix (str) #}
 
-<div class="reviews-carousel" data-carousel data-autoplay="7000" data-loop="true" data-pause-on-hover="true">
+<div class="reviews-section" data-carousel data-autoplay="7000" data-loop="true" data-pause-on-hover="true">
   <div class="reviews-track" data-carousel-track>
     {% for avis in avis_list %}
     <div class="review-card" data-carousel-item>

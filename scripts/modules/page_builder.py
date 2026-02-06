@@ -50,9 +50,13 @@ def build_service_page(generator, service_data):
         'TELEPHONE_HREF': generator.variables.get('contact', {}).get('phone_local', '0479890089'),
         'GOOGLE_RATING': generator.variables.get('google', {}).get('rating', '4.9'),
         'GOOGLE_REVIEWS': generator.variables.get('google', {}).get('reviews_count', '190'),
+        'GOOGLE_REVIEWS_COUNT': generator.variables.get('google', {}).get('reviews_count', '190'),
         'GOOGLE_MY_BUSINESS_URL': generator.variables.get('google', {}).get('my_business_url', '#'),
         'FACEBOOK_URL': generator.variables.get('social', {}).get('facebook_url', '#'),
         'INSTAGRAM_URL': generator.variables.get('social', {}).get('instagram_url', '#'),
+        'EMAIL': generator.variables.get('contact', {}).get('email', ''),
+        'ADRESSE': generator.variables.get('contact', {}).get('address', ''),
+        'YEARS_EXPERIENCE_PLUS': generator.variables.get('company', {}).get('years_experience_plus', '+10'),
     }
 
     # Calculer NOMBRE_COMMUNES depuis locations actives
@@ -298,9 +302,13 @@ def build_commune_page(generator, commune_data):
         'TELEPHONE_HREF': generator.variables.get('contact', {}).get('phone_local', '0479890089'),
         'GOOGLE_RATING': generator.variables.get('google', {}).get('rating', '4.9'),
         'GOOGLE_REVIEWS': generator.variables.get('google', {}).get('reviews_count', '190'),
+        'GOOGLE_REVIEWS_COUNT': generator.variables.get('google', {}).get('reviews_count', '190'),
         'GOOGLE_MY_BUSINESS_URL': generator.variables.get('google', {}).get('my_business_url', '#'),
         'FACEBOOK_URL': generator.variables.get('social', {}).get('facebook_url', '#'),
         'INSTAGRAM_URL': generator.variables.get('social', {}).get('instagram_url', '#'),
+        'EMAIL': generator.variables.get('contact', {}).get('email', ''),
+        'ADRESSE': generator.variables.get('contact', {}).get('address', ''),
+        'YEARS_EXPERIENCE_PLUS': generator.variables.get('company', {}).get('years_experience_plus', '+10'),
         # Carrousel Open Graph (2 images)
         'OG_IMAGE_1': f"{domain}/images/og/helpcar-depannage-bruxelles.jpg",
         'OG_IMAGE_2': f"{domain}/images/og/helpcar-depannage-bruxelles.jpg",
@@ -618,9 +626,12 @@ def build_homepage(generator):
         'TELEPHONE_HREF': generator.variables.get('contact', {}).get('phone_local', '0479890089'),
         'GOOGLE_RATING': generator.variables.get('google', {}).get('rating', '4.9'),
         'GOOGLE_REVIEWS': generator.variables.get('google', {}).get('reviews_count', '190'),
+        'GOOGLE_REVIEWS_COUNT': generator.variables.get('google', {}).get('reviews_count', '190'),
         'GOOGLE_MY_BUSINESS_URL': generator.variables.get('google', {}).get('my_business_url', '#'),
         'FACEBOOK_URL': generator.variables.get('social', {}).get('facebook_url', '#'),
         'INSTAGRAM_URL': generator.variables.get('social', {}).get('instagram_url', '#'),
+        'EMAIL': generator.variables.get('contact', {}).get('email', ''),
+        'ADRESSE': generator.variables.get('contact', {}).get('address', ''),
         'KEYWORDS': 'dépannage automobile bruxelles, remorquage voiture, panne batterie, assistance 24h',
         # Variables stats pour infinite scroll
         'STATS_YEARS_EXPERIENCE': str(generator.variables.get('stats', {}).get('years_experience', 15)),

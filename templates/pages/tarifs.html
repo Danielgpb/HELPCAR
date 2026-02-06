@@ -45,11 +45,7 @@
   <link rel="preconnect" href="https://www.google-analytics.com">
 
   <!-- CSS -->
-  <link rel="stylesheet" href="{{PATH_PREFIX}}public/css/variables.css?v=2.0">
-  <link rel="stylesheet" href="{{PATH_PREFIX}}public/css/main.css?v=8.9">
-  <link rel="stylesheet" href="{{PATH_PREFIX}}public/css/shared.css?v=2.0">
-  <link rel="stylesheet" href="{{PATH_PREFIX}}public/css/dropdown.css?v=2.0">
-  <link rel="stylesheet" href="{{PATH_PREFIX}}public/css/accessibility.css?v=1.0">
+  <link rel="stylesheet" href="{{PATH_PREFIX}}public/css/style.css">
 
   <!-- Schema.org JSON-LD -->
   {{SCHEMA_ORG_LOCALBUSINESS}}
@@ -218,16 +214,6 @@
 
   <!-- JavaScript -->
   <script src="{{PATH_PREFIX}}public/js/main.js" defer></script>
-  <script src="{{PATH_PREFIX}}public/js/tracking.js?v=1.0" defer></script>
-
-  <!-- Google Maps API (pour WhatsApp Smart autocomplete et directions) -->
-  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDDWguZ0hygny9cH7zG__Br2z6tTxud5-o&libraries=places" async defer></script>
-
-  <!-- WhatsApp Configuration -->
-  <script>
-    window.WHATSAPP_CONFIG = {{WHATSAPP_CONFIG_JSON}};
-  </script>
-  <script src="{{PATH_PREFIX}}public/js/whatsapp-smart.js?v=7.4" defer></script>
 
   <style>
     /* Hover effects */
@@ -248,8 +234,5 @@
       transform: translateY(-2px);
     }
   </style>
-
-  <!-- JavaScript -->
-  <script src="../public/js/carousel.js"></script>
 </body>
 </html>
