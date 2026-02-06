@@ -1,0 +1,109 @@
+{
+  "meta_title": "Services de Dépannage Auto à Bruxelles | HELPCAR Dépannage 24/7",
+  "meta_description": "HELPCAR Dépannage propose {{SERVICES_TOTAL}} services auto à Bruxelles : remorquage, batterie, pneu, ouverture de porte. Prix fixe au téléphone. ☎️ 02 844 56 04",
+  "hero": {
+    "h1": "{{SERVICES_TOTAL}} Services pour Vous Sortir de la Galère",
+    "subtitle": "Vous êtes bloqué quelque part à Bruxelles ? HELPCAR Dépannage, le n°1 du dépannage automobile à Bruxelles, couvre tout : de la batterie à plat au remorquage longue distance. Prix par téléphone, dépanneur en 30 minutes.",
+    "stats": [
+      {
+        "number": "{{SERVICES_TOTAL}}",
+        "label": "Services"
+      },
+      {
+        "number": "24/7",
+        "label": "Jour et nuit"
+      },
+      {
+        "number": "30min",
+        "label": "Sur place"
+      }
+    ]
+  },
+  "section": {
+    "label": "Ce qu'on sait faire",
+    "title": "Deux Métiers,<br>Une Seule Équipe",
+    "description": "Que votre voiture ait besoin d'une réparation sur place ou d'un transport, on a ce qu'il faut dans le camion."
+  },
+  "categories": {
+    "remorquage": {
+      "name": "Remorquage",
+      "count": "{{SERVICES_REMORQUAGE}} services",
+      "tagline": "« Votre véhicule monte sur le plateau, on s'occupe du reste »",
+      "description": "La voiture ne redémarre pas et la réparation sur place n'est pas possible ? On charge votre véhicule sur notre plateau et on le livre où vous voulez : votre garage de confiance, votre domicile ou un concessionnaire."
+    },
+    "depannage": {
+      "name": "Dépannage",
+      "count": "{{SERVICES_DEPANNAGE}} services",
+      "tagline": "« On arrive, on règle le problème, vous repartez »",
+      "description": "Batterie morte, pneu crevé, mauvais carburant, clés enfermées dans la voiture – ce genre de galère se résout directement sur place. On intervient avec le matériel qu'il faut et vous reprenez la route."
+    }
+  },
+  "toggle": {
+    "tous": {
+      "label": "Tous les services",
+      "count": "{{SERVICES_TOTAL}}"
+    },
+    "remorquage": {
+      "label": "Remorquage",
+      "count": "{{SERVICES_REMORQUAGE}}"
+    },
+    "depannage": {
+      "label": "Dépannage",
+      "count": "{{SERVICES_DEPANNAGE}}"
+    }
+  },
+  "pourquoi": {
+    "h2": "Ce qui change avec HELPCAR Dépannage",
+    "cards": [
+      {
+        "icon": "✓",
+        "titre": "Le prix avant le déplacement",
+        "description": "Vous appelez, on écoute votre situation, on vous dit combien ça coûte. Si ça vous va, on bouge. Pas de compteur qui tourne, pas de supplément surprise à l'arrivée."
+      },
+      {
+        "icon": "✓",
+        "titre": "Présents dans toutes les communes",
+        "description": "Bruxelles-Ville, Ixelles, Etterbeek, Schaerbeek et toutes les autres communes de la région. Où que vous soyez bloqué, on n'est jamais loin."
+      },
+      {
+        "icon": "✓",
+        "titre": "Du matériel pro dans le camion",
+        "description": "Booster 2000A, plateau, outils spécialisés, stock de batteries. On vient équipé pour résoudre le problème sur place, pas pour constater la panne."
+      }
+    ]
+  },
+  "faq": {
+    "h2": "Vos questions, nos réponses",
+    "items": [
+      {
+        "question": "Vous faites quoi exactement comme services ?",
+        "answer": "On propose <strong>{{SERVICES_TOTAL}} services</strong> qui couvrent à peu près tout ce qui peut vous arriver sur la route : <strong>{{SERVICES_REMORQUAGE}} services de remorquage</strong> (voiture, moto, camionnette, véhicule spécial) et <strong>{{SERVICES_DEPANNAGE}} services de dépannage sur place</strong> (batterie, pneu, carburant, ouverture de porte, et plus)."
+      },
+      {
+        "question": "C'est quoi la différence entre dépannage et remorquage ?",
+        "answer": "Le <strong>dépannage</strong>, c'est quand on peut régler le problème directement là où vous êtes : on relance la batterie, on change le pneu, on vous apporte du carburant. Le <strong>remorquage</strong>, c'est quand la voiture doit être transportée – panne mécanique sérieuse, accident, ou véhicule qui ne roule plus du tout."
+      },
+      {
+        "question": "Vous dépannez tous les types de véhicules ?",
+        "answer": "Oui. Voitures, camionnettes, motos, scooters, véhicules électriques et hybrides, camping-cars. On a le matériel adapté pour chaque type de véhicule. Si vous avez un doute, appelez-nous au <strong><a href=\"tel:+3228445604\" style=\"color: #CF5706; text-decoration: none;\">02 844 56 04</a></strong> et on vous dit tout de suite si on peut intervenir."
+      },
+      {
+        "question": "Combien ça coûte un dépannage ?",
+        "answer": "Ça dépend du service et de l'endroit où vous êtes. Mais voilà comment on fonctionne : vous nous appelez, on vous pose quelques questions, et <strong>on vous annonce le prix exact avant de se déplacer</strong>. Le montant qu'on vous dit au téléphone, c'est celui que vous payez. Point."
+      },
+      {
+        "question": "Vous travaillez la nuit et les jours fériés ?",
+        "answer": "Oui, <strong>24 heures sur 24, 7 jours sur 7</strong>. Noël, Nouvel An, 3h du matin un mardi – on répond et on se déplace. Le numéro est le même : <strong><a href=\"tel:+3228445604\" style=\"color: #CF5706; text-decoration: none;\">02 844 56 04</a></strong>."
+      }
+    ]
+  },
+  "zones": {
+    "h2": "Où on intervient",
+    "description": "HELPCAR Dépannage couvre <strong>Bruxelles-Capitale</strong> et toute la périphérie. Ixelles, Schaerbeek, Etterbeek, Uccle, Forest, Anderlecht, Molenbeek – et aussi Waterloo, Zaventem, Tervuren, Wavre. On arrive en <strong>30 minutes</strong> dans toute la zone.",
+    "cta_text": "Voir toutes nos zones"
+  },
+  "cta": {
+    "title": "En Panne<br>Là Maintenant ?",
+    "subtitle": "Appelez, on vous dit le prix, et on arrive."
+  }
+}

@@ -1,19 +1,145 @@
 {
+  "version": "2.0",
   "commune": "Ixelles",
   "code_postal": "1050",
+
+  "seo": {
+    "meta_title": "Dépannage Voiture Ixelles (1050) | 24h/24 – HELPCAR Dépannage",
+    "meta_description": "Dépannage auto et remorquage à Ixelles (1050). Flagey, Porte de Namur, ULB, Châtelain. Prix annoncé par téléphone, intervention rapide. ☎ 02 844 56 04"
+  },
+
   "hero": {
-    "h1": "Dépannage Voiture Ixelles 1050 | 24h/24",
-    "subtitle": "Intervention rapide dans toute la commune"
+    "h1": "Dépannage Voiture Ixelles (1050) – 24h/24",
+    "accroche": "Intervention rapide à Ixelles, de Flagey à la Porte de Namur. Prix donné par téléphone avant qu'on bouge."
   },
-  "intro": {
-    "content": "<p><strong>Helpcar Dépannage</strong> intervient dans tout <strong>Ixelles (1050)</strong> : Flagey, Porte de Namur, ULB, Place Fernand Cocq, Etangs d'Ixelles, et tous les quartiers.</p><p>Besoin d'un dépannage ou remorquage ? On arrive en <strong>30 minutes</strong>. Appelez le <strong>02 844 54 01</strong>.</p>"
-  },
-  "quartiers": {
-    "h2": "Quartiers desservis à Ixelles",
-    "liste": ["Flagey", "Porte de Namur", "ULB", "Place Fernand Cocq", "Etangs d'Ixelles", "Châtelain", "Ma Campagne"]
-  },
-  "specificites": {
-    "h2": "Dépannage à Ixelles",
-    "content": "<p>Ixelles est une commune très animée avec beaucoup de circulation. Notre équipe intervient rapidement que vous soyez près de l'université, dans le quartier européen ou dans les zones résidentielles.</p>"
+
+  "content": {
+    "intro_autorite": {
+      "paragraphe_0": "Votre voiture ne démarre plus quelque part entre Flagey et l'ULB ? Appelez le <strong><a href=\"tel:+3228445604\" style=\"color: #CF5706; text-decoration: none;\">02 844 56 04</a></strong> : avec <strong style=\"color: #CF5706;\">HELPCAR Dépannage</strong>, le <strong>n°1 du dépannage voiture à Ixelles (1050)</strong>, un dépanneur arrive chez vous en <strong>environ 30 minutes</strong>, prix annoncé par téléphone.",
+      "paragraphe_1": "Batterie morte, pneu crevé, clés restées dans la voiture, besoin d'un remorquage – on gère tout ça. Un appel au <strong><a href=\"tel:+3228445604\" style=\"color: #CF5706; text-decoration: none;\">02 844 56 04</a></strong>, on vous donne le prix, vous confirmez, et on part.",
+      "paragraphe_2": "Avec <strong>plus de 10 ans d'expérience</strong> dans le dépannage à Bruxelles, notre équipe connaît Ixelles par cœur. Les rues étroites autour du Châtelain, le trafic infernal de la chaussée d'Ixelles, les parkings de l'ULB – on sait comment y accéder rapidement."
+    },
+
+    "section_on_connait": {
+      "h2": "On Connaît Chaque Coin d'Ixelles",
+      "intro": "Ixelles, c'est une des communes les plus animées de Bruxelles. Voici où on intervient le plus :",
+      "quartiers": [
+        {
+          "icon": "map-pin",
+          "nom": "Flagey & Étangs d'Ixelles",
+          "description": "Place Flagey, avenue des Éperons d'Or, abords des étangs. Zone très fréquentée avec peu de places de parking – les pannes sont courantes."
+        },
+        {
+          "icon": "map-pin",
+          "nom": "Porte de Namur & Matongé",
+          "description": "Chaussée de Wavre, galerie de la Porte de Namur, rue Longue Vie. Un carrefour central où le trafic est dense à toute heure."
+        },
+        {
+          "icon": "building",
+          "nom": "ULB & Solbosch",
+          "description": "Campus universitaire, avenue Jeanne, avenue Franklin Roosevelt. Beaucoup d'étudiants qui appellent pour des batteries mortes le lundi matin."
+        },
+        {
+          "icon": "coffee",
+          "nom": "Châtelain & Ma Campagne",
+          "description": "Rues résidentielles étroites, marché du Châtelain le mercredi. On se faufile là-dedans sans problème."
+        },
+        {
+          "icon": "map-pin",
+          "nom": "Place Fernand Cocq",
+          "description": "Cœur administratif d'Ixelles, maison communale. Rues à sens unique en série – on connaît l'itinéraire optimal."
+        },
+        {
+          "icon": "map-pin",
+          "nom": "Abbaye de la Cambre & Bois",
+          "description": "Avenue Louise côté Bois, abbaye, avenue Émile Duray. Zone calme mais les pannes sur l'avenue Louise en soirée, ça arrive."
+        }
+      ],
+      "conclusion": "Où que vous soyez à Ixelles, on trouve le chemin le plus court pour vous rejoindre. C'est l'avantage de connaître le terrain depuis des années."
+    },
+
+    "section_parkings": {
+      "afficher": true,
+      "h3": "Parkings Où On Intervient à Ixelles",
+      "intro": "Voiture qui ne démarre plus dans un parking ? On vient.",
+      "parkings": [
+        {"icon": "parking", "nom": "Parking Flagey"},
+        {"icon": "parking", "nom": "Parking Porte de Namur (Galeria Inno)"},
+        {"icon": "parking", "nom": "Parking ULB Campus Solbosch"},
+        {"icon": "parking", "nom": "Parking Delhaize Châtelain"}
+      ],
+      "conclusion": "Parking souterrain ou de surface, on s'adapte. Matériel compact et treuil disponible si votre voiture est bloquée."
+    },
+
+    "section_services": {
+      "h2": "Ce Qu'on Fait à Ixelles",
+      "intro": "Tout le dépannage automobile, disponible 24h/24 dans toute la commune d'Ixelles.",
+      "cta_text": "Voir tous nos services",
+      "cta_url": "../services/",
+      "categories": [
+        {
+          "icon": "battery",
+          "titre": "Batterie & Pneus",
+          "services": [
+            {"nom": "Remplacement batterie sur place", "url_var": "URL_SERVICE_BATTERIE"},
+            {"nom": "Pose roue de secours", "url_var": "URL_SERVICE_PNEU"}
+          ]
+        },
+        {
+          "icon": "fuel",
+          "titre": "Carburant & Accès",
+          "services": [
+            {"nom": "Livraison essence ou diesel", "url_var": "URL_SERVICE_CARBURANT"},
+            {"nom": "Ouverture de porte", "url_var": "URL_SERVICE_OUVERTURE_PORTE"}
+          ]
+        },
+        {
+          "icon": "truck",
+          "titre": "Remorquage & Urgences",
+          "services": [
+            {"nom": "Remorquage sur plateau", "url_var": "URL_SERVICE_REMORQUAGE"},
+            {"nom": "Dépannage sur place toutes marques", "url_var": "URL_SERVICE_DEPANNAGE_VOITURE"}
+          ]
+        }
+      ]
+    },
+
+    "faq_locale": {
+      "h2": "Questions Fréquentes – Dépannage Ixelles",
+      "questions": [
+        {
+          "question": "Je suis en panne sur la chaussée d'Ixelles en pleine heure de pointe, vous venez quand même ?",
+          "reponse": "Bien sûr. La chaussée d'Ixelles est un de nos secteurs les plus fréquents. On connaît les rues parallèles pour éviter le bouchon et arriver rapidement. Mettez vos warnings et restez en sécurité, on gère le reste."
+        },
+        {
+          "question": "Mon véhicule est garé dans une rue étroite du Châtelain, vous pouvez manœuvrer ?",
+          "reponse": "Oui. Les rues du Châtelain sont étroites, mais on y intervient régulièrement. On adapte notre véhicule et notre matériel selon l'espace disponible. Si un remorquage plateau classique n'est pas possible, on utilise un chariot pour déplacer la voiture d'abord."
+        },
+        {
+          "question": "Combien coûte un dépannage à Ixelles ?",
+          "reponse": "Le prix dépend du type de panne et de la destination si remorquage. On vous donne le <strong>montant exact par téléphone</strong> avant de partir. Pas de surprise à l'arrivée, le prix annoncé est le prix payé."
+        },
+        {
+          "question": "Vous intervenez aussi pour les motos à Ixelles ?",
+          "reponse": "Oui. Moto, scooter, véhicule utilitaire, SUV – on a le matériel pour tous les types de véhicules. Le plateau est équipé de sangles et rampes adaptées aux deux-roues."
+        },
+        {
+          "question": "Intervention de nuit à Ixelles, c'est possible ?",
+          "reponse": "<strong>24h/24, 7j/7</strong>. Ixelles est une commune qui vit la nuit, et nous aussi. Le prix reste le même qu'en journée."
+        }
+      ]
+    },
+
+    "section_zones_voisines": {
+      "h2": "Communes Voisines d'Ixelles",
+      "content": "On ne s'arrête pas à la frontière d'Ixelles. Si vous êtes en panne juste à côté, sur la chaussée de Waterloo ou l'avenue Louise côté Bruxelles-Ville, on vient sans hésiter.",
+      "communes_voisines": [
+        {"nom": "Bruxelles-Ville (1000)", "slug": "depannage-voiture-bruxelles-centre"},
+        {"nom": "Etterbeek (1040)", "slug": "depannage-voiture-etterbeek"},
+        {"nom": "Schaerbeek (1030)", "slug": "depannage-voiture-schaerbeek"},
+        {"nom": "Saint-Gilles (1060)", "slug": "depannage-voiture-saint-gilles"},
+        {"nom": "Watermael-Boitsfort (1170)", "slug": "depannage-voiture-watermael-boitsfort"}
+      ]
+    }
   }
 }

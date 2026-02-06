@@ -1,16 +1,16 @@
 {
-  "site_name": "Helpcar dépannage",
+  "site_name": "HELPCAR Dépannage",
   "site_tagline": "Dépannage Voiture & Remorquage à Bruxelles",
-  "phone": "02 844 54 01",
+  "phone": "02 844 56 04",
   "email": "contact@helpcar.be",
   "domain": "helpcar.be",
   "base_url": "https://www.helpcar.be",
 
   "company": {
-    "legal_name": "Helpcar dépannage",
+    "legal_name": "HELPCAR Dépannage",
     "tva": "",
     "address": "Rue Charles Martel 55, 1000 Bruxelles",
-    "years_experience": 15
+    "years_experience": 10
   },
 
   "social": {
@@ -46,8 +46,8 @@
 
   "whatsapp": {
     "enabled": true,
-    "number": "+3228445401",
-    "message_template": "Bonjour Helpcar dépannage, j'ai besoin d'un dépannage."
+    "number": "+3228445604",
+    "message_template": "Bonjour HELPCAR Dépannage, j'ai besoin d'un dépannage."
   },
 
   "seo": {
@@ -68,9 +68,9 @@
     "YEARS_EXPERIENCE": "15",
     "GOOGLE_RATING": "4.9",
     "GOOGLE_REVIEWS": "150",
-    "PHONE": "02 844 54 01",
+    "PHONE": "02 844 56 04",
     "EMAIL": "contact@helpcar.be",
-    "SITE_NAME": "Helpcar dépannage",
+    "SITE_NAME": "HELPCAR Dépannage",
     "INTERVENTION_TIME": "30 minutes"
   }
 }

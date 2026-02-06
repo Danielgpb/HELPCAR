@@ -3,14 +3,14 @@
     "badges": ["intervention_rapide", "disponible_24_7", "prix_transparent"]
   },
   "intro": {
-    "template": "<p><strong>Helpcar Dépannage</strong> propose un service de <strong>{{SERVICE_NAME}}</strong> à Bruxelles et dans toute la périphérie.</p><p>Intervention rapide en <strong>30 minutes en moyenne</strong>. Prix communiqué par téléphone avant déplacement. Disponible <strong>24h/24, 7j/7</strong>.</p>"
+    "template": "<p><strong>HELPCAR Dépannage</strong> propose un service de <strong>{{SERVICE_NAME}}</strong> à Bruxelles et dans toute la périphérie.</p><p>Intervention rapide en <strong>30 minutes en moyenne</strong>. Prix communiqué par téléphone avant déplacement. Disponible <strong>24h/24, 7j/7</strong>.</p>"
   },
   "how_it_works": {
     "h2": "Comment ça se passe ?",
     "steps": [
       {
         "title": "1. Vous appelez",
-        "description": "Appelez le 02 844 54 01. On vous répond immédiatement."
+        "description": "Appelez le 02 844 56 04. On vous répond immédiatement."
       },
       {
         "title": "2. On vous donne le prix",
@@ -32,6 +32,6 @@
   "cta": {
     "h2": "Besoin de ce service ?",
     "text": "Appelez maintenant pour une intervention rapide.",
-    "button": "02 844 54 01"
+    "button": "02 844 56 04"
   }
 }

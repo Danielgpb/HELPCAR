@@ -1,0 +1,122 @@
+{
+  "meta_title": "À Propos HELPCAR Dépannage Bruxelles | Équipe Expérimentée",
+  "meta_description": "HELPCAR Dépannage : une équipe avec plus de 10 ans d'expérience en dépannage et remorquage à Bruxelles. Matériel pro, prix annoncé par téléphone. ☎️ 02 844 56 04",
+
+  "open_graph": {
+    "title": "À Propos – HELPCAR Dépannage | Dépannage Auto Bruxelles",
+    "description": "HELPCAR Dépannage, une équipe de dépanneurs expérimentés à Bruxelles. On vous dit qui on est."
+  },
+
+  "hero": {
+    "h1": "Qui Est <span class=\"highlight gradient-text\">HELPCAR Dépannage</span> ?",
+    "subtitle": "Une équipe de dépanneurs expérimentés, basée à Bruxelles, qui connaît chaque rue de la région.",
+    "image_alt": "Équipe HELPCAR Dépannage Bruxelles"
+  },
+
+  "notre_histoire": {
+    "section_label": "Notre parcours",
+    "section_title": "Du Terrain, Pas du Bureau",
+    "paragraphes": [
+      "<strong style=\"color: #CF5706;\">HELPCAR Dépannage</strong>, aujourd'hui reconnu comme le <strong>meilleur service de dépannage auto à Bruxelles</strong>, est né d'un constat simple : quand vous êtes en panne à 23h sur le Ring, vous avez besoin de quelqu'un qui décroche, qui vous donne un prix, et qui arrive. Pas d'un répondeur automatique.",
+      "Chacun dans l'équipe a <strong>plus de 10 ans d'expérience</strong> dans le dépannage automobile. On a travaillé sur toutes sortes de pannes, dans toutes les conditions. Aujourd'hui avec <strong>HELPCAR Dépannage</strong>, on met cette expérience à votre service – du pneu crevé Place Flagey au remorquage sur l'E40.",
+      "Ce qui n'a pas changé : quand vous appelez le <strong><a href=\"tel:+3228445604\" style=\"color: #CF5706; text-decoration: none;\">02 844 56 04</a></strong>, vous parlez directement à quelqu'un qui va venir vous dépanner. On vous donne le prix, vous dites oui ou non, et on part."
+    ]
+  },
+
+  "chiffres_cles": [
+    {
+      "valeur": "10+",
+      "label": "Ans d'expérience (équipe)"
+    },
+    {
+      "valeur": "24/7",
+      "label": "Disponibilité"
+    },
+    {
+      "valeur": "19+",
+      "label": "Communes couvertes"
+    },
+    {
+      "valeur": "~30 min",
+      "label": "Temps d'intervention"
+    }
+  ],
+
+  "nos_valeurs": {
+    "section_label": "Comment on travaille",
+    "section_title": "Nos Principes, Pas du Marketing",
+    "section_description": "Ce qu'on applique à chaque intervention, pas juste sur le site",
+    "valeurs": [
+      {
+        "emoji": "📞",
+        "titre": "On décroche",
+        "description": "Pas de répondeur, pas de musique d'attente. Vous appelez, quelqu'un répond. <strong>24h/24, 7j/7</strong>, nuit et jours fériés inclus."
+      },
+      {
+        "emoji": "💶",
+        "titre": "On annonce le prix",
+        "description": "Avant de démarrer le camion, vous savez ce que ça coûte. <strong>Le prix annoncé est le prix payé</strong>. Pas de surprise à l'arrivée."
+      },
+      {
+        "emoji": "🔧",
+        "titre": "On répare sur place",
+        "description": "Batterie, pneu, carburant, ouverture de porte – si c'est réparable sur place, on évite le remorquage. <strong>Moins cher pour vous, plus rapide pour tout le monde.</strong>"
+      },
+      {
+        "emoji": "🗺️",
+        "titre": "On connaît le terrain",
+        "description": "Des années sur les routes de Bruxelles, ça veut dire qu'on connaît les rues à sens unique, les parkings souterrains et les raccourcis. <strong>Ça se traduit en minutes gagnées</strong> pour vous."
+      },
+      {
+        "emoji": "🛠️",
+        "titre": "Du matériel qui suit",
+        "description": "Camions équipés, plateaux porte-voitures, treuils, matériel de diagnostic. <strong>On arrive prêt</strong>, pas les mains vides."
+      },
+      {
+        "emoji": "🤝",
+        "titre": "On reste correct",
+        "description": "Vous êtes en panne, c'est déjà pas drôle. On fait notre boulot proprement, on vous explique ce qu'on fait, et on vous laisse repartir tranquille."
+      }
+    ]
+  },
+
+  "garanties": {
+    "section_label": "Ce qu'on vous garantit",
+    "section_title": "Pourquoi les Bruxellois Nous Appellent",
+    "items": [
+      {
+        "emoji": "✓",
+        "titre": "Équipe Locale et Disponible",
+        "description": "Quand vous appelez, on organise votre dépannage et on vous envoie un professionnel équipé dans toute la région bruxelloise."
+      },
+      {
+        "emoji": "✓",
+        "titre": "Matériel Professionnel",
+        "description": "Nos camions sont équipés pour tout type de véhicule : voiture, moto, camionnette, SUV, véhicule électrique. On ne refuse pas un dépannage parce qu'on n'a pas le bon outil."
+      },
+      {
+        "emoji": "✓",
+        "titre": "Toutes les Communes de Bruxelles",
+        "description": "Les 19 communes de Bruxelles-Capitale plus la périphérie : Zaventem, Tervuren, Waterloo, Wavre et bien d'autres. On intervient aussi sur le Ring et les grands axes."
+      },
+      {
+        "emoji": "✓",
+        "titre": "Zéro Surprise sur la Facture",
+        "description": "Le montant qu'on vous annonce par téléphone, c'est celui que vous payez. Si on découvre un problème plus complexe sur place, on vous appelle avant de faire quoi que ce soit."
+      }
+    ]
+  },
+
+  "engagement": {
+    "titre": "Un Mot de l'Équipe",
+    "paragraphe": "Chez <strong style=\"color: #CF5706;\">HELPCAR Dépannage</strong>, on sait qu'une panne, c'est toujours au mauvais moment. C'est pour ça qu'on a bâti notre service sur un principe simple : <strong>vous aider vite, bien, et au juste prix</strong>. Pas de discours commercial, juste du concret.",
+    "citation": "\"On fait ce métier depuis des années parce qu'on aime résoudre les problèmes des gens. Quand quelqu'un nous appelle stressé et qu'il repart soulagé – c'est exactement pour ça qu'on est là.\"",
+    "signature": "— L'équipe HELPCAR Dépannage"
+  },
+
+  "cta_final": {
+    "titre": "En Panne ? On Est Là.",
+    "subtitle": "Un appel, un prix, une intervention. C'est aussi simple que ça.",
+    "button": "02 844 56 04"
+  }
+}

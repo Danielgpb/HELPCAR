@@ -39,17 +39,18 @@
           </div>
         </div>
 
-        <!-- Carte Google Reviews (comme footer) -->
-        <a href="{{GOOGLE_MY_BUSINESS_URL}}" target="_blank" rel="noopener noreferrer" class="hero-google-card" aria-label="Laisser un avis Google">
-          <img src="{{PATH_PREFIX}}images/logo/Google_Favicon_2025.svg.png" alt="Google" class="hero-google-logo" loading="lazy">
+        <!-- Badge Expérience -->
+        <div class="hero-google-card" style="cursor: default;">
+          <svg width="32" height="32" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z" fill="#CF5706"/>
+          </svg>
           <div class="hero-google-content">
             <div class="hero-google-stars">
-              <span class="star-icon">⭐</span>
-              <span class="rating-number">{{GOOGLE_RATING}}/5</span>
+              <span class="rating-number" style="color: #CF5706; font-weight: 700;">10+ ans</span>
             </div>
-            <p class="hero-reviews-count">{{GOOGLE_REVIEWS}} avis clients</p>
+            <p class="hero-reviews-count">d'expérience (équipe)</p>
           </div>
-        </a>
+        </div>
 
         <!-- Chevrons scroll -->
         <a href="#services" class="hero-scroll-link">

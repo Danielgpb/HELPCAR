@@ -39,8 +39,8 @@ def build_service_page(generator, service_data):
         'PATH_PREFIX': generator._get_path_prefix('subpage'),  # Chemins relatifs depuis sous-dossier /service/
         'CANONICAL_URL': f"{domain}/{service_data['slug']}/",
         # Carrousel Open Graph (2 images)
-        'OG_IMAGE_1': f"{domain}/images/homepage/hero/bruxelles-car-depannage-srl-auderghem-autre-client-satis.jpg",
-        'OG_IMAGE_2': f"{domain}/images/homepage/hero/bruxelles-car-depannage-srl-bruxelles-autre-bruxelles.jpg",
+        'OG_IMAGE_1': f"{domain}/images/og/helpcar-depannage-bruxelles.jpg",
+        'OG_IMAGE_2': f"{domain}/images/og/helpcar-depannage-bruxelles.jpg",
         'SERVICE_NAME': service_data['name'],
         'SERVICE_IMAGE': '../images/services/depannage.webp',  # Image par défaut pour tous les services
         'SERVICE_HERO_IMAGE': '../images/service/service.webp?v=3',  # Image par défaut pour le hero
@@ -302,8 +302,8 @@ def build_commune_page(generator, commune_data):
         'FACEBOOK_URL': generator.variables.get('social', {}).get('facebook_url', '#'),
         'INSTAGRAM_URL': generator.variables.get('social', {}).get('instagram_url', '#'),
         # Carrousel Open Graph (2 images)
-        'OG_IMAGE_1': f"{domain}/images/homepage/hero/bruxelles-car-depannage-srl-auderghem-autre-client-satis.jpg",
-        'OG_IMAGE_2': f"{domain}/images/homepage/hero/bruxelles-car-depannage-srl-bruxelles-autre-bruxelles.jpg",
+        'OG_IMAGE_1': f"{domain}/images/og/helpcar-depannage-bruxelles.jpg",
+        'OG_IMAGE_2': f"{domain}/images/og/helpcar-depannage-bruxelles.jpg",
 
         # UI translations (ACCROCHE utilise maintenant H2_1 pour cohérence SEO)
         'ACCROCHE': seo_data.get('h2', communes_ui.get('hero', {}).get('accroche_template', 'Notre équipe locale intervient rapidement à {{COMMUNE_NAME}} et alentours. Service de qualité disponible 24h/24.').replace('{{COMMUNE_NAME}}', commune_data["name"])).replace('Intervention rapide', '<strong>Intervention rapide</strong>'),
@@ -655,8 +655,8 @@ def build_homepage(generator):
     variables['META_TITLE'] = homepage_ui.get('meta_title', 'Dépannage Auto Bruxelles 24/7')
     variables['META_DESCRIPTION'] = homepage_ui.get('meta_description', 'Service de dépannage automobile à Bruxelles')
     # Carrousel Open Graph (2 images)
-    variables['OG_IMAGE_1'] = f"{domain}/images/homepage/hero/bruxelles-car-depannage-srl-auderghem-autre-client-satis.jpg"
-    variables['OG_IMAGE_2'] = f"{domain}/images/homepage/hero/bruxelles-car-depannage-srl-bruxelles-autre-bruxelles.jpg"
+    variables['OG_IMAGE_1'] = f"{domain}/images/og/helpcar-depannage-bruxelles.jpg"
+    variables['OG_IMAGE_2'] = f"{domain}/images/og/helpcar-depannage-bruxelles.jpg"
     variables['H1'] = homepage_ui.get('h1', 'Service de Dépannage Automobile à Bruxelles')
     variables['HERO_SUBTITLE'] = homepage_ui.get('hero', {}).get('h2', 'Intervention rapide 24h/24 et 7j/7')
     variables['CTA_PRIMARY'] = homepage_ui.get('hero', {}).get('cta_text', 'Appeler Maintenant')

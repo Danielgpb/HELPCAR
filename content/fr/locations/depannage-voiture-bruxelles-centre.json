@@ -1,19 +1,146 @@
 {
+  "version": "2.0",
   "commune": "Bruxelles-Ville",
   "code_postal": "1000",
+
+  "seo": {
+    "meta_title": "Dépannage Voiture Bruxelles-Ville (1000) | 24h/24 – HELPCAR",
+    "meta_description": "Dépannage auto et remorquage à Bruxelles-Ville (1000). Intervention rapide Grand-Place, Sablon, Marolles, Quartier Européen. Prix par téléphone. ☎ 02 844 56 04"
+  },
+
   "hero": {
-    "h1": "Dépannage Voiture Bruxelles-Ville | 24h/24",
-    "subtitle": "Intervention rapide au centre de Bruxelles"
+    "h1": "Dépannage Voiture Bruxelles-Ville (1000) – 24h/24",
+    "accroche": "Intervention rapide au centre de Bruxelles, de jour comme de nuit. Appelez, on vous donne le prix et on arrive."
   },
-  "intro": {
-    "content": "<p><strong>Helpcar Dépannage</strong> intervient dans tout <strong>Bruxelles-Ville (1000)</strong> : Grand-Place, Sablon, Marolles, Quartier Européen, et tous les autres quartiers du centre.</p><p>Panne de batterie, pneu crevé, besoin d'un remorquage ? Notre équipe arrive en <strong>30 minutes maximum</strong> au centre de Bruxelles. Appelez le <strong>02 844 54 01</strong>.</p>"
-  },
-  "quartiers": {
-    "h2": "Quartiers desservis à Bruxelles-Ville",
-    "liste": ["Grand-Place", "Sablon", "Marolles", "Quartier Européen", "Sainte-Catherine", "Place Flagey", "Mont des Arts"]
-  },
-  "specificites": {
-    "h2": "Dépannage au centre de Bruxelles",
-    "content": "<p>Le centre de Bruxelles présente des défis particuliers : rues piétonnes, zones à trafic limité, parkings souterrains étroits. Notre équipe connaît parfaitement le terrain et dispose du matériel adapté pour intervenir partout.</p>"
+
+  "content": {
+    "intro_autorite": {
+      "paragraphe_0": "Vous êtes en panne en plein centre de Bruxelles et vous ne savez pas qui appeler ? Appelez le <strong><a href=\"tel:+3228445604\" style=\"color: #CF5706; text-decoration: none;\">02 844 56 04</a></strong>. <strong style=\"color: #CF5706;\">HELPCAR Dépannage</strong>, c'est le <strong>meilleur dépannage voiture à Bruxelles-Ville (1000)</strong> : quelqu'un est chez vous en <strong>environ 30 minutes</strong>, que vous soyez coincé près de la Grand-Place, dans le Sablon ou sur la petite ceinture.",
+      "paragraphe_1": "On intervient pour tout : <strong>batterie à plat</strong>, pneu crevé, clés enfermées, erreur de carburant, remorquage vers votre garage. Vous appelez le <strong><a href=\"tel:+3228445604\" style=\"color: #CF5706; text-decoration: none;\">02 844 56 04</a></strong>, on vous annonce le prix, et c'est parti.",
+      "paragraphe_2": "Notre équipe cumule <strong>plus de 10 ans d'expérience</strong> sur les routes bruxelloises. Le centre-ville, on le connaît rue par rue – les sens uniques autour de la Bourse, les zones piétonnes du boulevard Anspach, les parkings souterrains du quartier européen."
+    },
+
+    "section_on_connait": {
+      "h2": "On Connaît Bruxelles-Ville Sur le Bout des Doigts",
+      "intro": "Le centre de Bruxelles, c'est un labyrinthe de rues à sens unique, de zones piétonnes et de tunnels. Voici les quartiers où on intervient le plus souvent :",
+      "quartiers": [
+        {
+          "icon": "map-pin",
+          "nom": "Grand-Place & Îlot Sacré",
+          "description": "Rues piétonnes, livraisons bloquées, panne sur un axe étroit – on connaît chaque accès pour arriver sans tourner en rond."
+        },
+        {
+          "icon": "map-pin",
+          "nom": "Sablon & Marolles",
+          "description": "Pavés, dénivelés, parking Place du Jeu de Balle. On intervient régulièrement dans ce coin où se garer relève déjà de l'exploit."
+        },
+        {
+          "icon": "building",
+          "nom": "Quartier Européen & Schuman",
+          "description": "Tunnels Loi, rond-point Schuman, rue de la Loi embouteillée – on sait par où passer pour arriver vite."
+        },
+        {
+          "icon": "map-pin",
+          "nom": "Sainte-Catherine & Dansaert",
+          "description": "Quai au Bois à Brûler, place Sainte-Catherine, canal – interventions fréquentes dans cette zone animée jour et nuit."
+        },
+        {
+          "icon": "map-pin",
+          "nom": "Rogier & Gare du Nord",
+          "description": "Boulevard Adolphe Max, place Rogier, tunnel sous la gare. Zone très fréquentée où les pannes arrivent souvent."
+        },
+        {
+          "icon": "map-pin",
+          "nom": "Mont des Arts & Albertine",
+          "description": "Pente vers le Palais Royal, tunnels de la Cour, parking Albertine. On gère les accès compliqués."
+        }
+      ],
+      "conclusion": "Que vous soyez bloqué dans un tunnel sous la petite ceinture ou sur une place piétonne, on a le matériel et l'expérience pour intervenir proprement."
+    },
+
+    "section_parkings": {
+      "afficher": true,
+      "h3": "Parkings Souterrains où On Intervient",
+      "intro": "Panne dans un parking du centre ? On a le matériel compact pour y descendre.",
+      "parkings": [
+        {"icon": "parking", "nom": "Parking Albertine (Mont des Arts)"},
+        {"icon": "parking", "nom": "Parking Grand-Place (Arenberg)"},
+        {"icon": "parking", "nom": "Parking 58 (boulevard de l'Empereur)"},
+        {"icon": "parking", "nom": "Parking Deux Portes (Sablon)"},
+        {"icon": "parking", "nom": "Parking Monnaie (De Brouckère)"}
+      ],
+      "conclusion": "Hauteur limitée, rampes étroites – on s'adapte. Si votre véhicule ne peut pas sortir par ses propres moyens, on le sort au treuil."
+    },
+
+    "section_services": {
+      "h2": "Nos Services à Bruxelles-Ville",
+      "intro": "Tous nos services de dépannage sont disponibles 24h/24 dans tout Bruxelles-Ville.",
+      "cta_text": "Voir tous nos services",
+      "cta_url": "../services/",
+      "categories": [
+        {
+          "icon": "battery",
+          "titre": "Batterie & Pneus",
+          "services": [
+            {"nom": "Remplacement batterie sur place", "url_var": "URL_SERVICE_BATTERIE"},
+            {"nom": "Changement de pneu / roue de secours", "url_var": "URL_SERVICE_PNEU"}
+          ]
+        },
+        {
+          "icon": "fuel",
+          "titre": "Carburant & Accès",
+          "services": [
+            {"nom": "Livraison de carburant", "url_var": "URL_SERVICE_CARBURANT"},
+            {"nom": "Ouverture de porte (clés enfermées)", "url_var": "URL_SERVICE_OUVERTURE_PORTE"}
+          ]
+        },
+        {
+          "icon": "truck",
+          "titre": "Remorquage & Urgences",
+          "services": [
+            {"nom": "Remorquage voiture sur plateau", "url_var": "URL_SERVICE_REMORQUAGE"},
+            {"nom": "Dépannage voiture toutes marques", "url_var": "URL_SERVICE_DEPANNAGE_VOITURE"}
+          ]
+        }
+      ]
+    },
+
+    "faq_locale": {
+      "h2": "Questions Fréquentes – Dépannage Bruxelles-Ville",
+      "questions": [
+        {
+          "question": "Vous intervenez dans les tunnels sous Bruxelles (Arts-Loi, Louise, Porte de Hal) ?",
+          "reponse": "Oui. On intervient dans tous les tunnels de la petite ceinture et du quartier européen. On connaît les accès de service et les procédures pour intervenir en sécurité dans ces zones."
+        },
+        {
+          "question": "Je suis en panne dans la zone piétonne du boulevard Anspach, vous pouvez venir ?",
+          "reponse": "On peut accéder à la zone piétonne pour un dépannage d'urgence. On adapte notre itinéraire selon les autorisations d'accès en vigueur. Décrivez-nous votre position exacte au téléphone."
+        },
+        {
+          "question": "Mon véhicule est bloqué dans le parking de la Grand-Place, hauteur limitée ?",
+          "reponse": "On intervient régulièrement dans les parkings souterrains du centre. On a du matériel compact (chariot, treuil portable) pour les espaces à hauteur limitée. Si le véhicule ne démarre pas, on le sort mécaniquement."
+        },
+        {
+          "question": "Combien de temps pour arriver au centre de Bruxelles ?",
+          "reponse": "En moyenne <strong>25 à 35 minutes</strong> selon le trafic et votre localisation exacte. Le centre est dense, mais on connaît les raccourcis. On vous donne une estimation précise au téléphone."
+        },
+        {
+          "question": "Vous dépannez aussi la nuit dans le centre-ville ?",
+          "reponse": "Oui, <strong>24h/24 et 7j/7</strong>. La nuit, le centre est plus dégagé, donc on arrive souvent plus vite. Pas de supplément de nuit caché – le prix annoncé au téléphone est le prix final."
+        }
+      ]
+    },
+
+    "section_zones_voisines": {
+      "h2": "Communes Voisines de Bruxelles-Ville",
+      "content": "On ne s'arrête pas aux limites de Bruxelles-Ville. Notre équipe couvre aussi les communes limitrophes et toute la périphérie bruxelloise. Si vous êtes en panne entre deux communes, pas de souci – on vient quand même.",
+      "communes_voisines": [
+        {"nom": "Ixelles (1050)", "slug": "depannage-voiture-ixelles"},
+        {"nom": "Schaerbeek (1030)", "slug": "depannage-voiture-schaerbeek"},
+        {"nom": "Etterbeek (1040)", "slug": "depannage-voiture-etterbeek"},
+        {"nom": "Saint-Gilles (1060)", "slug": "depannage-voiture-saint-gilles"},
+        {"nom": "Saint-Josse (1210)", "slug": "depannage-voiture-saint-josse"}
+      ]
+    }
   }
 }

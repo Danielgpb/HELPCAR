@@ -1,0 +1,149 @@
+{
+  "meta_title": "Tarif Dépannage Auto Bruxelles | Prix Remorquage | HELPCAR Dépannage",
+  "meta_description": "Tarif dépannage voiture à Bruxelles : prix communiqué par téléphone avant intervention. Pas de frais cachés. ☎️ 02 844 56 04 – Devis immédiat.",
+  "open_graph": {
+    "title": "Tarifs Dépannage Bruxelles | HELPCAR Dépannage",
+    "description": "Prix exact de votre dépannage en 2 minutes par téléphone. Tarif ferme, sans surprise."
+  },
+  "hero": {
+    "h1": "Nos Tarifs de Dépannage",
+    "h2_colored": {
+      "part1": "Vous Appelez,",
+      "part2": "On Écoute,",
+      "part3": "On Vous Dit le Prix"
+    },
+    "subtitle_line1": "Le tarif de votre dépannage à Bruxelles, on vous le donne par téléphone avant de bouger.",
+    "subtitle_line2": "Pas de compteur, pas de supplément surprise. Le prix annoncé est le prix payé.",
+    "image_alt": "Tarifs dépannage HELPCAR Bruxelles"
+  },
+  "comment_ca_marche": {
+    "section_label": "EN 3 ÉTAPES",
+    "section_title": "Comment Connaître Votre Tarif ?",
+    "section_description": "Simple et rapide, comme le reste",
+    "etapes": [
+      {
+        "numero": 1,
+        "color": "#CF5706",
+        "titre": "Appelez le 02 844 56 04",
+        "description": "On décroche à tout moment, 24h/24"
+      },
+      {
+        "numero": 2,
+        "color": "#CF5706",
+        "titre": "Expliquez-nous la situation",
+        "description": "Type de panne, véhicule, où vous êtes – 30 secondes suffisent"
+      },
+      {
+        "numero": 3,
+        "color": "#10B981",
+        "titre": "On vous donne le prix",
+        "description": "Tarif ferme, immédiat. Si ça vous va, on part"
+      }
+    ]
+  },
+  "facteurs": {
+    "section_label": "TRANSPARENCE",
+    "section_title": "Ce Qui Fait Varier le Prix",
+    "section_description": "Chaque dépannage est différent. Voici ce qui entre en compte :",
+    "liste": [
+      {
+        "icon": "car",
+        "titre": "Votre Véhicule",
+        "description": "Voiture, camionnette, moto, SUV, électrique – le tarif s'adapte"
+      },
+      {
+        "icon": "map-pin",
+        "titre": "Où Vous Êtes",
+        "description": "Bruxelles centre, périphérie, autoroute – la distance compte"
+      },
+      {
+        "icon": "wrench",
+        "titre": "Le Type de Panne",
+        "description": "Batterie, pneu, remorquage, ouverture de porte – chaque service a son tarif"
+      },
+      {
+        "icon": "arrow-down-to-line",
+        "titre": "L'Accès au Véhicule",
+        "description": "Parking souterrain, zone piétonne, rue étroite – ça peut compliquer les choses"
+      },
+      {
+        "icon": "triangle-alert",
+        "titre": "L'État du Véhicule",
+        "description": "Accidenté, roues bloquées, véhicule en travers – on adapte le matériel"
+      },
+      {
+        "icon": "lock",
+        "titre": "La Complexité",
+        "description": "Serrure haute sécurité, vidange réservoir complète – certains cas prennent plus de temps"
+      }
+    ]
+  },
+  "interventions": {
+    "section_label": "NOS SERVICES",
+    "section_title": "Ce Qu'on Peut Faire Pour Vous",
+    "section_description": "Réparation sur place ou transport – voici nos interventions courantes",
+    "depannage_sur_place": {
+      "titre": "Dépannage sur Place",
+      "services": [
+        {
+          "nom": "Dépannage Batterie",
+          "url_var": "URL_SERVICE_BATTERIE"
+        },
+        {
+          "nom": "Réparation Pneu",
+          "url_var": "URL_SERVICE_PNEU"
+        },
+        {
+          "nom": "Panne d'Essence",
+          "url_var": "URL_SERVICE_PANNE_ESSENCE"
+        },
+        {
+          "nom": "Ouverture de Porte",
+          "url_var": "URL_SERVICE_OUVERTURE_PORTE"
+        },
+        {
+          "nom": "Roue de Secours",
+          "url_var": "URL_SERVICE_ROUE_SECOURS"
+        },
+        {
+          "nom": "Véhicule Électrique",
+          "url_var": "URL_SERVICE_VOITURE_ELECTRIQUE"
+        }
+      ]
+    },
+    "remorquage": {
+      "titre": "Remorquage",
+      "services": [
+        {
+          "nom": "Remorquage Voiture",
+          "url_var": "URL_SERVICE_REMORQUAGE_VOITURE"
+        },
+        {
+          "nom": "Remorquage Moto",
+          "url_var": "URL_SERVICE_REMORQUAGE_MOTO"
+        },
+        {
+          "nom": "Véhicules Spéciaux",
+          "url_var": "URL_SERVICE_REMORQUAGE_SPECIAUX"
+        },
+        {
+          "nom": "Enlèvement d'Épave",
+          "url_var": "URL_SERVICE_EPAVE"
+        },
+        {
+          "nom": "Sortie de Fourrière",
+          "url_var": "URL_SERVICE_SORTIE_FOURRIERE"
+        }
+      ]
+    },
+    "lien_tous_services": {
+      "texte": "Voir tous nos services ({{SERVICES_TOTAL}})",
+      "url_relative": "../services/index.html"
+    }
+  },
+  "cta_final": {
+    "titre": "Vous Voulez Savoir Combien Ça Coûte ?",
+    "subtitle": "Un appel, 30 secondes d'explication, et vous avez votre prix.",
+    "button": "02 844 56 04"
+  }
+}

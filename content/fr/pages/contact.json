@@ -1,0 +1,84 @@
+{
+  "meta_title": "Contact HELPCAR Dépannage Bruxelles | ☎️ 02 844 56 04 - 24h/24",
+  "meta_description": "Contactez HELPCAR Dépannage pour un dépannage ou remorquage à Bruxelles. Disponible 24h/24 et 7j/7. ☎️ 02 844 56 04. Rue Charles Martel 55, 1000 Bruxelles.",
+
+  "open_graph": {
+    "title": "Contactez HELPCAR Dépannage | 02 844 56 04 - 24h/7j",
+    "description": "HELPCAR Dépannage, Rue Charles Martel 55, 1000 Bruxelles. Appelez le 02 844 56 04 à tout moment."
+  },
+
+  "hero": {
+    "h1": "Comment Nous Joindre",
+    "subtitle": "Vous avez une panne, une question ou besoin d'un devis ? HELPCAR Dépannage répond 24h/24 et 7j/7, y compris la nuit et les jours fériés.",
+    "cta_button": "{{TELEPHONE}}",
+    "disponibilite": "Disponible maintenant",
+    "image_alt": "Contact HELPCAR Dépannage Bruxelles"
+  },
+
+  "formulaire": {
+    "titre": "Envoyez-nous un Message",
+    "description": "Pour une demande non urgente, remplissez le formulaire. On vous répond rapidement. Si c'est urgent, appelez directement le 02 844 56 04.",
+    "champs": {
+      "nom": {
+        "label": "Nom complet *",
+        "placeholder": "Votre nom"
+      },
+      "email": {
+        "label": "Email *",
+        "placeholder": "votre@email.com"
+      },
+      "telephone": {
+        "label": "Téléphone",
+        "placeholder": "04XX XX XX XX"
+      },
+      "type_demande": {
+        "label": "Type de demande",
+        "options": [
+          { "value": "devis", "label": "Demande de devis" },
+          { "value": "info", "label": "Demande d'information" },
+          { "value": "reclamation", "label": "Réclamation" },
+          { "value": "autre", "label": "Autre" }
+        ]
+      },
+      "message": {
+        "label": "Message *",
+        "placeholder": "Décrivez votre demande..."
+      }
+    },
+    "button_submit": "Envoyer le message"
+  },
+
+  "coordonnees": {
+    "titre": "Nos Coordonnées",
+    "items": [
+      {
+        "type": "telephone",
+        "label": "Téléphone",
+        "value": "02 844 56 04",
+        "href": "tel:028445604"
+      },
+      {
+        "type": "email",
+        "label": "Email",
+        "value": "contact@helpcar.be",
+        "href": "mailto:contact@helpcar.be"
+      },
+      {
+        "type": "adresse",
+        "label": "Adresse",
+        "value": "Rue Charles Martel 55, 1000 Bruxelles"
+      },
+      {
+        "type": "horaires",
+        "label": "Disponibilité",
+        "value": "24h/24 - 7j/7, jours fériés inclus"
+      }
+    ]
+  },
+
+  "cta_final": {
+    "titre": "En Panne Maintenant ?",
+    "subtitle": "Pas besoin de formulaire – un appel et on est en route.",
+    "button": "02 844 56 04"
+  }
+}

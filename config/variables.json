@@ -3,13 +3,13 @@
   "version": "2.0",
   "last_updated": "2025-12-18",
   "site": {
-    "name": "Helpcar dépannage",
+    "name": "HELPCAR Dépannage",
     "domain": "https://helpcar.be",
     "baseline": "Dépannage Auto 24h/24 à Bruxelles"
   },
   "company": {
-    "name": "Helpcar dépannage",
-    "name_full": "Helpcar dépannage",
+    "name": "HELPCAR Dépannage",
+    "name_full": "HELPCAR Dépannage",
     "baseline": "Dépannage Auto 24h/24 à Bruxelles",
     "company_number": "",
     "vat_number": "",
@@ -29,7 +29,7 @@
     "_comment": "Pour activer Clarity: 1) Créer compte sur clarity.microsoft.com, 2) Ajouter site, 3) Copier Project ID ici"
   },
   "whatsapp": {
-    "phone_number": "3228445401",
+    "phone_number": "3228445604",
     "services": [
       {
         "id": "batterie",
@@ -70,10 +70,10 @@
     ]
   },
   "contact": {
-    "phone": "+3228445401",
-    "phone_display": "+32 2 844 54 01",
-    "phone_local": "028445401",
-    "phone_local_display": "02 844 54 01",
+    "phone": "+3228445604",
+    "phone_display": "+32 2 844 56 04",
+    "phone_local": "028445604",
+    "phone_local_display": "02 844 56 04",
     "email": "contact@helpcar.be",
     "address": "Rue Charles Martel 55, 1000 Bruxelles"
   },

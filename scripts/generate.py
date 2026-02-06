@@ -1166,8 +1166,8 @@ class SiteGenerator:
                     if img_file.stem not in processed_stems:
                         processed_stems.add(img_file.stem)
 
-                        # Toujours utiliser .webp dans le HTML (optimisation automatique)
-                        webp_filename = img_file.stem + '.webp'
+                        # Utiliser l'extension réelle du fichier
+                        real_filename = img_file.name
 
                         # Récupérer le alt depuis images-alt.json ou utiliser un fallback
                         alt_text = self.images_alt.get('homepage', {}).get('hero', {}).get(img_file.stem)
@@ -1175,7 +1175,7 @@ class SiteGenerator:
                             alt_text = f"Service de dépannage automobile à Bruxelles 24h/24"
 
                         all_hero_images.append({
-                            "image": webp_filename,
+                            "image": real_filename,
                             "alt": alt_text
                         })
 
@@ -1593,8 +1593,8 @@ class SiteGenerator:
         variables['OG_TITLE'] = og_title.replace('{{NOMBRE_COMMUNES}}', variables['NOMBRE_COMMUNES'])
         variables['OG_DESCRIPTION'] = og.get('description', variables['META_DESCRIPTION'])
         # Carrousel Open Graph (2 images)
-        variables['OG_IMAGE_1'] = f"{domain}/images/homepage/hero/bruxelles-car-depannage-srl-auderghem-autre-client-satis.jpg"
-        variables['OG_IMAGE_2'] = f"{domain}/images/homepage/hero/bruxelles-car-depannage-srl-bruxelles-autre-bruxelles.jpg"
+        variables['OG_IMAGE_1'] = f"{domain}/images/og/helpcar-depannage-bruxelles.jpg"
+        variables['OG_IMAGE_2'] = f"{domain}/images/og/helpcar-depannage-bruxelles.jpg"
 
         # Hero
         hero = content.get('hero', {})
@@ -1624,9 +1624,9 @@ class SiteGenerator:
                             # Fallback si pas trouvé
                             alt_text = self.images_alt.get('zones-index', {}).get('hero', {}).get('default', 'Zones d\'intervention de Bruxelles Car Depannage')
 
-                        # Toujours utiliser .webp (optimisation automatique)
+                        # Utiliser l'extension réelle du fichier
                         zones_images.append({
-                            "image": img_file.stem + '.webp',
+                            "image": img_file.name,
                             "alt": alt_text
                         })
         variables['ZONES_CAROUSEL'] = self._build_simple_carousel(zones_images, 'zones-index', '../')
@@ -1881,8 +1881,8 @@ class SiteGenerator:
             'FACEBOOK_URL': self.variables.get('social', {}).get('facebook_url', '#'),
             'INSTAGRAM_URL': self.variables.get('social', {}).get('instagram_url', '#'),
             # Carrousel Open Graph (2 images)
-            'OG_IMAGE_1': f"{domain}/images/homepage/hero/bruxelles-car-depannage-srl-auderghem-autre-client-satis.jpg",
-            'OG_IMAGE_2': f"{domain}/images/homepage/hero/bruxelles-car-depannage-srl-bruxelles-autre-bruxelles.jpg",
+            'OG_IMAGE_1': f"{domain}/images/og/helpcar-depannage-bruxelles.jpg",
+            'OG_IMAGE_2': f"{domain}/images/og/helpcar-depannage-bruxelles.jpg",
             # Stats calculés dynamiquement (selon langue et catégories)
             'SERVICES_TOTAL': str(len(all_services)),
             'SERVICES_REMORQUAGE': str(len(services_remorquage)),
@@ -2218,7 +2218,12 @@ class SiteGenerator:
                 except Exception as e:
                     self.log(f"⚠️  Erreur lors de l'optimisation: {e}")
             else:
-                self.log("⚠️  Script optimize_images.py introuvable, images non optimisées")
+                # Fallback : copier directement les images sans optimisation
+                self.log("⚠️  Script optimize_images.py introuvable, copie directe des images")
+                dest_images_dir.mkdir(parents=True, exist_ok=True)
+                shutil.copytree(source_images_dir, dest_images_dir, dirs_exist_ok=True)
+                if self.verbose:
+                    self.log("✅ Images copiées directement vers build (sans optimisation)")
         else:
             # Pour les autres langues (EN, NL), copier depuis build/images/ (images FR)
             fr_images_dir = self.base_path / 'build' / 'images'
@@ -2313,9 +2318,9 @@ class SiteGenerator:
         og = content.get('open_graph', {})
         variables['OG_TITLE'] = og.get('title', variables['META_TITLE'])
         variables['OG_DESCRIPTION'] = og.get('description', variables['META_DESCRIPTION'])
-        # Carrousel Open Graph (2 images)
-        variables['OG_IMAGE_1'] = f"{domain}/images/homepage/hero/bruxelles-car-depannage-srl-auderghem-autre-client-satis.jpg"
-        variables['OG_IMAGE_2'] = f"{domain}/images/homepage/hero/bruxelles-car-depannage-srl-bruxelles-autre-bruxelles.jpg"
+        # Image OG spécifique pour la page tarifs
+        variables['OG_IMAGE_1'] = f"{domain}/images/tarifs/helpcar-tarifs-hero.jpg"
+        variables['OG_IMAGE_2'] = f"{domain}/images/tarifs/helpcar-tarifs-hero.jpg"
 
         # Hero
         hero = content.get('hero', {})
@@ -2550,8 +2555,8 @@ class SiteGenerator:
         variables['OG_TITLE'] = og.get('title', variables['META_TITLE'])
         variables['OG_DESCRIPTION'] = og.get('description', variables['META_DESCRIPTION'])
         # Carrousel Open Graph (2 images)
-        variables['OG_IMAGE_1'] = f"{domain}/images/homepage/hero/bruxelles-car-depannage-srl-auderghem-autre-client-satis.jpg"
-        variables['OG_IMAGE_2'] = f"{domain}/images/homepage/hero/bruxelles-car-depannage-srl-bruxelles-autre-bruxelles.jpg"
+        variables['OG_IMAGE_1'] = f"{domain}/images/og/helpcar-depannage-bruxelles.jpg"
+        variables['OG_IMAGE_2'] = f"{domain}/images/og/helpcar-depannage-bruxelles.jpg"
 
         # Hero
         hero = content.get('hero', {})
@@ -2776,8 +2781,8 @@ class SiteGenerator:
         og_desc = og_desc.replace('{{YEARS_EXPERIENCE}}', variables['YEARS_EXPERIENCE'])
         variables['OG_DESCRIPTION'] = og_desc
         # Carrousel Open Graph (2 images)
-        variables['OG_IMAGE_1'] = f"{domain}/images/homepage/hero/bruxelles-car-depannage-srl-auderghem-autre-client-satis.jpg"
-        variables['OG_IMAGE_2'] = f"{domain}/images/homepage/hero/bruxelles-car-depannage-srl-bruxelles-autre-bruxelles.jpg"
+        variables['OG_IMAGE_1'] = f"{domain}/images/og/helpcar-depannage-bruxelles.jpg"
+        variables['OG_IMAGE_2'] = f"{domain}/images/og/helpcar-depannage-bruxelles.jpg"
 
         # Hero
         hero = content.get('hero', {})

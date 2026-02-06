@@ -1,19 +1,139 @@
 {
+  "version": "2.0",
   "commune": "Etterbeek",
   "code_postal": "1040",
+
+  "seo": {
+    "meta_title": "Dépannage Voiture Etterbeek (1040) | 24h/24 – HELPCAR Dépannage",
+    "meta_description": "Dépannage auto et remorquage à Etterbeek (1040). Cinquantenaire, Place Jourdan, Chasses. Prix par téléphone, intervention rapide. ☎ 02 844 56 04"
+  },
+
   "hero": {
-    "h1": "Dépannage Voiture Etterbeek 1040 | 24h/24",
-    "subtitle": "Intervention rapide dans toute la commune"
+    "h1": "Dépannage Voiture Etterbeek (1040) – 24h/24",
+    "accroche": "Intervention rapide à Etterbeek, du Cinquantenaire à la Place Jourdan. On vous dit le prix avant de partir."
   },
-  "intro": {
-    "content": "<p><strong>Helpcar Dépannage</strong> intervient dans tout <strong>Etterbeek (1040)</strong> : Quartier des Chasses, Cinquantenaire, Place Jourdan, et tous les quartiers.</p><p>Panne de batterie, pneu crevé, remorquage ? On arrive en <strong>30 minutes</strong>. Appelez le <strong>02 844 54 01</strong>.</p>"
-  },
-  "quartiers": {
-    "h2": "Quartiers desservis à Etterbeek",
-    "liste": ["Quartier des Chasses", "Cinquantenaire", "Place Jourdan", "Casernes", "Germoir"]
-  },
-  "specificites": {
-    "h2": "Dépannage à Etterbeek",
-    "content": "<p>Etterbeek est situé au cœur de Bruxelles, près du Cinquantenaire et du quartier européen. Notre équipe connaît parfaitement les rues et peut intervenir rapidement où que vous soyez.</p>"
+
+  "content": {
+    "intro_autorite": {
+      "paragraphe_0": "En panne près du Cinquantenaire ou dans le quartier des Casernes ? Appelez le <strong><a href=\"tel:+3228445604\" style=\"color: #CF5706; text-decoration: none;\">02 844 56 04</a></strong>. <strong style=\"color: #CF5706;\">HELPCAR Dépannage</strong>, c'est la <strong>référence du dépannage voiture à Etterbeek (1040)</strong> : tarif donné par téléphone, un dépanneur chez vous en <strong>environ 30 minutes</strong>.",
+      "paragraphe_1": "Batterie morte devant la gare d'Etterbeek, pneu crevé rue des Champs, clés dans le coffre sur la Place Jourdan – on gère. Appelez le <strong><a href=\"tel:+3228445604\" style=\"color: #CF5706; text-decoration: none;\">02 844 56 04</a></strong>, on annonce le tarif, vous décidez.",
+      "paragraphe_2": "Notre équipe a <strong>plus de 10 ans d'expérience</strong> dans le dépannage à Bruxelles. Etterbeek est une commune qu'on traverse tous les jours – entre le rond-point Montgomery, la chaussée de Wavre et les rues résidentielles des Chasses, on sait exactement par où passer."
+    },
+
+    "section_on_connait": {
+      "h2": "On Connaît Etterbeek Quartier par Quartier",
+      "intro": "Etterbeek est compacte mais bien remplie. Entre le quartier européen et les zones résidentielles, voici où on intervient :",
+      "quartiers": [
+        {
+          "icon": "map-pin",
+          "nom": "Cinquantenaire & Mérode",
+          "description": "Parc du Cinquantenaire, rond-point Mérode, avenue de Tervueren. Zone très passante avec le métro Mérode juste à côté."
+        },
+        {
+          "icon": "map-pin",
+          "nom": "Place Jourdan",
+          "description": "Célèbre pour ses friteries et le marché. Rues animées et stationnement compliqué – on connaît les accès."
+        },
+        {
+          "icon": "building",
+          "nom": "Quartier des Casernes & Chasses",
+          "description": "Rues résidentielles tranquilles, ancienne caserne, avenue des Casernes. On y intervient souvent pour des batteries mortes après un week-end."
+        },
+        {
+          "icon": "map-pin",
+          "nom": "Germoir & Ixelles-frontière",
+          "description": "Rue du Germoir, rue Gray, limite avec Ixelles. Zone dense avec peu de places de parking."
+        },
+        {
+          "icon": "map-pin",
+          "nom": "Montgomery",
+          "description": "Rond-point Montgomery, tunnel, convergence de plusieurs avenues. Point névralgique du trafic bruxellois – les pannes y sont fréquentes."
+        }
+      ],
+      "conclusion": "Etterbeek est au carrefour de Bruxelles. Où que vous soyez coincé, on connaît le chemin pour arriver vite."
+    },
+
+    "section_parkings": {
+      "afficher": true,
+      "h3": "Parkings Où On Intervient à Etterbeek",
+      "intro": "Bloqué dans un parking à Etterbeek ? On a le matériel pour descendre.",
+      "parkings": [
+        {"icon": "parking", "nom": "Parking Cinquantenaire"},
+        {"icon": "parking", "nom": "Parking Carrefour Etterbeek"},
+        {"icon": "parking", "nom": "Parking résidentiel Place Jourdan"}
+      ],
+      "conclusion": "On s'adapte aux contraintes de chaque parking : hauteur, rampe étroite, virage serré. On sort votre véhicule en sécurité."
+    },
+
+    "section_services": {
+      "h2": "Nos Services à Etterbeek",
+      "intro": "Dépannage et remorquage disponibles 24h/24 dans toute la commune d'Etterbeek.",
+      "cta_text": "Voir tous nos services",
+      "cta_url": "../services/",
+      "categories": [
+        {
+          "icon": "battery",
+          "titre": "Batterie & Pneus",
+          "services": [
+            {"nom": "Remplacement batterie sur place", "url_var": "URL_SERVICE_BATTERIE"},
+            {"nom": "Changement pneu / roue de secours", "url_var": "URL_SERVICE_PNEU"}
+          ]
+        },
+        {
+          "icon": "fuel",
+          "titre": "Carburant & Accès",
+          "services": [
+            {"nom": "Livraison de carburant", "url_var": "URL_SERVICE_CARBURANT"},
+            {"nom": "Ouverture de porte", "url_var": "URL_SERVICE_OUVERTURE_PORTE"}
+          ]
+        },
+        {
+          "icon": "truck",
+          "titre": "Remorquage & Urgences",
+          "services": [
+            {"nom": "Remorquage plateau toutes marques", "url_var": "URL_SERVICE_REMORQUAGE"},
+            {"nom": "Dépannage voiture sur place", "url_var": "URL_SERVICE_DEPANNAGE_VOITURE"}
+          ]
+        }
+      ]
+    },
+
+    "faq_locale": {
+      "h2": "Questions Fréquentes – Dépannage Etterbeek",
+      "questions": [
+        {
+          "question": "Je suis en panne au rond-point Montgomery, c'est gérable ?",
+          "reponse": "Oui. Montgomery est un de nos points d'intervention les plus fréquents. Le trafic y est dense mais on connaît les accès par l'avenue de Tervueren et les rues adjacentes. Mettez vos feux de détresse et appelez-nous."
+        },
+        {
+          "question": "Combien de temps pour arriver à Etterbeek ?",
+          "reponse": "En moyenne <strong>20 à 30 minutes</strong>. Etterbeek est central et bien desservi. On vous donne une estimation plus précise au téléphone selon votre position exacte."
+        },
+        {
+          "question": "Vous dépannez aussi les véhicules électriques à Etterbeek ?",
+          "reponse": "Oui. Tesla, BMW iX, Renault ZOE – on a le matériel adapté. Les véhicules électriques sont remorqués exclusivement sur plateau (jamais de roues au sol). Même tarif qu'un véhicule classique."
+        },
+        {
+          "question": "Ma voiture est bloquée devant la gare d'Etterbeek, vous pouvez la remorquer ?",
+          "reponse": "Bien sûr. Gare d'Etterbeek, rue des Tongres, avenue d'Auderghem – on intervient partout. On peut remorquer vers le garage de votre choix ou votre domicile."
+        },
+        {
+          "question": "Le prix change si c'est la nuit ou un jour férié ?",
+          "reponse": "Non. Le prix qu'on vous annonce par téléphone est le même, <strong>de jour comme de nuit</strong>. Pas de supplément week-end ou jours fériés."
+        }
+      ]
+    },
+
+    "section_zones_voisines": {
+      "h2": "Communes Voisines d'Etterbeek",
+      "content": "Etterbeek touche plusieurs communes. Si vous êtes juste de l'autre côté de la limite – avenue de Tervueren, chaussée de Wavre, rond-point Mérode – on vient sans problème.",
+      "communes_voisines": [
+        {"nom": "Bruxelles-Ville (1000)", "slug": "depannage-voiture-bruxelles-centre"},
+        {"nom": "Ixelles (1050)", "slug": "depannage-voiture-ixelles"},
+        {"nom": "Schaerbeek (1030)", "slug": "depannage-voiture-schaerbeek"},
+        {"nom": "Woluwe-Saint-Pierre (1150)", "slug": "depannage-voiture-woluwe-saint-pierre"},
+        {"nom": "Auderghem (1160)", "slug": "depannage-voiture-auderghem"}
+      ]
+    }
   }
 }

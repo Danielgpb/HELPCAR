@@ -1,0 +1,114 @@
+{
+  "meta_title": "Mentions Légales | HELPCAR Dépannage",
+  "meta_description": "Mentions légales du site HELPCAR Dépannage. Informations sur l'éditeur, l'hébergement, la propriété intellectuelle et les conditions d'utilisation.",
+
+  "hero": {
+    "h1": "Mentions Légales",
+    "subtitle": "Informations légales et conditions d'utilisation du site helpcar.be"
+  },
+
+  "sections": {
+    "editeur": {
+      "titre": "1. Éditeur du site",
+      "raison_sociale_label": "Raison sociale :",
+      "raison_sociale": "HELPCAR Dépannage",
+      "forme_juridique_label": "Forme juridique :",
+      "forme_juridique": "Entreprise individuelle",
+      "siege_social_label": "Siège social :",
+      "siege_social": "Rue Charles Martel 55, 1000 Bruxelles, Belgique",
+      "numero_entreprise_label": "Numéro d'entreprise :",
+      "numero_tva_label": "N° TVA :",
+      "email_label": "Email :",
+      "telephone_label": "Téléphone :"
+    },
+
+    "directeur": {
+      "titre": "2. Directeur de publication",
+      "contenu": "Le directeur de la publication du site est le gérant de HELPCAR Dépannage."
+    },
+
+    "hebergement": {
+      "titre": "3. Hébergement",
+      "hebergeur_label": "Hébergeur :",
+      "hebergeur": "Netlify, Inc.",
+      "adresse_label": "Adresse :",
+      "adresse": "44 Montgomery Street, Suite 300, San Francisco, CA 94104, USA",
+      "site_web_label": "Site web :",
+      "site_web": "www.netlify.com",
+      "site_web_url": "https://www.netlify.com"
+    },
+
+    "propriete_intellectuelle": {
+      "titre": "4. Propriété intellectuelle",
+      "paragraphe_1": "Tout le contenu présent sur le site helpcar.be – textes, images, logos, vidéos, éléments graphiques – est la propriété de HELPCAR Dépannage, sauf mention contraire.",
+      "paragraphe_2": "Toute reproduction, même partielle, du contenu de ce site est interdite sans autorisation écrite préalable de HELPCAR Dépannage.",
+      "paragraphe_3": "L'utilisation non autorisée de tout élément du site pourra faire l'objet de poursuites conformément au droit belge en matière de propriété intellectuelle."
+    },
+
+    "responsabilite": {
+      "titre": "5. Limitation de responsabilité",
+      "paragraphe_1": "HELPCAR Dépannage met tout en œuvre pour fournir des informations exactes sur ce site. Le site peut toutefois contenir des inexactitudes ou être temporairement indisponible.",
+      "paragraphe_2": "HELPCAR Dépannage décline toute responsabilité en cas de :",
+      "liste": [
+        "Dommages résultant de l'utilisation ou de l'impossibilité d'accéder au site",
+        "Interruptions ou dysfonctionnements du site",
+        "Intrusion frauduleuse d'un tiers ayant modifié les informations",
+        "Inexactitudes dans les informations publiées"
+      ],
+      "paragraphe_3": "Les tarifs mentionnés sur le site sont indicatifs. Le prix exact de chaque intervention est communiqué par téléphone avant déplacement. Aucune intervention ne débute sans accord préalable du client sur le montant."
+    },
+
+    "donnees_personnelles": {
+      "titre": "6. Données personnelles",
+      "paragraphe_1": "Conformément au Règlement Général sur la Protection des Données (RGPD) et à la loi belge du 30 juillet 2018, vous disposez d'un droit d'accès, de rectification, de suppression et d'opposition concernant vos données personnelles.",
+      "paragraphe_2": "Pour exercer ces droits, contactez-nous :",
+      "contact_liste": [
+        "Par email : contact@helpcar.be",
+        "Par téléphone : {{TELEPHONE}}",
+        "Par courrier : Rue Charles Martel 55, 1000 Bruxelles"
+      ],
+      "paragraphe_3": "Pour en savoir plus, consultez notre <a href=\"../politique-confidentialite/\">Politique de Confidentialité</a>."
+    },
+
+    "cookies": {
+      "titre": "7. Cookies",
+      "paragraphe_1": "Ce site utilise des cookies pour assurer son bon fonctionnement et analyser le trafic. Un cookie est un petit fichier texte enregistré sur votre appareil lors de votre visite.",
+      "types_titre": "Types de cookies utilisés :",
+      "types_liste": [
+        "<strong>Cookies techniques :</strong> indispensables au fonctionnement du site (préférences, session)",
+        "<strong>Cookies analytiques :</strong> mesure d'audience anonymisée pour améliorer le site"
+      ],
+      "paragraphe_2": "Vous pouvez désactiver les cookies dans les paramètres de votre navigateur. Certaines fonctionnalités du site pourraient ne plus être disponibles."
+    },
+
+    "liens": {
+      "titre": "8. Liens hypertextes",
+      "paragraphe_1": "Le site helpcar.be peut contenir des liens vers des sites tiers. HELPCAR Dépannage n'a aucun contrôle sur le contenu de ces sites et n'en est pas responsable.",
+      "paragraphe_2": "La création de liens vers helpcar.be nécessite l'accord préalable de HELPCAR Dépannage."
+    },
+
+    "droit_applicable": {
+      "titre": "9. Droit applicable et juridiction",
+      "paragraphe_1": "Les présentes mentions légales sont soumises au droit belge.",
+      "paragraphe_2": "En cas de litige, et à défaut de résolution amiable, les tribunaux de Bruxelles seront compétents."
+    },
+
+    "contact": {
+      "titre": "10. Contact",
+      "intro": "Pour toute question relative à ces mentions légales :",
+      "email_label": "Email",
+      "telephone_label": "Téléphone",
+      "adresse_label": "Adresse",
+      "adresse_ligne1": "Rue Charles Martel 55",
+      "adresse_ligne2": "1000 Bruxelles, Belgique"
+    }
+  },
+
+  "cta_final": {
+    "titre": "Besoin d'un Dépannage ?",
+    "subtitle": "On est disponible 24h/24, 7j/7. Un appel suffit.",
+    "button": "Appeler le 02 844 56 04"
+  },
+
+  "derniere_maj": "Dernière mise à jour : février 2026"
+}

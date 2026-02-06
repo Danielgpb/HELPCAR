@@ -1,0 +1,264 @@
+{
+  "meta_title": "Politique de Confidentialité | HELPCAR Dépannage",
+  "meta_description": "Politique de confidentialité de HELPCAR Dépannage. Comment nous collectons, utilisons et protégeons vos données personnelles, conformément au RGPD.",
+
+  "hero": {
+    "h1": "Politique de Confidentialité",
+    "subtitle": "Comment nous traitons et protégeons vos données personnelles"
+  },
+
+  "sections": {
+    "introduction": {
+      "titre": "1. Introduction",
+      "paragraphe_1": "HELPCAR Dépannage s'engage à protéger la vie privée de ses clients et des visiteurs de son site. Cette politique de confidentialité vous explique quelles données nous collectons, pourquoi, et comment nous les protégeons.",
+      "paragraphe_2": "Cette politique est conforme au Règlement Général sur la Protection des Données (RGPD – Règlement UE 2016/679) et à la loi belge du 30 juillet 2018 relative à la protection des personnes physiques à l'égard des traitements de données à caractère personnel."
+    },
+
+    "responsable": {
+      "titre": "2. Responsable du traitement",
+      "raison_sociale_label": "Responsable :",
+      "raison_sociale": "HELPCAR Dépannage",
+      "adresse_label": "Adresse :",
+      "adresse": "Rue Charles Martel 55, 1000 Bruxelles, Belgique",
+      "email_label": "Email :",
+      "telephone_label": "Téléphone :"
+    },
+
+    "donnees_collectees": {
+      "titre": "3. Données personnelles collectées",
+      "intro": "Nous collectons des données personnelles dans les cas suivants :",
+
+      "appel_telephone": {
+        "titre": "3.1. Lors d'un appel téléphonique",
+        "liste": [
+          "Nom et prénom",
+          "Numéro de téléphone",
+          "Adresse d'intervention (où vous êtes en panne)",
+          "Type de véhicule (marque, modèle)",
+          "Nature de la panne"
+        ]
+      },
+
+      "formulaire": {
+        "titre": "3.2. Via le formulaire de contact",
+        "liste": [
+          "Nom complet",
+          "Adresse email",
+          "Numéro de téléphone (facultatif)",
+          "Contenu du message"
+        ]
+      },
+
+      "navigation": {
+        "titre": "3.3. Lors de la navigation sur le site",
+        "liste": [
+          "Adresse IP",
+          "Type de navigateur et appareil",
+          "Pages consultées",
+          "Date et heure de visite",
+          "Données de cookies"
+        ]
+      }
+    },
+
+    "finalites": {
+      "titre": "4. Pourquoi nous collectons ces données",
+      "intro": "Vos données sont utilisées uniquement pour :",
+      "liste": [
+        "<strong>Organiser votre dépannage :</strong> traiter votre demande, envoyer le bon véhicule au bon endroit",
+        "<strong>Vous contacter :</strong> confirmer l'intervention, vous prévenir de l'arrivée du dépanneur",
+        "<strong>Facturation :</strong> établir la facture et gérer le paiement",
+        "<strong>Répondre à vos questions :</strong> si vous utilisez le formulaire de contact",
+        "<strong>Améliorer le site :</strong> comprendre comment les visiteurs utilisent le site pour l'améliorer",
+        "<strong>Obligations légales :</strong> comptabilité et obligations fiscales belges"
+      ]
+    },
+
+    "base_legale": {
+      "titre": "5. Base légale du traitement",
+      "intro": "Le traitement de vos données repose sur :",
+      "liste": [
+        "<strong>Exécution du contrat :</strong> pour réaliser le dépannage que vous avez demandé",
+        "<strong>Consentement :</strong> pour l'utilisation des cookies non essentiels",
+        "<strong>Intérêt légitime :</strong> pour améliorer nos services et la sécurité du site",
+        "<strong>Obligation légale :</strong> pour respecter nos obligations fiscales et comptables"
+      ]
+    },
+
+    "conservation": {
+      "titre": "6. Durée de conservation",
+      "intro": "Vos données sont conservées pendant les durées suivantes :",
+      "durees": {
+        "clients_label": "Données d'intervention :",
+        "clients_duree": "10 ans (obligation comptable belge)",
+        "contact_label": "Formulaires de contact :",
+        "contact_duree": "3 ans maximum, ou jusqu'à votre demande de suppression",
+        "cookies_label": "Cookies analytiques :",
+        "cookies_duree": "13 mois maximum",
+        "logs_label": "Journaux de connexion :",
+        "logs_duree": "12 mois maximum"
+      },
+      "conclusion": "Au-delà de ces délais, vos données sont supprimées de manière sécurisée."
+    },
+
+    "destinataires": {
+      "titre": "7. Qui a accès à vos données",
+      "intro": "Vos données peuvent être partagées avec :",
+      "liste": [
+        "<strong>Notre équipe :</strong> les dépanneurs et l'administration de HELPCAR Dépannage",
+        "<strong>Hébergeur du site :</strong> Netlify, Inc. (hébergement technique)",
+        "<strong>Outils d'analyse :</strong> données anonymisées uniquement",
+        "<strong>Autorités :</strong> uniquement sur demande officielle (obligation légale)"
+      ],
+      "important": "Nous ne vendons jamais vos données à des tiers. Jamais."
+    },
+
+    "transferts_ue": {
+      "titre": "8. Transferts hors de l'Union Européenne",
+      "paragraphe_1": "Notre hébergeur (Netlify) peut stocker des données aux États-Unis. Ces transferts sont encadrés par des garanties conformes au RGPD.",
+      "paragraphe_2": "Les mesures en place comprennent :",
+      "liste": [
+        "Clauses contractuelles types approuvées par la Commission Européenne",
+        "Chiffrement des données en transit et au repos",
+        "Standards de protection équivalents au RGPD"
+      ]
+    },
+
+    "droits": {
+      "titre": "9. Vos droits",
+      "intro": "Le RGPD vous donne les droits suivants sur vos données personnelles :",
+
+      "acces": {
+        "titre": "9.1. Droit d'accès",
+        "texte": "Vous pouvez nous demander quelles données nous détenons sur vous et en obtenir une copie."
+      },
+
+      "rectification": {
+        "titre": "9.2. Droit de rectification",
+        "texte": "Si des données vous concernant sont incorrectes ou incomplètes, vous pouvez demander leur correction."
+      },
+
+      "effacement": {
+        "titre": "9.3. Droit à l'effacement",
+        "texte": "Vous pouvez demander la suppression de vos données, sauf si une obligation légale nous impose de les conserver (ex : factures)."
+      },
+
+      "limitation": {
+        "titre": "9.4. Droit à la limitation",
+        "texte": "Dans certains cas, vous pouvez demander que le traitement de vos données soit restreint."
+      },
+
+      "portabilite": {
+        "titre": "9.5. Droit à la portabilité",
+        "texte": "Vous pouvez recevoir vos données dans un format lisible par machine, ou demander leur transfert à un autre prestataire."
+      },
+
+      "opposition": {
+        "titre": "9.6. Droit d'opposition",
+        "texte": "Vous pouvez vous opposer au traitement de vos données, notamment à des fins de prospection."
+      },
+
+      "retrait_consentement": {
+        "titre": "9.7. Retrait du consentement",
+        "texte": "Si le traitement repose sur votre consentement, vous pouvez le retirer à tout moment sans que cela n'affecte la légalité du traitement effectué avant le retrait."
+      },
+
+      "exercer_titre": "Pour exercer ces droits, contactez-nous :",
+      "exercer_liste": [
+        "Par email : contact@helpcar.be",
+        "Par téléphone : {{TELEPHONE}}",
+        "Par courrier : Rue Charles Martel 55, 1000 Bruxelles"
+      ],
+      "delai": "Nous vous répondons dans un délai d'un mois maximum."
+    },
+
+    "securite": {
+      "titre": "10. Sécurité des données",
+      "intro": "Nous appliquons des mesures techniques et organisationnelles pour protéger vos données contre :",
+      "menaces": [
+        "La destruction accidentelle ou illicite",
+        "La perte ou l'altération",
+        "L'accès ou la divulgation non autorisés"
+      ],
+      "mesures_titre": "Mesures appliquées :",
+      "mesures": [
+        "Chiffrement HTTPS sur l'ensemble du site",
+        "Accès limité aux données (personnel autorisé uniquement)",
+        "Sauvegardes régulières et sécurisées",
+        "Protection contre les intrusions"
+      ]
+    },
+
+    "cookies": {
+      "titre": "11. Cookies",
+      "intro": "Notre site utilise des cookies pour fonctionner correctement et pour comprendre comment il est utilisé.",
+
+      "types": {
+        "titre": "11.1. Types de cookies",
+        "techniques_titre": "Cookies techniques (essentiels) :",
+        "techniques_liste": [
+          "Fonctionnement du site (préférences, session)",
+          "Sécurité de la navigation",
+          "Ces cookies ne peuvent pas être désactivés"
+        ],
+        "analytiques_titre": "Cookies analytiques :",
+        "analytiques_liste": [
+          "Mesure d'audience et statistiques de visite",
+          "Données anonymisées (adresses IP tronquées)",
+          "Durée maximale : 13 mois"
+        ]
+      },
+
+      "gestion": {
+        "titre": "11.2. Gérer vos cookies",
+        "intro": "Vous pouvez modifier vos préférences à tout moment :",
+        "liste": [
+          "Dans les paramètres de votre navigateur (Chrome, Firefox, Safari, Edge)",
+          "En refusant les cookies lors de votre première visite sur le site",
+          "En nous contactant pour désactiver les cookies analytiques"
+        ],
+        "note": "Désactiver les cookies techniques peut empêcher certaines fonctionnalités du site de fonctionner correctement."
+      }
+    },
+
+    "reclamation": {
+      "titre": "12. Droit de réclamation",
+      "intro": "Si vous estimez que le traitement de vos données ne respecte pas le RGPD, vous pouvez déposer une réclamation auprès de :",
+      "autorite_nom": "Autorité de Protection des Données (APD)",
+      "autorite_adresse": "Rue de la Presse 35, 1000 Bruxelles",
+      "autorite_email": "contact@apd-gba.be",
+      "autorite_telephone": "+32 2 274 48 00",
+      "autorite_site": "www.autoriteprotectiondonnees.be",
+      "autorite_site_url": "https://www.autoriteprotectiondonnees.be"
+    },
+
+    "modifications": {
+      "titre": "13. Modifications de cette politique",
+      "intro": "Cette politique peut être mise à jour pour refléter :",
+      "liste": [
+        "Des changements dans nos pratiques de traitement des données",
+        "Des évolutions législatives ou réglementaires",
+        "Des recommandations de l'Autorité de Protection des Données"
+      ],
+      "conclusion": "Toute modification sera publiée sur cette page avec la date de mise à jour. On vous invite à la consulter régulièrement."
+    },
+
+    "contact": {
+      "titre": "14. Contact",
+      "intro": "Pour toute question sur cette politique ou sur le traitement de vos données :",
+      "email_label": "Email",
+      "telephone_label": "Téléphone",
+      "adresse_label": "Adresse",
+      "adresse_ligne1": "Rue Charles Martel 55",
+      "adresse_ligne2": "1000 Bruxelles, Belgique"
+    }
+  },
+
+  "cta_final": {
+    "titre": "Besoin d'un Dépannage ?",
+    "subtitle": "On est disponible 24h/24, 7j/7. Un appel suffit.",
+    "button": "Appeler le 02 844 56 04"
+  },
+
+  "derniere_maj": "Dernière mise à jour : février 2026"
+}

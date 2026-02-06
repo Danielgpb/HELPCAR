@@ -1,19 +1,136 @@
 {
+  "version": "2.0",
   "commune": "Schaerbeek",
   "code_postal": "1030",
+
+  "seo": {
+    "meta_title": "Dépannage Voiture Schaerbeek (1030) | 24h/24 – HELPCAR Dépannage",
+    "meta_description": "Dépannage auto et remorquage à Schaerbeek (1030). Meiser, Helmet, Cage aux Ours, Josaphat. Prix par téléphone, arrivée rapide. ☎ 02 844 56 04"
+  },
+
   "hero": {
-    "h1": "Dépannage Voiture Schaerbeek 1030 | 24h/24",
-    "subtitle": "Intervention rapide dans toute la commune"
+    "h1": "Dépannage Voiture Schaerbeek (1030) – 24h/24",
+    "accroche": "Intervention rapide à Schaerbeek, de Meiser à Helmet. Vous appelez, on vous donne le prix, on arrive."
   },
-  "intro": {
-    "content": "<p><strong>Helpcar Dépannage</strong> intervient dans tout <strong>Schaerbeek (1030)</strong> : Cage aux Ours, Place Meiser, Helmet, Josaphat, et tous les quartiers.</p><p>Panne, accident ou besoin de remorquage ? On arrive en <strong>30 minutes</strong>. Appelez le <strong>02 844 54 01</strong> pour un devis immédiat.</p>"
-  },
-  "quartiers": {
-    "h2": "Quartiers desservis à Schaerbeek",
-    "liste": ["Cage aux Ours", "Place Meiser", "Helmet", "Josaphat", "Colignon", "Dailly", "Pogge"]
-  },
-  "specificites": {
-    "h2": "Dépannage à Schaerbeek",
-    "content": "<p>Schaerbeek est une grande commune avec des zones très différentes. Que vous soyez près de la gare, dans un quartier résidentiel ou sur une grande avenue, notre équipe connaît le terrain et arrive rapidement.</p>"
+
+  "content": {
+    "intro_autorite": {
+      "paragraphe_0": "Coincé sur l'avenue Rogier ou dans les rues autour de la Cage aux Ours ? Appelez le <strong><a href=\"tel:+3228445604\" style=\"color: #CF5706; text-decoration: none;\">02 844 56 04</a></strong> et faites appel à <strong style=\"color: #CF5706;\">HELPCAR Dépannage</strong> – le <strong>meilleur dépannage voiture à Schaerbeek (1030)</strong>. Prix annoncé par téléphone, un dépanneur chez vous en <strong>environ 30 minutes</strong>.",
+      "paragraphe_1": "Panne de batterie, pneu à plat, erreur de carburant, clés enfermées, remorquage – on s'occupe de tout. Un appel au <strong><a href=\"tel:+3228445604\" style=\"color: #CF5706; text-decoration: none;\">02 844 56 04</a></strong>, le prix est donné par téléphone, et on se met en route.",
+      "paragraphe_2": "Schaerbeek est une des plus grandes communes de Bruxelles, et on la sillonne depuis des années. Notre équipe a <strong>plus de 10 ans d'expérience</strong> sur les routes bruxelloises – les grands boulevards schaerbeekois, le parc Josaphat, la chaussée de Haecht embouteillée, on connaît."
+    },
+
+    "section_on_connait": {
+      "h2": "On Connaît Schaerbeek Comme Notre Poche",
+      "intro": "Schaerbeek est vaste et variée. Des grandes avenues Art nouveau aux quartiers résidentiels, voici nos zones d'intervention :",
+      "quartiers": [
+        {
+          "icon": "map-pin",
+          "nom": "Place Meiser & Diamant",
+          "description": "Carrefour majeur de Schaerbeek, croisement des avenues Rogier et de Roodebeek. Les pannes au milieu de ce rond-point, c'est un classique."
+        },
+        {
+          "icon": "map-pin",
+          "nom": "Helmet & Colignon",
+          "description": "Place Colignon (maison communale), rue Helmet commerçante. Rues animées et trafic régulier – on s'y retrouve facilement."
+        },
+        {
+          "icon": "map-pin",
+          "nom": "Cage aux Ours & Gare du Nord",
+          "description": "Quartier proche de la gare, chaussée de Haecht. Zone très passante, interventions fréquentes pour des problèmes de démarrage."
+        },
+        {
+          "icon": "tree",
+          "nom": "Parc Josaphat & Dailly",
+          "description": "Autour du parc Josaphat, avenue Louis Bertrand. Quartier résidentiel avec de belles avenues – et des voitures garées longtemps qui ne démarrent plus."
+        },
+        {
+          "icon": "map-pin",
+          "nom": "Pogge & Linthout",
+          "description": "Rues résidentielles vers Evere et Woluwe. Zone calme mais les pannes de batterie en hiver y sont monnaie courante."
+        },
+        {
+          "icon": "building",
+          "nom": "Gare de Schaerbeek",
+          "description": "Avenue Princesse Élisabeth, abords de la gare. Zone bien connue de nos équipes, accès facile par les grands axes."
+        }
+      ],
+      "conclusion": "Schaerbeek est grande, mais on y arrive vite. On connaît les raccourcis entre les quartiers et les rues à éviter aux heures de pointe."
+    },
+
+    "section_parkings": {
+      "afficher": false
+    },
+
+    "section_services": {
+      "h2": "Nos Services à Schaerbeek",
+      "intro": "Dépannage complet, disponible 24h/24 dans toute la commune de Schaerbeek.",
+      "cta_text": "Voir tous nos services",
+      "cta_url": "../services/",
+      "categories": [
+        {
+          "icon": "battery",
+          "titre": "Batterie & Pneus",
+          "services": [
+            {"nom": "Batterie à plat – remplacement sur place", "url_var": "URL_SERVICE_BATTERIE"},
+            {"nom": "Pneu crevé – pose roue de secours", "url_var": "URL_SERVICE_PNEU"}
+          ]
+        },
+        {
+          "icon": "fuel",
+          "titre": "Carburant & Accès",
+          "services": [
+            {"nom": "Panne sèche – livraison carburant", "url_var": "URL_SERVICE_CARBURANT"},
+            {"nom": "Clés enfermées – ouverture de porte", "url_var": "URL_SERVICE_OUVERTURE_PORTE"}
+          ]
+        },
+        {
+          "icon": "truck",
+          "titre": "Remorquage & Urgences",
+          "services": [
+            {"nom": "Remorquage plateau vers garage", "url_var": "URL_SERVICE_REMORQUAGE"},
+            {"nom": "Dépannage voiture sur place", "url_var": "URL_SERVICE_DEPANNAGE_VOITURE"}
+          ]
+        }
+      ]
+    },
+
+    "faq_locale": {
+      "h2": "Questions Fréquentes – Dépannage Schaerbeek",
+      "questions": [
+        {
+          "question": "Je suis bloqué sur la chaussée de Haecht en plein bouchon, vous pouvez venir ?",
+          "reponse": "Oui. La chaussée de Haecht est un de nos axes d'intervention habituels. On accède par les rues parallèles si nécessaire. Activez vos warnings et restez dans votre véhicule si vous ne pouvez pas vous mettre en sécurité."
+        },
+        {
+          "question": "Combien de temps pour arriver à Schaerbeek ?",
+          "reponse": "En général <strong>25 à 35 minutes</strong> selon le quartier et le trafic. Schaerbeek est vaste, mais on optimise notre trajet. Estimation précise donnée au téléphone."
+        },
+        {
+          "question": "Vous dépannez aussi autour du parc Josaphat le week-end ?",
+          "reponse": "Oui, <strong>7j/7 et 24h/24</strong>. Le quartier du parc Josaphat est résidentiel et calme le week-end, mais les batteries mortes ne choisissent pas leur moment. On vient à toute heure."
+        },
+        {
+          "question": "Ma camionnette est en panne à Schaerbeek, vous prenez les utilitaires ?",
+          "reponse": "Oui. Camionnettes, fourgons, véhicules utilitaires jusqu'à 3,5 tonnes – on a le matériel adapté. Le prix est communiqué par téléphone, comme pour les voitures."
+        },
+        {
+          "question": "Est-ce que vous pouvez remorquer ma voiture jusqu'à un garage à l'autre bout de Bruxelles ?",
+          "reponse": "Bien sûr. Vous choisissez la destination : garage, concessionnaire, votre domicile, même hors de Bruxelles. On calcule le prix en fonction de la distance et on vous le communique avant de partir."
+        }
+      ]
+    },
+
+    "section_zones_voisines": {
+      "h2": "Communes Voisines de Schaerbeek",
+      "content": "Schaerbeek touche plusieurs communes. Si vous êtes en panne côté Evere, Saint-Josse ou Woluwe-Saint-Lambert, on intervient aussi.",
+      "communes_voisines": [
+        {"nom": "Bruxelles-Ville (1000)", "slug": "depannage-voiture-bruxelles-centre"},
+        {"nom": "Etterbeek (1040)", "slug": "depannage-voiture-etterbeek"},
+        {"nom": "Ixelles (1050)", "slug": "depannage-voiture-ixelles"},
+        {"nom": "Saint-Josse (1210)", "slug": "depannage-voiture-saint-josse"},
+        {"nom": "Evere (1140)", "slug": "depannage-voiture-evere"}
+      ]
+    }
   }
 }
